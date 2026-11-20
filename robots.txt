@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kvdhdevelopment.github.io/sitemap.xml

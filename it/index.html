@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cluedoku – enigmi gialli e giochi di logica per Android</title>
+<meta name="description" content="Risolvi omicidi con la logica del sudoku: chi era dove e chi è il colpevole? Oltre 600 casi, offline, in 9 lingue. Gratis su Google Play o come demo nel browser.">
+<link rel="canonical" href="https://kvdhdevelopment.github.io/it/">
+<link rel="alternate" hreflang="en" href="https://kvdhdevelopment.github.io/">
+<link rel="alternate" hreflang="nl" href="https://kvdhdevelopment.github.io/nl/">
+<link rel="alternate" hreflang="de" href="https://kvdhdevelopment.github.io/de/">
+<link rel="alternate" hreflang="fr" href="https://kvdhdevelopment.github.io/fr/">
+<link rel="alternate" hreflang="it" href="https://kvdhdevelopment.github.io/it/">
+<link rel="alternate" hreflang="es" href="https://kvdhdevelopment.github.io/es/">
+<link rel="alternate" hreflang="pt-PT" href="https://kvdhdevelopment.github.io/pt/">
+<link rel="alternate" hreflang="pt-BR" href="https://kvdhdevelopment.github.io/pt-br/">
+<link rel="alternate" hreflang="pl" href="https://kvdhdevelopment.github.io/pl/">
+<link rel="alternate" hreflang="x-default" href="https://kvdhdevelopment.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Cluedoku – enigmi gialli e giochi di logica per Android">
+<meta property="og:description" content="Risolvi omicidi con la logica del sudoku: chi era dove e chi è il colpevole? Oltre 600 casi, offline, in 9 lingue. Gratis su Google Play o come demo nel browser.">
+<meta property="og:url" content="https://kvdhdevelopment.github.io/it/">
+<meta property="og:image" content="https://kvdhdevelopment.github.io/img/cluedoku-1024x500.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#2b2140">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preload" href="/fonts/fredoka-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>@font-face{font-family:Fredoka;font-weight:700;font-display:swap;src:url(/fonts/fredoka-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Fredoka;font-weight:700;font-display:swap;src:url(/fonts/fredoka-latin-ext-700-normal.woff2) format('woff2');unicode-range:U+0100-02AF,U+1E00-1EFF}
+@font-face{font-family:Nunito;font-weight:600;font-display:swap;src:url(/fonts/nunito-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Nunito;font-weight:600;font-display:swap;src:url(/fonts/nunito-latin-ext-600-normal.woff2) format('woff2');unicode-range:U+0100-02AF,U+1E00-1EFF}
+@font-face{font-family:Nunito;font-weight:800;font-display:swap;src:url(/fonts/nunito-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Nunito;font-weight:800;font-display:swap;src:url(/fonts/nunito-latin-ext-800-normal.woff2) format('woff2');unicode-range:U+0100-02AF,U+1E00-1EFF}
+:root{--inkt:#2b2140;--paars:#3d2f5c;--rood:#ff6f61;--geel:#ffd84d;--papier:#fbf8f3;--zacht:#5d5478}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Nunito,system-ui,sans-serif;font-weight:600;color:var(--inkt);background:var(--papier);line-height:1.5}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.held{background:linear-gradient(160deg,var(--paars),#2b2140);color:#fff;position:relative;overflow:hidden}
+.held::before{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff10 1px,transparent 1px),linear-gradient(90deg,#ffffff10 1px,transparent 1px);background-size:32px 32px}
+.held .wrap{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding-top:28px;padding-bottom:56px}
+.top{position:relative;display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:18px}
+.merk{display:flex;align-items:center;gap:12px;text-decoration:none;font-family:Fredoka;font-weight:700;font-size:28px;letter-spacing:1px}
+.merk img{width:44px;height:44px;border-radius:11px}
+.talen{font-size:14px}
+.talen select{font:inherit;font-weight:700;background:#ffffff18;color:#fff;border:2px solid #ffffff40;border-radius:999px;padding:6px 12px}
+.talen option{color:var(--inkt)}
+h1{font-family:Fredoka;font-weight:700;font-size:clamp(34px,5vw,54px);line-height:1.08;margin:18px 0 16px}
+.lead{font-size:19px;color:#e9e4f5;margin:0 0 26px;max-width:36em}
+.knoppen{display:flex;flex-wrap:wrap;gap:14px}
+.knop{display:inline-flex;align-items:center;gap:10px;font-family:Fredoka;font-weight:700;font-size:20px;text-decoration:none;border:3px solid var(--inkt);border-radius:16px;padding:12px 22px;box-shadow:5px 5px 0 #00000066}
+.knop--rood{background:var(--rood);color:#fff}
+.knop--wit{background:#fff;color:var(--inkt)}
+.knop svg{width:22px;height:22px}
+.telefoon{justify-self:center;width:min(300px,80vw);border:6px solid #1f1830;border-radius:30px;overflow:hidden;box-shadow:10px 10px 0 #00000066;transform:rotate(2deg)}
+.telefoon img{display:block;width:100%;height:auto}
+section{padding:56px 0}
+h2{font-family:Fredoka;font-weight:700;font-size:32px;margin:0 0 22px}
+.regels{display:grid;grid-template-columns:1fr 280px;gap:36px;align-items:center}
+.regels ol{margin:0;padding:0;list-style:none;counter-reset:r;display:grid;gap:14px}
+.regels li{counter-increment:r;background:#fff;border:3px solid var(--inkt);border-radius:16px;padding:14px 18px 14px 64px;position:relative;font-size:18px;box-shadow:4px 4px 0 #2b214033}
+.regels li::before{content:counter(r);position:absolute;left:16px;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;background:var(--rood);color:#fff;font-family:Fredoka;display:grid;place-items:center;font-size:19px}
+.bord{width:100%;height:auto;border:5px solid #fff;border-radius:18px;box-shadow:8px 8px 0 #2b214055;transform:rotate(-3deg);background:#fff}
+.schermen{display:flex;gap:18px;overflow-x:auto;padding:6px 4px 18px;scroll-snap-type:x mandatory}
+.schermen img{flex:none;width:220px;height:auto;border-radius:18px;scroll-snap-align:start;box-shadow:5px 5px 0 #2b214044}
+.wat{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:0;padding:0;list-style:none}
+.wat li{background:#fff;border:3px solid var(--inkt);border-radius:16px;padding:14px 18px;font-size:17px}
+.wat li::before{content:"★ ";color:var(--rood)}
+.printen{background:#fff4d6;border-top:3px solid var(--inkt);border-bottom:3px solid var(--inkt)}
+.printen p{font-size:18px;max-width:40em}
+footer{padding:28px 0 40px;color:var(--zacht);font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between}
+footer nav{display:flex;flex-wrap:wrap;gap:6px 14px}
+@media (max-width:760px){.held .wrap{grid-template-columns:1fr;gap:28px;padding-bottom:40px}.regels{grid-template-columns:1fr}.bord{max-width:280px;justify-self:center}.knop{font-size:18px}}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Cluedoku","operatingSystem":"Android","applicationCategory":"GameApplication","applicationSubCategory":"Puzzle","description":"Risolvi omicidi con la logica del sudoku: chi era dove e chi è il colpevole? Oltre 600 casi, offline, in 9 lingue. Gratis su Google Play o come demo nel browser.","url":"https://kvdhdevelopment.github.io/it/","inLanguage":["en","nl","de","fr","it","es","pt-PT","pt-BR","pl"],"image":"https://kvdhdevelopment.github.io/img/cluedoku-1024x500.jpg","installUrl":"https://play.google.com/store/apps/details?id=com.vdhd.cluedoku&hl=it&referrer=utm_source%3Dwebsite%26utm_medium%3Dit","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}</script>
+</head>
+<body>
+<header class="held">
+<div class="wrap top">
+<a class="merk" href="/it/"><img src="/img/icoon-192.png" alt="" width="44" height="44">CLUEDOKU</a>
+<label class="talen"><select aria-label="Language" onchange="location.href=this.value"><option value="/">English</option><option value="/nl/">Nederlands</option><option value="/de/">Deutsch</option><option value="/fr/">Français</option><option value="/it/" selected>Italiano</option><option value="/es/">Español</option><option value="/pt/">Português (Portugal)</option><option value="/pt-br/">Português (Brasil)</option><option value="/pl/">Polski</option></select></label>
+</div>
+<div class="wrap">
+<div>
+<h1>Risolvi omicidi con la logica del sudoku</h1>
+<p class="lead">C'è stato un omicidio. A ogni sospettato corrisponde un indizio. Sistema ognuno al posto giusto sulla piantina e smaschera il colpevole: l'unico che si trovava in una stanza insieme alla vittima.</p>
+<div class="knoppen">
+<a class="knop knop--rood" href="https://play.google.com/store/apps/details?id=com.vdhd.cluedoku&amp;hl=it&amp;referrer=utm_source%3Dwebsite%26utm_medium%3Dit" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17l15-8.5z" fill="currentColor"/></svg>Gratis su Google Play</a>
+<a class="knop knop--wit" href="/demo/">Gioca la demo nel browser</a>
+</div>
+</div>
+<div class="telefoon"><img src="/img/it/zaak.webp" alt="Risolvi omicidi con la logica del sudoku" width="540" height="960"></div>
+</div>
+</header>
+<main>
+<section><div class="wrap regels">
+<div><h2>Come funziona</h2><ol><li>In ogni riga e in ogni colonna c'è esattamente una persona.</li><li>Ogni indizio è vero. Mettili insieme per capire chi era dove.</li><li>Il colpevole è l'unico che era in una stanza con la vittima. Non serve mai tirare a indovinare.</li></ol></div>
+<img class="bord" src="/img/bord.webp" alt="" width="560" height="560">
+</div></section>
+<section style="padding-top:0"><div class="wrap">
+<div class="schermen"><img src="/img/it/2-hint.webp" alt="" width="540" height="960" loading="lazy"><img src="/img/it/3-reis.webp" alt="" width="540" height="960" loading="lazy"><img src="/img/it/4-bestemming.webp" alt="" width="540" height="960" loading="lazy"><img src="/img/it/5-opgelost.webp" alt="" width="540" height="960" loading="lazy"></div>
+</div></section>
+<section style="padding-top:0"><div class="wrap">
+<h2>Cosa trovi</h2>
+<ul class="wat"><li>Oltre 600 casi, ognuno con una sola soluzione</li><li>Cinque livelli, da un agile 4×4 a un impegnativo 10×10</li><li>Aiuti che ragionano con te, senza svelarti la risposta</li><li>Un viaggio intorno al mondo: 20 destinazioni, timbri e souvenir</li><li>Gioca offline, senza account</li><li>In 9 lingue</li></ul>
+<p class="knoppen" style="margin-top:28px"><a class="knop knop--rood" href="https://play.google.com/store/apps/details?id=com.vdhd.cluedoku&amp;hl=it&amp;referrer=utm_source%3Dwebsite%26utm_medium%3Dit" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17l15-8.5z" fill="currentColor"/></svg>Gratis su Google Play</a></p>
+</div></section>
+<section class="printen"><div class="wrap">
+<h2>Enigmi gratuiti da stampare</h2>
+<p>Sei casi da stampare, dal più facile al più difficile, con le soluzioni in fondo. Comodi in treno, in classe o in vacanza.</p>
+<a class="knop knop--wit" href="/pdf/cluedoku-it.pdf" download>Scarica il PDF</a>
+</div></section>
+</main>
+<footer><div class="wrap">
+<span>© Cluedoku · <a href="/privacy.html">Privacy</a> · <a href="mailto:kvdhdevelopment@gmail.com">Contatti</a></span>
+<nav aria-label="Language"><a href="/" hreflang="en">English</a><a href="/nl/" hreflang="nl">Nederlands</a><a href="/de/" hreflang="de">Deutsch</a><a href="/fr/" hreflang="fr">Français</a><a href="/it/" hreflang="it">Italiano</a><a href="/es/" hreflang="es">Español</a><a href="/pt/" hreflang="pt-PT">Português (Portugal)</a><a href="/pt-br/" hreflang="pt-BR">Português (Brasil)</a><a href="/pl/" hreflang="pl">Polski</a></nav>
+</div></footer>
+</body>
+</html>

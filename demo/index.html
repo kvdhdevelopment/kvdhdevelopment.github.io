@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#2b2140" />
+    <title>Cluedoku</title>
+    <!-- Splash screen (HUISSTIJL §8). Inline so it paints before the app bundle is parsed; main.tsx
+         removes it once the app has rendered and the intro animation has played (min. ~1.7 s). -->
+    <style>
+      #splash {
+        position: fixed; inset: 0; z-index: 1000;
+        display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px;
+        background: #2b2140;
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.05) 2px, transparent 2px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.05) 2px, transparent 2px);
+        background-size: 46px 46px;
+        animation: splash-raster 6s linear infinite;
+        color: #fff8f1;
+        font-family: 'Fredoka', 'Nunito', system-ui, sans-serif;
+        transition: opacity 420ms ease, transform 420ms ease;
+      }
+      #splash.splash--weg { opacity: 0; transform: scale(1.06); pointer-events: none; }
+      /* no scrollbar while the splash shows (the page behind it and the zoom-out on leaving would scroll) */
+      html.splash-actief, html.splash-actief body { overflow: hidden; }
+      #splash svg { width: 132px; height: 132px; overflow: visible; }
+      #splash .splash-loep { transform-origin: 50px 50px; animation: splash-loep 1100ms cubic-bezier(.2, .9, .3, 1.25) both; }
+      #splash .splash-kruis { stroke-dasharray: 20; stroke-dashoffset: 20; animation: splash-kruis 260ms ease-out forwards; }
+      #splash .splash-kruis--2 { animation-delay: 1050ms; }
+      #splash .splash-kruis--1 { animation-delay: 850ms; }
+      #splash .splash-naam { display: flex; font-size: 44px; font-weight: 700; letter-spacing: 3px; }
+      #splash .splash-naam span { display: inline-block; animation: splash-letter 520ms cubic-bezier(.3, 1.6, .5, 1) both; }
+      #splash .splash-naam span:nth-child(n+5) { color: #ff6b6b; }
+      #splash .splash-tag {
+        font-family: 'Caveat', cursive; font-size: clamp(19px, 5.6vw, 26px); color: #d9d3e6;
+        padding: 0 16px; text-align: center;
+        opacity: 0; animation: splash-fade 400ms ease-out 800ms forwards;
+        transition: opacity 200ms ease, transform 200ms ease;
+      }
+      #splash .splash-tag.splash-tag--wissel { animation: none; opacity: 0; transform: translateY(6px); }
+      @keyframes splash-raster { to { background-position: 46px 46px; } }
+      @keyframes splash-loep {
+        0% { transform: translate(-160px, 40px) rotate(-40deg) scale(.6); opacity: 0; }
+        60% { opacity: 1; }
+        100% { transform: none; }
+      }
+      @keyframes splash-kruis { to { stroke-dashoffset: 0; } }
+      @keyframes splash-letter {
+        0% { transform: translateY(-40px) scale(.4); opacity: 0; }
+        100% { transform: none; opacity: 1; }
+      }
+      @keyframes splash-fade { to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        #splash, #splash * { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; }
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-B6ARVpQs.js"></script>
+  </head>
+  <body>
+    <script>document.documentElement.classList.add('splash-actief'); window.__splashStart = performance.now();</script>
+    <div id="splash" aria-hidden="true">
+      <svg viewBox="0 0 100 100">
+        <g class="splash-loep">
+          <path d="M64 64L84 84" stroke="#ff6b6b" stroke-width="9" stroke-linecap="round" />
+          <circle cx="46" cy="46" r="26" fill="#fff8f1" stroke="#ff6b6b" stroke-width="5" stroke-dasharray="8 5" />
+          <path class="splash-kruis splash-kruis--1" d="M39 39L53 53" stroke="#ff6b6b" stroke-width="6" stroke-linecap="round" />
+          <path class="splash-kruis splash-kruis--2" d="M53 39L39 53" stroke="#ff6b6b" stroke-width="6" stroke-linecap="round" />
+        </g>
+      </svg>
+      <div class="splash-naam">
+        <span style="animation-delay: 300ms">C</span><span style="animation-delay: 360ms">L</span><span style="animation-delay: 420ms">U</span><span style="animation-delay: 480ms">E</span><span style="animation-delay: 540ms">D</span><span style="animation-delay: 600ms">O</span><span style="animation-delay: 660ms">K</span><span style="animation-delay: 720ms">U</span>
+      </div>
+      <div class="splash-tag" id="splash-tag">Wie was er alleen met het slachtoffer?</div>
+      <script>
+        // splash line in the chosen language (i18n/index.ts, key cluedoku.taal), else the device language
+        (function () {
+          var tags = { nl: 'Wie was er alleen met het slachtoffer?', en: 'Who was alone with the victim?', de: 'Wer war allein mit dem Opfer?',
+            fr: 'Qui était seul avec la victime ?', it: 'Chi era solo con la vittima?', es: '¿Quién estaba a solas con la víctima?',
+            pt: 'Quem estava sozinho com a vítima?', 'pt-BR': 'Quem estava sozinho com a vítima?', pl: 'Kto był sam na sam z ofiarą?' };
+          var l = null;
+          try { l = localStorage.getItem('cluedoku.taal'); } catch (e) {}
+          var gekozen = !!(l && tags[l]);
+          if (!gekozen) { var n = (navigator.language || 'nl').toLowerCase(); l = n === 'pt-br' ? 'pt-BR' : n.split('-')[0]; }
+          if (!tags[l]) l = 'en';
+          var el = document.getElementById('splash-tag');
+          el.textContent = tags[l];
+          document.documentElement.lang = l;
+          // first start (no language chosen yet): the line rotates through every language, starting with the
+          // device language; main.tsx keeps the splash a little longer then (data-eerste)
+          if (!gekozen && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.getElementById('splash').setAttribute('data-eerste', '1');
+            var rij = [l], gezien = {};
+            gezien[tags[l]] = 1;
+            for (var k in tags) if (!gezien[tags[k]]) { gezien[tags[k]] = 1; rij.push(k); }
+            var i = 0;
+            window.setTimeout(function wissel() {
+              if (!document.getElementById('splash')) return;
+              el.classList.add('splash-tag--wissel');
+              window.setTimeout(function () {
+                i = (i + 1) % rij.length;
+                el.textContent = tags[rij[i]];
+                el.setAttribute('lang', rij[i]);
+                el.classList.remove('splash-tag--wissel');
+              }, 220);
+              window.setTimeout(wissel, 1100);
+            }, 2000);
+          }
+        })();
+      </script>
+    </div>
+    <div id="root"></div>
+  </body>
+</html>
