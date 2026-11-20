@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gratis puzzels voor je krant – Cluedoku</title>
+<meta name="description" content="Gratis wekelijkse moordpuzzels met sudoku-logica voor kranten en tijdschriften: kant-en-klaar, zwart-wit, twee kolommen breed, met de oplossing apart.">
+<link rel="canonical" href="https://kvdhdevelopment.github.io/krant/">
+<meta property="og:title" content="Gratis puzzels voor je krant – Cluedoku">
+<meta property="og:image" content="https://kvdhdevelopment.github.io/img/cluedoku-1024x500.jpg">
+<meta name="theme-color" content="#2b2140">
+<link rel="icon" type="image/png" href="/favicon.png">
+<style>@font-face{font-family:Fredoka;font-weight:700;font-display:swap;src:url(/fonts/fredoka-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Fredoka;font-weight:700;font-display:swap;src:url(/fonts/fredoka-latin-ext-700-normal.woff2) format('woff2');unicode-range:U+0100-02AF,U+1E00-1EFF}
+@font-face{font-family:Nunito;font-weight:600;font-display:swap;src:url(/fonts/nunito-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Nunito;font-weight:600;font-display:swap;src:url(/fonts/nunito-latin-ext-600-normal.woff2) format('woff2');unicode-range:U+0100-02AF,U+1E00-1EFF}
+@font-face{font-family:Nunito;font-weight:800;font-display:swap;src:url(/fonts/nunito-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Nunito;font-weight:800;font-display:swap;src:url(/fonts/nunito-latin-ext-800-normal.woff2) format('woff2');unicode-range:U+0100-02AF,U+1E00-1EFF}
+:root{--inkt:#2b2140;--paars:#3d2f5c;--rood:#ff6f61;--geel:#ffd84d;--papier:#fbf8f3;--zacht:#5d5478}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Nunito,system-ui,sans-serif;font-weight:600;color:var(--inkt);background:var(--papier);line-height:1.5}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.held{background:linear-gradient(160deg,var(--paars),#2b2140);color:#fff;position:relative;overflow:hidden}
+.held::before{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff10 1px,transparent 1px),linear-gradient(90deg,#ffffff10 1px,transparent 1px);background-size:32px 32px}
+.held .wrap{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding-top:28px;padding-bottom:56px}
+.top{position:relative;display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:18px}
+.merk{display:flex;align-items:center;gap:12px;text-decoration:none;font-family:Fredoka;font-weight:700;font-size:28px;letter-spacing:1px}
+.merk img{width:44px;height:44px;border-radius:11px}
+.talen{font-size:14px}
+.talen select{font:inherit;font-weight:700;background:#ffffff18;color:#fff;border:2px solid #ffffff40;border-radius:999px;padding:6px 12px}
+.talen option{color:var(--inkt)}
+h1{font-family:Fredoka;font-weight:700;font-size:clamp(34px,5vw,54px);line-height:1.08;margin:18px 0 16px}
+.lead{font-size:19px;color:#e9e4f5;margin:0 0 26px;max-width:36em}
+.knoppen{display:flex;flex-wrap:wrap;gap:14px}
+.knop{display:inline-flex;align-items:center;gap:10px;font-family:Fredoka;font-weight:700;font-size:20px;text-decoration:none;border:3px solid var(--inkt);border-radius:16px;padding:12px 22px;box-shadow:5px 5px 0 #00000066}
+.knop--rood{background:var(--rood);color:#fff}
+.knop--wit{background:#fff;color:var(--inkt)}
+.knop svg{width:22px;height:22px}
+.telefoon{justify-self:center;width:min(300px,80vw);border:6px solid #1f1830;border-radius:30px;overflow:hidden;box-shadow:10px 10px 0 #00000066;transform:rotate(2deg)}
+.telefoon img{display:block;width:100%;height:auto}
+section{padding:56px 0}
+h2{font-family:Fredoka;font-weight:700;font-size:32px;margin:0 0 22px}
+.regels{display:grid;grid-template-columns:1fr 280px;gap:36px;align-items:center}
+.regels ol{margin:0;padding:0;list-style:none;counter-reset:r;display:grid;gap:14px}
+.regels li{counter-increment:r;background:#fff;border:3px solid var(--inkt);border-radius:16px;padding:14px 18px 14px 64px;position:relative;font-size:18px;box-shadow:4px 4px 0 #2b214033}
+.regels li::before{content:counter(r);position:absolute;left:16px;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;background:var(--rood);color:#fff;font-family:Fredoka;display:grid;place-items:center;font-size:19px}
+.bord{width:100%;height:auto;border:5px solid #fff;border-radius:18px;box-shadow:8px 8px 0 #2b214055;transform:rotate(-3deg);background:#fff}
+.schermen{display:flex;gap:18px;overflow-x:auto;padding:6px 4px 18px;scroll-snap-type:x mandatory}
+.schermen img{flex:none;width:220px;height:auto;border-radius:18px;scroll-snap-align:start;box-shadow:5px 5px 0 #2b214044}
+.wat{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:0;padding:0;list-style:none}
+.wat li{background:#fff;border:3px solid var(--inkt);border-radius:16px;padding:14px 18px;font-size:17px}
+.wat li::before{content:"★ ";color:var(--rood)}
+.printen{background:#fff4d6;border-top:3px solid var(--inkt);border-bottom:3px solid var(--inkt)}
+.printen p{font-size:18px;max-width:40em}
+footer{padding:28px 0 40px;color:var(--zacht);font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between}
+footer nav{display:flex;flex-wrap:wrap;gap:6px 14px}
+@media (max-width:760px){.held .wrap{grid-template-columns:1fr;gap:28px;padding-bottom:40px}.regels{grid-template-columns:1fr}.bord{max-width:280px;justify-self:center}.knop{font-size:18px}}
+.voorbeelden{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;margin-top:8px}
+.voorbeeld{margin:0;background:#fff;border:3px solid var(--inkt);border-radius:16px;padding:12px;box-shadow:4px 4px 0 #2b214033}
+.voorbeeld img{width:100%;height:auto;display:block}
+.voorbeeld figcaption{font-size:14px;margin-top:8px;color:var(--zacht)}
+.tekst p,.tekst li{font-size:18px;max-width:42em}
+.tekst ul{padding-left:22px}
+</style>
+</head>
+<body>
+<header class="held">
+<div class="wrap top"><a class="merk" href="/nl/"><img src="/img/icoon-192.png" alt="" width="44" height="44">CLUEDOKU</a></div>
+<div class="wrap" style="display:block">
+<h1>Gratis puzzels voor je krant</h1>
+<p class="lead">Elke week een nieuwe moordzaak om op te lossen, kant-en-klaar voor de puzzelpagina. Een moordmysterie met sudoku-logica: wie was waar, en wie is de dader? Gratis voor kranten en tijdschriften.</p>
+<div class="knoppen"><a class="knop knop--rood" href="mailto:kvdhdevelopment@gmail.com?subject=Cluedoku%20in%20de%20krant">Neem contact op</a><a class="knop knop--wit" href="#voorbeelden">Bekijk voorbeelden</a></div>
+</div>
+</header>
+<main>
+<section><div class="wrap tekst">
+<h2>Wat je krijgt</h2>
+<ul>
+<li>Elke week een nieuwe zaak, met precies één oplossing die je zonder gokken vindt.</li>
+<li>Twee krantenkolommen breed (10 cm), zwart-wit, als pdf (vector) en png (300 dpi).</li>
+<li>De oplossing apart, één kolom breed, voor de volgende editie.</li>
+<li>Moeilijkheid naar keuze, van een vlotte 4×4 tot een pittige 6×6 of groter.</li>
+<li>De regels staan onder elke puzzel, zodat nieuwe lezers meteen mee kunnen doen.</li>
+</ul>
+<h2>Waarom</h2>
+<p>Moordpuzzels met sudoku-logica zijn de laatste jaren erg populair, juist ook bij jongere puzzelaars. Ze zijn een frisse aanvulling op (of afwisseling van) de sudoku: dezelfde logica, met een verhaal erbij.</p>
+<h2>Voorwaarden</h2>
+<p>Gratis. Het enige wat we vragen: laat de regel onder de puzzel staan ("Meer zaken in de gratis app Cluedoku"). Niet doorverkopen of in een eigen puzzelbundel opnemen zonder overleg.</p>
+<h2 id="voorbeelden">Voorbeelden</h2>
+<div class="voorbeelden"><figure class="voorbeeld"><img src="/krant/L2-0006n7e-zaak.png" alt="Cluedoku-puzzel voorbeeld 1" loading="lazy" width="1181" height="2008">
+<figcaption>Voorbeeld 1 · <a href="/krant/L2-0006n7e-zaak.pdf">puzzel (pdf)</a> · <a href="/krant/L2-0006n7e-zaak.png">png</a> · <a href="/krant/L2-0006n7e-oplossing.pdf">oplossing (pdf)</a> · <a href="/krant/L2-0006n7e-oplossing.png">png</a></figcaption></figure><figure class="voorbeeld"><img src="/krant/L3-000i7v5-zaak.png" alt="Cluedoku-puzzel voorbeeld 2" loading="lazy" width="1181" height="2008">
+<figcaption>Voorbeeld 2 · <a href="/krant/L3-000i7v5-zaak.pdf">puzzel (pdf)</a> · <a href="/krant/L3-000i7v5-zaak.png">png</a> · <a href="/krant/L3-000i7v5-oplossing.pdf">oplossing (pdf)</a> · <a href="/krant/L3-000i7v5-oplossing.png">png</a></figcaption></figure><figure class="voorbeeld"><img src="/krant/L3-0004pr5-zaak.png" alt="Cluedoku-puzzel voorbeeld 3" loading="lazy" width="1181" height="2008">
+<figcaption>Voorbeeld 3 · <a href="/krant/L3-0004pr5-zaak.pdf">puzzel (pdf)</a> · <a href="/krant/L3-0004pr5-zaak.png">png</a> · <a href="/krant/L3-0004pr5-oplossing.pdf">oplossing (pdf)</a> · <a href="/krant/L3-0004pr5-oplossing.png">png</a></figcaption></figure></div>
+<h2 style="margin-top:48px">For newspapers (English)</h2>
+<p>Free weekly murder-mystery logic puzzles for newspapers and magazines: two columns wide, black and white, PDF and 300 dpi PNG, with the solution separately. Also available in English, German, French, Italian, Spanish, Portuguese and Polish. Just keep the credit line under the puzzle. Contact: <a href="mailto:kvdhdevelopment@gmail.com">kvdhdevelopment@gmail.com</a>.</p>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© Cluedoku · <a href="/nl/">Cluedoku</a> · <a href="/privacy.html">Privacy</a> · <a href="mailto:kvdhdevelopment@gmail.com">Contact</a></span></div></footer>
+</body>
+</html>
