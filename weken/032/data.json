@@ -1,0 +1,215 @@
+{
+ "week": 32,
+ "id": "L3-00hvou8",
+ "level": 3,
+ "theme": "dierentuin",
+ "talen": {
+  "en": {
+   "titel": "The Zoo: the vet",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "A leopard never changes its spots. Neither does a culprit.",
+   "aanwijzingen": [
+    "<strong>A · Aaron</strong> (♂ man)<strong>:</strong> Was <strong>alone</strong> at the <strong>kiosk</strong>.",
+    "<strong>B · Bridget</strong> (♀ woman · glasses)<strong>:</strong> Was <strong>in a higher row than</strong> <strong>Aaron</strong>. Was in the <strong>rightmost column</strong> <strong>of the room</strong>.",
+    "<strong>C · Catherine</strong> (♀ woman · hat)<strong>:</strong> Was <strong>alone</strong> in the <strong>keepers' room</strong>.",
+    "<strong>D · Dylan</strong> (♂ man)<strong>:</strong> Was <strong>somewhere to the left of</strong> <strong>Aaron</strong>.",
+    "<strong>E · Emily</strong> (♀ woman · glasses)<strong>:</strong> Was in the <strong>4th row</strong>. Was <strong>directly next to</strong> a <strong>plant</strong>.",
+    "<strong>V · Vladimir</strong> (♂ man)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Bridget (B).</strong> The victim, Vladimir, lay in the monkey house.",
+   "stappen": [
+    "Emily is on [4,3], so row 4 and column 3 are ruled out for Aaron. → Aaron at [2,4]",
+    "Only Catherine can still be in column 1. → Catherine at [5,1]",
+    "\"Bridget was in a higher row than Aaron.\": for these squares of Bridget there is no fitting place for Aaron.",
+    "\"Dylan was somewhere to the left of Aaron.\": for these squares of Dylan there is no fitting place for Aaron. → Dylan at [3,2]",
+    "Dylan is on [3,2], so row 3 and column 2 are ruled out for Bridget. → Bridget at [1,6]",
+    "Dylan is on [3,2], so row 3 and column 2 are ruled out for Vladimir. → Vladimir at [6,5]"
+   ]
+  },
+  "nl": {
+   "titel": "De dierentuin: de dierenarts",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "De dierenarts weet alles van zieke beesten. Over verdachte mensen weet jij meer.",
+   "aanwijzingen": [
+    "<strong>A · Ahmed</strong> (♂ man)<strong>:</strong> Was <strong>alleen</strong> bij de <strong>kiosk</strong>.",
+    "<strong>B · Benthe</strong> (♀ vrouw · bril)<strong>:</strong> Bevond zich <strong>boven</strong> <strong>Ahmed</strong>. Bevond zich in de <strong>rechterkolom</strong> van de ruimte.",
+    "<strong>C · Chantal</strong> (♀ vrouw · hoed)<strong>:</strong> Was <strong>alleen</strong> in de <strong>verzorgersruimte</strong>.",
+    "<strong>D · Dylan</strong> (♂ man)<strong>:</strong> Bevond zich <strong>ergens links van</strong> <strong>Ahmed</strong>.",
+    "<strong>E · Esmee</strong> (♀ vrouw · bril)<strong>:</strong> Was in de <strong>4e rij</strong>. Bevond zich <strong>direct naast</strong> een <strong>plant</strong>.",
+    "<strong>V · Vladimir</strong> (♂ man)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Benthe (B).</strong> Het slachtoffer Vladimir lag in het apenverblijf.",
+   "stappen": [
+    "Esmee staat op [4,3], dus rij 4 en kolom 3 vallen af voor Ahmed. → Ahmed op [2,4]",
+    "In kolom 1 kan alleen Chantal nog staan. → Chantal op [5,1]",
+    "\"Benthe bevond zich boven Ahmed.\": voor deze vakjes van Benthe is er geen passende plek voor Ahmed.",
+    "\"Dylan bevond zich ergens links van Ahmed.\": voor deze vakjes van Dylan is er geen passende plek voor Ahmed. → Dylan op [3,2]",
+    "Dylan staat op [3,2], dus rij 3 en kolom 2 vallen af voor Benthe. → Benthe op [1,6]",
+    "Dylan staat op [3,2], dus rij 3 en kolom 2 vallen af voor Vladimir. → Vladimir op [6,5]"
+   ]
+  },
+  "de": {
+   "titel": "Der Zoo: der Tierarzt",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Der Fuchs ändert den Pelz, aber nicht den Sinn.",
+   "aanwijzingen": [
+    "<strong>A · Arne</strong> (♂ Mann)<strong>:</strong> War <strong>allein</strong> am <strong>Kiosk</strong>.",
+    "<strong>B · Britta</strong> (♀ Frau · Brille)<strong>:</strong> Befand sich in einer <strong>Reihe</strong> <strong>weiter oben als</strong> <strong>Arne</strong>. Befand sich in der <strong>Spalte ganz rechts</strong> <strong>im Raum</strong>.",
+    "<strong>C · Clara</strong> (♀ Frau · Hut)<strong>:</strong> War <strong>allein</strong> im <strong>Pflegerraum</strong>.",
+    "<strong>D · Dirk</strong> (♂ Mann)<strong>:</strong> Befand sich <strong>irgendwo links von</strong> <strong>Arne</strong>.",
+    "<strong>E · Elena</strong> (♀ Frau · Brille)<strong>:</strong> War in der <strong>4. Reihe</strong>. Befand sich <strong>direkt neben</strong> einer <strong>Pflanze</strong>.",
+    "<strong>V · Vladimir</strong> (♂ Mann)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Britta (B).</strong> Das Opfer, Vladimir, lag im Affenhaus.",
+   "stappen": [
+    "Elena steht in [4,3], also fallen Reihe 4 und Spalte 3 für Arne weg. → Arne in [2,4]",
+    "In Spalte 1 kann nur noch Clara stehen. → Clara in [5,1]",
+    "\"Britta befand sich in einer Reihe weiter oben als Arne.\": Für diese Felder von Britta gibt es keinen passenden Platz für Arne.",
+    "\"Dirk befand sich irgendwo links von Arne.\": Für diese Felder von Dirk gibt es keinen passenden Platz für Arne. → Dirk in [3,2]",
+    "Dirk steht in [3,2], also fallen Reihe 3 und Spalte 2 für Britta weg. → Britta in [1,6]",
+    "Dirk steht in [3,2], also fallen Reihe 3 und Spalte 2 für Vladimir weg. → Vladimir in [6,5]"
+   ]
+  },
+  "fr": {
+   "titel": "Le zoo: le vétérinaire",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Chassez le naturel, il revient au galop. Surtout chez un coupable.",
+   "aanwijzingen": [
+    "<strong>A · Arnaud</strong> (♂ homme)<strong>:</strong> Était <strong>seul</strong> au <strong>kiosque</strong>.",
+    "<strong>B · Bérénice</strong> (♀ femme · lunettes)<strong>:</strong> Était dans une <strong>rangée</strong> <strong>plus haute que</strong> celle d'<strong>Arnaud</strong>. Se trouvait dans la <strong>colonne</strong> <strong>la plus à droite</strong> <strong>de sa pièce</strong>.",
+    "<strong>C · Cécile</strong> (♀ femme · chapeau)<strong>:</strong> Était <strong>seule</strong> dans le <strong>local des soigneurs</strong>.",
+    "<strong>D · Damien</strong> (♂ homme)<strong>:</strong> Se trouvait <strong>quelque part à gauche</strong> d'<strong>Arnaud</strong>.",
+    "<strong>E · Élise</strong> (♀ femme · lunettes)<strong>:</strong> Était dans la <strong>4e rangée</strong>. Se trouvait <strong>juste à côté</strong> d'une <strong>plante</strong>.",
+    "<strong>V · Valère</strong> (♂ homme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Bérénice (B).</strong> La victime, Valère, se trouvait dans l'enclos des singes.",
+   "stappen": [
+    "Élise se trouve en [4,3], donc la rangée 4 et la colonne 3 sont exclues pour Arnaud. → Arnaud en [2,4]",
+    "Seule Cécile peut encore se trouver dans la colonne 1. → Cécile en [5,1]",
+    "\"Bérénice était dans une rangée plus haute que celle d'Arnaud.\" : pour ces cases de Bérénice, il n'y a aucune place qui convienne pour Arnaud.",
+    "\"Damien se trouvait quelque part à gauche d'Arnaud.\" : pour ces cases de Damien, il n'y a aucune place qui convienne pour Arnaud. → Damien en [3,2]",
+    "Damien se trouve en [3,2], donc la rangée 3 et la colonne 2 sont exclues pour Bérénice. → Bérénice en [1,6]",
+    "Damien se trouve en [3,2], donc la rangée 3 et la colonne 2 sont exclues pour Valère. → Valère en [6,5]"
+   ]
+  },
+  "it": {
+   "titel": "Lo zoo: il veterinario",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "Il lupo perde il pelo ma non il vizio.",
+   "aanwijzingen": [
+    "<strong>A · Arturo</strong> (♂ uomo)<strong>:</strong> Era <strong>da solo</strong> al <strong>chiosco</strong>.",
+    "<strong>B · Bruna</strong> (♀ donna · occhiali)<strong>:</strong> Si trovava <strong>in una riga più in alto di</strong> <strong>Arturo</strong>. Si trovava nella <strong>colonna più a destra</strong> <strong>della stanza</strong>.",
+    "<strong>C · Carolina</strong> (♀ donna · cappello)<strong>:</strong> Era <strong>da sola</strong> nella <strong>stanza dei guardiani</strong>.",
+    "<strong>D · Dario</strong> (♂ uomo)<strong>:</strong> Si trovava <strong>da qualche parte</strong> <strong>più a sinistra di</strong> <strong>Arturo</strong>.",
+    "<strong>E · Elena</strong> (♀ donna · occhiali)<strong>:</strong> Era nella <strong>4ª riga</strong>. Si trovava <strong>proprio accanto a</strong> una <strong>pianta</strong>.",
+    "<strong>V · Virgilio</strong> (♂ uomo)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Bruna (B).</strong> La vittima, Virgilio, giaceva nel recinto delle scimmie.",
+   "stappen": [
+    "Elena è in [4,3], quindi la riga 4 e la colonna 3 sono escluse per Arturo. → Arturo in [2,4]",
+    "Solo Carolina può ancora essere nella colonna 1. → Carolina in [5,1]",
+    "\"Bruna si trovava in una riga più in alto di Arturo.\": per queste caselle di Bruna non c'è un posto adatto per Arturo.",
+    "\"Dario si trovava da qualche parte più a sinistra di Arturo.\": per queste caselle di Dario non c'è un posto adatto per Arturo. → Dario in [3,2]",
+    "Dario è in [3,2], quindi la riga 3 e la colonna 2 sono escluse per Bruna. → Bruna in [1,6]",
+    "Dario è in [3,2], quindi la riga 3 e la colonna 2 sono escluse per Virgilio. → Virgilio in [6,5]"
+   ]
+  },
+  "es": {
+   "titel": "El zoo: el veterinario",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "Genio y figura hasta la sepultura. Que se lo digan al zorro.",
+   "aanwijzingen": [
+    "<strong>A · Álvaro</strong> (♂ hombre)<strong>:</strong> Estaba <strong>solo</strong> en el <strong>quiosco</strong>.",
+    "<strong>B · Belén</strong> (♀ mujer · gafas)<strong>:</strong> Se encontraba <strong>en una fila más alta que la de</strong> <strong>Álvaro</strong>. Estaba en la <strong>columna más a la derecha</strong> <strong>de su estancia</strong>.",
+    "<strong>C · Catalina</strong> (♀ mujer · sombrero)<strong>:</strong> Estaba <strong>sola</strong> en la <strong>sala de cuidadores</strong>.",
+    "<strong>D · David</strong> (♂ hombre)<strong>:</strong> Estaba <strong>en algún lugar</strong> <strong>a la izquierda de</strong> <strong>Álvaro</strong>.",
+    "<strong>E · Elena</strong> (♀ mujer · gafas)<strong>:</strong> Se encontraba en la <strong>4.ª fila</strong>. Se encontraba <strong>justo al lado de</strong> una <strong>planta</strong>.",
+    "<strong>V · Virgilio</strong> (♂ hombre)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Belén (B).</strong> La víctima, Virgilio, yacía en la casa de los monos.",
+   "stappen": [
+    "Elena está en la fila 4, columna 3, así que la fila 4 y la columna 3 quedan descartadas para Álvaro. → Álvaro en [2,4]",
+    "En la columna 1 ya solo puede estar Catalina. → Catalina en [5,1]",
+    "\"Belén se encontraba en una fila más alta que la de Álvaro.\": para estas casillas de Belén no hay ningún sitio adecuado para Álvaro.",
+    "\"David estaba en algún lugar a la izquierda de Álvaro.\": para estas casillas de David no hay ningún sitio adecuado para Álvaro. → David en [3,2]",
+    "David está en la fila 3, columna 2, así que la fila 3 y la columna 2 quedan descartadas para Belén. → Belén en [1,6]",
+    "David está en la fila 3, columna 2, así que la fila 3 y la columna 2 quedan descartadas para Virgilio. → Virgilio en [6,5]"
+   ]
+  },
+  "pt": {
+   "titel": "O jardim zoológico: o veterinário",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "O lobo perde o pelo, mas não perde o vício.",
+   "aanwijzingen": [
+    "<strong>A · Artur</strong> (♂ homem)<strong>:</strong> Estava <strong>sozinho</strong> no <strong>quiosque</strong>.",
+    "<strong>B · Benedita</strong> (♀ mulher · óculos)<strong>:</strong> Encontrava-se <strong>numa linha mais acima do que</strong> <strong>Artur</strong>. Encontrava-se na <strong>coluna mais à direita</strong> <strong>da divisão</strong>.",
+    "<strong>C · Carla</strong> (♀ mulher · chapéu)<strong>:</strong> Estava <strong>sozinha</strong> na <strong>sala dos tratadores</strong>.",
+    "<strong>D · Duarte</strong> (♂ homem)<strong>:</strong> Encontrava-se <strong>algures à esquerda de</strong> <strong>Artur</strong>.",
+    "<strong>E · Eva</strong> (♀ mulher · óculos)<strong>:</strong> Estava na <strong>4.ª linha</strong>. Encontrava-se <strong>mesmo ao lado de</strong> uma <strong>planta</strong>.",
+    "<strong>V · Virgílio</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Benedita (B).</strong> A vítima, Virgílio, estava na casa dos macacos.",
+   "stappen": [
+    "Eva está na [4,3], por isso a linha 4 e a coluna 3 ficam excluídas para Artur. → Artur: [2,4]",
+    "Só Carla ainda pode estar na coluna 1. → Carla: [5,1]",
+    "\"Benedita encontrava-se numa linha mais acima do que Artur.\": para estas casas de Benedita não há nenhum sítio adequado para Artur.",
+    "\"Duarte encontrava-se algures à esquerda de Artur.\": para estas casas de Duarte não há nenhum sítio adequado para Artur. → Duarte: [3,2]",
+    "Duarte está na [3,2], por isso a linha 3 e a coluna 2 ficam excluídas para Benedita. → Benedita: [1,6]",
+    "Duarte está na [3,2], por isso a linha 3 e a coluna 2 ficam excluídas para Virgílio. → Virgílio: [6,5]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O zoológico: o veterinário",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Um dia é da caça, o outro é do caçador. Hoje o caçador é você.",
+   "aanwijzingen": [
+    "<strong>A · Augusto</strong> (♂ homem)<strong>:</strong> Estava <strong>sozinho</strong> no <strong>quiosque</strong>.",
+    "<strong>B · Bianca</strong> (♀ mulher · óculos)<strong>:</strong> Estava <strong>numa linha mais acima que</strong> a de <strong>Augusto</strong>. Estava na <strong>coluna mais à direita</strong> <strong>do cômodo</strong>.",
+    "<strong>C · Carolina</strong> (♀ mulher · chapéu)<strong>:</strong> Estava <strong>sozinha</strong> na <strong>sala dos tratadores</strong>.",
+    "<strong>D · Daniel</strong> (♂ homem)<strong>:</strong> Estava <strong>em algum lugar à esquerda de</strong> <strong>Augusto</strong>.",
+    "<strong>E · Eliane</strong> (♀ mulher · óculos)<strong>:</strong> Encontrava-se na <strong>4ª linha</strong>. Estava <strong>bem ao lado de</strong> uma <strong>planta</strong>.",
+    "<strong>V · Vladimir</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Bianca (B).</strong> A vítima, Vladimir, estava no recinto dos macacos.",
+   "stappen": [
+    "Eliane está na [4,3], então a linha 4 e a coluna 3 ficam descartadas para Augusto. → Augusto em [2,4]",
+    "Só Carolina ainda pode estar na coluna 1. → Carolina em [5,1]",
+    "\"Bianca estava numa linha mais acima que a de Augusto.\": para esses quadrados de Bianca, não há lugar adequado para Augusto.",
+    "\"Daniel estava em algum lugar à esquerda de Augusto.\": para esses quadrados de Daniel, não há lugar adequado para Augusto. → Daniel em [3,2]",
+    "Daniel está na [3,2], então a linha 3 e a coluna 2 ficam descartadas para Bianca. → Bianca em [1,6]",
+    "Daniel está na [3,2], então a linha 3 e a coluna 2 ficam descartadas para Vladimir. → Vladimir em [6,5]"
+   ]
+  },
+  "pl": {
+   "titel": "Zoo: weterynarz",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Wilk zmienia sierść, ale nie obyczaje.",
+   "aanwijzingen": [
+    "<strong>A · Andrzej</strong> (♂ mężczyzna)<strong>:</strong> <strong>Był sam</strong> przy <strong>kiosku</strong>.",
+    "<strong>B · Bożena</strong> (♀ kobieta · okulary)<strong>:</strong> Była <strong>w wyższym rzędzie niż</strong> <strong>Andrzej</strong>. Była w <strong>skrajnej prawej kolumnie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>C · Carla</strong> (♀ kobieta · kapelusz)<strong>:</strong> <strong>Była sama</strong> w <strong>pokoju opiekunów</strong>.",
+    "<strong>D · Daniel</strong> (♂ mężczyzna)<strong>:</strong> Był <strong>gdzieś na lewo od</strong> <strong>Andrzeja</strong>.",
+    "<strong>E · Ewa</strong> (♀ kobieta · okulary)<strong>:</strong> Znajdowała się w <strong>4. rzędzie</strong>. Była <strong>bezpośrednio obok</strong> <strong>rośliny</strong>.",
+    "<strong>V · Volker</strong> (♂ mężczyzna)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Bożena (B).</strong> Ofiara (Volker) leżała w małpiarni.",
+   "stappen": [
+    "Ewa jest w rzędzie 4 i kolumnie 3, więc ten rząd i ta kolumna odpadają dla Andrzeja. → Andrzej: [2,4]",
+    "W kolumnie 1 może jeszcze być tylko Carla. → Carla: [5,1]",
+    "\"Bożena była w wyższym rzędzie niż Andrzej.\": dla tych pól Bożeny nie ma odpowiedniego miejsca dla Andrzeja.",
+    "\"Daniel był gdzieś na lewo od Andrzeja.\": dla tych pól Daniela nie ma odpowiedniego miejsca dla Andrzeja. → Daniel: [3,2]",
+    "Daniel jest w rzędzie 3 i kolumnie 2, więc ten rząd i ta kolumna odpadają dla Bożeny. → Bożena: [1,6]",
+    "Daniel jest w rzędzie 3 i kolumnie 2, więc ten rząd i ta kolumna odpadają dla Volkera. → Volker: [6,5]"
+   ]
+  }
+ }
+}

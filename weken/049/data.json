@@ -1,0 +1,197 @@
+{
+ "week": 49,
+ "id": "L2-00hw1yh",
+ "level": 2,
+ "theme": "school",
+ "talen": {
+  "en": {
+   "titel": "The School: the school disco",
+   "niveau": "Level 2 · Sleuth ★★☆☆☆",
+   "intro": "Not even the teacher's pet saw this coming.",
+   "aanwijzingen": [
+    "<strong>A · Agnes</strong> (♀ woman)<strong>:</strong> Was in the <strong>rightmost column</strong> <strong>of the room</strong>.",
+    "<strong>B · Barbara</strong> (♀ woman)<strong>:</strong> Was in the <strong>bottom row</strong>.",
+    "<strong>C · Clara</strong> (♀ woman)<strong>:</strong> Was <strong>directly next to</strong> a <strong>stool</strong>.",
+    "<strong>D · Dominic</strong> (♂ man · hat)<strong>:</strong> Was <strong>the only</strong> person in the <strong>chemistry lab</strong>.",
+    "<strong>V · Vladimir</strong> (♂ man)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Clara (C).</strong> The victim, Vladimir, lay in classroom 1.",
+   "stappen": [
+    "Clara is certainly in column 4, so Barbara cannot be there. → Barbara at [5,5]",
+    "Agnes is certainly in column 2, so Dominic cannot be there. → Dominic at [4,1]",
+    "Dominic is on [4,1], so row 4 and column 1 are ruled out for Clara. → Clara at [3,4]",
+    "Clara is on [3,4], so row 3 and column 4 are ruled out for Agnes. → Agnes at [2,2]",
+    "Dominic is on [4,1], so row 4 and column 1 are ruled out for Vladimir. → Vladimir at [1,3]"
+   ]
+  },
+  "nl": {
+   "titel": "De school: het schoolfeest",
+   "niveau": "Niveau 2 · Speurder ★★☆☆☆",
+   "intro": "Discobal, limonade en harde muziek: het schoolfeest wordt nog jaren besproken.",
+   "aanwijzingen": [
+    "<strong>A · Aylin</strong> (♀ vrouw)<strong>:</strong> Bevond zich in de <strong>rechterkolom</strong> van de ruimte.",
+    "<strong>B · Bella</strong> (♀ vrouw)<strong>:</strong> Was in de <strong>onderste rij</strong>.",
+    "<strong>C · Cato</strong> (♀ vrouw)<strong>:</strong> Bevond zich <strong>direct naast</strong> een <strong>kruk</strong>.",
+    "<strong>D · Dimitri</strong> (♂ man · hoed)<strong>:</strong> Was <strong>de enige</strong> persoon in het <strong>scheikundelokaal</strong>.",
+    "<strong>V · Vladimir</strong> (♂ man)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Cato (C).</strong> Het slachtoffer Vladimir lag in klas 1.",
+   "stappen": [
+    "Cato staat zeker in kolom 4, dus Bella kan daar niet staan. → Bella op [5,5]",
+    "Aylin staat zeker in kolom 2, dus Dimitri kan daar niet staan. → Dimitri op [4,1]",
+    "Dimitri staat op [4,1], dus rij 4 en kolom 1 vallen af voor Cato. → Cato op [3,4]",
+    "Cato staat op [3,4], dus rij 3 en kolom 4 vallen af voor Aylin. → Aylin op [2,2]",
+    "Dimitri staat op [4,1], dus rij 4 en kolom 1 vallen af voor Vladimir. → Vladimir op [1,3]"
+   ]
+  },
+  "de": {
+   "titel": "Die Schule: das Schulfest",
+   "niveau": "Stufe 2 · Spürnase ★★☆☆☆",
+   "intro": "Nicht mal der Klassenbeste hat das kommen sehen.",
+   "aanwijzingen": [
+    "<strong>A · Antje</strong> (♀ Frau)<strong>:</strong> Befand sich in der <strong>Spalte ganz rechts</strong> <strong>im Raum</strong>.",
+    "<strong>B · Barbara</strong> (♀ Frau)<strong>:</strong> War in der <strong>untersten Reihe</strong>.",
+    "<strong>C · Carina</strong> (♀ Frau)<strong>:</strong> Befand sich <strong>direkt neben</strong> einem <strong>Hocker</strong>.",
+    "<strong>D · Dennis</strong> (♂ Mann · Hut)<strong>:</strong> War <strong>die einzige</strong> Person im <strong>Chemieraum</strong>.",
+    "<strong>V · Vladimir</strong> (♂ Mann)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Carina (C).</strong> Das Opfer, Vladimir, lag in Klasse 1.",
+   "stappen": [
+    "Carina steht sicher in Spalte 4, also kann Barbara dort nicht stehen. → Barbara in [5,5]",
+    "Antje steht sicher in Spalte 2, also kann Dennis dort nicht stehen. → Dennis in [4,1]",
+    "Dennis steht in [4,1], also fallen Reihe 4 und Spalte 1 für Carina weg. → Carina in [3,4]",
+    "Carina steht in [3,4], also fallen Reihe 3 und Spalte 4 für Antje weg. → Antje in [2,2]",
+    "Dennis steht in [4,1], also fallen Reihe 4 und Spalte 1 für Vladimir weg. → Vladimir in [1,3]"
+   ]
+  },
+  "fr": {
+   "titel": "L'école: la kermesse",
+   "niveau": "Niveau 2 · Limier ★★☆☆☆",
+   "intro": "Même le premier de la classe n'avait rien vu venir.",
+   "aanwijzingen": [
+    "<strong>A · Aurélie</strong> (♀ femme)<strong>:</strong> Se trouvait dans la <strong>colonne</strong> <strong>la plus à droite</strong> <strong>de sa pièce</strong>.",
+    "<strong>B · Barbara</strong> (♀ femme)<strong>:</strong> Était dans la <strong>rangée du bas</strong>.",
+    "<strong>C · Clémence</strong> (♀ femme)<strong>:</strong> Se trouvait <strong>juste à côté</strong> d'un <strong>tabouret</strong>.",
+    "<strong>D · David</strong> (♂ homme · chapeau)<strong>:</strong> Était <strong>la seule personne</strong> dans la <strong>salle de chimie</strong>.",
+    "<strong>V · Valère</strong> (♂ homme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Clémence (C).</strong> La victime, Valère, se trouvait dans la classe 1.",
+   "stappen": [
+    "Clémence se trouve forcément dans la colonne 4, donc Barbara ne peut pas s'y trouver. → Barbara en [5,5]",
+    "Aurélie se trouve forcément dans la colonne 2, donc David ne peut pas s'y trouver. → David en [4,1]",
+    "David se trouve en [4,1], donc la rangée 4 et la colonne 1 sont exclues pour Clémence. → Clémence en [3,4]",
+    "Clémence se trouve en [3,4], donc la rangée 3 et la colonne 4 sont exclues pour Aurélie. → Aurélie en [2,2]",
+    "David se trouve en [4,1], donc la rangée 4 et la colonne 1 sont exclues pour Valère. → Valère en [1,3]"
+   ]
+  },
+  "it": {
+   "titel": "La scuola: la festa della scuola",
+   "niveau": "Livello 2 · Segugio ★★☆☆☆",
+   "intro": "Nemmeno il primo della classe se l'aspettava.",
+   "aanwijzingen": [
+    "<strong>A · Agnese</strong> (♀ donna)<strong>:</strong> Si trovava nella <strong>colonna più a destra</strong> <strong>della stanza</strong>.",
+    "<strong>B · Brigida</strong> (♀ donna)<strong>:</strong> Era nella <strong>riga più in basso</strong>.",
+    "<strong>C · Camilla</strong> (♀ donna)<strong>:</strong> Si trovava <strong>proprio accanto a</strong> uno <strong>sgabello</strong>.",
+    "<strong>D · Diego</strong> (♂ uomo · cappello)<strong>:</strong> Era <strong>l'unica persona</strong> nel <strong>laboratorio di chimica</strong>.",
+    "<strong>V · Virgilio</strong> (♂ uomo)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Camilla (C).</strong> La vittima, Virgilio, giaceva nell'aula 1.",
+   "stappen": [
+    "Camilla è sicuramente nella colonna 4, quindi Brigida non può essere lì. → Brigida in [5,5]",
+    "Agnese è sicuramente nella colonna 2, quindi Diego non può essere lì. → Diego in [4,1]",
+    "Diego è in [4,1], quindi la riga 4 e la colonna 1 sono escluse per Camilla. → Camilla in [3,4]",
+    "Camilla è in [3,4], quindi la riga 3 e la colonna 4 sono escluse per Agnese. → Agnese in [2,2]",
+    "Diego è in [4,1], quindi la riga 4 e la colonna 1 sono escluse per Virgilio. → Virgilio in [1,3]"
+   ]
+  },
+  "es": {
+   "titel": "El colegio: la fiesta del colegio",
+   "niveau": "Nivel 2 · Sabueso ★★☆☆☆",
+   "intro": "Ni el primero de la clase lo vio venir.",
+   "aanwijzingen": [
+    "<strong>A · Aitana</strong> (♀ mujer)<strong>:</strong> Estaba en la <strong>columna más a la derecha</strong> <strong>de su estancia</strong>.",
+    "<strong>B · Berta</strong> (♀ mujer)<strong>:</strong> Se encontraba en la <strong>fila inferior</strong>.",
+    "<strong>C · Carolina</strong> (♀ mujer)<strong>:</strong> Se encontraba <strong>justo al lado de</strong> un <strong>taburete</strong>.",
+    "<strong>D · Diego</strong> (♂ hombre · sombrero)<strong>:</strong> Era <strong>la única persona</strong> en el <strong>laboratorio de química</strong>.",
+    "<strong>V · Virgilio</strong> (♂ hombre)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Carolina (C).</strong> La víctima, Virgilio, yacía en el aula 1.",
+   "stappen": [
+    "Carolina está con seguridad en la columna 4, así que Berta no puede estar ahí. → Berta en [5,5]",
+    "Aitana está con seguridad en la columna 2, así que Diego no puede estar ahí. → Diego en [4,1]",
+    "Diego está en la fila 4, columna 1, así que la fila 4 y la columna 1 quedan descartadas para Carolina. → Carolina en [3,4]",
+    "Carolina está en la fila 3, columna 4, así que la fila 3 y la columna 4 quedan descartadas para Aitana. → Aitana en [2,2]",
+    "Diego está en la fila 4, columna 1, así que la fila 4 y la columna 1 quedan descartadas para Virgilio. → Virgilio en [1,3]"
+   ]
+  },
+  "pt": {
+   "titel": "A escola: a festa da escola",
+   "niveau": "Nível 2 · Investigador ★★☆☆☆",
+   "intro": "Nem o melhor aluno estava à espera disto.",
+   "aanwijzingen": [
+    "<strong>A · Andreia</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>coluna mais à direita</strong> <strong>da divisão</strong>.",
+    "<strong>B · Berta</strong> (♀ mulher)<strong>:</strong> Estava na <strong>linha mais abaixo</strong>.",
+    "<strong>C · Cátia</strong> (♀ mulher)<strong>:</strong> Encontrava-se <strong>mesmo ao lado de</strong> um <strong>banco</strong>.",
+    "<strong>D · Daniel</strong> (♂ homem · chapéu)<strong>:</strong> Era <strong>a única pessoa</strong> no <strong>laboratório de química</strong>.",
+    "<strong>V · Virgílio</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Cátia (C).</strong> A vítima, Virgílio, estava na sala 1.",
+   "stappen": [
+    "Cátia está de certeza na coluna 4, por isso Berta não pode estar lá. → Berta: [5,5]",
+    "Andreia está de certeza na coluna 2, por isso Daniel não pode estar lá. → Daniel: [4,1]",
+    "Daniel está na [4,1], por isso a linha 4 e a coluna 1 ficam excluídas para Cátia. → Cátia: [3,4]",
+    "Cátia está na [3,4], por isso a linha 3 e a coluna 4 ficam excluídas para Andreia. → Andreia: [2,2]",
+    "Daniel está na [4,1], por isso a linha 4 e a coluna 1 ficam excluídas para Virgílio. → Virgílio: [1,3]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "A escola: a festa junina",
+   "niveau": "Nível 2 · Investigador ★★☆☆☆",
+   "intro": "Nem o melhor aluno da turma esperava por essa.",
+   "aanwijzingen": [
+    "<strong>A · Adriana</strong> (♀ mulher)<strong>:</strong> Estava na <strong>coluna mais à direita</strong> <strong>do cômodo</strong>.",
+    "<strong>B · Brenda</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>linha inferior</strong>.",
+    "<strong>C · Cecília</strong> (♀ mulher)<strong>:</strong> Estava <strong>bem ao lado de</strong> uma <strong>banqueta</strong>.",
+    "<strong>D · Davi</strong> (♂ homem · chapéu)<strong>:</strong> Era <strong>a única pessoa</strong> no <strong>laboratório de química</strong>.",
+    "<strong>V · Vladimir</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Cecília (C).</strong> A vítima, Vladimir, estava na sala 1.",
+   "stappen": [
+    "Cecília está com certeza na coluna 4, então Brenda não pode estar ali. → Brenda em [5,5]",
+    "Adriana está com certeza na coluna 2, então Davi não pode estar ali. → Davi em [4,1]",
+    "Davi está na [4,1], então a linha 4 e a coluna 1 ficam descartadas para Cecília. → Cecília em [3,4]",
+    "Cecília está na [3,4], então a linha 3 e a coluna 4 ficam descartadas para Adriana. → Adriana em [2,2]",
+    "Davi está na [4,1], então a linha 4 e a coluna 1 ficam descartadas para Vladimir. → Vladimir em [1,3]"
+   ]
+  },
+  "pl": {
+   "titel": "Szkoła: szkolna dyskoteka",
+   "niveau": "Poziom 2 · Tropiciel ★★☆☆☆",
+   "intro": "Nawet prymus by tego nie przewidział.",
+   "aanwijzingen": [
+    "<strong>A · Agnieszka</strong> (♀ kobieta)<strong>:</strong> Była w <strong>skrajnej prawej kolumnie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>B · Berenika</strong> (♀ kobieta)<strong>:</strong> Znajdowała się w <strong>najniższym rzędzie</strong>.",
+    "<strong>C · Cyntia</strong> (♀ kobieta)<strong>:</strong> Była <strong>bezpośrednio obok</strong> <strong>taboretu</strong>.",
+    "<strong>D · Dominik</strong> (♂ mężczyzna · kapelusz)<strong>:</strong> Był <strong>jedyną osobą</strong> w <strong>pracowni chemicznej</strong>.",
+    "<strong>V · Volker</strong> (♂ mężczyzna)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Cyntia (C).</strong> Ofiara (Volker) leżała w klasie 1.",
+   "stappen": [
+    "Cyntia na pewno jest w kolumnie 4, więc Berenika nie może tam być. → Berenika: [5,5]",
+    "Agnieszka na pewno jest w kolumnie 2, więc Dominik nie może tam być. → Dominik: [4,1]",
+    "Dominik jest w rzędzie 4 i kolumnie 1, więc ten rząd i ta kolumna odpadają dla Cyntii. → Cyntia: [3,4]",
+    "Cyntia jest w rzędzie 3 i kolumnie 4, więc ten rząd i ta kolumna odpadają dla Agnieszki. → Agnieszka: [2,2]",
+    "Dominik jest w rzędzie 4 i kolumnie 1, więc ten rząd i ta kolumna odpadają dla Volkera. → Volker: [1,3]"
+   ]
+  }
+ }
+}

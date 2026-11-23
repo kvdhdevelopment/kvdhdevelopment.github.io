@@ -1,0 +1,251 @@
+{
+ "week": 11,
+ "id": "L4-00hv8my",
+ "level": 4,
+ "theme": "cruiseschip",
+ "talen": {
+  "en": {
+   "titel": "The Cruise Ship: the first port of call",
+   "niveau": "Level 4 · Detective ★★★★☆",
+   "intro": "Everyone was somewhere. But where exactly?",
+   "aanwijzingen": [
+    "<strong>A · Abigail</strong> (♀ woman)<strong>:</strong> Was in the <strong>rightmost column</strong> <strong>of the room</strong>.",
+    "<strong>B · Brenda</strong> (♀ woman · glasses)<strong>:</strong> Was in the <strong>5th column</strong>.",
+    "<strong>C · Clive</strong> (♂ man · glasses)<strong>:</strong> Was in the <strong>leftmost column</strong> <strong>of the room</strong>.",
+    "<strong>D · Derek</strong> (♂ man · hat)<strong>:</strong> Was <strong>the only</strong> person on the <strong>pool deck</strong>. Was <strong>exactly</strong> two <strong>rows</strong> <strong>above</strong> <strong>Brenda</strong>.",
+    "<strong>E · Edwin</strong> (♂ man · hat)<strong>:</strong> Was in the <strong>leftmost column</strong>. Was <strong>exactly</strong> three <strong>rows</strong> <strong>below</strong> <strong>a woman</strong>.",
+    "<strong>F · Freddie</strong> (♂ man)<strong>:</strong> Was <strong>in a column further right than</strong> <strong>Abigail</strong>. There was <strong>also</strong> <strong>a woman</strong> in <strong>their room</strong>.",
+    "<strong>V · Victor</strong> (♂ man)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Clive (C).</strong> The victim, Victor, lay in the engine room.",
+   "stappen": [
+    "\"Derek was exactly two rows above Brenda.\": for these squares of Derek there is no fitting place for Brenda. → Derek at [5,2]",
+    "\"Derek was exactly two rows above Brenda.\": for these squares of Brenda there is no fitting place for Derek. → Brenda at [7,5]",
+    "\"Edwin was exactly three rows below a woman.\": for these squares of Edwin there is no woman in the right place. → Edwin at [4,1]",
+    "\"Edwin was exactly three rows below a woman.\": only Abigail can be that person, so Abigail is in a fitting place relative to Edwin.",
+    "\"Freddie was in a column further right than Abigail.\": for these squares of Freddie there is no fitting place for Abigail.",
+    "\"Freddie was in a column further right than Abigail.\": for these squares of Abigail there is no fitting place for Freddie. → Abigail at [1,3]",
+    "\"There was also a woman in Freddie's room.\": in these rooms a woman cannot be with Freddie. → Freddie at [6,4]",
+    "Freddie is on [6,4], so row 6 and column 4 are ruled out for Clive. → Clive at [3,6]",
+    "Freddie is on [6,4], so row 6 and column 4 are ruled out for Victor. → Victor at [2,7]"
+   ]
+  },
+  "nl": {
+   "titel": "Het cruiseschip: de eerste aanlegplaats",
+   "niveau": "Niveau 4 · Rechercheur ★★★★☆",
+   "intro": "Morgen de eerste aanlegplaats. Vannacht nog een hoop uit te zoeken.",
+   "aanwijzingen": [
+    "<strong>A · Anouk</strong> (♀ vrouw)<strong>:</strong> Was in de <strong>rechterkolom</strong> van de ruimte.",
+    "<strong>B · Barbara</strong> (♀ vrouw · bril)<strong>:</strong> Bevond zich in de <strong>5e kolom</strong>.",
+    "<strong>C · Cornelis</strong> (♂ man · bril)<strong>:</strong> Bevond zich in de <strong>linkerkolom</strong> van de ruimte.",
+    "<strong>D · Dirk</strong> (♂ man · hoed)<strong>:</strong> Was <strong>de enige</strong> persoon op het <strong>zwembaddek</strong>. Bevond zich <strong>precies</strong> twee <strong>rijen</strong> <strong>boven</strong> <strong>Barbara</strong>.",
+    "<strong>E · Edwin</strong> (♂ man · hoed)<strong>:</strong> Bevond zich in de <strong>linkerkolom</strong>. Was <strong>precies</strong> drie <strong>rijen</strong> <strong>onder</strong> <strong>een vrouw</strong>.",
+    "<strong>F · Floris</strong> (♂ man)<strong>:</strong> Bevond zich <strong>rechts van</strong> <strong>Anouk</strong>. Er was <strong>nog een</strong> vrouw in de ruimte.",
+    "<strong>V · Victor</strong> (♂ man)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Cornelis (C).</strong> Het slachtoffer Victor lag in de machinekamer.",
+   "stappen": [
+    "\"Dirk bevond zich precies twee rijen boven Barbara.\": voor deze vakjes van Dirk is er geen passende plek voor Barbara. → Dirk op [5,2]",
+    "\"Dirk bevond zich precies twee rijen boven Barbara.\": voor deze vakjes van Barbara is er geen passende plek voor Dirk. → Barbara op [7,5]",
+    "\"Edwin was precies drie rijen onder een vrouw.\": voor deze vakjes van Edwin staat er nergens een vrouw op de goede plek. → Edwin op [4,1]",
+    "\"Edwin was precies drie rijen onder een vrouw.\": alleen Anouk kan die persoon zijn, dus Anouk staat op een passende plek ten opzichte van Edwin.",
+    "\"Floris bevond zich rechts van Anouk.\": voor deze vakjes van Floris is er geen passende plek voor Anouk.",
+    "\"Floris bevond zich rechts van Anouk.\": voor deze vakjes van Anouk is er geen passende plek voor Floris. → Anouk op [1,3]",
+    "\"Er was nog een vrouw in de ruimte van Floris.\": in deze ruimtes kan een vrouw niet bij Floris staan. → Floris op [6,4]",
+    "Floris staat op [6,4], dus rij 6 en kolom 4 vallen af voor Cornelis. → Cornelis op [3,6]",
+    "Floris staat op [6,4], dus rij 6 en kolom 4 vallen af voor Victor. → Victor op [2,7]"
+   ]
+  },
+  "de": {
+   "titel": "Das Kreuzfahrtschiff: der erste Landgang",
+   "niveau": "Stufe 4 · Kommissar ★★★★☆",
+   "intro": "Jeder war irgendwo. Aber wo genau?",
+   "aanwijzingen": [
+    "<strong>A · Amelie</strong> (♀ Frau)<strong>:</strong> War in der <strong>Spalte ganz rechts</strong> <strong>im Raum</strong>.",
+    "<strong>B · Bianca</strong> (♀ Frau · Brille)<strong>:</strong> Befand sich in der <strong>5. Spalte</strong>.",
+    "<strong>C · Cem</strong> (♂ Mann · Brille)<strong>:</strong> Befand sich in der <strong>Spalte ganz links</strong> <strong>im Raum</strong>.",
+    "<strong>D · Dieter</strong> (♂ Mann · Hut)<strong>:</strong> War <strong>die einzige</strong> Person auf dem <strong>Pooldeck</strong>. Befand sich <strong>genau</strong> zwei <strong>Reihen</strong> <strong>über</strong> <strong>Bianca</strong>.",
+    "<strong>E · Egon</strong> (♂ Mann · Hut)<strong>:</strong> Befand sich in der <strong>Spalte ganz links</strong>. War <strong>genau</strong> drei <strong>Reihen</strong> <strong>unter</strong> <strong>einer Frau</strong>.",
+    "<strong>F · Florian</strong> (♂ Mann)<strong>:</strong> Befand sich in einer <strong>Spalte</strong> <strong>weiter rechts als</strong> <strong>Amelie</strong>. In seinem Raum war <strong>außerdem</strong> <strong>eine Frau</strong>.",
+    "<strong>V · Viktor</strong> (♂ Mann)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Cem (C).</strong> Das Opfer, Viktor, lag im Maschinenraum.",
+   "stappen": [
+    "\"Dieter befand sich genau zwei Reihen über Bianca.\": Für diese Felder von Dieter gibt es keinen passenden Platz für Bianca. → Dieter in [5,2]",
+    "\"Dieter befand sich genau zwei Reihen über Bianca.\": Für diese Felder von Bianca gibt es keinen passenden Platz für Dieter. → Bianca in [7,5]",
+    "\"Egon war genau drei Reihen unter einer Frau.\": Für diese Felder von Egon steht nirgends eine Frau an der passenden Stelle. → Egon in [4,1]",
+    "\"Egon war genau drei Reihen unter einer Frau.\": Nur Amelie kann diese Person sein, also steht Amelie an einer passenden Stelle im Verhältnis zu Egon.",
+    "\"Florian befand sich in einer Spalte weiter rechts als Amelie.\": Für diese Felder von Florian gibt es keinen passenden Platz für Amelie.",
+    "\"Florian befand sich in einer Spalte weiter rechts als Amelie.\": Für diese Felder von Amelie gibt es keinen passenden Platz für Florian. → Amelie in [1,3]",
+    "\"In Florians Raum war außerdem eine Frau.\": In diesen Räumen kann eine Frau nicht zusammen mit Florian stehen. → Florian in [6,4]",
+    "Florian steht in [6,4], also fallen Reihe 6 und Spalte 4 für Cem weg. → Cem in [3,6]",
+    "Florian steht in [6,4], also fallen Reihe 6 und Spalte 4 für Viktor weg. → Viktor in [2,7]"
+   ]
+  },
+  "fr": {
+   "titel": "Le paquebot: la première escale",
+   "niveau": "Niveau 4 · Commissaire ★★★★☆",
+   "intro": "Tout le monde était quelque part. Mais où, au juste ?",
+   "aanwijzingen": [
+    "<strong>A · Agathe</strong> (♀ femme)<strong>:</strong> Était dans la <strong>colonne</strong> <strong>la plus à droite</strong> <strong>de sa pièce</strong>.",
+    "<strong>B · Bénédicte</strong> (♀ femme · lunettes)<strong>:</strong> Se trouvait dans la <strong>5e colonne</strong>.",
+    "<strong>C · Corentin</strong> (♂ homme · lunettes)<strong>:</strong> Se trouvait dans la <strong>colonne</strong> <strong>la plus à gauche</strong> <strong>de sa pièce</strong>.",
+    "<strong>D · Denis</strong> (♂ homme · chapeau)<strong>:</strong> Était <strong>la seule personne</strong> sur le <strong>pont piscine</strong>. Se trouvait <strong>exactement</strong> deux <strong>rangées</strong> <strong>au-dessus</strong> de <strong>Bénédicte</strong>.",
+    "<strong>E · Édouard</strong> (♂ homme · chapeau)<strong>:</strong> Se trouvait dans la <strong>colonne de gauche</strong>. Était <strong>exactement</strong> trois <strong>rangées</strong> <strong>en dessous</strong> d'<strong>une femme</strong>.",
+    "<strong>F · François</strong> (♂ homme)<strong>:</strong> Était dans une <strong>colonne</strong> <strong>plus à droite que</strong> celle d'<strong>Agathe</strong>. Il y avait <strong>aussi</strong> <strong>une femme</strong> dans <strong>sa pièce</strong>.",
+    "<strong>V · Victor</strong> (♂ homme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Corentin (C).</strong> La victime, Victor, se trouvait dans la salle des machines.",
+   "stappen": [
+    "\"Denis se trouvait exactement deux rangées au-dessus de Bénédicte.\" : pour ces cases de Denis, il n'y a aucune place qui convienne pour Bénédicte. → Denis en [5,2]",
+    "\"Denis se trouvait exactement deux rangées au-dessus de Bénédicte.\" : pour ces cases de Bénédicte, il n'y a aucune place qui convienne pour Denis. → Bénédicte en [7,5]",
+    "\"Édouard était exactement trois rangées en dessous d'une femme.\" : pour ces cases d'Édouard, il n'y a aucune femme au bon endroit. → Édouard en [4,1]",
+    "\"Édouard était exactement trois rangées en dessous d'une femme.\" : seule Agathe peut être cette personne, donc Agathe se trouve à un endroit qui convient par rapport à Édouard.",
+    "\"François était dans une colonne plus à droite que celle d'Agathe.\" : pour ces cases de François, il n'y a aucune place qui convienne pour Agathe.",
+    "\"François était dans une colonne plus à droite que celle d'Agathe.\" : pour ces cases d'Agathe, il n'y a aucune place qui convienne pour François. → Agathe en [1,3]",
+    "\"Il y avait aussi une femme dans la pièce de François.\" : dans ces pièces, une femme ne peut pas être avec François. → François en [6,4]",
+    "François se trouve en [6,4], donc la rangée 6 et la colonne 4 sont exclues pour Corentin. → Corentin en [3,6]",
+    "François se trouve en [6,4], donc la rangée 6 et la colonne 4 sont exclues pour Victor. → Victor en [2,7]"
+   ]
+  },
+  "it": {
+   "titel": "La nave da crociera: il primo scalo",
+   "niveau": "Livello 4 · Commissario ★★★★☆",
+   "intro": "Ognuno era da qualche parte. Ma dove, esattamente?",
+   "aanwijzingen": [
+    "<strong>A · Arianna</strong> (♀ donna)<strong>:</strong> Era nella <strong>colonna più a destra</strong> <strong>della stanza</strong>.",
+    "<strong>B · Bettina</strong> (♀ donna · occhiali)<strong>:</strong> Si trovava nella <strong>5ª colonna</strong>.",
+    "<strong>C · Corrado</strong> (♂ uomo · occhiali)<strong>:</strong> Si trovava nella <strong>colonna più a sinistra</strong> <strong>della stanza</strong>.",
+    "<strong>D · Domenico</strong> (♂ uomo · cappello)<strong>:</strong> Era <strong>l'unica persona</strong> sul <strong>ponte piscina</strong>. Si trovava <strong>esattamente</strong> due <strong>righe</strong> <strong>più in alto di</strong> <strong>Bettina</strong>.",
+    "<strong>E · Ettore</strong> (♂ uomo · cappello)<strong>:</strong> Si trovava nella <strong>colonna più a sinistra</strong>. Era <strong>esattamente</strong> tre <strong>righe</strong> <strong>più in basso di</strong> <strong>una donna</strong>.",
+    "<strong>F · Francesco</strong> (♂ uomo)<strong>:</strong> Si trovava <strong>in una colonna più a destra di</strong> <strong>Arianna</strong>. Nella <strong>sua stanza</strong> c'era <strong>anche</strong> <strong>una donna</strong>.",
+    "<strong>V · Vittorio</strong> (♂ uomo)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Corrado (C).</strong> La vittima, Vittorio, giaceva in sala macchine.",
+   "stappen": [
+    "\"Domenico si trovava esattamente due righe più in alto di Bettina.\": per queste caselle di Domenico non c'è un posto adatto per Bettina. → Domenico in [5,2]",
+    "\"Domenico si trovava esattamente due righe più in alto di Bettina.\": per queste caselle di Bettina non c'è un posto adatto per Domenico. → Bettina in [7,5]",
+    "\"Ettore era esattamente tre righe più in basso di una donna.\": per queste caselle di Ettore non c'è nessuna donna nel posto giusto. → Ettore in [4,1]",
+    "\"Ettore era esattamente tre righe più in basso di una donna.\": solo Arianna può essere quella persona, quindi Arianna si trova in un posto adatto rispetto a Ettore.",
+    "\"Francesco si trovava in una colonna più a destra di Arianna.\": per queste caselle di Francesco non c'è un posto adatto per Arianna.",
+    "\"Francesco si trovava in una colonna più a destra di Arianna.\": per queste caselle di Arianna non c'è un posto adatto per Francesco. → Arianna in [1,3]",
+    "\"Nella stanza di Francesco c'era anche una donna.\": in queste stanze una donna non può essere insieme a Francesco. → Francesco in [6,4]",
+    "Francesco è in [6,4], quindi la riga 6 e la colonna 4 sono escluse per Corrado. → Corrado in [3,6]",
+    "Francesco è in [6,4], quindi la riga 6 e la colonna 4 sono escluse per Vittorio. → Vittorio in [2,7]"
+   ]
+  },
+  "es": {
+   "titel": "El crucero: la primera escala",
+   "niveau": "Nivel 4 · Detective ★★★★☆",
+   "intro": "Todo el mundo estaba en algún sitio. Pero ¿dónde exactamente?",
+   "aanwijzingen": [
+    "<strong>A · Adriana</strong> (♀ mujer)<strong>:</strong> Se encontraba en la <strong>columna más a la derecha</strong> <strong>de su estancia</strong>.",
+    "<strong>B · Begoña</strong> (♀ mujer · gafas)<strong>:</strong> Estaba en la <strong>5.ª columna</strong>.",
+    "<strong>C · Cayetano</strong> (♂ hombre · gafas)<strong>:</strong> Estaba en la <strong>columna más a la izquierda</strong> <strong>de su estancia</strong>.",
+    "<strong>D · Darío</strong> (♂ hombre · sombrero)<strong>:</strong> Era <strong>la única persona</strong> en la <strong>cubierta de la piscina</strong>. Estaba <strong>exactamente</strong> dos <strong>filas</strong> <strong>por encima de</strong> <strong>Begoña</strong>.",
+    "<strong>E · Emilio</strong> (♂ hombre · sombrero)<strong>:</strong> Estaba en la <strong>columna más a la izquierda</strong>. Se encontraba <strong>exactamente</strong> tres <strong>filas</strong> <strong>por debajo de</strong> <strong>una mujer</strong>.",
+    "<strong>F · Fernando</strong> (♂ hombre)<strong>:</strong> Se encontraba <strong>en una columna más a la derecha que la de</strong> <strong>Adriana</strong>. En <strong>su estancia</strong> <strong>también</strong> había <strong>una mujer</strong>.",
+    "<strong>V · Víctor</strong> (♂ hombre)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Cayetano (C).</strong> La víctima, Víctor, yacía en la sala de máquinas.",
+   "stappen": [
+    "\"Darío estaba exactamente dos filas por encima de Begoña.\": para estas casillas de Darío no hay ningún sitio adecuado para Begoña. → Darío en [5,2]",
+    "\"Darío estaba exactamente dos filas por encima de Begoña.\": para estas casillas de Begoña no hay ningún sitio adecuado para Darío. → Begoña en [7,5]",
+    "\"Emilio se encontraba exactamente tres filas por debajo de una mujer.\": para estas casillas de Emilio no hay ninguna mujer en el sitio adecuado. → Emilio en [4,1]",
+    "\"Emilio se encontraba exactamente tres filas por debajo de una mujer.\": solo Adriana puede ser esa persona, así que Adriana está en un sitio adecuado respecto a Emilio.",
+    "\"Fernando se encontraba en una columna más a la derecha que la de Adriana.\": para estas casillas de Fernando no hay ningún sitio adecuado para Adriana.",
+    "\"Fernando se encontraba en una columna más a la derecha que la de Adriana.\": para estas casillas de Adriana no hay ningún sitio adecuado para Fernando. → Adriana en [1,3]",
+    "\"En la estancia de Fernando también había una mujer.\": en estas estancias no puede haber ninguna mujer con Fernando. → Fernando en [6,4]",
+    "Fernando está en la fila 6, columna 4, así que la fila 6 y la columna 4 quedan descartadas para Cayetano. → Cayetano en [3,6]",
+    "Fernando está en la fila 6, columna 4, así que la fila 6 y la columna 4 quedan descartadas para Víctor. → Víctor en [2,7]"
+   ]
+  },
+  "pt": {
+   "titel": "O cruzeiro: a primeira escala",
+   "niveau": "Nível 4 · Detetive ★★★★☆",
+   "intro": "Toda a gente estava algures. Mas onde, ao certo?",
+   "aanwijzingen": [
+    "<strong>A · Amélia</strong> (♀ mulher)<strong>:</strong> Estava na <strong>coluna mais à direita</strong> <strong>da divisão</strong>.",
+    "<strong>B · Bianca</strong> (♀ mulher · óculos)<strong>:</strong> Encontrava-se na <strong>5.ª coluna</strong>.",
+    "<strong>C · Cláudio</strong> (♂ homem · óculos)<strong>:</strong> Encontrava-se na <strong>coluna mais à esquerda</strong> <strong>da divisão</strong>.",
+    "<strong>D · David</strong> (♂ homem · chapéu)<strong>:</strong> Era <strong>a única pessoa</strong> no <strong>convés da piscina</strong>. Encontrava-se <strong>exatamente</strong> duas <strong>linhas</strong> <strong>acima de</strong> <strong>Bianca</strong>.",
+    "<strong>E · Elias</strong> (♂ homem · chapéu)<strong>:</strong> Encontrava-se na <strong>coluna mais à esquerda</strong>. Estava <strong>exatamente</strong> três <strong>linhas</strong> <strong>abaixo de</strong> <strong>uma mulher</strong>.",
+    "<strong>F · Francisco</strong> (♂ homem)<strong>:</strong> Encontrava-se <strong>numa coluna mais à direita do que</strong> <strong>Amélia</strong>. Na <strong>sua divisão</strong> havia <strong>também</strong> <strong>uma mulher</strong>.",
+    "<strong>V · Vasco</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Cláudio (C).</strong> A vítima, Vasco, estava na casa das máquinas.",
+   "stappen": [
+    "\"David encontrava-se exatamente duas linhas acima de Bianca.\": para estas casas de David não há nenhum sítio adequado para Bianca. → David: [5,2]",
+    "\"David encontrava-se exatamente duas linhas acima de Bianca.\": para estas casas de Bianca não há nenhum sítio adequado para David. → Bianca: [7,5]",
+    "\"Elias estava exatamente três linhas abaixo de uma mulher.\": para estas casas de Elias não há nenhuma mulher no sítio certo. → Elias: [4,1]",
+    "\"Elias estava exatamente três linhas abaixo de uma mulher.\": só Amélia pode ser essa pessoa, por isso Amélia está num sítio adequado em relação a Elias.",
+    "\"Francisco encontrava-se numa coluna mais à direita do que Amélia.\": para estas casas de Francisco não há nenhum sítio adequado para Amélia.",
+    "\"Francisco encontrava-se numa coluna mais à direita do que Amélia.\": para estas casas de Amélia não há nenhum sítio adequado para Francisco. → Amélia: [1,3]",
+    "\"Na divisão de Francisco havia também uma mulher.\": nestas divisões não pode estar uma mulher com Francisco. → Francisco: [6,4]",
+    "Francisco está na [6,4], por isso a linha 6 e a coluna 4 ficam excluídas para Cláudio. → Cláudio: [3,6]",
+    "Francisco está na [6,4], por isso a linha 6 e a coluna 4 ficam excluídas para Vasco. → Vasco: [2,7]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O cruzeiro: a primeira escala",
+   "niveau": "Nível 4 · Detetive ★★★★☆",
+   "intro": "Todo mundo estava em algum lugar. Mas onde, exatamente?",
+   "aanwijzingen": [
+    "<strong>A · Aline</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>coluna mais à direita</strong> <strong>do cômodo</strong>.",
+    "<strong>B · Bárbara</strong> (♀ mulher · óculos)<strong>:</strong> Estava na <strong>5ª coluna</strong>.",
+    "<strong>C · Cristiano</strong> (♂ homem · óculos)<strong>:</strong> Estava na <strong>coluna mais à esquerda</strong> <strong>do cômodo</strong>.",
+    "<strong>D · Douglas</strong> (♂ homem · chapéu)<strong>:</strong> Era <strong>a única pessoa</strong> no <strong>deck da piscina</strong>. Estava <strong>exatamente</strong> duas <strong>linhas</strong> <strong>acima de</strong> <strong>Bárbara</strong>.",
+    "<strong>E · Edson</strong> (♂ homem · chapéu)<strong>:</strong> Estava na <strong>coluna mais à esquerda</strong>. Encontrava-se <strong>exatamente</strong> três <strong>linhas</strong> <strong>abaixo de</strong> <strong>uma mulher</strong>.",
+    "<strong>F · Felipe</strong> (♂ homem)<strong>:</strong> Estava <strong>numa coluna mais à direita que</strong> a de <strong>Aline</strong>. <strong>Além dele</strong>, havia <strong>uma mulher</strong> <strong>no mesmo cômodo</strong>.",
+    "<strong>V · Vítor</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Cristiano (C).</strong> A vítima, Vítor, estava na casa de máquinas.",
+   "stappen": [
+    "\"Douglas estava exatamente duas linhas acima de Bárbara.\": para esses quadrados de Douglas, não há lugar adequado para Bárbara. → Douglas em [5,2]",
+    "\"Douglas estava exatamente duas linhas acima de Bárbara.\": para esses quadrados de Bárbara, não há lugar adequado para Douglas. → Bárbara em [7,5]",
+    "\"Edson se encontrava exatamente três linhas abaixo de uma mulher.\": para esses quadrados de Edson, não há nenhuma mulher no lugar certo. → Edson em [4,1]",
+    "\"Edson se encontrava exatamente três linhas abaixo de uma mulher.\": só Aline pode ser essa pessoa, então Aline está num lugar adequado em relação a Edson.",
+    "\"Felipe estava numa coluna mais à direita que a de Aline.\": para esses quadrados de Felipe, não há lugar adequado para Aline.",
+    "\"Felipe estava numa coluna mais à direita que a de Aline.\": para esses quadrados de Aline, não há lugar adequado para Felipe. → Aline em [1,3]",
+    "\"Além de Felipe, havia uma mulher no mesmo cômodo.\": nesses cômodos, uma mulher não pode estar com Felipe. → Felipe em [6,4]",
+    "Felipe está na [6,4], então a linha 6 e a coluna 4 ficam descartadas para Cristiano. → Cristiano em [3,6]",
+    "Felipe está na [6,4], então a linha 6 e a coluna 4 ficam descartadas para Vítor. → Vítor em [2,7]"
+   ]
+  },
+  "pl": {
+   "titel": "Statek wycieczkowy: pierwszy port",
+   "niveau": "Poziom 4 · Detektyw ★★★★☆",
+   "intro": "Każdy gdzieś był. Tylko gdzie dokładnie?",
+   "aanwijzingen": [
+    "<strong>A · Aniela</strong> (♀ kobieta)<strong>:</strong> Znajdowała się w <strong>skrajnej prawej kolumnie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>B · Blanka</strong> (♀ kobieta · okulary)<strong>:</strong> Była w <strong>5. kolumnie</strong>.",
+    "<strong>C · Cyrus</strong> (♂ mężczyzna · okulary)<strong>:</strong> Był w <strong>skrajnej lewej kolumnie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>D · Damian</strong> (♂ mężczyzna · kapelusz)<strong>:</strong> Był <strong>jedyną osobą</strong> na <strong>pokładzie z basenem</strong>. Był <strong>dokładnie</strong> dwa <strong>rzędy</strong> <strong>wyżej niż</strong> <strong>Blanka</strong>.",
+    "<strong>E · Eugeniusz</strong> (♂ mężczyzna · kapelusz)<strong>:</strong> Był w <strong>skrajnej lewej kolumnie</strong>. Znajdował się <strong>dokładnie</strong> trzy <strong>rzędy</strong> <strong>niżej niż</strong> <strong>jakaś kobieta</strong>.",
+    "<strong>F · Filip</strong> (♂ mężczyzna)<strong>:</strong> Był w <strong>kolumnie</strong> <strong>bardziej na prawo niż</strong> <strong>Aniela</strong>. W pomieszczeniu, w którym był, przebywała <strong>też</strong> <strong>jakaś kobieta</strong>.",
+    "<strong>V · Viktor</strong> (♂ mężczyzna)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Cyrus (C).</strong> Ofiara (Viktor) leżała w maszynowni.",
+   "stappen": [
+    "\"Damian był dokładnie dwa rzędy wyżej niż Blanka.\": dla tych pól Damiana nie ma odpowiedniego miejsca dla Blanki. → Damian: [5,2]",
+    "\"Damian był dokładnie dwa rzędy wyżej niż Blanka.\": dla tych pól Blanki nie ma odpowiedniego miejsca dla Damiana. → Blanka: [7,5]",
+    "\"Eugeniusz znajdował się dokładnie trzy rzędy niżej niż jakaś kobieta.\": dla tych pól Eugeniusza nigdzie nie ma żadnej kobiety we właściwym miejscu. → Eugeniusz: [4,1]",
+    "\"Eugeniusz znajdował się dokładnie trzy rzędy niżej niż jakaś kobieta.\": tylko Aniela może być tą osobą, więc Aniela jest w odpowiednim miejscu względem Eugeniusza.",
+    "\"Filip był w kolumnie bardziej na prawo niż Aniela.\": dla tych pól Filipa nie ma odpowiedniego miejsca dla Anieli.",
+    "\"Filip był w kolumnie bardziej na prawo niż Aniela.\": dla tych pól Anieli nie ma odpowiedniego miejsca dla Filipa. → Aniela: [1,3]",
+    "\"W pomieszczeniu Filipa przebywała też jakaś kobieta.\": w tych pomieszczeniach żadna kobieta nie może być razem z Filipem. → Filip: [6,4]",
+    "Filip jest w rzędzie 6 i kolumnie 4, więc ten rząd i ta kolumna odpadają dla Cyrusa. → Cyrus: [3,6]",
+    "Filip jest w rzędzie 6 i kolumnie 4, więc ten rząd i ta kolumna odpadają dla Viktora. → Viktor: [2,7]"
+   ]
+  }
+ }
+}

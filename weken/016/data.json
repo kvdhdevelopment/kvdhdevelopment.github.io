@@ -1,0 +1,215 @@
+{
+ "week": 16,
+ "id": "L3-00hvcht",
+ "level": 3,
+ "theme": "ijsbaan",
+ "talen": {
+  "en": {
+   "titel": "The Ice Rink: the missing key",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "It's ten below. The mood on the rink is even colder.",
+   "aanwijzingen": [
+    "<strong>A · Alice</strong> (♀ woman)<strong>:</strong> Was <strong>in a corner</strong> <strong>of the room</strong>.",
+    "<strong>B · Ben</strong> (♂ man)<strong>:</strong> Was <strong>the only</strong> person at the <strong>refreshment stall</strong>.",
+    "<strong>C · Clive</strong> (♂ man)<strong>:</strong> Was in the <strong>4th column</strong>. Was <strong>in a higher row than</strong> <strong>Alice</strong>.",
+    "<strong>D · Dorothy</strong> (♀ woman · glasses)<strong>:</strong> Was <strong>the only</strong> person in the <strong>announcer's booth</strong>. Was in the <strong>top row</strong> <strong>of the room</strong>.",
+    "<strong>E · Edward</strong> (♂ man)<strong>:</strong> Was in the <strong>5th row</strong>.",
+    "<strong>V · Verity</strong> (♀ woman)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Edward (E).</strong> The victim, Verity, lay in the skate hire.",
+   "stappen": [
+    "Clive is certainly in column 4, so Edward cannot be there. → Edward at [5,1]",
+    "\"Clive was in a higher row than Alice.\": for these squares of Clive there is no fitting place for Alice. → Clive at [1,4]",
+    "Alice is certainly in row 3, so Ben cannot be there. → Ben at [2,2]",
+    "Alice is certainly in row 3, so Verity cannot be there. → Verity at [6,3]",
+    "Verity is on [6,3], so row 6 and column 3 are ruled out for Alice. → Alice at [3,6]",
+    "Alice is on [3,6], so row 3 and column 6 are ruled out for Dorothy. → Dorothy at [4,5]"
+   ]
+  },
+  "nl": {
+   "titel": "De ijsbaan: de verdwenen sleutel",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Eén sleutel is zoek, en ineens wil iedereen weten wat hij openmaakt.",
+   "aanwijzingen": [
+    "<strong>A · Anna</strong> (♀ vrouw)<strong>:</strong> Bevond zich <strong>in een hoek</strong> van de ruimte.",
+    "<strong>B · Brian</strong> (♂ man)<strong>:</strong> Was <strong>de enige</strong> persoon bij de <strong>koek-en-zopie</strong>.",
+    "<strong>C · Cornelis</strong> (♂ man)<strong>:</strong> Bevond zich in de <strong>4e kolom</strong>. Bevond zich <strong>boven</strong> <strong>Anna</strong>.",
+    "<strong>D · Dewi</strong> (♀ vrouw · bril)<strong>:</strong> Was <strong>de enige</strong> persoon in de <strong>speakerscabine</strong>. Bevond zich in de <strong>bovenste rij</strong> van de ruimte.",
+    "<strong>E · Erik</strong> (♂ man)<strong>:</strong> Was in de <strong>5e rij</strong>.",
+    "<strong>V · Veerle</strong> (♀ vrouw)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Erik (E).</strong> Het slachtoffer Veerle lag in de schaatsverhuur.",
+   "stappen": [
+    "Cornelis staat zeker in kolom 4, dus Erik kan daar niet staan. → Erik op [5,1]",
+    "\"Cornelis bevond zich boven Anna.\": voor deze vakjes van Cornelis is er geen passende plek voor Anna. → Cornelis op [1,4]",
+    "Anna staat zeker in rij 3, dus Brian kan daar niet staan. → Brian op [2,2]",
+    "Anna staat zeker in rij 3, dus Veerle kan daar niet staan. → Veerle op [6,3]",
+    "Veerle staat op [6,3], dus rij 6 en kolom 3 vallen af voor Anna. → Anna op [3,6]",
+    "Anna staat op [3,6], dus rij 3 en kolom 6 vallen af voor Dewi. → Dewi op [4,5]"
+   ]
+  },
+  "de": {
+   "titel": "Die Eisbahn: der verschwundene Schlüssel",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Es sind zehn Grad minus. Die Stimmung auf der Bahn ist noch kälter.",
+   "aanwijzingen": [
+    "<strong>A · Anna</strong> (♀ Frau)<strong>:</strong> Befand sich <strong>in einer Ecke</strong> <strong>des Raums</strong>.",
+    "<strong>B · Bernd</strong> (♂ Mann)<strong>:</strong> War <strong>die einzige</strong> Person an der <strong>Imbissbude</strong>.",
+    "<strong>C · Cem</strong> (♂ Mann)<strong>:</strong> Befand sich in der <strong>4. Spalte</strong>. Befand sich in einer <strong>Reihe</strong> <strong>weiter oben als</strong> <strong>Anna</strong>.",
+    "<strong>D · Doris</strong> (♀ Frau · Brille)<strong>:</strong> War <strong>die einzige</strong> Person in der <strong>Sprecherkabine</strong>. Befand sich in der <strong>obersten Reihe</strong> <strong>des Raums</strong>.",
+    "<strong>E · Erik</strong> (♂ Mann)<strong>:</strong> War in der <strong>5. Reihe</strong>.",
+    "<strong>V · Viktoria</strong> (♀ Frau)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Erik (E).</strong> Das Opfer, Viktoria, lag im Schlittschuhverleih.",
+   "stappen": [
+    "Cem steht sicher in Spalte 4, also kann Erik dort nicht stehen. → Erik in [5,1]",
+    "\"Cem befand sich in einer Reihe weiter oben als Anna.\": Für diese Felder von Cem gibt es keinen passenden Platz für Anna. → Cem in [1,4]",
+    "Anna steht sicher in Reihe 3, also kann Bernd dort nicht stehen. → Bernd in [2,2]",
+    "Anna steht sicher in Reihe 3, also kann Viktoria dort nicht stehen. → Viktoria in [6,3]",
+    "Viktoria steht in [6,3], also fallen Reihe 6 und Spalte 3 für Anna weg. → Anna in [3,6]",
+    "Anna steht in [3,6], also fallen Reihe 3 und Spalte 6 für Doris weg. → Doris in [4,5]"
+   ]
+  },
+  "fr": {
+   "titel": "La patinoire: la clé disparue",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Il fait moins dix. L'ambiance sur la piste est encore plus froide.",
+   "aanwijzingen": [
+    "<strong>A · Amélie</strong> (♀ femme)<strong>:</strong> Se trouvait <strong>dans un coin</strong> de la pièce.",
+    "<strong>B · Benoît</strong> (♂ homme)<strong>:</strong> Était <strong>la seule personne</strong> à la <strong>buvette</strong>.",
+    "<strong>C · Corentin</strong> (♂ homme)<strong>:</strong> Se trouvait dans la <strong>4e colonne</strong>. Était dans une <strong>rangée</strong> <strong>plus haute que</strong> celle d'<strong>Amélie</strong>.",
+    "<strong>D · Delphine</strong> (♀ femme · lunettes)<strong>:</strong> Était <strong>la seule personne</strong> dans la <strong>cabine du speaker</strong>. Se trouvait dans la <strong>rangée</strong> <strong>la plus haute</strong> <strong>de sa pièce</strong>.",
+    "<strong>E · Étienne</strong> (♂ homme)<strong>:</strong> Était dans la <strong>5e rangée</strong>.",
+    "<strong>V · Virginie</strong> (♀ femme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Étienne (E).</strong> La victime, Virginie, se trouvait à la location de patins.",
+   "stappen": [
+    "Corentin se trouve forcément dans la colonne 4, donc Étienne ne peut pas s'y trouver. → Étienne en [5,1]",
+    "\"Corentin était dans une rangée plus haute que celle d'Amélie.\" : pour ces cases de Corentin, il n'y a aucune place qui convienne pour Amélie. → Corentin en [1,4]",
+    "Amélie se trouve forcément dans la rangée 3, donc Benoît ne peut pas s'y trouver. → Benoît en [2,2]",
+    "Amélie se trouve forcément dans la rangée 3, donc Virginie ne peut pas s'y trouver. → Virginie en [6,3]",
+    "Virginie se trouve en [6,3], donc la rangée 6 et la colonne 3 sont exclues pour Amélie. → Amélie en [3,6]",
+    "Amélie se trouve en [3,6], donc la rangée 3 et la colonne 6 sont exclues pour Delphine. → Delphine en [4,5]"
+   ]
+  },
+  "it": {
+   "titel": "La pista di pattinaggio: la chiave scomparsa",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "Ci sono dieci gradi sotto zero. L'atmosfera sulla pista è ancora più gelida.",
+   "aanwijzingen": [
+    "<strong>A · Anna</strong> (♀ donna)<strong>:</strong> Si trovava <strong>in un angolo</strong> <strong>della stanza</strong>.",
+    "<strong>B · Bruno</strong> (♂ uomo)<strong>:</strong> Era <strong>l'unica persona</strong> al <strong>chiosco della cioccolata</strong>.",
+    "<strong>C · Corrado</strong> (♂ uomo)<strong>:</strong> Si trovava nella <strong>4ª colonna</strong>. Si trovava <strong>in una riga più in alto di</strong> <strong>Anna</strong>.",
+    "<strong>D · Daniela</strong> (♀ donna · occhiali)<strong>:</strong> Era <strong>l'unica persona</strong> nella <strong>cabina dello speaker</strong>. Si trovava nella <strong>riga più in alto</strong> <strong>della stanza</strong>.",
+    "<strong>E · Enrico</strong> (♂ uomo)<strong>:</strong> Era nella <strong>5ª riga</strong>.",
+    "<strong>V · Vanna</strong> (♀ donna)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Enrico (E).</strong> La vittima, Vanna, giaceva al noleggio pattini.",
+   "stappen": [
+    "Corrado è sicuramente nella colonna 4, quindi Enrico non può essere lì. → Enrico in [5,1]",
+    "\"Corrado si trovava in una riga più in alto di Anna.\": per queste caselle di Corrado non c'è un posto adatto per Anna. → Corrado in [1,4]",
+    "Anna è sicuramente nella riga 3, quindi Bruno non può essere lì. → Bruno in [2,2]",
+    "Anna è sicuramente nella riga 3, quindi Vanna non può essere lì. → Vanna in [6,3]",
+    "Vanna è in [6,3], quindi la riga 6 e la colonna 3 sono escluse per Anna. → Anna in [3,6]",
+    "Anna è in [3,6], quindi la riga 3 e la colonna 6 sono escluse per Daniela. → Daniela in [4,5]"
+   ]
+  },
+  "es": {
+   "titel": "La pista de hielo: la llave perdida",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "Hay diez grados bajo cero. El ambiente en la pista es aún más frío.",
+   "aanwijzingen": [
+    "<strong>A · Ana</strong> (♀ mujer)<strong>:</strong> Se encontraba en <strong>una esquina</strong> <strong>de su estancia</strong>.",
+    "<strong>B · Bruno</strong> (♂ hombre)<strong>:</strong> Era <strong>la única persona</strong> en el <strong>puesto de chocolate con churros</strong>.",
+    "<strong>C · Cayetano</strong> (♂ hombre)<strong>:</strong> Estaba en la <strong>4.ª columna</strong>. Se encontraba <strong>en una fila más alta que la de</strong> <strong>Ana</strong>.",
+    "<strong>D · Diana</strong> (♀ mujer · gafas)<strong>:</strong> Era <strong>la única persona</strong> en la <strong>cabina de megafonía</strong>. Estaba en la <strong>fila superior</strong> <strong>de su estancia</strong>.",
+    "<strong>E · Eduardo</strong> (♂ hombre)<strong>:</strong> Se encontraba en la <strong>5.ª fila</strong>.",
+    "<strong>V · Valeria</strong> (♀ mujer)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Eduardo (E).</strong> La víctima, Valeria, yacía en el alquiler de patines.",
+   "stappen": [
+    "Cayetano está con seguridad en la columna 4, así que Eduardo no puede estar ahí. → Eduardo en [5,1]",
+    "\"Cayetano se encontraba en una fila más alta que la de Ana.\": para estas casillas de Cayetano no hay ningún sitio adecuado para Ana. → Cayetano en [1,4]",
+    "Ana está con seguridad en la fila 3, así que Bruno no puede estar ahí. → Bruno en [2,2]",
+    "Ana está con seguridad en la fila 3, así que Valeria no puede estar ahí. → Valeria en [6,3]",
+    "Valeria está en la fila 6, columna 3, así que la fila 6 y la columna 3 quedan descartadas para Ana. → Ana en [3,6]",
+    "Ana está en la fila 3, columna 6, así que la fila 3 y la columna 6 quedan descartadas para Diana. → Diana en [4,5]"
+   ]
+  },
+  "pt": {
+   "titel": "A pista de gelo: a chave desaparecida",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Estão dez graus negativos. O ambiente na pista está ainda mais gelado.",
+   "aanwijzingen": [
+    "<strong>A · Ana</strong> (♀ mulher)<strong>:</strong> Encontrava-se <strong>num canto</strong> <strong>da divisão</strong>.",
+    "<strong>B · Bruno</strong> (♂ homem)<strong>:</strong> Era <strong>a única pessoa</strong> na <strong>barraca do chocolate quente</strong>.",
+    "<strong>C · Cláudio</strong> (♂ homem)<strong>:</strong> Encontrava-se na <strong>4.ª coluna</strong>. Encontrava-se <strong>numa linha mais acima do que</strong> <strong>Ana</strong>.",
+    "<strong>D · Diana</strong> (♀ mulher · óculos)<strong>:</strong> Era <strong>a única pessoa</strong> na <strong>cabine do locutor</strong>. Encontrava-se na <strong>linha mais acima</strong> <strong>da divisão</strong>.",
+    "<strong>E · Eduardo</strong> (♂ homem)<strong>:</strong> Estava na <strong>5.ª linha</strong>.",
+    "<strong>V · Verónica</strong> (♀ mulher)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Eduardo (E).</strong> A vítima, Verónica, estava no aluguer de patins.",
+   "stappen": [
+    "Cláudio está de certeza na coluna 4, por isso Eduardo não pode estar lá. → Eduardo: [5,1]",
+    "\"Cláudio encontrava-se numa linha mais acima do que Ana.\": para estas casas de Cláudio não há nenhum sítio adequado para Ana. → Cláudio: [1,4]",
+    "Ana está de certeza na linha 3, por isso Bruno não pode estar lá. → Bruno: [2,2]",
+    "Ana está de certeza na linha 3, por isso Verónica não pode estar lá. → Verónica: [6,3]",
+    "Verónica está na [6,3], por isso a linha 6 e a coluna 3 ficam excluídas para Ana. → Ana: [3,6]",
+    "Ana está na [3,6], por isso a linha 3 e a coluna 6 ficam excluídas para Diana. → Diana: [4,5]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "A pista de patinação: a chave sumida",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Faz dez graus negativos. O clima na pista é ainda mais frio.",
+   "aanwijzingen": [
+    "<strong>A · Ana</strong> (♀ mulher)<strong>:</strong> Estava <strong>num canto</strong> <strong>do cômodo</strong>.",
+    "<strong>B · Bruno</strong> (♂ homem)<strong>:</strong> Era <strong>a única pessoa</strong> na <strong>barraquinha de chocolate quente</strong>.",
+    "<strong>C · Cristiano</strong> (♂ homem)<strong>:</strong> Estava na <strong>4ª coluna</strong>. Estava <strong>numa linha mais acima que</strong> a de <strong>Ana</strong>.",
+    "<strong>D · Daiane</strong> (♀ mulher · óculos)<strong>:</strong> Era <strong>a única pessoa</strong> na <strong>cabine do locutor</strong>. Estava na <strong>linha superior</strong> <strong>do cômodo</strong>.",
+    "<strong>E · Eduardo</strong> (♂ homem)<strong>:</strong> Encontrava-se na <strong>5ª linha</strong>.",
+    "<strong>V · Vanessa</strong> (♀ mulher)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Eduardo (E).</strong> A vítima, Vanessa, estava na locadora de patins.",
+   "stappen": [
+    "Cristiano está com certeza na coluna 4, então Eduardo não pode estar ali. → Eduardo em [5,1]",
+    "\"Cristiano estava numa linha mais acima que a de Ana.\": para esses quadrados de Cristiano, não há lugar adequado para Ana. → Cristiano em [1,4]",
+    "Ana está com certeza na linha 3, então Bruno não pode estar ali. → Bruno em [2,2]",
+    "Ana está com certeza na linha 3, então Vanessa não pode estar ali. → Vanessa em [6,3]",
+    "Vanessa está na [6,3], então a linha 6 e a coluna 3 ficam descartadas para Ana. → Ana em [3,6]",
+    "Ana está na [3,6], então a linha 3 e a coluna 6 ficam descartadas para Daiane. → Daiane em [4,5]"
+   ]
+  },
+  "pl": {
+   "titel": "Lodowisko: zaginiony klucz",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Mróz dziesięć stopni. Atmosfera na lodowisku jest jeszcze chłodniejsza.",
+   "aanwijzingen": [
+    "<strong>A · Anna</strong> (♀ kobieta)<strong>:</strong> Była <strong>w rogu</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>B · Bartosz</strong> (♂ mężczyzna)<strong>:</strong> Był <strong>jedyną osobą</strong> w <strong>budce z kakao</strong>.",
+    "<strong>C · Cyrus</strong> (♂ mężczyzna)<strong>:</strong> Był w <strong>4. kolumnie</strong>. Był <strong>w wyższym rzędzie niż</strong> <strong>Anna</strong>.",
+    "<strong>D · Dorota</strong> (♀ kobieta · okulary)<strong>:</strong> Była <strong>jedyną osobą</strong> w <strong>kabinie spikera</strong>. Była w <strong>najwyższym rzędzie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>E · Emil</strong> (♂ mężczyzna)<strong>:</strong> Znajdował się w <strong>5. rzędzie</strong>.",
+    "<strong>V · Valentina</strong> (♀ kobieta)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Emil (E).</strong> Ofiara (Valentina) leżała w wypożyczalni łyżew.",
+   "stappen": [
+    "Cyrus na pewno jest w kolumnie 4, więc Emil nie może tam być. → Emil: [5,1]",
+    "\"Cyrus był w wyższym rzędzie niż Anna.\": dla tych pól Cyrusa nie ma odpowiedniego miejsca dla Anny. → Cyrus: [1,4]",
+    "Anna na pewno jest w rzędzie 3, więc Bartosz nie może tam być. → Bartosz: [2,2]",
+    "Anna na pewno jest w rzędzie 3, więc Valentina nie może tam być. → Valentina: [6,3]",
+    "Valentina jest w rzędzie 6 i kolumnie 3, więc ten rząd i ta kolumna odpadają dla Anny. → Anna: [3,6]",
+    "Anna jest w rzędzie 3 i kolumnie 6, więc ten rząd i ta kolumna odpadają dla Doroty. → Dorota: [4,5]"
+   ]
+  }
+ }
+}

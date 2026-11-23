@@ -1,0 +1,260 @@
+{
+ "week": 46,
+ "id": "L3-00hvzn8",
+ "level": 3,
+ "theme": "museum",
+ "talen": {
+  "en": {
+   "titel": "The Museum: the forged painting",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "The guard did his rounds. Exactly one too few.",
+   "aanwijzingen": [
+    "<strong>A · Albert</strong> (♂ man)<strong>:</strong> Was <strong>in a lower row than</strong> <strong>Dylan</strong>. There was <strong>also</strong> <strong>someone with a hat</strong> in <strong>their room</strong>.",
+    "<strong>B · Brenda</strong> (♀ woman · glasses)<strong>:</strong> Was in the <strong>leftmost column</strong> <strong>of the room</strong>. Was in the <strong>4th row</strong>.",
+    "<strong>C · Cyril</strong> (♂ man)<strong>:</strong> Was in the <strong>3rd column</strong>.",
+    "<strong>D · Dylan</strong> (♂ man)<strong>:</strong> There was <strong>also</strong> <strong>a man</strong> in <strong>their room</strong>.",
+    "<strong>E · Ethan</strong> (♂ man · hat)<strong>:</strong> Was <strong>next to</strong> a <strong>rug</strong>. Was <strong>in a column further left than</strong> <strong>Albert</strong>.",
+    "<strong>V · Vladimir</strong> (♂ man)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Brenda (B).</strong> The victim, Vladimir, lay in the sculpture garden.",
+   "stappen": [
+    "\"Albert was in a lower row than Dylan.\": for these squares of Albert there is no fitting place for Dylan.",
+    "\"Albert was in a lower row than Dylan.\": for these squares of Dylan there is no fitting place for Albert.",
+    "\"There was also someone with a hat in Albert's room.\": in these rooms someone with a hat cannot be with Albert.",
+    "\"Albert was in a lower row than Dylan.\": for these squares of Dylan there is no fitting place for Albert.",
+    "\"There was also a man in Dylan's room.\": in these rooms a man cannot be with Dylan.",
+    "Only Vladimir can still be in column 6. → Vladimir at [5,6]",
+    "Vladimir is on [5,6], so row 5 and column 6 are ruled out for Cyril. → Cyril at [6,3]",
+    "Only Brenda can still be in column 5. → Brenda at [4,5]",
+    "Only Dylan can still be in column 1. → Dylan at [1,1]",
+    "\"Ethan was in a column further left than Albert.\": for these squares of Ethan there is no fitting place for Albert. → Ethan at [2,2]",
+    "Ethan is on [2,2], so row 2 and column 2 are ruled out for Albert. → Albert at [3,4]"
+   ]
+  },
+  "nl": {
+   "titel": "Het museum: het vervalste schilderij",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Het schilderij is vals, de verdachten misschien ook. Het penseel van de waarheid ligt bij jou.",
+   "aanwijzingen": [
+    "<strong>A · Anton</strong> (♂ man)<strong>:</strong> Bevond zich <strong>onder</strong> <strong>Dylan</strong>. Er was <strong>nog iemand</strong> met <strong>een hoed</strong> in de ruimte.",
+    "<strong>B · Barbara</strong> (♀ vrouw · bril)<strong>:</strong> Was in de <strong>linkerkolom</strong> van de ruimte. Bevond zich in de <strong>4e rij</strong>.",
+    "<strong>C · Cedric</strong> (♂ man)<strong>:</strong> Bevond zich in de <strong>3e kolom</strong>.",
+    "<strong>D · Dylan</strong> (♂ man)<strong>:</strong> Er was <strong>nog een</strong> man in de ruimte.",
+    "<strong>E · Emir</strong> (♂ man · hoed)<strong>:</strong> Bevond zich <strong>naast</strong> een <strong>tapijt</strong>. Bevond zich <strong>links van</strong> <strong>Anton</strong>.",
+    "<strong>V · Vladimir</strong> (♂ man)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Barbara (B).</strong> Het slachtoffer Vladimir lag in de beeldentuin.",
+   "stappen": [
+    "\"Anton bevond zich onder Dylan.\": voor deze vakjes van Anton is er geen passende plek voor Dylan.",
+    "\"Anton bevond zich onder Dylan.\": voor deze vakjes van Dylan is er geen passende plek voor Anton.",
+    "\"Er was nog iemand met een hoed in de ruimte van Anton.\": in deze ruimtes kan iemand met een hoed niet bij Anton staan.",
+    "\"Anton bevond zich onder Dylan.\": voor deze vakjes van Dylan is er geen passende plek voor Anton.",
+    "\"Er was nog een man in de ruimte van Dylan.\": in deze ruimtes kan een man niet bij Dylan staan.",
+    "In kolom 6 kan alleen Vladimir nog staan. → Vladimir op [5,6]",
+    "Vladimir staat op [5,6], dus rij 5 en kolom 6 vallen af voor Cedric. → Cedric op [6,3]",
+    "In kolom 5 kan alleen Barbara nog staan. → Barbara op [4,5]",
+    "In kolom 1 kan alleen Dylan nog staan. → Dylan op [1,1]",
+    "\"Emir bevond zich links van Anton.\": voor deze vakjes van Emir is er geen passende plek voor Anton. → Emir op [2,2]",
+    "Emir staat op [2,2], dus rij 2 en kolom 2 vallen af voor Anton. → Anton op [3,4]"
+   ]
+  },
+  "de": {
+   "titel": "Das Museum: das gefälschte Gemälde",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Der Wachmann hat seine Runde gedreht. Genau eine zu wenig.",
+   "aanwijzingen": [
+    "<strong>A · Achim</strong> (♂ Mann)<strong>:</strong> Befand sich in einer <strong>Reihe</strong> <strong>weiter unten als</strong> <strong>Dirk</strong>. In seinem <strong>eigenen</strong> Raum war <strong>außerdem</strong> <strong>jemand mit Hut</strong>.",
+    "<strong>B · Bianca</strong> (♀ Frau · Brille)<strong>:</strong> War in der <strong>Spalte ganz links</strong> <strong>im Raum</strong>. Befand sich in der <strong>4. Reihe</strong>.",
+    "<strong>C · Conrad</strong> (♂ Mann)<strong>:</strong> Befand sich in der <strong>3. Spalte</strong>.",
+    "<strong>D · Dirk</strong> (♂ Mann)<strong>:</strong> In seinem Raum war <strong>außerdem</strong> <strong>ein Mann</strong>.",
+    "<strong>E · Emil</strong> (♂ Mann · Hut)<strong>:</strong> Befand sich <strong>neben</strong> einem <strong>Teppich</strong>. Befand sich in einer <strong>Spalte</strong> <strong>weiter links als</strong> <strong>Achim</strong>.",
+    "<strong>V · Vladimir</strong> (♂ Mann)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Bianca (B).</strong> Das Opfer, Vladimir, lag im Skulpturengarten.",
+   "stappen": [
+    "\"Achim befand sich in einer Reihe weiter unten als Dirk.\": Für diese Felder von Achim gibt es keinen passenden Platz für Dirk.",
+    "\"Achim befand sich in einer Reihe weiter unten als Dirk.\": Für diese Felder von Dirk gibt es keinen passenden Platz für Achim.",
+    "\"In Achims Raum war außerdem jemand mit Hut.\": In diesen Räumen kann jemand mit Hut nicht zusammen mit Achim stehen.",
+    "\"Achim befand sich in einer Reihe weiter unten als Dirk.\": Für diese Felder von Dirk gibt es keinen passenden Platz für Achim.",
+    "\"In Dirks Raum war außerdem ein Mann.\": In diesen Räumen kann ein Mann nicht zusammen mit Dirk stehen.",
+    "In Spalte 6 kann nur noch Vladimir stehen. → Vladimir in [5,6]",
+    "Vladimir steht in [5,6], also fallen Reihe 5 und Spalte 6 für Conrad weg. → Conrad in [6,3]",
+    "In Spalte 5 kann nur noch Bianca stehen. → Bianca in [4,5]",
+    "In Spalte 1 kann nur noch Dirk stehen. → Dirk in [1,1]",
+    "\"Emil befand sich in einer Spalte weiter links als Achim.\": Für diese Felder von Emil gibt es keinen passenden Platz für Achim. → Emil in [2,2]",
+    "Emil steht in [2,2], also fallen Reihe 2 und Spalte 2 für Achim weg. → Achim in [3,4]"
+   ]
+  },
+  "fr": {
+   "titel": "Le musée: le faux tableau",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Le gardien a fait sa ronde. Il en manquait une.",
+   "aanwijzingen": [
+    "<strong>A · Alain</strong> (♂ homme)<strong>:</strong> Était dans une <strong>rangée</strong> <strong>plus basse que</strong> celle de <strong>Damien</strong>. Dans <strong>sa pièce</strong>, il y avait <strong>une autre personne</strong> portant <strong>un chapeau</strong>.",
+    "<strong>B · Bénédicte</strong> (♀ femme · lunettes)<strong>:</strong> Était dans la <strong>colonne</strong> <strong>la plus à gauche</strong> <strong>de sa pièce</strong>. Se trouvait dans la <strong>4e rangée</strong>.",
+    "<strong>C · Christian</strong> (♂ homme)<strong>:</strong> Se trouvait dans la <strong>3e colonne</strong>.",
+    "<strong>D · Damien</strong> (♂ homme)<strong>:</strong> Il y avait <strong>aussi</strong> <strong>un homme</strong> dans <strong>sa pièce</strong>.",
+    "<strong>E · Émile</strong> (♂ homme · chapeau)<strong>:</strong> Se trouvait <strong>à côté</strong> d'un <strong>tapis</strong>. Était dans une <strong>colonne</strong> <strong>plus à gauche que</strong> celle d'<strong>Alain</strong>.",
+    "<strong>V · Valère</strong> (♂ homme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Bénédicte (B).</strong> La victime, Valère, se trouvait dans le jardin de sculptures.",
+   "stappen": [
+    "\"Alain était dans une rangée plus basse que celle de Damien.\" : pour ces cases d'Alain, il n'y a aucune place qui convienne pour Damien.",
+    "\"Alain était dans une rangée plus basse que celle de Damien.\" : pour ces cases de Damien, il n'y a aucune place qui convienne pour Alain.",
+    "\"Dans la pièce d'Alain, il y avait une autre personne portant un chapeau.\" : dans ces pièces, quelqu'un portant un chapeau ne peut pas être avec Alain.",
+    "\"Alain était dans une rangée plus basse que celle de Damien.\" : pour ces cases de Damien, il n'y a aucune place qui convienne pour Alain.",
+    "\"Il y avait aussi un homme dans la pièce de Damien.\" : dans ces pièces, un homme ne peut pas être avec Damien.",
+    "Seul Valère peut encore se trouver dans la colonne 6. → Valère en [5,6]",
+    "Valère se trouve en [5,6], donc la rangée 5 et la colonne 6 sont exclues pour Christian. → Christian en [6,3]",
+    "Seule Bénédicte peut encore se trouver dans la colonne 5. → Bénédicte en [4,5]",
+    "Seul Damien peut encore se trouver dans la colonne 1. → Damien en [1,1]",
+    "\"Émile était dans une colonne plus à gauche que celle d'Alain.\" : pour ces cases d'Émile, il n'y a aucune place qui convienne pour Alain. → Émile en [2,2]",
+    "Émile se trouve en [2,2], donc la rangée 2 et la colonne 2 sont exclues pour Alain. → Alain en [3,4]"
+   ]
+  },
+  "it": {
+   "titel": "Il museo: il quadro falso",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "Il custode ha fatto il suo giro. Esattamente uno di meno.",
+   "aanwijzingen": [
+    "<strong>A · Alfredo</strong> (♂ uomo)<strong>:</strong> Si trovava <strong>in una riga più in basso di</strong> <strong>Dario</strong>. Nella <strong>sua stanza</strong> c'era <strong>anche</strong> <strong>qualcuno che portava un cappello</strong>.",
+    "<strong>B · Bettina</strong> (♀ donna · occhiali)<strong>:</strong> Era nella <strong>colonna più a sinistra</strong> <strong>della stanza</strong>. Si trovava nella <strong>4ª riga</strong>.",
+    "<strong>C · Cosimo</strong> (♂ uomo)<strong>:</strong> Si trovava nella <strong>3ª colonna</strong>.",
+    "<strong>D · Dario</strong> (♂ uomo)<strong>:</strong> Nella <strong>sua stanza</strong> c'era <strong>anche</strong> <strong>un uomo</strong>.",
+    "<strong>E · Emilio</strong> (♂ uomo · cappello)<strong>:</strong> Si trovava <strong>accanto a</strong> un <strong>tappeto</strong>. Si trovava <strong>in una colonna più a sinistra di</strong> <strong>Alfredo</strong>.",
+    "<strong>V · Virgilio</strong> (♂ uomo)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Bettina (B).</strong> La vittima, Virgilio, giaceva nel giardino delle sculture.",
+   "stappen": [
+    "\"Alfredo si trovava in una riga più in basso di Dario.\": per queste caselle di Alfredo non c'è un posto adatto per Dario.",
+    "\"Alfredo si trovava in una riga più in basso di Dario.\": per queste caselle di Dario non c'è un posto adatto per Alfredo.",
+    "\"Nella stanza di Alfredo c'era anche qualcuno che portava un cappello.\": in queste stanze qualcuno con il cappello non può essere insieme ad Alfredo.",
+    "\"Alfredo si trovava in una riga più in basso di Dario.\": per queste caselle di Dario non c'è un posto adatto per Alfredo.",
+    "\"Nella stanza di Dario c'era anche un uomo.\": in queste stanze un uomo non può essere insieme a Dario.",
+    "Solo Virgilio può ancora essere nella colonna 6. → Virgilio in [5,6]",
+    "Virgilio è in [5,6], quindi la riga 5 e la colonna 6 sono escluse per Cosimo. → Cosimo in [6,3]",
+    "Solo Bettina può ancora essere nella colonna 5. → Bettina in [4,5]",
+    "Solo Dario può ancora essere nella colonna 1. → Dario in [1,1]",
+    "\"Emilio si trovava in una colonna più a sinistra di Alfredo.\": per queste caselle di Emilio non c'è un posto adatto per Alfredo. → Emilio in [2,2]",
+    "Emilio è in [2,2], quindi la riga 2 e la colonna 2 sono escluse per Alfredo. → Alfredo in [3,4]"
+   ]
+  },
+  "es": {
+   "titel": "El museo: el cuadro falso",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "El vigilante hizo su ronda. Exactamente una vez de menos.",
+   "aanwijzingen": [
+    "<strong>A · Alejandro</strong> (♂ hombre)<strong>:</strong> Se encontraba <strong>en una fila más baja que la de</strong> <strong>David</strong>. En <strong>su estancia</strong> <strong>también</strong> había <strong>alguien con sombrero</strong>.",
+    "<strong>B · Begoña</strong> (♀ mujer · gafas)<strong>:</strong> Se encontraba en la <strong>columna más a la izquierda</strong> <strong>de su estancia</strong>. Estaba en la <strong>4.ª fila</strong>.",
+    "<strong>C · Cristóbal</strong> (♂ hombre)<strong>:</strong> Estaba en la <strong>3.ª columna</strong>.",
+    "<strong>D · David</strong> (♂ hombre)<strong>:</strong> En <strong>su estancia</strong> <strong>también</strong> había <strong>un hombre</strong>.",
+    "<strong>E · Enrique</strong> (♂ hombre · sombrero)<strong>:</strong> Estaba <strong>junto a</strong> una <strong>alfombra</strong>. Se encontraba <strong>en una columna más a la izquierda que la de</strong> <strong>Alejandro</strong>.",
+    "<strong>V · Virgilio</strong> (♂ hombre)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Begoña (B).</strong> La víctima, Virgilio, yacía en el jardín de esculturas.",
+   "stappen": [
+    "\"Alejandro se encontraba en una fila más baja que la de David.\": para estas casillas de Alejandro no hay ningún sitio adecuado para David.",
+    "\"Alejandro se encontraba en una fila más baja que la de David.\": para estas casillas de David no hay ningún sitio adecuado para Alejandro.",
+    "\"En la estancia de Alejandro también había alguien con sombrero.\": en estas estancias no puede haber nadie con sombrero con Alejandro.",
+    "\"Alejandro se encontraba en una fila más baja que la de David.\": para estas casillas de David no hay ningún sitio adecuado para Alejandro.",
+    "\"En la estancia de David también había un hombre.\": en estas estancias no puede haber ningún hombre con David.",
+    "En la columna 6 ya solo puede estar Virgilio. → Virgilio en [5,6]",
+    "Virgilio está en la fila 5, columna 6, así que la fila 5 y la columna 6 quedan descartadas para Cristóbal. → Cristóbal en [6,3]",
+    "En la columna 5 ya solo puede estar Begoña. → Begoña en [4,5]",
+    "En la columna 1 ya solo puede estar David. → David en [1,1]",
+    "\"Enrique se encontraba en una columna más a la izquierda que la de Alejandro.\": para estas casillas de Enrique no hay ningún sitio adecuado para Alejandro. → Enrique en [2,2]",
+    "Enrique está en la fila 2, columna 2, así que la fila 2 y la columna 2 quedan descartadas para Alejandro. → Alejandro en [3,4]"
+   ]
+  },
+  "pt": {
+   "titel": "O museu: o quadro falsificado",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "O vigilante fez a ronda. Uma vez a menos do que devia.",
+   "aanwijzingen": [
+    "<strong>A · Álvaro</strong> (♂ homem)<strong>:</strong> Encontrava-se <strong>numa linha mais abaixo do que</strong> <strong>Duarte</strong>. Na <strong>sua divisão</strong> havia <strong>também</strong> <strong>alguém de chapéu</strong>.",
+    "<strong>B · Bianca</strong> (♀ mulher · óculos)<strong>:</strong> Estava na <strong>coluna mais à esquerda</strong> <strong>da divisão</strong>. Encontrava-se na <strong>4.ª linha</strong>.",
+    "<strong>C · Custódio</strong> (♂ homem)<strong>:</strong> Encontrava-se na <strong>3.ª coluna</strong>.",
+    "<strong>D · Duarte</strong> (♂ homem)<strong>:</strong> Na <strong>sua divisão</strong> havia <strong>também</strong> <strong>um homem</strong>.",
+    "<strong>E · Emanuel</strong> (♂ homem · chapéu)<strong>:</strong> Encontrava-se <strong>ao lado de</strong> um <strong>tapete</strong>. Encontrava-se <strong>numa coluna mais à esquerda do que</strong> <strong>Álvaro</strong>.",
+    "<strong>V · Virgílio</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Bianca (B).</strong> A vítima, Virgílio, estava no jardim das esculturas.",
+   "stappen": [
+    "\"Álvaro encontrava-se numa linha mais abaixo do que Duarte.\": para estas casas de Álvaro não há nenhum sítio adequado para Duarte.",
+    "\"Álvaro encontrava-se numa linha mais abaixo do que Duarte.\": para estas casas de Duarte não há nenhum sítio adequado para Álvaro.",
+    "\"Na divisão de Álvaro havia também alguém de chapéu.\": nestas divisões não pode estar alguém de chapéu com Álvaro.",
+    "\"Álvaro encontrava-se numa linha mais abaixo do que Duarte.\": para estas casas de Duarte não há nenhum sítio adequado para Álvaro.",
+    "\"Na divisão de Duarte havia também um homem.\": nestas divisões não pode estar um homem com Duarte.",
+    "Só Virgílio ainda pode estar na coluna 6. → Virgílio: [5,6]",
+    "Virgílio está na [5,6], por isso a linha 5 e a coluna 6 ficam excluídas para Custódio. → Custódio: [6,3]",
+    "Só Bianca ainda pode estar na coluna 5. → Bianca: [4,5]",
+    "Só Duarte ainda pode estar na coluna 1. → Duarte: [1,1]",
+    "\"Emanuel encontrava-se numa coluna mais à esquerda do que Álvaro.\": para estas casas de Emanuel não há nenhum sítio adequado para Álvaro. → Emanuel: [2,2]",
+    "Emanuel está na [2,2], por isso a linha 2 e a coluna 2 ficam excluídas para Álvaro. → Álvaro: [3,4]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O museu: a pintura falsificada",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "O vigia fez a ronda. Exatamente uma vez a menos do que devia.",
+   "aanwijzingen": [
+    "<strong>A · Alberto</strong> (♂ homem)<strong>:</strong> Estava <strong>numa linha mais abaixo que</strong> a de <strong>Daniel</strong>. <strong>Além dele</strong>, havia <strong>alguém de chapéu</strong> <strong>no mesmo cômodo</strong>.",
+    "<strong>B · Bárbara</strong> (♀ mulher · óculos)<strong>:</strong> Encontrava-se na <strong>coluna mais à esquerda</strong> <strong>do cômodo</strong>. Estava na <strong>4ª linha</strong>.",
+    "<strong>C · Caetano</strong> (♂ homem)<strong>:</strong> Estava na <strong>3ª coluna</strong>.",
+    "<strong>D · Daniel</strong> (♂ homem)<strong>:</strong> <strong>Além dele</strong>, havia <strong>um homem</strong> <strong>no mesmo cômodo</strong>.",
+    "<strong>E · Enzo</strong> (♂ homem · chapéu)<strong>:</strong> Estava <strong>ao lado de</strong> um <strong>tapete</strong>. Estava <strong>numa coluna mais à esquerda que</strong> a de <strong>Alberto</strong>.",
+    "<strong>V · Vladimir</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Bárbara (B).</strong> A vítima, Vladimir, estava no jardim de esculturas.",
+   "stappen": [
+    "\"Alberto estava numa linha mais abaixo que a de Daniel.\": para esses quadrados de Alberto, não há lugar adequado para Daniel.",
+    "\"Alberto estava numa linha mais abaixo que a de Daniel.\": para esses quadrados de Daniel, não há lugar adequado para Alberto.",
+    "\"Além de Alberto, havia alguém de chapéu no mesmo cômodo.\": nesses cômodos, alguém de chapéu não pode estar com Alberto.",
+    "\"Alberto estava numa linha mais abaixo que a de Daniel.\": para esses quadrados de Daniel, não há lugar adequado para Alberto.",
+    "\"Além de Daniel, havia um homem no mesmo cômodo.\": nesses cômodos, um homem não pode estar com Daniel.",
+    "Só Vladimir ainda pode estar na coluna 6. → Vladimir em [5,6]",
+    "Vladimir está na [5,6], então a linha 5 e a coluna 6 ficam descartadas para Caetano. → Caetano em [6,3]",
+    "Só Bárbara ainda pode estar na coluna 5. → Bárbara em [4,5]",
+    "Só Daniel ainda pode estar na coluna 1. → Daniel em [1,1]",
+    "\"Enzo estava numa coluna mais à esquerda que a de Alberto.\": para esses quadrados de Enzo, não há lugar adequado para Alberto. → Enzo em [2,2]",
+    "Enzo está na [2,2], então a linha 2 e a coluna 2 ficam descartadas para Alberto. → Alberto em [3,4]"
+   ]
+  },
+  "pl": {
+   "titel": "Muzeum: sfałszowany obraz",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Strażnik zrobił obchód. Dokładnie o jeden za mało.",
+   "aanwijzingen": [
+    "<strong>A · Adrian</strong> (♂ mężczyzna)<strong>:</strong> Był <strong>w niższym rzędzie niż</strong> <strong>Daniel</strong>. W pomieszczeniu, w którym był, przebywał <strong>też</strong> ktoś <strong>inny</strong> w <strong>kapeluszu</strong>.",
+    "<strong>B · Blanka</strong> (♀ kobieta · okulary)<strong>:</strong> Znajdowała się w <strong>skrajnej lewej kolumnie</strong> <strong>swojego pomieszczenia</strong>. Była w <strong>4. rzędzie</strong>.",
+    "<strong>C · Carlos</strong> (♂ mężczyzna)<strong>:</strong> Był w <strong>3. kolumnie</strong>.",
+    "<strong>D · Daniel</strong> (♂ mężczyzna)<strong>:</strong> W pomieszczeniu, w którym był, przebywał <strong>też</strong> jakiś <strong>inny</strong> <strong>mężczyzna</strong>.",
+    "<strong>E · Eryk</strong> (♂ mężczyzna · kapelusz)<strong>:</strong> Był <strong>obok</strong> <strong>dywanu</strong>. Był w <strong>kolumnie</strong> <strong>bardziej na lewo niż</strong> <strong>Adrian</strong>.",
+    "<strong>V · Volker</strong> (♂ mężczyzna)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Blanka (B).</strong> Ofiara (Volker) leżała w ogrodzie rzeźb.",
+   "stappen": [
+    "\"Adrian był w niższym rzędzie niż Daniel.\": dla tych pól Adriana nie ma odpowiedniego miejsca dla Daniela.",
+    "\"Adrian był w niższym rzędzie niż Daniel.\": dla tych pól Daniela nie ma odpowiedniego miejsca dla Adriana.",
+    "\"W pomieszczeniu Adriana przebywał też ktoś inny w kapeluszu.\": w tych pomieszczeniach nikt w kapeluszu nie może być razem z Adrianem.",
+    "\"Adrian był w niższym rzędzie niż Daniel.\": dla tych pól Daniela nie ma odpowiedniego miejsca dla Adriana.",
+    "\"W pomieszczeniu Daniela przebywał też jakiś inny mężczyzna.\": w tych pomieszczeniach żaden mężczyzna nie może być razem z Danielem.",
+    "W kolumnie 6 może jeszcze być tylko Volker. → Volker: [5,6]",
+    "Volker jest w rzędzie 5 i kolumnie 6, więc ten rząd i ta kolumna odpadają dla Carlosa. → Carlos: [6,3]",
+    "W kolumnie 5 może jeszcze być tylko Blanka. → Blanka: [4,5]",
+    "W kolumnie 1 może jeszcze być tylko Daniel. → Daniel: [1,1]",
+    "\"Eryk był w kolumnie bardziej na lewo niż Adrian.\": dla tych pól Eryka nie ma odpowiedniego miejsca dla Adriana. → Eryk: [2,2]",
+    "Eryk jest w rzędzie 2 i kolumnie 2, więc ten rząd i ta kolumna odpadają dla Adriana. → Adrian: [3,4]"
+   ]
+  }
+ }
+}

@@ -1,0 +1,233 @@
+{
+ "week": 12,
+ "id": "L3-00hv9eo",
+ "level": 3,
+ "theme": "dierentuin",
+ "talen": {
+  "en": {
+   "titel": "The Zoo: the missing key",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "Silence isn't always golden. Sometimes it's just hiding something.",
+   "aanwijzingen": [
+    "<strong>A · Amelia</strong> (♀ woman · hat)<strong>:</strong> Was in the <strong>bottom half</strong>.",
+    "<strong>B · Becky</strong> (♀ woman · hat)<strong>:</strong> Was <strong>alone</strong> in the <strong>keepers' room</strong>.",
+    "<strong>C · Charles</strong> (♂ man)<strong>:</strong> Was <strong>in a column further left than</strong> <strong>Faye</strong>. Was <strong>no</strong>t at the <strong>petting farm</strong>.",
+    "<strong>D · Dorothy</strong> (♀ woman)<strong>:</strong> Was in the <strong>4th column</strong>.",
+    "<strong>E · Emma</strong> (♀ woman)<strong>:</strong> Was <strong>the only</strong> person in the <strong>aquarium</strong>. Was in the <strong>right half</strong>.",
+    "<strong>F · Faye</strong> (♀ woman)<strong>:</strong> Was in the <strong>6th row</strong>.",
+    "<strong>V · Vivienne</strong> (♀ woman · hat)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Amelia (A).</strong> The victim, Vivienne, lay at the petting farm.",
+   "stappen": [
+    "Because of \"Emma was the only person in the aquarium.\", Dorothy cannot be in the aquarium. → Dorothy at [2,4]",
+    "Emma is certainly in column 5, so Becky cannot be there. → Becky at [4,3]",
+    "Faye is certainly in row 6, so Emma cannot be there. → Emma at [7,5]",
+    "\"Charles was in a column further left than Faye.\": for these squares of Charles there is no fitting place for Faye. → Charles at [1,6]",
+    "\"Charles was in a column further left than Faye.\": for these squares of Faye there is no fitting place for Charles. → Faye at [6,7]",
+    "Faye is on [6,7], so row 6 and column 7 are ruled out for Vivienne. → Vivienne at [3,2]",
+    "Vivienne is on [3,2], so row 3 and column 2 are ruled out for Amelia. → Amelia at [5,1]"
+   ]
+  },
+  "nl": {
+   "titel": "De dierentuin: de verdwenen sleutel",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Eén sleutel is zoek, en ineens wil iedereen weten wat hij openmaakt.",
+   "aanwijzingen": [
+    "<strong>A · Amira</strong> (♀ vrouw · hoed)<strong>:</strong> Bevond zich in de <strong>onderste helft</strong>.",
+    "<strong>B · Brenda</strong> (♀ vrouw · hoed)<strong>:</strong> Was <strong>alleen</strong> in de <strong>verzorgersruimte</strong>.",
+    "<strong>C · Chris</strong> (♂ man)<strong>:</strong> Bevond zich <strong>links van</strong> <strong>Femke</strong>. Bevond zich <strong>niet op</strong> de <strong>kinderboerderij</strong>.",
+    "<strong>D · Dewi</strong> (♀ vrouw)<strong>:</strong> Bevond zich in de <strong>4e kolom</strong>.",
+    "<strong>E · Emma</strong> (♀ vrouw)<strong>:</strong> Was <strong>de enige</strong> persoon in het <strong>aquarium</strong>. Bevond zich in de <strong>rechterhelft</strong>.",
+    "<strong>F · Femke</strong> (♀ vrouw)<strong>:</strong> Bevond zich in de <strong>6e rij</strong>.",
+    "<strong>V · Vivian</strong> (♀ vrouw · hoed)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Amira (A).</strong> Het slachtoffer Vivian lag op de kinderboerderij.",
+   "stappen": [
+    "Door \"Emma was de enige persoon in het aquarium.\" kan Dewi niet in het aquarium staan. → Dewi op [2,4]",
+    "Emma staat zeker in kolom 5, dus Brenda kan daar niet staan. → Brenda op [4,3]",
+    "Femke staat zeker in rij 6, dus Emma kan daar niet staan. → Emma op [7,5]",
+    "\"Chris bevond zich links van Femke.\": voor deze vakjes van Chris is er geen passende plek voor Femke. → Chris op [1,6]",
+    "\"Chris bevond zich links van Femke.\": voor deze vakjes van Femke is er geen passende plek voor Chris. → Femke op [6,7]",
+    "Femke staat op [6,7], dus rij 6 en kolom 7 vallen af voor Vivian. → Vivian op [3,2]",
+    "Vivian staat op [3,2], dus rij 3 en kolom 2 vallen af voor Amira. → Amira op [5,1]"
+   ]
+  },
+  "de": {
+   "titel": "Der Zoo: der verschwundene Schlüssel",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Reden ist Silber, Schweigen ist Gold. Hier ist Schweigen vor allem verdächtig.",
+   "aanwijzingen": [
+    "<strong>A · Anja</strong> (♀ Frau · Hut)<strong>:</strong> Befand sich in der <strong>unteren Hälfte</strong>.",
+    "<strong>B · Brigitte</strong> (♀ Frau · Hut)<strong>:</strong> War <strong>allein</strong> im <strong>Pflegerraum</strong>.",
+    "<strong>C · Carsten</strong> (♂ Mann)<strong>:</strong> Befand sich in einer <strong>Spalte</strong> <strong>weiter links als</strong> <strong>Fatma</strong>. Befand sich <strong>nicht im</strong> <strong>Streichelzoo</strong>.",
+    "<strong>D · Doris</strong> (♀ Frau)<strong>:</strong> Befand sich in der <strong>4. Spalte</strong>.",
+    "<strong>E · Elke</strong> (♀ Frau)<strong>:</strong> War <strong>die einzige</strong> Person im <strong>Aquarium</strong>. Befand sich in der <strong>rechten Hälfte</strong>.",
+    "<strong>F · Fatma</strong> (♀ Frau)<strong>:</strong> Befand sich in der <strong>6. Reihe</strong>.",
+    "<strong>V · Valerie</strong> (♀ Frau · Hut)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Anja (A).</strong> Das Opfer, Valerie, lag im Streichelzoo.",
+   "stappen": [
+    "Wegen \"Elke war die einzige Person im Aquarium.\" kann Doris nicht im Aquarium stehen. → Doris in [2,4]",
+    "Elke steht sicher in Spalte 5, also kann Brigitte dort nicht stehen. → Brigitte in [4,3]",
+    "Fatma steht sicher in Reihe 6, also kann Elke dort nicht stehen. → Elke in [7,5]",
+    "\"Carsten befand sich in einer Spalte weiter links als Fatma.\": Für diese Felder von Carsten gibt es keinen passenden Platz für Fatma. → Carsten in [1,6]",
+    "\"Carsten befand sich in einer Spalte weiter links als Fatma.\": Für diese Felder von Fatma gibt es keinen passenden Platz für Carsten. → Fatma in [6,7]",
+    "Fatma steht in [6,7], also fallen Reihe 6 und Spalte 7 für Valerie weg. → Valerie in [3,2]",
+    "Valerie steht in [3,2], also fallen Reihe 3 und Spalte 2 für Anja weg. → Anja in [5,1]"
+   ]
+  },
+  "fr": {
+   "titel": "Le zoo: la clé disparue",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Qui ne dit mot consent ? Pas toujours. Parfois, on cache simplement quelque chose.",
+   "aanwijzingen": [
+    "<strong>A · Alice</strong> (♀ femme · chapeau)<strong>:</strong> Se trouvait dans la <strong>moitié inférieure</strong>.",
+    "<strong>B · Babette</strong> (♀ femme · chapeau)<strong>:</strong> Était <strong>seule</strong> dans le <strong>local des soigneurs</strong>.",
+    "<strong>C · Cédric</strong> (♂ homme)<strong>:</strong> Était dans une <strong>colonne</strong> <strong>plus à gauche que</strong> celle de <strong>Fabienne</strong>. Ne se trouvait pas à la <strong>ferme pédagogique</strong>.",
+    "<strong>D · Delphine</strong> (♀ femme)<strong>:</strong> Se trouvait dans la <strong>4e colonne</strong>.",
+    "<strong>E · Éloïse</strong> (♀ femme)<strong>:</strong> Était <strong>la seule personne</strong> dans l'<strong>aquarium</strong>. Se trouvait dans la <strong>moitié droite</strong>.",
+    "<strong>F · Fabienne</strong> (♀ femme)<strong>:</strong> Se trouvait dans la <strong>6e rangée</strong>.",
+    "<strong>V · Vanessa</strong> (♀ femme · chapeau)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Alice (A).</strong> La victime, Vanessa, se trouvait à la ferme pédagogique.",
+   "stappen": [
+    "D'après \"Éloïse était la seule personne dans l'aquarium.\", Delphine ne peut pas se trouver dans l'aquarium. → Delphine en [2,4]",
+    "Éloïse se trouve forcément dans la colonne 5, donc Babette ne peut pas s'y trouver. → Babette en [4,3]",
+    "Fabienne se trouve forcément dans la rangée 6, donc Éloïse ne peut pas s'y trouver. → Éloïse en [7,5]",
+    "\"Cédric était dans une colonne plus à gauche que celle de Fabienne.\" : pour ces cases de Cédric, il n'y a aucune place qui convienne pour Fabienne. → Cédric en [1,6]",
+    "\"Cédric était dans une colonne plus à gauche que celle de Fabienne.\" : pour ces cases de Fabienne, il n'y a aucune place qui convienne pour Cédric. → Fabienne en [6,7]",
+    "Fabienne se trouve en [6,7], donc la rangée 6 et la colonne 7 sont exclues pour Vanessa. → Vanessa en [3,2]",
+    "Vanessa se trouve en [3,2], donc la rangée 3 et la colonne 2 sont exclues pour Alice. → Alice en [5,1]"
+   ]
+  },
+  "it": {
+   "titel": "Lo zoo: la chiave scomparsa",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "Chi tace acconsente? Non sempre. A volte nasconde qualcosa.",
+   "aanwijzingen": [
+    "<strong>A · Alessia</strong> (♀ donna · cappello)<strong>:</strong> Si trovava nella <strong>metà inferiore</strong>.",
+    "<strong>B · Berenice</strong> (♀ donna · cappello)<strong>:</strong> Era <strong>da sola</strong> nella <strong>stanza dei guardiani</strong>.",
+    "<strong>C · Claudio</strong> (♂ uomo)<strong>:</strong> Si trovava <strong>in una colonna più a sinistra di</strong> <strong>Flavia</strong>. <strong>Non si trovava</strong> alla <strong>fattoria didattica</strong>.",
+    "<strong>D · Daniela</strong> (♀ donna)<strong>:</strong> Si trovava nella <strong>4ª colonna</strong>.",
+    "<strong>E · Eleonora</strong> (♀ donna)<strong>:</strong> Era <strong>l'unica persona</strong> nell'<strong>acquario</strong>. Si trovava nella <strong>metà destra</strong>.",
+    "<strong>F · Flavia</strong> (♀ donna)<strong>:</strong> Si trovava nella <strong>6ª riga</strong>.",
+    "<strong>V · Viviana</strong> (♀ donna · cappello)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Alessia (A).</strong> La vittima, Viviana, giaceva alla fattoria didattica.",
+   "stappen": [
+    "In base a \"Eleonora era l'unica persona nell'acquario.\", Daniela non può essere nell'acquario. → Daniela in [2,4]",
+    "Eleonora è sicuramente nella colonna 5, quindi Berenice non può essere lì. → Berenice in [4,3]",
+    "Flavia è sicuramente nella riga 6, quindi Eleonora non può essere lì. → Eleonora in [7,5]",
+    "\"Claudio si trovava in una colonna più a sinistra di Flavia.\": per queste caselle di Claudio non c'è un posto adatto per Flavia. → Claudio in [1,6]",
+    "\"Claudio si trovava in una colonna più a sinistra di Flavia.\": per queste caselle di Flavia non c'è un posto adatto per Claudio. → Flavia in [6,7]",
+    "Flavia è in [6,7], quindi la riga 6 e la colonna 7 sono escluse per Viviana. → Viviana in [3,2]",
+    "Viviana è in [3,2], quindi la riga 3 e la colonna 2 sono escluse per Alessia. → Alessia in [5,1]"
+   ]
+  },
+  "es": {
+   "titel": "El zoo: la llave perdida",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "Quien calla, otorga. O esconde algo.",
+   "aanwijzingen": [
+    "<strong>A · Alicia</strong> (♀ mujer · sombrero)<strong>:</strong> Estaba en la <strong>mitad inferior</strong>.",
+    "<strong>B · Bibiana</strong> (♀ mujer · sombrero)<strong>:</strong> Estaba <strong>sola</strong> en la <strong>sala de cuidadores</strong>.",
+    "<strong>C · César</strong> (♂ hombre)<strong>:</strong> Se encontraba <strong>en una columna más a la izquierda que la de</strong> <strong>Felisa</strong>. <strong>No se encontraba</strong> en la <strong>granja escuela</strong>.",
+    "<strong>D · Diana</strong> (♀ mujer)<strong>:</strong> Estaba en la <strong>4.ª columna</strong>.",
+    "<strong>E · Elisa</strong> (♀ mujer)<strong>:</strong> Era <strong>la única persona</strong> en el <strong>acuario</strong>. Estaba en la <strong>mitad derecha</strong>.",
+    "<strong>F · Felisa</strong> (♀ mujer)<strong>:</strong> Estaba en la <strong>6.ª fila</strong>.",
+    "<strong>V · Vanesa</strong> (♀ mujer · sombrero)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Alicia (A).</strong> La víctima, Vanesa, yacía en la granja escuela.",
+   "stappen": [
+    "Por \"Elisa era la única persona en el acuario.\", Diana no puede estar en el acuario. → Diana en [2,4]",
+    "Elisa está con seguridad en la columna 5, así que Bibiana no puede estar ahí. → Bibiana en [4,3]",
+    "Felisa está con seguridad en la fila 6, así que Elisa no puede estar ahí. → Elisa en [7,5]",
+    "\"César se encontraba en una columna más a la izquierda que la de Felisa.\": para estas casillas de César no hay ningún sitio adecuado para Felisa. → César en [1,6]",
+    "\"César se encontraba en una columna más a la izquierda que la de Felisa.\": para estas casillas de Felisa no hay ningún sitio adecuado para César. → Felisa en [6,7]",
+    "Felisa está en la fila 6, columna 7, así que la fila 6 y la columna 7 quedan descartadas para Vanesa. → Vanesa en [3,2]",
+    "Vanesa está en la fila 3, columna 2, así que la fila 3 y la columna 2 quedan descartadas para Alicia. → Alicia en [5,1]"
+   ]
+  },
+  "pt": {
+   "titel": "O jardim zoológico: a chave desaparecida",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Quem cala consente? Nem sempre. Às vezes só está a esconder alguma coisa.",
+   "aanwijzingen": [
+    "<strong>A · Alice</strong> (♀ mulher · chapéu)<strong>:</strong> Encontrava-se na <strong>metade inferior</strong>.",
+    "<strong>B · Brígida</strong> (♀ mulher · chapéu)<strong>:</strong> Estava <strong>sozinha</strong> na <strong>sala dos tratadores</strong>.",
+    "<strong>C · Cristiano</strong> (♂ homem)<strong>:</strong> Encontrava-se <strong>numa coluna mais à esquerda do que</strong> <strong>Flávia</strong>. <strong>Não se encontrava</strong> na <strong>quinta pedagógica</strong>.",
+    "<strong>D · Diana</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>4.ª coluna</strong>.",
+    "<strong>E · Eunice</strong> (♀ mulher)<strong>:</strong> Era <strong>a única pessoa</strong> no <strong>aquário</strong>. Encontrava-se na <strong>metade direita</strong>.",
+    "<strong>F · Flávia</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>6.ª linha</strong>.",
+    "<strong>V · Valéria</strong> (♀ mulher · chapéu)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Alice (A).</strong> A vítima, Valéria, estava na quinta pedagógica.",
+   "stappen": [
+    "Por causa de \"Eunice era a única pessoa no aquário.\", Diana não pode estar no aquário. → Diana: [2,4]",
+    "Eunice está de certeza na coluna 5, por isso Brígida não pode estar lá. → Brígida: [4,3]",
+    "Flávia está de certeza na linha 6, por isso Eunice não pode estar lá. → Eunice: [7,5]",
+    "\"Cristiano encontrava-se numa coluna mais à esquerda do que Flávia.\": para estas casas de Cristiano não há nenhum sítio adequado para Flávia. → Cristiano: [1,6]",
+    "\"Cristiano encontrava-se numa coluna mais à esquerda do que Flávia.\": para estas casas de Flávia não há nenhum sítio adequado para Cristiano. → Flávia: [6,7]",
+    "Flávia está na [6,7], por isso a linha 6 e a coluna 7 ficam excluídas para Valéria. → Valéria: [3,2]",
+    "Valéria está na [3,2], por isso a linha 3 e a coluna 2 ficam excluídas para Alice. → Alice: [5,1]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O zoológico: a chave sumida",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Quem cala nem sempre consente. Às vezes só está escondendo alguma coisa.",
+   "aanwijzingen": [
+    "<strong>A · Amanda</strong> (♀ mulher · chapéu)<strong>:</strong> Estava na <strong>metade inferior</strong>.",
+    "<strong>B · Betânia</strong> (♀ mulher · chapéu)<strong>:</strong> Estava <strong>sozinha</strong> na <strong>sala dos tratadores</strong>.",
+    "<strong>C · Caio</strong> (♂ homem)<strong>:</strong> Estava <strong>numa coluna mais à esquerda que</strong> a de <strong>Fabíola</strong>. <strong>Não se encontrava</strong> na <strong>fazendinha</strong>.",
+    "<strong>D · Daiane</strong> (♀ mulher)<strong>:</strong> Estava na <strong>4ª coluna</strong>.",
+    "<strong>E · Ester</strong> (♀ mulher)<strong>:</strong> Era <strong>a única pessoa</strong> no <strong>aquário</strong>. Estava na <strong>metade direita</strong>.",
+    "<strong>F · Fabíola</strong> (♀ mulher)<strong>:</strong> Estava na <strong>6ª linha</strong>.",
+    "<strong>V · Viviane</strong> (♀ mulher · chapéu)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Amanda (A).</strong> A vítima, Viviane, estava na fazendinha.",
+   "stappen": [
+    "Por causa de \"Ester era a única pessoa no aquário.\", Daiane não pode estar no aquário. → Daiane em [2,4]",
+    "Ester está com certeza na coluna 5, então Betânia não pode estar ali. → Betânia em [4,3]",
+    "Fabíola está com certeza na linha 6, então Ester não pode estar ali. → Ester em [7,5]",
+    "\"Caio estava numa coluna mais à esquerda que a de Fabíola.\": para esses quadrados de Caio, não há lugar adequado para Fabíola. → Caio em [1,6]",
+    "\"Caio estava numa coluna mais à esquerda que a de Fabíola.\": para esses quadrados de Fabíola, não há lugar adequado para Caio. → Fabíola em [6,7]",
+    "Fabíola está na [6,7], então a linha 6 e a coluna 7 ficam descartadas para Viviane. → Viviane em [3,2]",
+    "Viviane está na [3,2], então a linha 3 e a coluna 2 ficam descartadas para Amanda. → Amanda em [5,1]"
+   ]
+  },
+  "pl": {
+   "titel": "Zoo: zaginiony klucz",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Mowa jest srebrem, a milczenie złotem. Chyba że ktoś po prostu coś ukrywa.",
+   "aanwijzingen": [
+    "<strong>A · Agata</strong> (♀ kobieta · kapelusz)<strong>:</strong> Była w <strong>dolnej połowie</strong> planszy.",
+    "<strong>B · Bogna</strong> (♀ kobieta · kapelusz)<strong>:</strong> <strong>Była sama</strong> w <strong>pokoju opiekunów</strong>.",
+    "<strong>C · Cyprian</strong> (♂ mężczyzna)<strong>:</strong> Był w <strong>kolumnie</strong> <strong>bardziej na lewo niż</strong> <strong>Flora</strong>. Nie znajdował się w <strong>zagrodzie dla dzieci</strong>.",
+    "<strong>D · Dorota</strong> (♀ kobieta)<strong>:</strong> Była w <strong>4. kolumnie</strong>.",
+    "<strong>E · Edyta</strong> (♀ kobieta)<strong>:</strong> Była <strong>jedyną osobą</strong> w <strong>akwarium</strong>. Była w <strong>prawej połowie</strong> planszy.",
+    "<strong>F · Flora</strong> (♀ kobieta)<strong>:</strong> Była w <strong>6. rzędzie</strong>.",
+    "<strong>V · Vanessa</strong> (♀ kobieta · kapelusz)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Agata (A).</strong> Ofiara (Vanessa) leżała w zagrodzie dla dzieci.",
+   "stappen": [
+    "Ze wskazówki \"Edyta była jedyną osobą w akwarium.\" wynika, że Dorota nie może być w akwarium. → Dorota: [2,4]",
+    "Edyta na pewno jest w kolumnie 5, więc Bogna nie może tam być. → Bogna: [4,3]",
+    "Flora na pewno jest w rzędzie 6, więc Edyta nie może tam być. → Edyta: [7,5]",
+    "\"Cyprian był w kolumnie bardziej na lewo niż Flora.\": dla tych pól Cypriana nie ma odpowiedniego miejsca dla Flory. → Cyprian: [1,6]",
+    "\"Cyprian był w kolumnie bardziej na lewo niż Flora.\": dla tych pól Flory nie ma odpowiedniego miejsca dla Cypriana. → Flora: [6,7]",
+    "Flora jest w rzędzie 6 i kolumnie 7, więc ten rząd i ta kolumna odpadają dla Vanessy. → Vanessa: [3,2]",
+    "Vanessa jest w rzędzie 3 i kolumnie 2, więc ten rząd i ta kolumna odpadają dla Agaty. → Agata: [5,1]"
+   ]
+  }
+ }
+}

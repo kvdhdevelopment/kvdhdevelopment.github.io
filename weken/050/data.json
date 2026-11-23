@@ -1,0 +1,251 @@
+{
+ "week": 50,
+ "id": "L3-00hw2q8",
+ "level": 3,
+ "theme": "kasteel",
+ "talen": {
+  "en": {
+   "titel": "The Castle: the crown jewels",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "The tower clock strikes midnight. The witching hour has begun.",
+   "aanwijzingen": [
+    "<strong>A · Ava</strong> (♀ woman)<strong>:</strong> Was in the <strong>2nd column</strong>. Was <strong>somewhere below</strong> <strong>Becky</strong>.",
+    "<strong>B · Becky</strong> (♀ woman)<strong>:</strong> <strong>Someone else</strong> in <strong>their room</strong> was <strong>a woman</strong>.",
+    "<strong>C · Chloe</strong> (♀ woman)<strong>:</strong> Was <strong>not in</strong> the <strong>2nd row</strong>.",
+    "<strong>D · Dylan</strong> (♂ man)<strong>:</strong> In <strong>their room</strong> there was <strong>no</strong> <strong>cupboard</strong>. Was <strong>in a higher row than</strong> <strong>Becky</strong>.",
+    "<strong>E · Elliot</strong> (♂ man · glasses · hat)<strong>:</strong> Was <strong>the only</strong> person in the <strong>kitchen</strong>. Was <strong>not next to</strong> a <strong>chair</strong>.",
+    "<strong>V · Vladimir</strong> (♂ man · hat)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Chloe (C).</strong> The victim, Vladimir, lay in the treasury.",
+   "stappen": [
+    "\"Ava was somewhere below Becky.\": for these squares of Becky there is no fitting place for Ava.",
+    "\"Dylan was in a higher row than Becky.\": for these squares of Dylan there is no fitting place for Becky.",
+    "\"Someone else in Becky's room was a woman.\": in these rooms a woman cannot be with Becky.",
+    "\"Dylan was in a higher row than Becky.\": for these squares of Becky there is no fitting place for Dylan.",
+    "Becky is certainly in row 5, so Ava cannot be there. → Ava at [6,2]",
+    "\"Someone else in Becky's room was a woman.\": in these rooms a woman cannot be with Becky. → Becky at [5,1]",
+    "Elliot is certainly in column 3, so Dylan cannot be there. → Dylan at [4,4]",
+    "Only Vladimir can still be in row 2. → Vladimir at [2,5]",
+    "Vladimir is on [2,5], so row 2 and column 5 are ruled out for Chloe. → Chloe at [3,6]",
+    "Chloe is on [3,6], so row 3 and column 6 are ruled out for Elliot. → Elliot at [1,3]"
+   ]
+  },
+  "nl": {
+   "titel": "Het kasteel: de kroonjuwelen",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "De kroonjuwelen glimmen. De gezichten van de verdachten een stuk minder.",
+   "aanwijzingen": [
+    "<strong>A · Astrid</strong> (♀ vrouw)<strong>:</strong> Bevond zich in de <strong>2e kolom</strong>. Bevond zich <strong>ergens onder</strong> <strong>Brenda</strong>.",
+    "<strong>B · Brenda</strong> (♀ vrouw)<strong>:</strong> <strong>Iemand anders</strong> in de ruimte was <strong>een vrouw</strong>.",
+    "<strong>C · Celine</strong> (♀ vrouw)<strong>:</strong> Bevond zich <strong>niet in</strong> de <strong>2e rij</strong>.",
+    "<strong>D · Dylan</strong> (♂ man)<strong>:</strong> In de ruimte stond <strong>geen</strong> <strong>kast</strong>. Bevond zich <strong>boven</strong> <strong>Brenda</strong>.",
+    "<strong>E · Elias</strong> (♂ man · bril · hoed)<strong>:</strong> Was <strong>de enige</strong> persoon in de <strong>keuken</strong>. Bevond zich <strong>niet naast</strong> een <strong>stoel</strong>.",
+    "<strong>V · Vladimir</strong> (♂ man · hoed)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Celine (C).</strong> Het slachtoffer Vladimir lag in de schatkamer.",
+   "stappen": [
+    "\"Astrid bevond zich ergens onder Brenda.\": voor deze vakjes van Brenda is er geen passende plek voor Astrid.",
+    "\"Dylan bevond zich boven Brenda.\": voor deze vakjes van Dylan is er geen passende plek voor Brenda.",
+    "\"Iemand anders in de ruimte van Brenda was een vrouw.\": in deze ruimtes kan een vrouw niet bij Brenda staan.",
+    "\"Dylan bevond zich boven Brenda.\": voor deze vakjes van Brenda is er geen passende plek voor Dylan.",
+    "Brenda staat zeker in rij 5, dus Astrid kan daar niet staan. → Astrid op [6,2]",
+    "\"Iemand anders in de ruimte van Brenda was een vrouw.\": in deze ruimtes kan een vrouw niet bij Brenda staan. → Brenda op [5,1]",
+    "Elias staat zeker in kolom 3, dus Dylan kan daar niet staan. → Dylan op [4,4]",
+    "In rij 2 kan alleen Vladimir nog staan. → Vladimir op [2,5]",
+    "Vladimir staat op [2,5], dus rij 2 en kolom 5 vallen af voor Celine. → Celine op [3,6]",
+    "Celine staat op [3,6], dus rij 3 en kolom 6 vallen af voor Elias. → Elias op [1,3]"
+   ]
+  },
+  "de": {
+   "titel": "Die Burg: die Kronjuwelen",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Die Turmuhr schlägt Mitternacht. Die Geisterstunde hat begonnen.",
+   "aanwijzingen": [
+    "<strong>A · Alina</strong> (♀ Frau)<strong>:</strong> Befand sich in der <strong>2. Spalte</strong>. Befand sich <strong>irgendwo unterhalb von</strong> <strong>Brigitte</strong>.",
+    "<strong>B · Brigitte</strong> (♀ Frau)<strong>:</strong> <strong>Eine andere Person</strong> in ihrem Raum war <strong>eine Frau</strong>.",
+    "<strong>C · Christina</strong> (♀ Frau)<strong>:</strong> Befand sich <strong>nicht in</strong> der <strong>2. Reihe</strong>.",
+    "<strong>D · Dirk</strong> (♂ Mann)<strong>:</strong> In seinem Raum gab es <strong>keinen</strong> <strong>Schrank</strong>. Befand sich in einer <strong>Reihe</strong> <strong>weiter oben als</strong> <strong>Brigitte</strong>.",
+    "<strong>E · Elias</strong> (♂ Mann · Brille · Hut)<strong>:</strong> War <strong>die einzige</strong> Person in der <strong>Küche</strong>. Befand sich <strong>neben keinem</strong> <strong>Stuhl</strong>.",
+    "<strong>V · Vladimir</strong> (♂ Mann · Hut)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Christina (C).</strong> Das Opfer, Vladimir, lag in der Schatzkammer.",
+   "stappen": [
+    "\"Alina befand sich irgendwo unterhalb von Brigitte.\": Für diese Felder von Brigitte gibt es keinen passenden Platz für Alina.",
+    "\"Dirk befand sich in einer Reihe weiter oben als Brigitte.\": Für diese Felder von Dirk gibt es keinen passenden Platz für Brigitte.",
+    "\"Eine andere Person in Brigittes Raum war eine Frau.\": In diesen Räumen kann eine Frau nicht zusammen mit Brigitte stehen.",
+    "\"Dirk befand sich in einer Reihe weiter oben als Brigitte.\": Für diese Felder von Brigitte gibt es keinen passenden Platz für Dirk.",
+    "Brigitte steht sicher in Reihe 5, also kann Alina dort nicht stehen. → Alina in [6,2]",
+    "\"Eine andere Person in Brigittes Raum war eine Frau.\": In diesen Räumen kann eine Frau nicht zusammen mit Brigitte stehen. → Brigitte in [5,1]",
+    "Elias steht sicher in Spalte 3, also kann Dirk dort nicht stehen. → Dirk in [4,4]",
+    "In Reihe 2 kann nur noch Vladimir stehen. → Vladimir in [2,5]",
+    "Vladimir steht in [2,5], also fallen Reihe 2 und Spalte 5 für Christina weg. → Christina in [3,6]",
+    "Christina steht in [3,6], also fallen Reihe 3 und Spalte 6 für Elias weg. → Elias in [1,3]"
+   ]
+  },
+  "fr": {
+   "titel": "Le château: les joyaux de la couronne",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "L'horloge du donjon sonne minuit. L'heure des fantômes a commencé.",
+   "aanwijzingen": [
+    "<strong>A · Anaïs</strong> (♀ femme)<strong>:</strong> Se trouvait dans la <strong>2e colonne</strong>. Se trouvait <strong>quelque part en dessous</strong> de <strong>Babette</strong>.",
+    "<strong>B · Babette</strong> (♀ femme)<strong>:</strong> <strong>Quelqu'un d'autre</strong> dans <strong>sa pièce</strong> était <strong>une femme</strong>.",
+    "<strong>C · Céline</strong> (♀ femme)<strong>:</strong> Ne se trouvait <strong>pas dans</strong> la <strong>2e rangée</strong>.",
+    "<strong>D · Damien</strong> (♂ homme)<strong>:</strong> Dans <strong>sa pièce</strong>, il n'y avait <strong>aucune</strong> <strong>armoire</strong>. Était dans une <strong>rangée</strong> <strong>plus haute que</strong> celle de <strong>Babette</strong>.",
+    "<strong>E · Éric</strong> (♂ homme · lunettes · chapeau)<strong>:</strong> Était <strong>la seule personne</strong> dans la <strong>cuisine</strong>. Ne se trouvait <strong>pas à côté</strong> d'une <strong>chaise</strong>.",
+    "<strong>V · Valère</strong> (♂ homme · chapeau)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Céline (C).</strong> La victime, Valère, se trouvait dans la salle du trésor.",
+   "stappen": [
+    "\"Anaïs se trouvait quelque part en dessous de Babette.\" : pour ces cases de Babette, il n'y a aucune place qui convienne pour Anaïs.",
+    "\"Damien était dans une rangée plus haute que celle de Babette.\" : pour ces cases de Damien, il n'y a aucune place qui convienne pour Babette.",
+    "\"Quelqu'un d'autre dans la pièce de Babette était une femme.\" : dans ces pièces, une femme ne peut pas être avec Babette.",
+    "\"Damien était dans une rangée plus haute que celle de Babette.\" : pour ces cases de Babette, il n'y a aucune place qui convienne pour Damien.",
+    "Babette se trouve forcément dans la rangée 5, donc Anaïs ne peut pas s'y trouver. → Anaïs en [6,2]",
+    "\"Quelqu'un d'autre dans la pièce de Babette était une femme.\" : dans ces pièces, une femme ne peut pas être avec Babette. → Babette en [5,1]",
+    "Éric se trouve forcément dans la colonne 3, donc Damien ne peut pas s'y trouver. → Damien en [4,4]",
+    "Seul Valère peut encore se trouver dans la rangée 2. → Valère en [2,5]",
+    "Valère se trouve en [2,5], donc la rangée 2 et la colonne 5 sont exclues pour Céline. → Céline en [3,6]",
+    "Céline se trouve en [3,6], donc la rangée 3 et la colonne 6 sont exclues pour Éric. → Éric en [1,3]"
+   ]
+  },
+  "it": {
+   "titel": "Il castello: i gioielli della corona",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "L'orologio della torre batte la mezzanotte. È l'ora delle streghe.",
+   "aanwijzingen": [
+    "<strong>A · Alice</strong> (♀ donna)<strong>:</strong> Si trovava nella <strong>2ª colonna</strong>. Si trovava <strong>da qualche parte</strong> <strong>più in basso di</strong> <strong>Berenice</strong>.",
+    "<strong>B · Berenice</strong> (♀ donna)<strong>:</strong> <strong>Qualcun altro</strong> nella <strong>sua stanza</strong> era <strong>una donna</strong>.",
+    "<strong>C · Cecilia</strong> (♀ donna)<strong>:</strong> <strong>Non si trovava</strong> nella <strong>2ª riga</strong>.",
+    "<strong>D · Dario</strong> (♂ uomo)<strong>:</strong> Nella <strong>sua stanza</strong> non c'era <strong>nessun</strong> <strong>armadio</strong>. Si trovava <strong>in una riga più in alto di</strong> <strong>Berenice</strong>.",
+    "<strong>E · Edoardo</strong> (♂ uomo · occhiali · cappello)<strong>:</strong> Era <strong>l'unica persona</strong> in <strong>cucina</strong>. <strong>Non si trovava accanto a</strong> una <strong>sedia</strong>.",
+    "<strong>V · Virgilio</strong> (♂ uomo · cappello)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Cecilia (C).</strong> La vittima, Virgilio, giaceva nella sala del tesoro.",
+   "stappen": [
+    "\"Alice si trovava da qualche parte più in basso di Berenice.\": per queste caselle di Berenice non c'è un posto adatto per Alice.",
+    "\"Dario si trovava in una riga più in alto di Berenice.\": per queste caselle di Dario non c'è un posto adatto per Berenice.",
+    "\"Qualcun altro nella stanza di Berenice era una donna.\": in queste stanze una donna non può essere insieme a Berenice.",
+    "\"Dario si trovava in una riga più in alto di Berenice.\": per queste caselle di Berenice non c'è un posto adatto per Dario.",
+    "Berenice è sicuramente nella riga 5, quindi Alice non può essere lì. → Alice in [6,2]",
+    "\"Qualcun altro nella stanza di Berenice era una donna.\": in queste stanze una donna non può essere insieme a Berenice. → Berenice in [5,1]",
+    "Edoardo è sicuramente nella colonna 3, quindi Dario non può essere lì. → Dario in [4,4]",
+    "Solo Virgilio può ancora essere nella riga 2. → Virgilio in [2,5]",
+    "Virgilio è in [2,5], quindi la riga 2 e la colonna 5 sono escluse per Cecilia. → Cecilia in [3,6]",
+    "Cecilia è in [3,6], quindi la riga 3 e la colonna 6 sono escluse per Edoardo. → Edoardo in [1,3]"
+   ]
+  },
+  "es": {
+   "titel": "El castillo: las joyas de la corona",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "El reloj de la torre da la medianoche. Empieza la hora de los fantasmas.",
+   "aanwijzingen": [
+    "<strong>A · Amaia</strong> (♀ mujer)<strong>:</strong> Estaba en la <strong>2.ª columna</strong>. Estaba <strong>en algún lugar</strong> <strong>por debajo de</strong> <strong>Bibiana</strong>.",
+    "<strong>B · Bibiana</strong> (♀ mujer)<strong>:</strong> <strong>Alguien más</strong> en <strong>su estancia</strong> era <strong>una mujer</strong>.",
+    "<strong>C · Cristina</strong> (♀ mujer)<strong>:</strong> <strong>No estaba</strong> en la <strong>2.ª fila</strong>.",
+    "<strong>D · David</strong> (♂ hombre)<strong>:</strong> En <strong>su estancia</strong> no había <strong>ningún</strong> <strong>armario</strong>. Se encontraba <strong>en una fila más alta que la de</strong> <strong>Bibiana</strong>.",
+    "<strong>E · Esteban</strong> (♂ hombre · gafas · sombrero)<strong>:</strong> Era <strong>la única persona</strong> en la <strong>cocina</strong>. <strong>No estaba</strong> <strong>junto a</strong> <strong>ninguna</strong> <strong>silla</strong>.",
+    "<strong>V · Virgilio</strong> (♂ hombre · sombrero)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Cristina (C).</strong> La víctima, Virgilio, yacía en la cámara del tesoro.",
+   "stappen": [
+    "\"Amaia estaba en algún lugar por debajo de Bibiana.\": para estas casillas de Bibiana no hay ningún sitio adecuado para Amaia.",
+    "\"David se encontraba en una fila más alta que la de Bibiana.\": para estas casillas de David no hay ningún sitio adecuado para Bibiana.",
+    "\"Alguien más en la estancia de Bibiana era una mujer.\": en estas estancias no puede haber ninguna mujer con Bibiana.",
+    "\"David se encontraba en una fila más alta que la de Bibiana.\": para estas casillas de Bibiana no hay ningún sitio adecuado para David.",
+    "Bibiana está con seguridad en la fila 5, así que Amaia no puede estar ahí. → Amaia en [6,2]",
+    "\"Alguien más en la estancia de Bibiana era una mujer.\": en estas estancias no puede haber ninguna mujer con Bibiana. → Bibiana en [5,1]",
+    "Esteban está con seguridad en la columna 3, así que David no puede estar ahí. → David en [4,4]",
+    "En la fila 2 ya solo puede estar Virgilio. → Virgilio en [2,5]",
+    "Virgilio está en la fila 2, columna 5, así que la fila 2 y la columna 5 quedan descartadas para Cristina. → Cristina en [3,6]",
+    "Cristina está en la fila 3, columna 6, así que la fila 3 y la columna 6 quedan descartadas para Esteban. → Esteban en [1,3]"
+   ]
+  },
+  "pt": {
+   "titel": "O castelo: as joias da coroa",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "O relógio da torre bate a meia-noite. Começou a hora das almas penadas.",
+   "aanwijzingen": [
+    "<strong>A · Adriana</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>2.ª coluna</strong>. Encontrava-se <strong>algures abaixo de</strong> <strong>Brígida</strong>.",
+    "<strong>B · Brígida</strong> (♀ mulher)<strong>:</strong> <strong>Outra pessoa</strong> na <strong>sua divisão</strong> era <strong>uma mulher</strong>.",
+    "<strong>C · Catarina</strong> (♀ mulher)<strong>:</strong> <strong>Não se encontrava</strong> na <strong>2.ª linha</strong>.",
+    "<strong>D · Duarte</strong> (♂ homem)<strong>:</strong> Na <strong>sua divisão</strong> não havia <strong>nenhum</strong> <strong>armário</strong>. Encontrava-se <strong>numa linha mais acima do que</strong> <strong>Brígida</strong>.",
+    "<strong>E · Ernesto</strong> (♂ homem · óculos · chapéu)<strong>:</strong> Era <strong>a única pessoa</strong> na <strong>cozinha</strong>. <strong>Não se encontrava</strong> <strong>ao lado de</strong> uma <strong>cadeira</strong>.",
+    "<strong>V · Virgílio</strong> (♂ homem · chapéu)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Catarina (C).</strong> A vítima, Virgílio, estava na sala do tesouro.",
+   "stappen": [
+    "\"Adriana encontrava-se algures abaixo de Brígida.\": para estas casas de Brígida não há nenhum sítio adequado para Adriana.",
+    "\"Duarte encontrava-se numa linha mais acima do que Brígida.\": para estas casas de Duarte não há nenhum sítio adequado para Brígida.",
+    "\"Outra pessoa na divisão de Brígida era uma mulher.\": nestas divisões não pode estar uma mulher com Brígida.",
+    "\"Duarte encontrava-se numa linha mais acima do que Brígida.\": para estas casas de Brígida não há nenhum sítio adequado para Duarte.",
+    "Brígida está de certeza na linha 5, por isso Adriana não pode estar lá. → Adriana: [6,2]",
+    "\"Outra pessoa na divisão de Brígida era uma mulher.\": nestas divisões não pode estar uma mulher com Brígida. → Brígida: [5,1]",
+    "Ernesto está de certeza na coluna 3, por isso Duarte não pode estar lá. → Duarte: [4,4]",
+    "Só Virgílio ainda pode estar na linha 2. → Virgílio: [2,5]",
+    "Virgílio está na [2,5], por isso a linha 2 e a coluna 5 ficam excluídas para Catarina. → Catarina: [3,6]",
+    "Catarina está na [3,6], por isso a linha 3 e a coluna 6 ficam excluídas para Ernesto. → Ernesto: [1,3]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O castelo: as joias da coroa",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "O relógio da torre bate meia-noite. A hora das assombrações começou.",
+   "aanwijzingen": [
+    "<strong>A · Alice</strong> (♀ mulher)<strong>:</strong> Estava na <strong>2ª coluna</strong>. Estava <strong>em algum lugar abaixo de</strong> <strong>Betânia</strong>.",
+    "<strong>B · Betânia</strong> (♀ mulher)<strong>:</strong> <strong>Outra pessoa</strong> no <strong>cômodo dela</strong> era <strong>uma mulher</strong>.",
+    "<strong>C · Carla</strong> (♀ mulher)<strong>:</strong> <strong>Não estava</strong> na <strong>2ª linha</strong>.",
+    "<strong>D · Daniel</strong> (♂ homem)<strong>:</strong> No <strong>cômodo dele</strong> não havia <strong>nenhum</strong> <strong>armário</strong>. Estava <strong>numa linha mais acima que</strong> a de <strong>Betânia</strong>.",
+    "<strong>E · Emanuel</strong> (♂ homem · óculos · chapéu)<strong>:</strong> Era <strong>a única pessoa</strong> na <strong>cozinha</strong>. <strong>Não estava ao lado de</strong> <strong>nenhuma</strong> <strong>cadeira</strong>.",
+    "<strong>V · Vladimir</strong> (♂ homem · chapéu)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Carla (C).</strong> A vítima, Vladimir, estava na sala do tesouro.",
+   "stappen": [
+    "\"Alice estava em algum lugar abaixo de Betânia.\": para esses quadrados de Betânia, não há lugar adequado para Alice.",
+    "\"Daniel estava numa linha mais acima que a de Betânia.\": para esses quadrados de Daniel, não há lugar adequado para Betânia.",
+    "\"Outra pessoa no cômodo de Betânia era uma mulher.\": nesses cômodos, uma mulher não pode estar com Betânia.",
+    "\"Daniel estava numa linha mais acima que a de Betânia.\": para esses quadrados de Betânia, não há lugar adequado para Daniel.",
+    "Betânia está com certeza na linha 5, então Alice não pode estar ali. → Alice em [6,2]",
+    "\"Outra pessoa no cômodo de Betânia era uma mulher.\": nesses cômodos, uma mulher não pode estar com Betânia. → Betânia em [5,1]",
+    "Emanuel está com certeza na coluna 3, então Daniel não pode estar ali. → Daniel em [4,4]",
+    "Só Vladimir ainda pode estar na linha 2. → Vladimir em [2,5]",
+    "Vladimir está na [2,5], então a linha 2 e a coluna 5 ficam descartadas para Carla. → Carla em [3,6]",
+    "Carla está na [3,6], então a linha 3 e a coluna 6 ficam descartadas para Emanuel. → Emanuel em [1,3]"
+   ]
+  },
+  "pl": {
+   "titel": "Zamek: klejnoty koronne",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Zegar na wieży wybija północ. Zaczyna się godzina duchów.",
+   "aanwijzingen": [
+    "<strong>A · Alicja</strong> (♀ kobieta)<strong>:</strong> Była w <strong>2. kolumnie</strong>. Była <strong>gdzieś niżej niż</strong> <strong>Bogna</strong>.",
+    "<strong>B · Bogna</strong> (♀ kobieta)<strong>:</strong> Dzieliła pomieszczenie z <strong>co najmniej</strong> jedną <strong>kobietą</strong>.",
+    "<strong>C · Cecylia</strong> (♀ kobieta)<strong>:</strong> <strong>Nie była</strong> w <strong>2. rzędzie</strong>.",
+    "<strong>D · Daniel</strong> (♂ mężczyzna)<strong>:</strong> W pomieszczeniu, w którym był, <strong>nie było</strong> <strong>żadnej</strong> <strong>szafy</strong>. Był <strong>w wyższym rzędzie niż</strong> <strong>Bogna</strong>.",
+    "<strong>E · Edward</strong> (♂ mężczyzna · okulary · kapelusz)<strong>:</strong> Był <strong>jedyną osobą</strong> w <strong>kuchni</strong>. <strong>Nie był</strong> <strong>obok</strong> <strong>żadnego</strong> <strong>krzesła</strong>.",
+    "<strong>V · Volker</strong> (♂ mężczyzna · kapelusz)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Cecylia (C).</strong> Ofiara (Volker) leżała w skarbcu.",
+   "stappen": [
+    "\"Alicja była gdzieś niżej niż Bogna.\": dla tych pól Bogny nie ma odpowiedniego miejsca dla Alicji.",
+    "\"Daniel był w wyższym rzędzie niż Bogna.\": dla tych pól Daniela nie ma odpowiedniego miejsca dla Bogny.",
+    "\"Bogna dzieliła pomieszczenie z co najmniej jedną kobietą.\": w tych pomieszczeniach żadna kobieta nie może być razem z Bogną.",
+    "\"Daniel był w wyższym rzędzie niż Bogna.\": dla tych pól Bogny nie ma odpowiedniego miejsca dla Daniela.",
+    "Bogna na pewno jest w rzędzie 5, więc Alicja nie może tam być. → Alicja: [6,2]",
+    "\"Bogna dzieliła pomieszczenie z co najmniej jedną kobietą.\": w tych pomieszczeniach żadna kobieta nie może być razem z Bogną. → Bogna: [5,1]",
+    "Edward na pewno jest w kolumnie 3, więc Daniel nie może tam być. → Daniel: [4,4]",
+    "W rzędzie 2 może jeszcze być tylko Volker. → Volker: [2,5]",
+    "Volker jest w rzędzie 2 i kolumnie 5, więc ten rząd i ta kolumna odpadają dla Cecylii. → Cecylia: [3,6]",
+    "Cecylia jest w rzędzie 3 i kolumnie 6, więc ten rząd i ta kolumna odpadają dla Edwarda. → Edward: [1,3]"
+   ]
+  }
+ }
+}

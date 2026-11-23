@@ -1,0 +1,197 @@
+{
+ "week": 1,
+ "id": "L2-00hv0x5",
+ "level": 2,
+ "theme": "landhuis",
+ "talen": {
+  "en": {
+   "titel": "The Manor: the vanished heir",
+   "niveau": "Level 2 · Sleuth ★★☆☆☆",
+   "intro": "The boudoir smells of perfume and secrets.",
+   "aanwijzingen": [
+    "<strong>A · Albert</strong> (♂ man)<strong>:</strong> Was <strong>directly next to</strong> a <strong>chair</strong>.",
+    "<strong>B · Barbara</strong> (♀ woman)<strong>:</strong> Was <strong>alone</strong> in the <strong>boudoir</strong>.",
+    "<strong>C · Charles</strong> (♂ man)<strong>:</strong> Was <strong>directly next to</strong> a <strong>plant</strong>.",
+    "<strong>D · Donna</strong> (♀ woman)<strong>:</strong> Was in the <strong>4th row</strong>.",
+    "<strong>V · Vaughan</strong> (♂ man)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Albert (A).</strong> The victim, Vaughan, lay in the wine cellar.",
+   "stappen": [
+    "Because of \"Barbara was alone in the boudoir.\", Donna cannot be in the boudoir. → Donna at [4,2]",
+    "Barbara is certainly in row 5, so Charles cannot be there. → Charles at [3,1]",
+    "Charles is on [3,1], so row 3 and column 1 are ruled out for Albert. → Albert at [1,3]",
+    "Charles is on [3,1], so row 3 and column 1 are ruled out for Vaughan. → Vaughan at [2,5]",
+    "Vaughan is on [2,5], so row 2 and column 5 are ruled out for Barbara. → Barbara at [5,4]"
+   ]
+  },
+  "nl": {
+   "titel": "Het landhuis: de verdwenen erfgenaam",
+   "niveau": "Niveau 2 · Speurder ★★☆☆☆",
+   "intro": "Een erfgenaam die spoorloos is, maakt een testament ineens razend spannend.",
+   "aanwijzingen": [
+    "<strong>A · Anton</strong> (♂ man)<strong>:</strong> Bevond zich <strong>direct naast</strong> een <strong>stoel</strong>.",
+    "<strong>B · Bella</strong> (♀ vrouw)<strong>:</strong> Was <strong>alleen</strong> in het <strong>boudoir</strong>.",
+    "<strong>C · Chris</strong> (♂ man)<strong>:</strong> Bevond zich <strong>direct naast</strong> een <strong>plant</strong>.",
+    "<strong>D · Dunya</strong> (♀ vrouw)<strong>:</strong> Bevond zich in de <strong>4e rij</strong>.",
+    "<strong>V · Vito</strong> (♂ man)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Anton (A).</strong> Het slachtoffer Vito lag in de wijnkelder.",
+   "stappen": [
+    "Door \"Bella was alleen in het boudoir.\" kan Dunya niet in het boudoir staan. → Dunya op [4,2]",
+    "Bella staat zeker in rij 5, dus Chris kan daar niet staan. → Chris op [3,1]",
+    "Chris staat op [3,1], dus rij 3 en kolom 1 vallen af voor Anton. → Anton op [1,3]",
+    "Chris staat op [3,1], dus rij 3 en kolom 1 vallen af voor Vito. → Vito op [2,5]",
+    "Vito staat op [2,5], dus rij 2 en kolom 5 vallen af voor Bella. → Bella op [5,4]"
+   ]
+  },
+  "de": {
+   "titel": "Das Landhaus: der verschwundene Erbe",
+   "niveau": "Stufe 2 · Spürnase ★★☆☆☆",
+   "intro": "Das Boudoir duftet nach Parfüm und Geheimnissen.",
+   "aanwijzingen": [
+    "<strong>A · Achim</strong> (♂ Mann)<strong>:</strong> Befand sich <strong>direkt neben</strong> einem <strong>Stuhl</strong>.",
+    "<strong>B · Barbara</strong> (♀ Frau)<strong>:</strong> War <strong>allein</strong> im <strong>Boudoir</strong>.",
+    "<strong>C · Carsten</strong> (♂ Mann)<strong>:</strong> Befand sich <strong>direkt neben</strong> einer <strong>Pflanze</strong>.",
+    "<strong>D · Dorothea</strong> (♀ Frau)<strong>:</strong> Befand sich in der <strong>4. Reihe</strong>.",
+    "<strong>V · Vincent</strong> (♂ Mann)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Achim (A).</strong> Das Opfer, Vincent, lag im Weinkeller.",
+   "stappen": [
+    "Wegen \"Barbara war allein im Boudoir.\" kann Dorothea nicht im Boudoir stehen. → Dorothea in [4,2]",
+    "Barbara steht sicher in Reihe 5, also kann Carsten dort nicht stehen. → Carsten in [3,1]",
+    "Carsten steht in [3,1], also fallen Reihe 3 und Spalte 1 für Achim weg. → Achim in [1,3]",
+    "Carsten steht in [3,1], also fallen Reihe 3 und Spalte 1 für Vincent weg. → Vincent in [2,5]",
+    "Vincent steht in [2,5], also fallen Reihe 2 und Spalte 5 für Barbara weg. → Barbara in [5,4]"
+   ]
+  },
+  "fr": {
+   "titel": "Le manoir: l'héritier disparu",
+   "niveau": "Niveau 2 · Limier ★★☆☆☆",
+   "intro": "Le boudoir sent le parfum et les secrets.",
+   "aanwijzingen": [
+    "<strong>A · Alain</strong> (♂ homme)<strong>:</strong> Se trouvait <strong>juste à côté</strong> d'une <strong>chaise</strong>.",
+    "<strong>B · Barbara</strong> (♀ femme)<strong>:</strong> Était <strong>seule</strong> dans le <strong>boudoir</strong>.",
+    "<strong>C · Cédric</strong> (♂ homme)<strong>:</strong> Se trouvait <strong>juste à côté</strong> d'une <strong>plante</strong>.",
+    "<strong>D · Dorothée</strong> (♀ femme)<strong>:</strong> Se trouvait dans la <strong>4e rangée</strong>.",
+    "<strong>V · Virgile</strong> (♂ homme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Alain (A).</strong> La victime, Virgile, se trouvait dans la cave à vin.",
+   "stappen": [
+    "D'après \"Barbara était seule dans le boudoir.\", Dorothée ne peut pas se trouver dans le boudoir. → Dorothée en [4,2]",
+    "Barbara se trouve forcément dans la rangée 5, donc Cédric ne peut pas s'y trouver. → Cédric en [3,1]",
+    "Cédric se trouve en [3,1], donc la rangée 3 et la colonne 1 sont exclues pour Alain. → Alain en [1,3]",
+    "Cédric se trouve en [3,1], donc la rangée 3 et la colonne 1 sont exclues pour Virgile. → Virgile en [2,5]",
+    "Virgile se trouve en [2,5], donc la rangée 2 et la colonne 5 sont exclues pour Barbara. → Barbara en [5,4]"
+   ]
+  },
+  "it": {
+   "titel": "La villa: l'erede scomparso",
+   "niveau": "Livello 2 · Segugio ★★☆☆☆",
+   "intro": "Il boudoir profuma di cipria e di segreti.",
+   "aanwijzingen": [
+    "<strong>A · Alfredo</strong> (♂ uomo)<strong>:</strong> Si trovava <strong>proprio accanto a</strong> una <strong>sedia</strong>.",
+    "<strong>B · Brigida</strong> (♀ donna)<strong>:</strong> Era <strong>da sola</strong> nel <strong>boudoir</strong>.",
+    "<strong>C · Claudio</strong> (♂ uomo)<strong>:</strong> Si trovava <strong>proprio accanto a</strong> una <strong>pianta</strong>.",
+    "<strong>D · Dalila</strong> (♀ donna)<strong>:</strong> Si trovava nella <strong>4ª riga</strong>.",
+    "<strong>V · Vito</strong> (♂ uomo)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Alfredo (A).</strong> La vittima, Vito, giaceva in cantina.",
+   "stappen": [
+    "In base a \"Brigida era da sola nel boudoir.\", Dalila non può essere nel boudoir. → Dalila in [4,2]",
+    "Brigida è sicuramente nella riga 5, quindi Claudio non può essere lì. → Claudio in [3,1]",
+    "Claudio è in [3,1], quindi la riga 3 e la colonna 1 sono escluse per Alfredo. → Alfredo in [1,3]",
+    "Claudio è in [3,1], quindi la riga 3 e la colonna 1 sono escluse per Vito. → Vito in [2,5]",
+    "Vito è in [2,5], quindi la riga 2 e la colonna 5 sono escluse per Brigida. → Brigida in [5,4]"
+   ]
+  },
+  "es": {
+   "titel": "La mansión: el heredero desaparecido",
+   "niveau": "Nivel 2 · Sabueso ★★☆☆☆",
+   "intro": "El tocador huele a perfume y a secretos.",
+   "aanwijzingen": [
+    "<strong>A · Alejandro</strong> (♂ hombre)<strong>:</strong> Se encontraba <strong>justo al lado de</strong> una <strong>silla</strong>.",
+    "<strong>B · Berta</strong> (♀ mujer)<strong>:</strong> Estaba <strong>sola</strong> en el <strong>tocador</strong>.",
+    "<strong>C · César</strong> (♂ hombre)<strong>:</strong> Se encontraba <strong>justo al lado de</strong> una <strong>planta</strong>.",
+    "<strong>D · Dafne</strong> (♀ mujer)<strong>:</strong> Estaba en la <strong>4.ª fila</strong>.",
+    "<strong>V · Valerio</strong> (♂ hombre)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Alejandro (A).</strong> La víctima, Valerio, yacía en la bodega.",
+   "stappen": [
+    "Por \"Berta estaba sola en el tocador.\", Dafne no puede estar en el tocador. → Dafne en [4,2]",
+    "Berta está con seguridad en la fila 5, así que César no puede estar ahí. → César en [3,1]",
+    "César está en la fila 3, columna 1, así que la fila 3 y la columna 1 quedan descartadas para Alejandro. → Alejandro en [1,3]",
+    "César está en la fila 3, columna 1, así que la fila 3 y la columna 1 quedan descartadas para Valerio. → Valerio en [2,5]",
+    "Valerio está en la fila 2, columna 5, así que la fila 2 y la columna 5 quedan descartadas para Berta. → Berta en [5,4]"
+   ]
+  },
+  "pt": {
+   "titel": "O solar: o herdeiro desaparecido",
+   "niveau": "Nível 2 · Investigador ★★☆☆☆",
+   "intro": "O toucador cheira a perfume e a segredos.",
+   "aanwijzingen": [
+    "<strong>A · Álvaro</strong> (♂ homem)<strong>:</strong> Encontrava-se <strong>mesmo ao lado de</strong> uma <strong>cadeira</strong>.",
+    "<strong>B · Berta</strong> (♀ mulher)<strong>:</strong> Estava <strong>sozinha</strong> no <strong>toucador</strong>.",
+    "<strong>C · Cristiano</strong> (♂ homem)<strong>:</strong> Encontrava-se <strong>mesmo ao lado de</strong> uma <strong>planta</strong>.",
+    "<strong>D · Denise</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>4.ª linha</strong>.",
+    "<strong>V · Valter</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Álvaro (A).</strong> A vítima, Valter, estava na adega.",
+   "stappen": [
+    "Por causa de \"Berta estava sozinha no toucador.\", Denise não pode estar no toucador. → Denise: [4,2]",
+    "Berta está de certeza na linha 5, por isso Cristiano não pode estar lá. → Cristiano: [3,1]",
+    "Cristiano está na [3,1], por isso a linha 3 e a coluna 1 ficam excluídas para Álvaro. → Álvaro: [1,3]",
+    "Cristiano está na [3,1], por isso a linha 3 e a coluna 1 ficam excluídas para Valter. → Valter: [2,5]",
+    "Valter está na [2,5], por isso a linha 2 e a coluna 5 ficam excluídas para Berta. → Berta: [5,4]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "A mansão: o herdeiro desaparecido",
+   "niveau": "Nível 2 · Investigador ★★☆☆☆",
+   "intro": "O boudoir cheira a perfume e a segredos.",
+   "aanwijzingen": [
+    "<strong>A · Alberto</strong> (♂ homem)<strong>:</strong> Estava <strong>bem ao lado de</strong> uma <strong>cadeira</strong>.",
+    "<strong>B · Brenda</strong> (♀ mulher)<strong>:</strong> Estava <strong>sozinha</strong> no <strong>boudoir</strong>.",
+    "<strong>C · Caio</strong> (♂ homem)<strong>:</strong> Estava <strong>bem ao lado de</strong> uma <strong>planta</strong>.",
+    "<strong>D · Dalva</strong> (♀ mulher)<strong>:</strong> Estava na <strong>4ª linha</strong>.",
+    "<strong>V · Vinícius</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Alberto (A).</strong> A vítima, Vinícius, estava na adega.",
+   "stappen": [
+    "Por causa de \"Brenda estava sozinha no boudoir.\", Dalva não pode estar no boudoir. → Dalva em [4,2]",
+    "Brenda está com certeza na linha 5, então Caio não pode estar ali. → Caio em [3,1]",
+    "Caio está na [3,1], então a linha 3 e a coluna 1 ficam descartadas para Alberto. → Alberto em [1,3]",
+    "Caio está na [3,1], então a linha 3 e a coluna 1 ficam descartadas para Vinícius. → Vinícius em [2,5]",
+    "Vinícius está na [2,5], então a linha 2 e a coluna 5 ficam descartadas para Brenda. → Brenda em [5,4]"
+   ]
+  },
+  "pl": {
+   "titel": "Dwór: zaginiony dziedzic",
+   "niveau": "Poziom 2 · Tropiciel ★★☆☆☆",
+   "intro": "Buduar pachnie perfumami i sekretami.",
+   "aanwijzingen": [
+    "<strong>A · Adrian</strong> (♂ mężczyzna)<strong>:</strong> Był <strong>bezpośrednio obok</strong> <strong>krzesła</strong>.",
+    "<strong>B · Berenika</strong> (♀ kobieta)<strong>:</strong> <strong>Była sama</strong> w <strong>buduarze</strong>.",
+    "<strong>C · Cyprian</strong> (♂ mężczyzna)<strong>:</strong> Był <strong>bezpośrednio obok</strong> <strong>rośliny</strong>.",
+    "<strong>D · Dagmara</strong> (♀ kobieta)<strong>:</strong> Była w <strong>4. rzędzie</strong>.",
+    "<strong>V · Valdemar</strong> (♂ mężczyzna)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Adrian (A).</strong> Ofiara (Valdemar) leżała w piwnicy z winem.",
+   "stappen": [
+    "Ze wskazówki \"Berenika była sama w buduarze.\" wynika, że Dagmara nie może być w buduarze. → Dagmara: [4,2]",
+    "Berenika na pewno jest w rzędzie 5, więc Cyprian nie może tam być. → Cyprian: [3,1]",
+    "Cyprian jest w rzędzie 3 i kolumnie 1, więc ten rząd i ta kolumna odpadają dla Adriana. → Adrian: [1,3]",
+    "Cyprian jest w rzędzie 3 i kolumnie 1, więc ten rząd i ta kolumna odpadają dla Valdemara. → Valdemar: [2,5]",
+    "Valdemar jest w rzędzie 2 i kolumnie 5, więc ten rząd i ta kolumna odpadają dla Bereniki. → Berenika: [5,4]"
+   ]
+  }
+ }
+}

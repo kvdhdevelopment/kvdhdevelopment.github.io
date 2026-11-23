@@ -1,0 +1,233 @@
+{
+ "week": 22,
+ "id": "L3-00hvh4m",
+ "level": 3,
+ "theme": "hotel",
+ "talen": {
+  "en": {
+   "titel": "The Hotel: a room with a view",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "The plot thickens. Take a deep breath and read the clues.",
+   "aanwijzingen": [
+    "<strong>A · Arthur</strong> (♂ man)<strong>:</strong> Was in the <strong>2nd column</strong>.",
+    "<strong>B · Brenda</strong> (♀ woman · glasses)<strong>:</strong> Was in the <strong>top row</strong>.",
+    "<strong>C · Chloe</strong> (♀ woman)<strong>:</strong> Was <strong>not next to</strong> a <strong>chair</strong>. Was <strong>somewhere above</strong> <strong>Arthur</strong>.",
+    "<strong>D · Delia</strong> (♀ woman)<strong>:</strong> Was <strong>alone</strong> in the <strong>spa</strong>. Was in the <strong>leftmost column</strong> <strong>of the room</strong>.",
+    "<strong>E · Eleanor</strong> (♀ woman · glasses)<strong>:</strong> There was <strong>also</strong> <strong>someone with glasses</strong> in <strong>their room</strong>. Was in the <strong>bottom half</strong>.",
+    "<strong>V · Vince</strong> (♂ man · hat)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Chloe (C).</strong> The victim, Vince, lay in room 101.",
+   "stappen": [
+    "\"Chloe was somewhere above Arthur.\": for these squares of Chloe there is no fitting place for Arthur.",
+    "\"Chloe was somewhere above Arthur.\": for these squares of Arthur there is no fitting place for Chloe.",
+    "\"There was also someone with glasses in Eleanor's room.\": in these rooms someone with glasses cannot be with Eleanor. → Eleanor at [4,5]",
+    "\"There was also someone with glasses in Eleanor's room.\": only Brenda can be that person, so Brenda is in the same room as Eleanor. → Brenda at [1,6]",
+    "\"Chloe was somewhere above Arthur.\": for these squares of Arthur there is no fitting place for Chloe. → Arthur at [6,2]",
+    "Arthur is on [6,2], so row 6 and column 2 are ruled out for Delia. → Delia at [5,4]",
+    "Delia is on [5,4], so row 5 and column 4 are ruled out for Chloe. → Chloe at [3,3]",
+    "Chloe is on [3,3], so row 3 and column 3 are ruled out for Vince. → Vince at [2,1]"
+   ]
+  },
+  "nl": {
+   "titel": "Het hotel: kamer met uitzicht",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Kamer met uitzicht, ontbijt inbegrepen, moordzaak gratis erbij.",
+   "aanwijzingen": [
+    "<strong>A · Arjen</strong> (♂ man)<strong>:</strong> Bevond zich in de <strong>2e kolom</strong>.",
+    "<strong>B · Barbara</strong> (♀ vrouw · bril)<strong>:</strong> Bevond zich in de <strong>bovenste rij</strong>.",
+    "<strong>C · Celine</strong> (♀ vrouw)<strong>:</strong> Bevond zich <strong>niet naast</strong> een <strong>stoel</strong>. Bevond zich <strong>ergens boven</strong> <strong>Arjen</strong>.",
+    "<strong>D · Daphne</strong> (♀ vrouw)<strong>:</strong> Was <strong>alleen</strong> in de <strong>spa</strong>. Bevond zich in de <strong>linkerkolom</strong> van de ruimte.",
+    "<strong>E · Ellen</strong> (♀ vrouw · bril)<strong>:</strong> Er was <strong>nog iemand</strong> met <strong>een bril</strong> in de ruimte. Bevond zich in de <strong>onderste helft</strong>.",
+    "<strong>V · Valentijn</strong> (♂ man · hoed)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Celine (C).</strong> Het slachtoffer Valentijn lag in kamer 101.",
+   "stappen": [
+    "\"Celine bevond zich ergens boven Arjen.\": voor deze vakjes van Celine is er geen passende plek voor Arjen.",
+    "\"Celine bevond zich ergens boven Arjen.\": voor deze vakjes van Arjen is er geen passende plek voor Celine.",
+    "\"Er was nog iemand met een bril in de ruimte van Ellen.\": in deze ruimtes kan iemand met een bril niet bij Ellen staan. → Ellen op [4,5]",
+    "\"Er was nog iemand met een bril in de ruimte van Ellen.\": alleen Barbara kan die persoon zijn, dus Barbara staat bij Ellen in de ruimte. → Barbara op [1,6]",
+    "\"Celine bevond zich ergens boven Arjen.\": voor deze vakjes van Arjen is er geen passende plek voor Celine. → Arjen op [6,2]",
+    "Arjen staat op [6,2], dus rij 6 en kolom 2 vallen af voor Daphne. → Daphne op [5,4]",
+    "Daphne staat op [5,4], dus rij 5 en kolom 4 vallen af voor Celine. → Celine op [3,3]",
+    "Celine staat op [3,3], dus rij 3 en kolom 3 vallen af voor Valentijn. → Valentijn op [2,1]"
+   ]
+  },
+  "de": {
+   "titel": "Das Hotel: Zimmer mit Aussicht",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Spannend, oder? Tief durchatmen und die Hinweise lesen.",
+   "aanwijzingen": [
+    "<strong>A · Anton</strong> (♂ Mann)<strong>:</strong> Befand sich in der <strong>2. Spalte</strong>.",
+    "<strong>B · Bianca</strong> (♀ Frau · Brille)<strong>:</strong> Befand sich in der <strong>obersten Reihe</strong>.",
+    "<strong>C · Christina</strong> (♀ Frau)<strong>:</strong> Befand sich <strong>neben keinem</strong> <strong>Stuhl</strong>. Befand sich <strong>irgendwo oberhalb von</strong> <strong>Anton</strong>.",
+    "<strong>D · Dagmar</strong> (♀ Frau)<strong>:</strong> War <strong>allein</strong> im <strong>Spa</strong>. Befand sich in der <strong>Spalte ganz links</strong> <strong>im Raum</strong>.",
+    "<strong>E · Erika</strong> (♀ Frau · Brille)<strong>:</strong> In ihrem Raum war <strong>außerdem</strong> <strong>jemand mit Brille</strong>. Befand sich in der <strong>unteren Hälfte</strong>.",
+    "<strong>V · Veit</strong> (♂ Mann · Hut)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Christina (C).</strong> Das Opfer, Veit, lag in Zimmer 101.",
+   "stappen": [
+    "\"Christina befand sich irgendwo oberhalb von Anton.\": Für diese Felder von Christina gibt es keinen passenden Platz für Anton.",
+    "\"Christina befand sich irgendwo oberhalb von Anton.\": Für diese Felder von Anton gibt es keinen passenden Platz für Christina.",
+    "\"In Erikas Raum war außerdem jemand mit Brille.\": In diesen Räumen kann jemand mit Brille nicht zusammen mit Erika stehen. → Erika in [4,5]",
+    "\"In Erikas Raum war außerdem jemand mit Brille.\": Nur Bianca kann diese Person sein, also steht Bianca mit Erika im selben Raum. → Bianca in [1,6]",
+    "\"Christina befand sich irgendwo oberhalb von Anton.\": Für diese Felder von Anton gibt es keinen passenden Platz für Christina. → Anton in [6,2]",
+    "Anton steht in [6,2], also fallen Reihe 6 und Spalte 2 für Dagmar weg. → Dagmar in [5,4]",
+    "Dagmar steht in [5,4], also fallen Reihe 5 und Spalte 4 für Christina weg. → Christina in [3,3]",
+    "Christina steht in [3,3], also fallen Reihe 3 und Spalte 3 für Veit weg. → Veit in [2,1]"
+   ]
+  },
+  "fr": {
+   "titel": "L'hôtel: chambre avec vue",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Palpitant, non ? Respirez un grand coup et lisez les indices.",
+   "aanwijzingen": [
+    "<strong>A · Arthur</strong> (♂ homme)<strong>:</strong> Se trouvait dans la <strong>2e colonne</strong>.",
+    "<strong>B · Bénédicte</strong> (♀ femme · lunettes)<strong>:</strong> Se trouvait dans la <strong>rangée du haut</strong>.",
+    "<strong>C · Céline</strong> (♀ femme)<strong>:</strong> Ne se trouvait <strong>pas à côté</strong> d'une <strong>chaise</strong>. Se trouvait <strong>quelque part au-dessus</strong> d'<strong>Arthur</strong>.",
+    "<strong>D · Danielle</strong> (♀ femme)<strong>:</strong> Était <strong>seule</strong> au <strong>spa</strong>. Se trouvait dans la <strong>colonne</strong> <strong>la plus à gauche</strong> <strong>de sa pièce</strong>.",
+    "<strong>E · Emma</strong> (♀ femme · lunettes)<strong>:</strong> Dans <strong>sa pièce</strong>, il y avait <strong>une autre personne</strong> portant <strong>des lunettes</strong>. Se trouvait dans la <strong>moitié inférieure</strong>.",
+    "<strong>V · Vianney</strong> (♂ homme · chapeau)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Céline (C).</strong> La victime, Vianney, se trouvait dans la chambre 101.",
+   "stappen": [
+    "\"Céline se trouvait quelque part au-dessus d'Arthur.\" : pour ces cases de Céline, il n'y a aucune place qui convienne pour Arthur.",
+    "\"Céline se trouvait quelque part au-dessus d'Arthur.\" : pour ces cases d'Arthur, il n'y a aucune place qui convienne pour Céline.",
+    "\"Dans la pièce d'Emma, il y avait une autre personne portant des lunettes.\" : dans ces pièces, quelqu'un portant des lunettes ne peut pas être avec Emma. → Emma en [4,5]",
+    "\"Dans la pièce d'Emma, il y avait une autre personne portant des lunettes.\" : seule Bénédicte peut être cette personne, donc Bénédicte est dans la même pièce qu'Emma. → Bénédicte en [1,6]",
+    "\"Céline se trouvait quelque part au-dessus d'Arthur.\" : pour ces cases d'Arthur, il n'y a aucune place qui convienne pour Céline. → Arthur en [6,2]",
+    "Arthur se trouve en [6,2], donc la rangée 6 et la colonne 2 sont exclues pour Danielle. → Danielle en [5,4]",
+    "Danielle se trouve en [5,4], donc la rangée 5 et la colonne 4 sont exclues pour Céline. → Céline en [3,3]",
+    "Céline se trouve en [3,3], donc la rangée 3 et la colonne 3 sont exclues pour Vianney. → Vianney en [2,1]"
+   ]
+  },
+  "it": {
+   "titel": "L'hotel: camera con vista",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "Emozionante, vero? Fai un bel respiro e leggi gli indizi.",
+   "aanwijzingen": [
+    "<strong>A · Alessio</strong> (♂ uomo)<strong>:</strong> Si trovava nella <strong>2ª colonna</strong>.",
+    "<strong>B · Bettina</strong> (♀ donna · occhiali)<strong>:</strong> Si trovava nella <strong>riga più in alto</strong>.",
+    "<strong>C · Cecilia</strong> (♀ donna)<strong>:</strong> <strong>Non si trovava accanto a</strong> una <strong>sedia</strong>. Si trovava <strong>da qualche parte</strong> <strong>più in alto di</strong> <strong>Alessio</strong>.",
+    "<strong>D · Delia</strong> (♀ donna)<strong>:</strong> Era <strong>da sola</strong> alla <strong>spa</strong>. Si trovava nella <strong>colonna più a sinistra</strong> <strong>della stanza</strong>.",
+    "<strong>E · Ester</strong> (♀ donna · occhiali)<strong>:</strong> Nella <strong>sua stanza</strong> c'era <strong>anche</strong> <strong>qualcuno che portava gli occhiali</strong>. Si trovava nella <strong>metà inferiore</strong>.",
+    "<strong>V · Valentino</strong> (♂ uomo · cappello)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Cecilia (C).</strong> La vittima, Valentino, giaceva nella camera 101.",
+   "stappen": [
+    "\"Cecilia si trovava da qualche parte più in alto di Alessio.\": per queste caselle di Cecilia non c'è un posto adatto per Alessio.",
+    "\"Cecilia si trovava da qualche parte più in alto di Alessio.\": per queste caselle di Alessio non c'è un posto adatto per Cecilia.",
+    "\"Nella stanza di Ester c'era anche qualcuno che portava gli occhiali.\": in queste stanze qualcuno con gli occhiali non può essere insieme a Ester. → Ester in [4,5]",
+    "\"Nella stanza di Ester c'era anche qualcuno che portava gli occhiali.\": solo Bettina può essere quella persona, quindi Bettina è nella stessa stanza di Ester. → Bettina in [1,6]",
+    "\"Cecilia si trovava da qualche parte più in alto di Alessio.\": per queste caselle di Alessio non c'è un posto adatto per Cecilia. → Alessio in [6,2]",
+    "Alessio è in [6,2], quindi la riga 6 e la colonna 2 sono escluse per Delia. → Delia in [5,4]",
+    "Delia è in [5,4], quindi la riga 5 e la colonna 4 sono escluse per Cecilia. → Cecilia in [3,3]",
+    "Cecilia è in [3,3], quindi la riga 3 e la colonna 3 sono escluse per Valentino. → Valentino in [2,1]"
+   ]
+  },
+  "es": {
+   "titel": "El hotel: habitación con vistas",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "Qué emoción, ¿eh? Respira hondo y lee las pistas.",
+   "aanwijzingen": [
+    "<strong>A · Antonio</strong> (♂ hombre)<strong>:</strong> Estaba en la <strong>2.ª columna</strong>.",
+    "<strong>B · Begoña</strong> (♀ mujer · gafas)<strong>:</strong> Estaba en la <strong>fila superior</strong>.",
+    "<strong>C · Cristina</strong> (♀ mujer)<strong>:</strong> <strong>No estaba</strong> <strong>junto a</strong> <strong>ninguna</strong> <strong>silla</strong>. Estaba <strong>en algún lugar</strong> <strong>por encima de</strong> <strong>Antonio</strong>.",
+    "<strong>D · Delia</strong> (♀ mujer)<strong>:</strong> Estaba <strong>sola</strong> en el <strong>spa</strong>. Estaba en la <strong>columna más a la izquierda</strong> <strong>de su estancia</strong>.",
+    "<strong>E · Eugenia</strong> (♀ mujer · gafas)<strong>:</strong> En <strong>su estancia</strong> <strong>también</strong> había <strong>alguien con gafas</strong>. Estaba en la <strong>mitad inferior</strong>.",
+    "<strong>V · Venancio</strong> (♂ hombre · sombrero)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Cristina (C).</strong> La víctima, Venancio, yacía en la habitación 101.",
+   "stappen": [
+    "\"Cristina estaba en algún lugar por encima de Antonio.\": para estas casillas de Cristina no hay ningún sitio adecuado para Antonio.",
+    "\"Cristina estaba en algún lugar por encima de Antonio.\": para estas casillas de Antonio no hay ningún sitio adecuado para Cristina.",
+    "\"En la estancia de Eugenia también había alguien con gafas.\": en estas estancias no puede haber nadie con gafas con Eugenia. → Eugenia en [4,5]",
+    "\"En la estancia de Eugenia también había alguien con gafas.\": solo Begoña puede ser esa persona, así que Begoña está en la misma estancia que Eugenia. → Begoña en [1,6]",
+    "\"Cristina estaba en algún lugar por encima de Antonio.\": para estas casillas de Antonio no hay ningún sitio adecuado para Cristina. → Antonio en [6,2]",
+    "Antonio está en la fila 6, columna 2, así que la fila 6 y la columna 2 quedan descartadas para Delia. → Delia en [5,4]",
+    "Delia está en la fila 5, columna 4, así que la fila 5 y la columna 4 quedan descartadas para Cristina. → Cristina en [3,3]",
+    "Cristina está en la fila 3, columna 3, así que la fila 3 y la columna 3 quedan descartadas para Venancio. → Venancio en [2,1]"
+   ]
+  },
+  "pt": {
+   "titel": "O hotel: quarto com vista",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Que nervos, hein? Respira fundo e lê as pistas.",
+   "aanwijzingen": [
+    "<strong>A · António</strong> (♂ homem)<strong>:</strong> Encontrava-se na <strong>2.ª coluna</strong>.",
+    "<strong>B · Bianca</strong> (♀ mulher · óculos)<strong>:</strong> Encontrava-se na <strong>linha mais acima</strong>.",
+    "<strong>C · Catarina</strong> (♀ mulher)<strong>:</strong> <strong>Não se encontrava</strong> <strong>ao lado de</strong> uma <strong>cadeira</strong>. Encontrava-se <strong>algures acima de</strong> <strong>António</strong>.",
+    "<strong>D · Dora</strong> (♀ mulher)<strong>:</strong> Estava <strong>sozinha</strong> no <strong>spa</strong>. Encontrava-se na <strong>coluna mais à esquerda</strong> <strong>da divisão</strong>.",
+    "<strong>E · Elsa</strong> (♀ mulher · óculos)<strong>:</strong> Na <strong>sua divisão</strong> havia <strong>também</strong> <strong>alguém de óculos</strong>. Encontrava-se na <strong>metade inferior</strong>.",
+    "<strong>V · Valentim</strong> (♂ homem · chapéu)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Catarina (C).</strong> A vítima, Valentim, estava no quarto 101.",
+   "stappen": [
+    "\"Catarina encontrava-se algures acima de António.\": para estas casas de Catarina não há nenhum sítio adequado para António.",
+    "\"Catarina encontrava-se algures acima de António.\": para estas casas de António não há nenhum sítio adequado para Catarina.",
+    "\"Na divisão de Elsa havia também alguém de óculos.\": nestas divisões não pode estar alguém de óculos com Elsa. → Elsa: [4,5]",
+    "\"Na divisão de Elsa havia também alguém de óculos.\": só Bianca pode ser essa pessoa, por isso Bianca está na mesma divisão que Elsa. → Bianca: [1,6]",
+    "\"Catarina encontrava-se algures acima de António.\": para estas casas de António não há nenhum sítio adequado para Catarina. → António: [6,2]",
+    "António está na [6,2], por isso a linha 6 e a coluna 2 ficam excluídas para Dora. → Dora: [5,4]",
+    "Dora está na [5,4], por isso a linha 5 e a coluna 4 ficam excluídas para Catarina. → Catarina: [3,3]",
+    "Catarina está na [3,3], por isso a linha 3 e a coluna 3 ficam excluídas para Valentim. → Valentim: [2,1]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O hotel: quarto com vista",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Dá um frio na barriga, né? Respire fundo e leia as pistas.",
+   "aanwijzingen": [
+    "<strong>A · André</strong> (♂ homem)<strong>:</strong> Estava na <strong>2ª coluna</strong>.",
+    "<strong>B · Bárbara</strong> (♀ mulher · óculos)<strong>:</strong> Estava na <strong>linha superior</strong>.",
+    "<strong>C · Carla</strong> (♀ mulher)<strong>:</strong> <strong>Não estava ao lado de</strong> <strong>nenhuma</strong> <strong>cadeira</strong>. Estava <strong>em algum lugar acima de</strong> <strong>André</strong>.",
+    "<strong>D · Diana</strong> (♀ mulher)<strong>:</strong> Estava <strong>sozinha</strong> no <strong>spa</strong>. Estava na <strong>coluna mais à esquerda</strong> <strong>do cômodo</strong>.",
+    "<strong>E · Eloá</strong> (♀ mulher · óculos)<strong>:</strong> <strong>Além dela</strong>, havia <strong>alguém de óculos</strong> <strong>no mesmo cômodo</strong>. Estava na <strong>metade inferior</strong>.",
+    "<strong>V · Valdir</strong> (♂ homem · chapéu)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Carla (C).</strong> A vítima, Valdir, estava no quarto 101.",
+   "stappen": [
+    "\"Carla estava em algum lugar acima de André.\": para esses quadrados de Carla, não há lugar adequado para André.",
+    "\"Carla estava em algum lugar acima de André.\": para esses quadrados de André, não há lugar adequado para Carla.",
+    "\"Além de Eloá, havia alguém de óculos no mesmo cômodo.\": nesses cômodos, alguém de óculos não pode estar com Eloá. → Eloá em [4,5]",
+    "\"Além de Eloá, havia alguém de óculos no mesmo cômodo.\": só Bárbara pode ser essa pessoa, então Bárbara está no mesmo cômodo que Eloá. → Bárbara em [1,6]",
+    "\"Carla estava em algum lugar acima de André.\": para esses quadrados de André, não há lugar adequado para Carla. → André em [6,2]",
+    "André está na [6,2], então a linha 6 e a coluna 2 ficam descartadas para Diana. → Diana em [5,4]",
+    "Diana está na [5,4], então a linha 5 e a coluna 4 ficam descartadas para Carla. → Carla em [3,3]",
+    "Carla está na [3,3], então a linha 3 e a coluna 3 ficam descartadas para Valdir. → Valdir em [2,1]"
+   ]
+  },
+  "pl": {
+   "titel": "Hotel: pokój z widokiem",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Emocje? Weź głęboki oddech i przeczytaj wskazówki.",
+   "aanwijzingen": [
+    "<strong>A · Artur</strong> (♂ mężczyzna)<strong>:</strong> Był w <strong>2. kolumnie</strong>.",
+    "<strong>B · Blanka</strong> (♀ kobieta · okulary)<strong>:</strong> Była w <strong>najwyższym rzędzie</strong>.",
+    "<strong>C · Cecylia</strong> (♀ kobieta)<strong>:</strong> <strong>Nie była</strong> <strong>obok</strong> <strong>żadnego</strong> <strong>krzesła</strong>. Była <strong>gdzieś wyżej niż</strong> <strong>Artur</strong>.",
+    "<strong>D · Daria</strong> (♀ kobieta)<strong>:</strong> <strong>Była sama</strong> w <strong>spa</strong>. Była w <strong>skrajnej lewej kolumnie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>E · Eliza</strong> (♀ kobieta · okulary)<strong>:</strong> W pomieszczeniu, w którym była, przebywał <strong>też</strong> ktoś <strong>inny</strong> w <strong>okularach</strong>. Była w <strong>dolnej połowie</strong> planszy.",
+    "<strong>V · Vladimir</strong> (♂ mężczyzna · kapelusz)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Cecylia (C).</strong> Ofiara (Vladimir) leżała w pokoju 101.",
+   "stappen": [
+    "\"Cecylia była gdzieś wyżej niż Artur.\": dla tych pól Cecylii nie ma odpowiedniego miejsca dla Artura.",
+    "\"Cecylia była gdzieś wyżej niż Artur.\": dla tych pól Artura nie ma odpowiedniego miejsca dla Cecylii.",
+    "\"W pomieszczeniu Elizy przebywał też ktoś inny w okularach.\": w tych pomieszczeniach nikt w okularach nie może być razem z Elizą. → Eliza: [4,5]",
+    "\"W pomieszczeniu Elizy przebywał też ktoś inny w okularach.\": tylko Blanka może być tą osobą, więc Blanka jest w tym samym pomieszczeniu co Eliza. → Blanka: [1,6]",
+    "\"Cecylia była gdzieś wyżej niż Artur.\": dla tych pól Artura nie ma odpowiedniego miejsca dla Cecylii. → Artur: [6,2]",
+    "Artur jest w rzędzie 6 i kolumnie 2, więc ten rząd i ta kolumna odpadają dla Darii. → Daria: [5,4]",
+    "Daria jest w rzędzie 5 i kolumnie 4, więc ten rząd i ta kolumna odpadają dla Cecylii. → Cecylia: [3,3]",
+    "Cecylia jest w rzędzie 3 i kolumnie 3, więc ten rząd i ta kolumna odpadają dla Vladimira. → Vladimir: [2,1]"
+   ]
+  }
+ }
+}

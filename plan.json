@@ -1,0 +1,317 @@
+{
+ "start": "2026-11-23",
+ "weken": [
+  {
+   "week": 1,
+   "id": "L2-00hv0x5",
+   "level": 2,
+   "theme": "landhuis"
+  },
+  {
+   "week": 2,
+   "id": "L3-00hv1p2",
+   "level": 3,
+   "theme": "hotel"
+  },
+  {
+   "week": 3,
+   "id": "L4-00hv2gs",
+   "level": 4,
+   "theme": "bibliotheek"
+  },
+  {
+   "week": 4,
+   "id": "L3-00hv38j",
+   "level": 3,
+   "theme": "restaurant"
+  },
+  {
+   "week": 5,
+   "id": "L2-00hv40h",
+   "level": 2,
+   "theme": "nachttrein"
+  },
+  {
+   "week": 6,
+   "id": "L3-00hv4s1",
+   "level": 3,
+   "theme": "museum"
+  },
+  {
+   "week": 7,
+   "id": "L4-00hv5js",
+   "level": 4,
+   "theme": "camping"
+  },
+  {
+   "week": 8,
+   "id": "L3-00hv6bo",
+   "level": 3,
+   "theme": "kantoor"
+  },
+  {
+   "week": 9,
+   "id": "L2-00hv73e",
+   "level": 2,
+   "theme": "school"
+  },
+  {
+   "week": 10,
+   "id": "L3-00hv7v4",
+   "level": 3,
+   "theme": "kasteel"
+  },
+  {
+   "week": 11,
+   "id": "L4-00hv8my",
+   "level": 4,
+   "theme": "cruiseschip"
+  },
+  {
+   "week": 12,
+   "id": "L3-00hv9eo",
+   "level": 3,
+   "theme": "dierentuin"
+  },
+  {
+   "week": 13,
+   "id": "L2-00hva6i",
+   "level": 2,
+   "theme": "operahuis"
+  },
+  {
+   "week": 14,
+   "id": "L3-00hvay8",
+   "level": 3,
+   "theme": "skihut"
+  },
+  {
+   "week": 15,
+   "id": "L4-00hvbq3",
+   "level": 4,
+   "theme": "ruimtestation"
+  },
+  {
+   "week": 16,
+   "id": "L3-00hvcht",
+   "level": 3,
+   "theme": "ijsbaan"
+  },
+  {
+   "week": 17,
+   "id": "L2-00hvd9n",
+   "level": 2,
+   "theme": "paleis"
+  },
+  {
+   "week": 18,
+   "id": "L3-00hve1c",
+   "level": 3,
+   "theme": "bazaar"
+  },
+  {
+   "week": 19,
+   "id": "L4-00hvet6",
+   "level": 4,
+   "theme": "poolstation"
+  },
+  {
+   "week": 20,
+   "id": "L3-00hvfkw",
+   "level": 3,
+   "theme": "hacienda"
+  },
+  {
+   "week": 21,
+   "id": "L2-00hvgco",
+   "level": 2,
+   "theme": "landhuis"
+  },
+  {
+   "week": 22,
+   "id": "L3-00hvh4m",
+   "level": 3,
+   "theme": "hotel"
+  },
+  {
+   "week": 23,
+   "id": "L4-00hvhwd",
+   "level": 4,
+   "theme": "bibliotheek"
+  },
+  {
+   "week": 24,
+   "id": "L3-00hvio6",
+   "level": 3,
+   "theme": "restaurant"
+  },
+  {
+   "week": 25,
+   "id": "L2-00hvjfu",
+   "level": 2,
+   "theme": "nachttrein"
+  },
+  {
+   "week": 26,
+   "id": "L3-00hvk7k",
+   "level": 3,
+   "theme": "museum"
+  },
+  {
+   "week": 27,
+   "id": "L4-00hvkzd",
+   "level": 4,
+   "theme": "camping"
+  },
+  {
+   "week": 28,
+   "id": "L3-00hvlr4",
+   "level": 3,
+   "theme": "kantoor"
+  },
+  {
+   "week": 29,
+   "id": "L2-00hvmiy",
+   "level": 2,
+   "theme": "school"
+  },
+  {
+   "week": 30,
+   "id": "L3-00hvnaq",
+   "level": 3,
+   "theme": "kasteel"
+  },
+  {
+   "week": 31,
+   "id": "L4-00hvo2h",
+   "level": 4,
+   "theme": "cruiseschip"
+  },
+  {
+   "week": 32,
+   "id": "L3-00hvou8",
+   "level": 3,
+   "theme": "dierentuin"
+  },
+  {
+   "week": 33,
+   "id": "L2-00hvpm3",
+   "level": 2,
+   "theme": "operahuis"
+  },
+  {
+   "week": 34,
+   "id": "L3-00hvqdv",
+   "level": 3,
+   "theme": "skihut"
+  },
+  {
+   "week": 35,
+   "id": "L4-00hvr5n",
+   "level": 4,
+   "theme": "ruimtestation"
+  },
+  {
+   "week": 36,
+   "id": "L3-00hvrxd",
+   "level": 3,
+   "theme": "ijsbaan"
+  },
+  {
+   "week": 37,
+   "id": "L2-00hvsp8",
+   "level": 2,
+   "theme": "paleis"
+  },
+  {
+   "week": 38,
+   "id": "L3-00hvtgz",
+   "level": 3,
+   "theme": "bazaar"
+  },
+  {
+   "week": 39,
+   "id": "L4-00hvu8o",
+   "level": 4,
+   "theme": "poolstation"
+  },
+  {
+   "week": 40,
+   "id": "L3-00hvv0g",
+   "level": 3,
+   "theme": "hacienda"
+  },
+  {
+   "week": 41,
+   "id": "L2-00hvvs9",
+   "level": 2,
+   "theme": "landhuis"
+  },
+  {
+   "week": 42,
+   "id": "L3-00hvwk3",
+   "level": 3,
+   "theme": "hotel"
+  },
+  {
+   "week": 43,
+   "id": "L4-00hvxbs",
+   "level": 4,
+   "theme": "bibliotheek"
+  },
+  {
+   "week": 44,
+   "id": "L3-00hvy3k",
+   "level": 3,
+   "theme": "restaurant"
+  },
+  {
+   "week": 45,
+   "id": "L2-00hvyvi",
+   "level": 2,
+   "theme": "nachttrein"
+  },
+  {
+   "week": 46,
+   "id": "L3-00hvzn8",
+   "level": 3,
+   "theme": "museum"
+  },
+  {
+   "week": 47,
+   "id": "L4-00hw0ez",
+   "level": 4,
+   "theme": "camping"
+  },
+  {
+   "week": 48,
+   "id": "L3-00hw16o",
+   "level": 3,
+   "theme": "kantoor"
+  },
+  {
+   "week": 49,
+   "id": "L2-00hw1yh",
+   "level": 2,
+   "theme": "school"
+  },
+  {
+   "week": 50,
+   "id": "L3-00hw2q8",
+   "level": 3,
+   "theme": "kasteel"
+  },
+  {
+   "week": 51,
+   "id": "L4-00hw3i4",
+   "level": 4,
+   "theme": "cruiseschip"
+  },
+  {
+   "week": 52,
+   "id": "L3-00hw49v",
+   "level": 3,
+   "theme": "dierentuin"
+  }
+ ]
+}

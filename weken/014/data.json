@@ -1,0 +1,233 @@
+{
+ "week": 14,
+ "id": "L3-00hvay8",
+ "level": 3,
+ "theme": "skihut",
+ "talen": {
+  "en": {
+   "titel": "The Ski Lodge: the après-ski",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "Outside lies a metre of fresh snow. Inside lies a case nobody has solved yet.",
+   "aanwijzingen": [
+    "<strong>A · Alfie</strong> (♂ man · hat)<strong>:</strong> Was in the <strong>4th row</strong>. Was in the <strong>leftmost column</strong> <strong>of the room</strong>.",
+    "<strong>B · Brian</strong> (♂ man · glasses)<strong>:</strong> Was in the <strong>top row</strong> <strong>of the room</strong>. Was <strong>the only</strong> person in the <strong>dormitory</strong>.",
+    "<strong>C · Clive</strong> (♂ man)<strong>:</strong> There was <strong>also</strong> <strong>someone with a hat</strong> in <strong>their room</strong>. Was <strong>somewhere above</strong> <strong>Alfie</strong>.",
+    "<strong>D · Dorothy</strong> (♀ woman)<strong>:</strong> Was <strong>not in</strong> the <strong>bottom row</strong>.",
+    "<strong>E · Elliot</strong> (♂ man · glasses)<strong>:</strong> Was <strong>somewhere to the left of</strong> <strong>Brian</strong>.",
+    "<strong>V · Vikram</strong> (♂ man · glasses)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Dorothy (D).</strong> The victim, Vikram, lay in the fireside room.",
+   "stappen": [
+    "\"Clive was somewhere above Alfie.\": for these squares of Clive there is no fitting place for Alfie.",
+    "\"There was also someone with a hat in Clive's room.\": in these rooms someone with a hat cannot be with Clive.",
+    "\"There was also someone with a hat in Clive's room.\": only Alfie can be that person, so Alfie is in the same room as Clive. → Alfie at [4,1]",
+    "\"Elliot was somewhere to the left of Brian.\": for these squares of Elliot there is no fitting place for Brian. → Elliot at [2,3]",
+    "Elliot is on [2,3], so row 2 and column 3 are ruled out for Brian. → Brian at [3,4]",
+    "Elliot is on [2,3], so row 2 and column 3 are ruled out for Clive. → Clive at [1,2]",
+    "Elliot is on [2,3], so row 2 and column 3 are ruled out for Dorothy. → Dorothy at [5,5]",
+    "Elliot is on [2,3], so row 2 and column 3 are ruled out for Vikram. → Vikram at [6,6]"
+   ]
+  },
+  "nl": {
+   "titel": "De skihut: de après-ski",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Eerst de pistes, dan de après-ski. Daarna de vragen.",
+   "aanwijzingen": [
+    "<strong>A · Aiden</strong> (♂ man · hoed)<strong>:</strong> Was in de <strong>4e rij</strong>. Was in de <strong>linkerkolom</strong> van de ruimte.",
+    "<strong>B · Bart</strong> (♂ man · bril)<strong>:</strong> Was in de <strong>bovenste rij</strong> van de ruimte. Was <strong>de enige</strong> persoon in de <strong>slaapzaal</strong>.",
+    "<strong>C · Cornelis</strong> (♂ man)<strong>:</strong> Er was <strong>nog iemand</strong> met <strong>een hoed</strong> in de ruimte. Bevond zich <strong>ergens boven</strong> <strong>Aiden</strong>.",
+    "<strong>D · Dewi</strong> (♀ vrouw)<strong>:</strong> Was <strong>niet in</strong> de <strong>onderste rij</strong>.",
+    "<strong>E · Elias</strong> (♂ man · bril)<strong>:</strong> Bevond zich <strong>ergens links van</strong> <strong>Bart</strong>.",
+    "<strong>V · Volkert</strong> (♂ man · bril)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Dewi (D).</strong> Het slachtoffer Volkert lag in de haardkamer.",
+   "stappen": [
+    "\"Cornelis bevond zich ergens boven Aiden.\": voor deze vakjes van Cornelis is er geen passende plek voor Aiden.",
+    "\"Er was nog iemand met een hoed in de ruimte van Cornelis.\": in deze ruimtes kan iemand met een hoed niet bij Cornelis staan.",
+    "\"Er was nog iemand met een hoed in de ruimte van Cornelis.\": alleen Aiden kan die persoon zijn, dus Aiden staat bij Cornelis in de ruimte. → Aiden op [4,1]",
+    "\"Elias bevond zich ergens links van Bart.\": voor deze vakjes van Elias is er geen passende plek voor Bart. → Elias op [2,3]",
+    "Elias staat op [2,3], dus rij 2 en kolom 3 vallen af voor Bart. → Bart op [3,4]",
+    "Elias staat op [2,3], dus rij 2 en kolom 3 vallen af voor Cornelis. → Cornelis op [1,2]",
+    "Elias staat op [2,3], dus rij 2 en kolom 3 vallen af voor Dewi. → Dewi op [5,5]",
+    "Elias staat op [2,3], dus rij 2 en kolom 3 vallen af voor Volkert. → Volkert op [6,6]"
+   ]
+  },
+  "de": {
+   "titel": "Die Skihütte: das Après-Ski",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Draußen liegt ein Meter Neuschnee. Drinnen liegt ein Fall, den noch niemand gelöst hat.",
+   "aanwijzingen": [
+    "<strong>A · Axel</strong> (♂ Mann · Hut)<strong>:</strong> War in der <strong>4. Reihe</strong>. War in der <strong>Spalte ganz links</strong> <strong>im Raum</strong>.",
+    "<strong>B · Bastian</strong> (♂ Mann · Brille)<strong>:</strong> War in der <strong>obersten Reihe</strong> <strong>des Raums</strong>. War <strong>die einzige</strong> Person im <strong>Schlafsaal</strong>.",
+    "<strong>C · Cem</strong> (♂ Mann)<strong>:</strong> In seinem <strong>eigenen</strong> Raum war <strong>außerdem</strong> <strong>jemand mit Hut</strong>. Befand sich <strong>irgendwo oberhalb von</strong> <strong>Axel</strong>.",
+    "<strong>D · Doris</strong> (♀ Frau)<strong>:</strong> War <strong>nicht in</strong> der <strong>untersten Reihe</strong>.",
+    "<strong>E · Elias</strong> (♂ Mann · Brille)<strong>:</strong> Befand sich <strong>irgendwo links von</strong> <strong>Bastian</strong>.",
+    "<strong>V · Volkmar</strong> (♂ Mann · Brille)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Doris (D).</strong> Das Opfer, Volkmar, lag im Kaminzimmer.",
+   "stappen": [
+    "\"Cem befand sich irgendwo oberhalb von Axel.\": Für diese Felder von Cem gibt es keinen passenden Platz für Axel.",
+    "\"In Cems Raum war außerdem jemand mit Hut.\": In diesen Räumen kann jemand mit Hut nicht zusammen mit Cem stehen.",
+    "\"In Cems Raum war außerdem jemand mit Hut.\": Nur Axel kann diese Person sein, also steht Axel mit Cem im selben Raum. → Axel in [4,1]",
+    "\"Elias befand sich irgendwo links von Bastian.\": Für diese Felder von Elias gibt es keinen passenden Platz für Bastian. → Elias in [2,3]",
+    "Elias steht in [2,3], also fallen Reihe 2 und Spalte 3 für Bastian weg. → Bastian in [3,4]",
+    "Elias steht in [2,3], also fallen Reihe 2 und Spalte 3 für Cem weg. → Cem in [1,2]",
+    "Elias steht in [2,3], also fallen Reihe 2 und Spalte 3 für Doris weg. → Doris in [5,5]",
+    "Elias steht in [2,3], also fallen Reihe 2 und Spalte 3 für Volkmar weg. → Volkmar in [6,6]"
+   ]
+  },
+  "fr": {
+   "titel": "Le chalet de ski: l'après-ski",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Dehors, il est tombé un mètre de neige fraîche. Dedans, une affaire que personne n'a encore résolue.",
+   "aanwijzingen": [
+    "<strong>A · Adrien</strong> (♂ homme · chapeau)<strong>:</strong> Était dans la <strong>4e rangée</strong>. Était dans la <strong>colonne</strong> <strong>la plus à gauche</strong> <strong>de sa pièce</strong>.",
+    "<strong>B · Bertrand</strong> (♂ homme · lunettes)<strong>:</strong> Était dans la <strong>rangée</strong> <strong>la plus haute</strong> <strong>de sa pièce</strong>. Était <strong>la seule personne</strong> dans le <strong>dortoir</strong>.",
+    "<strong>C · Corentin</strong> (♂ homme)<strong>:</strong> Dans <strong>sa pièce</strong>, il y avait <strong>une autre personne</strong> portant <strong>un chapeau</strong>. Se trouvait <strong>quelque part au-dessus</strong> d'<strong>Adrien</strong>.",
+    "<strong>D · Delphine</strong> (♀ femme)<strong>:</strong> N'était <strong>pas dans</strong> la <strong>rangée du bas</strong>.",
+    "<strong>E · Éric</strong> (♂ homme · lunettes)<strong>:</strong> Se trouvait <strong>quelque part à gauche</strong> de <strong>Bertrand</strong>.",
+    "<strong>V · Vivien</strong> (♂ homme · lunettes)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Delphine (D).</strong> La victime, Vivien, se trouvait dans la salle de la cheminée.",
+   "stappen": [
+    "\"Corentin se trouvait quelque part au-dessus d'Adrien.\" : pour ces cases de Corentin, il n'y a aucune place qui convienne pour Adrien.",
+    "\"Dans la pièce de Corentin, il y avait une autre personne portant un chapeau.\" : dans ces pièces, quelqu'un portant un chapeau ne peut pas être avec Corentin.",
+    "\"Dans la pièce de Corentin, il y avait une autre personne portant un chapeau.\" : seul Adrien peut être cette personne, donc Adrien est dans la même pièce que Corentin. → Adrien en [4,1]",
+    "\"Éric se trouvait quelque part à gauche de Bertrand.\" : pour ces cases d'Éric, il n'y a aucune place qui convienne pour Bertrand. → Éric en [2,3]",
+    "Éric se trouve en [2,3], donc la rangée 2 et la colonne 3 sont exclues pour Bertrand. → Bertrand en [3,4]",
+    "Éric se trouve en [2,3], donc la rangée 2 et la colonne 3 sont exclues pour Corentin. → Corentin en [1,2]",
+    "Éric se trouve en [2,3], donc la rangée 2 et la colonne 3 sont exclues pour Delphine. → Delphine en [5,5]",
+    "Éric se trouve en [2,3], donc la rangée 2 et la colonne 3 sont exclues pour Vivien. → Vivien en [6,6]"
+   ]
+  },
+  "it": {
+   "titel": "Il rifugio sciistico: l'après-ski",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "Fuori c'è un metro di neve fresca. Dentro c'è un caso che nessuno ha ancora risolto.",
+   "aanwijzingen": [
+    "<strong>A · Antonio</strong> (♂ uomo · cappello)<strong>:</strong> Era nella <strong>4ª riga</strong>. Era nella <strong>colonna più a sinistra</strong> <strong>della stanza</strong>.",
+    "<strong>B · Basilio</strong> (♂ uomo · occhiali)<strong>:</strong> Era nella <strong>riga più in alto</strong> <strong>della stanza</strong>. Era <strong>l'unica persona</strong> nel <strong>dormitorio</strong>.",
+    "<strong>C · Corrado</strong> (♂ uomo)<strong>:</strong> Nella <strong>sua stanza</strong> c'era <strong>anche</strong> <strong>qualcuno che portava un cappello</strong>. Si trovava <strong>da qualche parte</strong> <strong>più in alto di</strong> <strong>Antonio</strong>.",
+    "<strong>D · Daniela</strong> (♀ donna)<strong>:</strong> <strong>Non era</strong> nella <strong>riga più in basso</strong>.",
+    "<strong>E · Edoardo</strong> (♂ uomo · occhiali)<strong>:</strong> Si trovava <strong>da qualche parte</strong> <strong>più a sinistra di</strong> <strong>Basilio</strong>.",
+    "<strong>V · Vinicio</strong> (♂ uomo · occhiali)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Daniela (D).</strong> La vittima, Vinicio, giaceva nella sala del camino.",
+   "stappen": [
+    "\"Corrado si trovava da qualche parte più in alto di Antonio.\": per queste caselle di Corrado non c'è un posto adatto per Antonio.",
+    "\"Nella stanza di Corrado c'era anche qualcuno che portava un cappello.\": in queste stanze qualcuno con il cappello non può essere insieme a Corrado.",
+    "\"Nella stanza di Corrado c'era anche qualcuno che portava un cappello.\": solo Antonio può essere quella persona, quindi Antonio è nella stessa stanza di Corrado. → Antonio in [4,1]",
+    "\"Edoardo si trovava da qualche parte più a sinistra di Basilio.\": per queste caselle di Edoardo non c'è un posto adatto per Basilio. → Edoardo in [2,3]",
+    "Edoardo è in [2,3], quindi la riga 2 e la colonna 3 sono escluse per Basilio. → Basilio in [3,4]",
+    "Edoardo è in [2,3], quindi la riga 2 e la colonna 3 sono escluse per Corrado. → Corrado in [1,2]",
+    "Edoardo è in [2,3], quindi la riga 2 e la colonna 3 sono escluse per Daniela. → Daniela in [5,5]",
+    "Edoardo è in [2,3], quindi la riga 2 e la colonna 3 sono escluse per Vinicio. → Vinicio in [6,6]"
+   ]
+  },
+  "es": {
+   "titel": "La cabaña de esquí: el après-ski",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "Fuera hay un metro de nieve fresca. Dentro hay un caso que nadie ha resuelto aún.",
+   "aanwijzingen": [
+    "<strong>A · Adrián</strong> (♂ hombre · sombrero)<strong>:</strong> Se encontraba en la <strong>4.ª fila</strong>. Se encontraba en la <strong>columna más a la izquierda</strong> <strong>de su estancia</strong>.",
+    "<strong>B · Blas</strong> (♂ hombre · gafas)<strong>:</strong> Se encontraba en la <strong>fila superior</strong> <strong>de su estancia</strong>. Era <strong>la única persona</strong> en el <strong>dormitorio</strong>.",
+    "<strong>C · Cayetano</strong> (♂ hombre)<strong>:</strong> En <strong>su estancia</strong> <strong>también</strong> había <strong>alguien con sombrero</strong>. Estaba <strong>en algún lugar</strong> <strong>por encima de</strong> <strong>Adrián</strong>.",
+    "<strong>D · Diana</strong> (♀ mujer)<strong>:</strong> <strong>No se encontraba</strong> en la <strong>fila inferior</strong>.",
+    "<strong>E · Esteban</strong> (♂ hombre · gafas)<strong>:</strong> Estaba <strong>en algún lugar</strong> <strong>a la izquierda de</strong> <strong>Blas</strong>.",
+    "<strong>V · Vladimir</strong> (♂ hombre · gafas)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Diana (D).</strong> La víctima, Vladimir, yacía en la sala de la chimenea.",
+   "stappen": [
+    "\"Cayetano estaba en algún lugar por encima de Adrián.\": para estas casillas de Cayetano no hay ningún sitio adecuado para Adrián.",
+    "\"En la estancia de Cayetano también había alguien con sombrero.\": en estas estancias no puede haber nadie con sombrero con Cayetano.",
+    "\"En la estancia de Cayetano también había alguien con sombrero.\": solo Adrián puede ser esa persona, así que Adrián está en la misma estancia que Cayetano. → Adrián en [4,1]",
+    "\"Esteban estaba en algún lugar a la izquierda de Blas.\": para estas casillas de Esteban no hay ningún sitio adecuado para Blas. → Esteban en [2,3]",
+    "Esteban está en la fila 2, columna 3, así que la fila 2 y la columna 3 quedan descartadas para Blas. → Blas en [3,4]",
+    "Esteban está en la fila 2, columna 3, así que la fila 2 y la columna 3 quedan descartadas para Cayetano. → Cayetano en [1,2]",
+    "Esteban está en la fila 2, columna 3, así que la fila 2 y la columna 3 quedan descartadas para Diana. → Diana en [5,5]",
+    "Esteban está en la fila 2, columna 3, así que la fila 2 y la columna 3 quedan descartadas para Vladimir. → Vladimir en [6,6]"
+   ]
+  },
+  "pt": {
+   "titel": "O refúgio de esqui: o après-ski",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Lá fora há um metro de neve fresca. Cá dentro, um caso que ninguém resolveu.",
+   "aanwijzingen": [
+    "<strong>A · André</strong> (♂ homem · chapéu)<strong>:</strong> Estava na <strong>4.ª linha</strong>. Estava na <strong>coluna mais à esquerda</strong> <strong>da divisão</strong>.",
+    "<strong>B · Basílio</strong> (♂ homem · óculos)<strong>:</strong> Estava na <strong>linha mais acima</strong> <strong>da divisão</strong>. Era <strong>a única pessoa</strong> na <strong>camarata</strong>.",
+    "<strong>C · Cláudio</strong> (♂ homem)<strong>:</strong> Na <strong>sua divisão</strong> havia <strong>também</strong> <strong>alguém de chapéu</strong>. Encontrava-se <strong>algures acima de</strong> <strong>André</strong>.",
+    "<strong>D · Diana</strong> (♀ mulher)<strong>:</strong> <strong>Não estava</strong> na <strong>linha mais abaixo</strong>.",
+    "<strong>E · Ernesto</strong> (♂ homem · óculos)<strong>:</strong> Encontrava-se <strong>algures à esquerda de</strong> <strong>Basílio</strong>.",
+    "<strong>V · Venâncio</strong> (♂ homem · óculos)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Diana (D).</strong> A vítima, Venâncio, estava na sala da lareira.",
+   "stappen": [
+    "\"Cláudio encontrava-se algures acima de André.\": para estas casas de Cláudio não há nenhum sítio adequado para André.",
+    "\"Na divisão de Cláudio havia também alguém de chapéu.\": nestas divisões não pode estar alguém de chapéu com Cláudio.",
+    "\"Na divisão de Cláudio havia também alguém de chapéu.\": só André pode ser essa pessoa, por isso André está na mesma divisão que Cláudio. → André: [4,1]",
+    "\"Ernesto encontrava-se algures à esquerda de Basílio.\": para estas casas de Ernesto não há nenhum sítio adequado para Basílio. → Ernesto: [2,3]",
+    "Ernesto está na [2,3], por isso a linha 2 e a coluna 3 ficam excluídas para Basílio. → Basílio: [3,4]",
+    "Ernesto está na [2,3], por isso a linha 2 e a coluna 3 ficam excluídas para Cláudio. → Cláudio: [1,2]",
+    "Ernesto está na [2,3], por isso a linha 2 e a coluna 3 ficam excluídas para Diana. → Diana: [5,5]",
+    "Ernesto está na [2,3], por isso a linha 2 e a coluna 3 ficam excluídas para Venâncio. → Venâncio: [6,6]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "A cabana de esqui: o après-ski",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Lá fora há um metro de neve fresca. Aqui dentro, um caso que ninguém resolveu ainda.",
+   "aanwijzingen": [
+    "<strong>A · Arthur</strong> (♂ homem · chapéu)<strong>:</strong> Encontrava-se na <strong>4ª linha</strong>. Encontrava-se na <strong>coluna mais à esquerda</strong> <strong>do cômodo</strong>.",
+    "<strong>B · Bento</strong> (♂ homem · óculos)<strong>:</strong> Encontrava-se na <strong>linha superior</strong> <strong>do cômodo</strong>. Era <strong>a única pessoa</strong> no <strong>dormitório</strong>.",
+    "<strong>C · Cristiano</strong> (♂ homem)<strong>:</strong> <strong>Além dele</strong>, havia <strong>alguém de chapéu</strong> <strong>no mesmo cômodo</strong>. Estava <strong>em algum lugar acima de</strong> <strong>Arthur</strong>.",
+    "<strong>D · Daiane</strong> (♀ mulher)<strong>:</strong> <strong>Não se encontrava</strong> na <strong>linha inferior</strong>.",
+    "<strong>E · Emanuel</strong> (♂ homem · óculos)<strong>:</strong> Estava <strong>em algum lugar à esquerda de</strong> <strong>Bento</strong>.",
+    "<strong>V · Valdemar</strong> (♂ homem · óculos)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Daiane (D).</strong> A vítima, Valdemar, estava na sala da lareira.",
+   "stappen": [
+    "\"Cristiano estava em algum lugar acima de Arthur.\": para esses quadrados de Cristiano, não há lugar adequado para Arthur.",
+    "\"Além de Cristiano, havia alguém de chapéu no mesmo cômodo.\": nesses cômodos, alguém de chapéu não pode estar com Cristiano.",
+    "\"Além de Cristiano, havia alguém de chapéu no mesmo cômodo.\": só Arthur pode ser essa pessoa, então Arthur está no mesmo cômodo que Cristiano. → Arthur em [4,1]",
+    "\"Emanuel estava em algum lugar à esquerda de Bento.\": para esses quadrados de Emanuel, não há lugar adequado para Bento. → Emanuel em [2,3]",
+    "Emanuel está na [2,3], então a linha 2 e a coluna 3 ficam descartadas para Bento. → Bento em [3,4]",
+    "Emanuel está na [2,3], então a linha 2 e a coluna 3 ficam descartadas para Cristiano. → Cristiano em [1,2]",
+    "Emanuel está na [2,3], então a linha 2 e a coluna 3 ficam descartadas para Daiane. → Daiane em [5,5]",
+    "Emanuel está na [2,3], então a linha 2 e a coluna 3 ficam descartadas para Valdemar. → Valdemar em [6,6]"
+   ]
+  },
+  "pl": {
+   "titel": "Chata narciarska: après-ski",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Na dworze leży metr świeżego śniegu. W środku leży sprawa, której nikt jeszcze nie rozwiązał.",
+   "aanwijzingen": [
+    "<strong>A · Antoni</strong> (♂ mężczyzna · kapelusz)<strong>:</strong> Znajdował się w <strong>4. rzędzie</strong>. Znajdował się w <strong>skrajnej lewej kolumnie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>B · Benedykt</strong> (♂ mężczyzna · okulary)<strong>:</strong> Znajdował się w <strong>najwyższym rzędzie</strong> <strong>swojego pomieszczenia</strong>. Był <strong>jedyną osobą</strong> w <strong>sali sypialnej</strong>.",
+    "<strong>C · Cyrus</strong> (♂ mężczyzna)<strong>:</strong> W pomieszczeniu, w którym był, przebywał <strong>też</strong> ktoś <strong>inny</strong> w <strong>kapeluszu</strong>. Był <strong>gdzieś wyżej niż</strong> <strong>Antoni</strong>.",
+    "<strong>D · Dorota</strong> (♀ kobieta)<strong>:</strong> Nie znajdowała się w <strong>najniższym rzędzie</strong>.",
+    "<strong>E · Edward</strong> (♂ mężczyzna · okulary)<strong>:</strong> Był <strong>gdzieś na lewo od</strong> <strong>Benedykta</strong>.",
+    "<strong>V · Vlad</strong> (♂ mężczyzna · okulary)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Dorota (D).</strong> Ofiara (Vlad) leżała w pokoju z kominkiem.",
+   "stappen": [
+    "\"Cyrus był gdzieś wyżej niż Antoni.\": dla tych pól Cyrusa nie ma odpowiedniego miejsca dla Antoniego.",
+    "\"W pomieszczeniu Cyrusa przebywał też ktoś inny w kapeluszu.\": w tych pomieszczeniach nikt w kapeluszu nie może być razem z Cyrusem.",
+    "\"W pomieszczeniu Cyrusa przebywał też ktoś inny w kapeluszu.\": tylko Antoni może być tą osobą, więc Antoni jest w tym samym pomieszczeniu co Cyrus. → Antoni: [4,1]",
+    "\"Edward był gdzieś na lewo od Benedykta.\": dla tych pól Edwarda nie ma odpowiedniego miejsca dla Benedykta. → Edward: [2,3]",
+    "Edward jest w rzędzie 2 i kolumnie 3, więc ten rząd i ta kolumna odpadają dla Benedykta. → Benedykt: [3,4]",
+    "Edward jest w rzędzie 2 i kolumnie 3, więc ten rząd i ta kolumna odpadają dla Cyrusa. → Cyrus: [1,2]",
+    "Edward jest w rzędzie 2 i kolumnie 3, więc ten rząd i ta kolumna odpadają dla Doroty. → Dorota: [5,5]",
+    "Edward jest w rzędzie 2 i kolumnie 3, więc ten rząd i ta kolumna odpadają dla Vlada. → Vlad: [6,6]"
+   ]
+  }
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "week": 13,
+ "id": "L2-00hva6i",
+ "level": 2,
+ "theme": "operahuis",
+ "talen": {
+  "en": {
+   "titel": "The Opera House: the wrong note",
+   "niveau": "Level 2 · Sleuth ★★☆☆☆",
+   "intro": "The real drama happens behind the scenes. Tonight, at any rate.",
+   "aanwijzingen": [
+    "<strong>A · Arthur</strong> (♂ man · glasses)<strong>:</strong> Was <strong>directly next to</strong> a <strong>sofa</strong>.",
+    "<strong>B · Bella</strong> (♀ woman)<strong>:</strong> Was on a <strong>chair</strong>.",
+    "<strong>C · Claire</strong> (♀ woman · glasses)<strong>:</strong> Was <strong>directly next to</strong> a <strong>piano</strong>.",
+    "<strong>D · Dominic</strong> (♂ man · glasses)<strong>:</strong> Was in the <strong>2nd row</strong>.",
+    "<strong>E · Ethan</strong> (♂ man · glasses · hat)<strong>:</strong> Was <strong>alone</strong> in the <strong>dressing room</strong>.",
+    "<strong>V · Vaughan</strong> (♂ man)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Dominic (D).</strong> The victim, Vaughan, lay in the rehearsal room.",
+   "stappen": [
+    "Dominic is certainly in row 2, so Claire cannot be there. → Claire at [3,4]",
+    "Claire is on [3,4], so row 3 and column 4 are ruled out for Arthur. → Arthur at [4,3]",
+    "Arthur is on [4,3], so row 4 and column 3 are ruled out for Bella. → Bella at [5,1]",
+    "Arthur is on [4,3], so row 4 and column 3 are ruled out for Dominic. → Dominic at [2,5]",
+    "Dominic is on [2,5], so row 2 and column 5 are ruled out for Ethan. → Ethan at [1,2]",
+    "Ethan is on [1,2], so row 1 and column 2 are ruled out for Vaughan. → Vaughan at [6,6]"
+   ]
+  },
+  "nl": {
+   "titel": "Het operahuis: de valse noot",
+   "niveau": "Niveau 2 · Speurder ★★☆☆☆",
+   "intro": "Eén valse noot hoort iedereen. Eén vals alibi hoor jij.",
+   "aanwijzingen": [
+    "<strong>A · Arjen</strong> (♂ man · bril)<strong>:</strong> Bevond zich <strong>direct naast</strong> een <strong>bank</strong>.",
+    "<strong>B · Britt</strong> (♀ vrouw)<strong>:</strong> Bevond zich op een <strong>stoel</strong>.",
+    "<strong>C · Claire</strong> (♀ vrouw · bril)<strong>:</strong> Bevond zich <strong>direct naast</strong> een <strong>piano</strong>.",
+    "<strong>D · Dimitri</strong> (♂ man · bril)<strong>:</strong> Was in de <strong>2e rij</strong>.",
+    "<strong>E · Emir</strong> (♂ man · bril · hoed)<strong>:</strong> Was <strong>alleen</strong> in de <strong>kleedkamer</strong>.",
+    "<strong>V · Vito</strong> (♂ man)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Dimitri (D).</strong> Het slachtoffer Vito lag in de repetitieruimte.",
+   "stappen": [
+    "Dimitri staat zeker in rij 2, dus Claire kan daar niet staan. → Claire op [3,4]",
+    "Claire staat op [3,4], dus rij 3 en kolom 4 vallen af voor Arjen. → Arjen op [4,3]",
+    "Arjen staat op [4,3], dus rij 4 en kolom 3 vallen af voor Britt. → Britt op [5,1]",
+    "Arjen staat op [4,3], dus rij 4 en kolom 3 vallen af voor Dimitri. → Dimitri op [2,5]",
+    "Dimitri staat op [2,5], dus rij 2 en kolom 5 vallen af voor Emir. → Emir op [1,2]",
+    "Emir staat op [1,2], dus rij 1 en kolom 2 vallen af voor Vito. → Vito op [6,6]"
+   ]
+  },
+  "de": {
+   "titel": "Das Opernhaus: der falsche Ton",
+   "niveau": "Stufe 2 · Spürnase ★★☆☆☆",
+   "intro": "Das eigentliche Drama spielt sich hinter den Kulissen ab. Heute Abend jedenfalls.",
+   "aanwijzingen": [
+    "<strong>A · Anton</strong> (♂ Mann · Brille)<strong>:</strong> Befand sich <strong>direkt neben</strong> einem <strong>Sofa</strong>.",
+    "<strong>B · Birgit</strong> (♀ Frau)<strong>:</strong> Befand sich auf einem <strong>Stuhl</strong>.",
+    "<strong>C · Corinna</strong> (♀ Frau · Brille)<strong>:</strong> Befand sich <strong>direkt neben</strong> einem <strong>Klavier</strong>.",
+    "<strong>D · Dennis</strong> (♂ Mann · Brille)<strong>:</strong> War in der <strong>2. Reihe</strong>.",
+    "<strong>E · Emil</strong> (♂ Mann · Brille · Hut)<strong>:</strong> War <strong>allein</strong> in der <strong>Künstlergarderobe</strong>.",
+    "<strong>V · Vincent</strong> (♂ Mann)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Dennis (D).</strong> Das Opfer, Vincent, lag im Probenraum.",
+   "stappen": [
+    "Dennis steht sicher in Reihe 2, also kann Corinna dort nicht stehen. → Corinna in [3,4]",
+    "Corinna steht in [3,4], also fallen Reihe 3 und Spalte 4 für Anton weg. → Anton in [4,3]",
+    "Anton steht in [4,3], also fallen Reihe 4 und Spalte 3 für Birgit weg. → Birgit in [5,1]",
+    "Anton steht in [4,3], also fallen Reihe 4 und Spalte 3 für Dennis weg. → Dennis in [2,5]",
+    "Dennis steht in [2,5], also fallen Reihe 2 und Spalte 5 für Emil weg. → Emil in [1,2]",
+    "Emil steht in [1,2], also fallen Reihe 1 und Spalte 2 für Vincent weg. → Vincent in [6,6]"
+   ]
+  },
+  "fr": {
+   "titel": "L'opéra: la fausse note",
+   "niveau": "Niveau 2 · Limier ★★☆☆☆",
+   "intro": "Le vrai drame se joue en coulisses. Ce soir, en tout cas.",
+   "aanwijzingen": [
+    "<strong>A · Arthur</strong> (♂ homme · lunettes)<strong>:</strong> Se trouvait <strong>juste à côté</strong> d'un <strong>canapé</strong>.",
+    "<strong>B · Brigitte</strong> (♀ femme)<strong>:</strong> Se trouvait sur une <strong>chaise</strong>.",
+    "<strong>C · Charlotte</strong> (♀ femme · lunettes)<strong>:</strong> Se trouvait <strong>juste à côté</strong> d'un <strong>piano</strong>.",
+    "<strong>D · David</strong> (♂ homme · lunettes)<strong>:</strong> Était dans la <strong>2e rangée</strong>.",
+    "<strong>E · Émile</strong> (♂ homme · lunettes · chapeau)<strong>:</strong> Était <strong>seul</strong> dans la <strong>loge des artistes</strong>.",
+    "<strong>V · Virgile</strong> (♂ homme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : David (D).</strong> La victime, Virgile, se trouvait dans la salle de répétition.",
+   "stappen": [
+    "David se trouve forcément dans la rangée 2, donc Charlotte ne peut pas s'y trouver. → Charlotte en [3,4]",
+    "Charlotte se trouve en [3,4], donc la rangée 3 et la colonne 4 sont exclues pour Arthur. → Arthur en [4,3]",
+    "Arthur se trouve en [4,3], donc la rangée 4 et la colonne 3 sont exclues pour Brigitte. → Brigitte en [5,1]",
+    "Arthur se trouve en [4,3], donc la rangée 4 et la colonne 3 sont exclues pour David. → David en [2,5]",
+    "David se trouve en [2,5], donc la rangée 2 et la colonne 5 sont exclues pour Émile. → Émile en [1,2]",
+    "Émile se trouve en [1,2], donc la rangée 1 et la colonne 2 sont exclues pour Virgile. → Virgile en [6,6]"
+   ]
+  },
+  "it": {
+   "titel": "Il teatro dell'opera: la nota stonata",
+   "niveau": "Livello 2 · Segugio ★★☆☆☆",
+   "intro": "Il vero dramma si svolge dietro le quinte. Stasera di sicuro.",
+   "aanwijzingen": [
+    "<strong>A · Alessio</strong> (♂ uomo · occhiali)<strong>:</strong> Si trovava <strong>proprio accanto a</strong> un <strong>divano</strong>.",
+    "<strong>B · Beatrice</strong> (♀ donna)<strong>:</strong> Si trovava su una <strong>sedia</strong>.",
+    "<strong>C · Chiara</strong> (♀ donna · occhiali)<strong>:</strong> Si trovava <strong>proprio accanto a</strong> un <strong>pianoforte</strong>.",
+    "<strong>D · Diego</strong> (♂ uomo · occhiali)<strong>:</strong> Era nella <strong>2ª riga</strong>.",
+    "<strong>E · Emilio</strong> (♂ uomo · occhiali · cappello)<strong>:</strong> Era <strong>da solo</strong> nel <strong>camerino</strong>.",
+    "<strong>V · Vito</strong> (♂ uomo)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Diego (D).</strong> La vittima, Vito, giaceva in sala prove.",
+   "stappen": [
+    "Diego è sicuramente nella riga 2, quindi Chiara non può essere lì. → Chiara in [3,4]",
+    "Chiara è in [3,4], quindi la riga 3 e la colonna 4 sono escluse per Alessio. → Alessio in [4,3]",
+    "Alessio è in [4,3], quindi la riga 4 e la colonna 3 sono escluse per Beatrice. → Beatrice in [5,1]",
+    "Alessio è in [4,3], quindi la riga 4 e la colonna 3 sono escluse per Diego. → Diego in [2,5]",
+    "Diego è in [2,5], quindi la riga 2 e la colonna 5 sono escluse per Emilio. → Emilio in [1,2]",
+    "Emilio è in [1,2], quindi la riga 1 e la colonna 2 sono escluse per Vito. → Vito in [6,6]"
+   ]
+  },
+  "es": {
+   "titel": "El teatro de la ópera: la nota desafinada",
+   "niveau": "Nivel 2 · Sabueso ★★☆☆☆",
+   "intro": "El verdadero drama ocurre entre bastidores. Esta noche, desde luego.",
+   "aanwijzingen": [
+    "<strong>A · Antonio</strong> (♂ hombre · gafas)<strong>:</strong> Se encontraba <strong>justo al lado de</strong> un <strong>sofá</strong>.",
+    "<strong>B · Beatriz</strong> (♀ mujer)<strong>:</strong> Se encontraba en una <strong>silla</strong>.",
+    "<strong>C · Celia</strong> (♀ mujer · gafas)<strong>:</strong> Se encontraba <strong>justo al lado de</strong> un <strong>piano</strong>.",
+    "<strong>D · Diego</strong> (♂ hombre · gafas)<strong>:</strong> Se encontraba en la <strong>2.ª fila</strong>.",
+    "<strong>E · Enrique</strong> (♂ hombre · gafas · sombrero)<strong>:</strong> Estaba <strong>solo</strong> en el <strong>camerino</strong>.",
+    "<strong>V · Valerio</strong> (♂ hombre)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Diego (D).</strong> La víctima, Valerio, yacía en la sala de ensayo.",
+   "stappen": [
+    "Diego está con seguridad en la fila 2, así que Celia no puede estar ahí. → Celia en [3,4]",
+    "Celia está en la fila 3, columna 4, así que la fila 3 y la columna 4 quedan descartadas para Antonio. → Antonio en [4,3]",
+    "Antonio está en la fila 4, columna 3, así que la fila 4 y la columna 3 quedan descartadas para Beatriz. → Beatriz en [5,1]",
+    "Antonio está en la fila 4, columna 3, así que la fila 4 y la columna 3 quedan descartadas para Diego. → Diego en [2,5]",
+    "Diego está en la fila 2, columna 5, así que la fila 2 y la columna 5 quedan descartadas para Enrique. → Enrique en [1,2]",
+    "Enrique está en la fila 1, columna 2, así que la fila 1 y la columna 2 quedan descartadas para Valerio. → Valerio en [6,6]"
+   ]
+  },
+  "pt": {
+   "titel": "A ópera: a nota desafinada",
+   "niveau": "Nível 2 · Investigador ★★☆☆☆",
+   "intro": "O verdadeiro drama passa-se nos bastidores. Pelo menos esta noite.",
+   "aanwijzingen": [
+    "<strong>A · António</strong> (♂ homem · óculos)<strong>:</strong> Encontrava-se <strong>mesmo ao lado de</strong> um <strong>sofá</strong>.",
+    "<strong>B · Beatriz</strong> (♀ mulher)<strong>:</strong> Encontrava-se numa <strong>cadeira</strong>.",
+    "<strong>C · Constança</strong> (♀ mulher · óculos)<strong>:</strong> Encontrava-se <strong>mesmo ao lado de</strong> um <strong>piano</strong>.",
+    "<strong>D · Daniel</strong> (♂ homem · óculos)<strong>:</strong> Estava na <strong>2.ª linha</strong>.",
+    "<strong>E · Emanuel</strong> (♂ homem · óculos · chapéu)<strong>:</strong> Estava <strong>sozinho</strong> no <strong>camarim</strong>.",
+    "<strong>V · Valter</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Daniel (D).</strong> A vítima, Valter, estava na sala de ensaios.",
+   "stappen": [
+    "Daniel está de certeza na linha 2, por isso Constança não pode estar lá. → Constança: [3,4]",
+    "Constança está na [3,4], por isso a linha 3 e a coluna 4 ficam excluídas para António. → António: [4,3]",
+    "António está na [4,3], por isso a linha 4 e a coluna 3 ficam excluídas para Beatriz. → Beatriz: [5,1]",
+    "António está na [4,3], por isso a linha 4 e a coluna 3 ficam excluídas para Daniel. → Daniel: [2,5]",
+    "Daniel está na [2,5], por isso a linha 2 e a coluna 5 ficam excluídas para Emanuel. → Emanuel: [1,2]",
+    "Emanuel está na [1,2], por isso a linha 1 e a coluna 2 ficam excluídas para Valter. → Valter: [6,6]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O teatro de ópera: a nota desafinada",
+   "niveau": "Nível 2 · Investigador ★★☆☆☆",
+   "intro": "O verdadeiro drama acontece nos bastidores. Pelo menos esta noite.",
+   "aanwijzingen": [
+    "<strong>A · André</strong> (♂ homem · óculos)<strong>:</strong> Estava <strong>bem ao lado de</strong> um <strong>sofá</strong>.",
+    "<strong>B · Beatriz</strong> (♀ mulher)<strong>:</strong> Estava numa <strong>cadeira</strong>.",
+    "<strong>C · Cristina</strong> (♀ mulher · óculos)<strong>:</strong> Estava <strong>bem ao lado de</strong> um <strong>piano</strong>.",
+    "<strong>D · Davi</strong> (♂ homem · óculos)<strong>:</strong> Encontrava-se na <strong>2ª linha</strong>.",
+    "<strong>E · Enzo</strong> (♂ homem · óculos · chapéu)<strong>:</strong> Estava <strong>sozinho</strong> no <strong>camarim</strong>.",
+    "<strong>V · Vinícius</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Davi (D).</strong> A vítima, Vinícius, estava na sala de ensaio.",
+   "stappen": [
+    "Davi está com certeza na linha 2, então Cristina não pode estar ali. → Cristina em [3,4]",
+    "Cristina está na [3,4], então a linha 3 e a coluna 4 ficam descartadas para André. → André em [4,3]",
+    "André está na [4,3], então a linha 4 e a coluna 3 ficam descartadas para Beatriz. → Beatriz em [5,1]",
+    "André está na [4,3], então a linha 4 e a coluna 3 ficam descartadas para Davi. → Davi em [2,5]",
+    "Davi está na [2,5], então a linha 2 e a coluna 5 ficam descartadas para Enzo. → Enzo em [1,2]",
+    "Enzo está na [1,2], então a linha 1 e a coluna 2 ficam descartadas para Vinícius. → Vinícius em [6,6]"
+   ]
+  },
+  "pl": {
+   "titel": "Opera: fałszywa nuta",
+   "niveau": "Poziom 2 · Tropiciel ★★☆☆☆",
+   "intro": "Prawdziwy dramat rozgrywa się za kulisami. Przynajmniej dziś wieczorem.",
+   "aanwijzingen": [
+    "<strong>A · Artur</strong> (♂ mężczyzna · okulary)<strong>:</strong> Był <strong>bezpośrednio obok</strong> <strong>kanapy</strong>.",
+    "<strong>B · Barbara</strong> (♀ kobieta)<strong>:</strong> Znajdowała się na <strong>krześle</strong>.",
+    "<strong>C · Celestyna</strong> (♀ kobieta · okulary)<strong>:</strong> Była <strong>bezpośrednio obok</strong> <strong>pianina</strong>.",
+    "<strong>D · Dominik</strong> (♂ mężczyzna · okulary)<strong>:</strong> Znajdował się w <strong>2. rzędzie</strong>.",
+    "<strong>E · Eryk</strong> (♂ mężczyzna · okulary · kapelusz)<strong>:</strong> <strong>Był sam</strong> w <strong>garderobie</strong>.",
+    "<strong>V · Valdemar</strong> (♂ mężczyzna)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Dominik (D).</strong> Ofiara (Valdemar) leżała w sali prób.",
+   "stappen": [
+    "Dominik na pewno jest w rzędzie 2, więc Celestyna nie może tam być. → Celestyna: [3,4]",
+    "Celestyna jest w rzędzie 3 i kolumnie 4, więc ten rząd i ta kolumna odpadają dla Artura. → Artur: [4,3]",
+    "Artur jest w rzędzie 4 i kolumnie 3, więc ten rząd i ta kolumna odpadają dla Barbary. → Barbara: [5,1]",
+    "Artur jest w rzędzie 4 i kolumnie 3, więc ten rząd i ta kolumna odpadają dla Dominika. → Dominik: [2,5]",
+    "Dominik jest w rzędzie 2 i kolumnie 5, więc ten rząd i ta kolumna odpadają dla Eryka. → Eryk: [1,2]",
+    "Eryk jest w rzędzie 1 i kolumnie 2, więc ten rząd i ta kolumna odpadają dla Valdemara. → Valdemar: [6,6]"
+   ]
+  }
+ }
+}

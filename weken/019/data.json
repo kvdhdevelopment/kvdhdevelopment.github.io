@@ -1,0 +1,287 @@
+{
+ "week": 19,
+ "id": "L4-00hvet6",
+ "level": 4,
+ "theme": "poolstation",
+ "talen": {
+  "en": {
+   "titel": "The Polar Station: a shadow on the stairs",
+   "niveau": "Level 4 · Detective ★★★★☆",
+   "intro": "Ice preserves everything. Even a secret, though not from you.",
+   "aanwijzingen": [
+    "<strong>A · Amelia</strong> (♀ woman)<strong>:</strong> Was in the <strong>bottom row</strong> <strong>of the room</strong>. Was <strong>the only</strong> person in the room.",
+    "<strong>B · Barry</strong> (♂ man · hat)<strong>:</strong> Was <strong>exactly</strong> three <strong>columns</strong> <strong>to the left of</strong> <strong>a man</strong>. Was in the <strong>top half</strong>.",
+    "<strong>C · Catherine</strong> (♀ woman)<strong>:</strong> Was in the <strong>rightmost column</strong> <strong>of the room</strong>.",
+    "<strong>D · Denise</strong> (♀ woman)<strong>:</strong> Was in the <strong>6th column</strong>.",
+    "<strong>E · Elliot</strong> (♂ man)<strong>:</strong> Was in the <strong>right half</strong>. Was <strong>alone</strong> in the <strong>lookout tower</strong>.",
+    "<strong>F · Frank</strong> (♂ man · glasses)<strong>:</strong> Was in the <strong>7th row</strong>. Was <strong>exactly</strong> two <strong>columns</strong> <strong>to the left of</strong> <strong>Barry</strong>.",
+    "<strong>G · George</strong> (♂ man)<strong>:</strong> Was <strong>in a higher row than</strong> <strong>Elliot</strong>.",
+    "<strong>V · Virgil</strong> (♂ man)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Barry (B).</strong> The victim, Virgil, lay in the generator room.",
+   "stappen": [
+    "\"Barry was exactly three columns to the left of a man.\": for these squares of Barry there is no man in the right place.",
+    "\"Frank was exactly two columns to the left of Barry.\": for these squares of Frank there is no fitting place for Barry. → Frank at [7,2]",
+    "\"Frank was exactly two columns to the left of Barry.\": for these squares of Barry there is no fitting place for Frank.",
+    "\"George was in a higher row than Elliot.\": for these squares of George there is no fitting place for Elliot.",
+    "George is certainly in row 1, so Elliot cannot be there. → Elliot at [2,5]",
+    "Amelia was alone, so cannot be in a room where someone else certainly is.",
+    "\"Barry was exactly three columns to the left of a man.\": only George can be that person, so George is in a fitting place relative to Barry. → George at [1,7]",
+    "George is on [1,7], so row 1 and column 7 are ruled out for Amelia. → Amelia at [8,8]",
+    "Catherine and Frank are already in the sauna, so the victim cannot be there (the victim was with only one suspect). → Virgil at [3,1]",
+    "Virgil is on [3,1], so row 3 and column 1 are ruled out for Barry. → Barry at [4,4]",
+    "Virgil is on [3,1], so row 3 and column 1 are ruled out for Denise. → Denise at [6,6]",
+    "Denise is on [6,6], so row 6 and column 6 are ruled out for Catherine. → Catherine at [5,3]"
+   ]
+  },
+  "nl": {
+   "titel": "Het poolstation: schaduw op de trap",
+   "niveau": "Niveau 4 · Rechercheur ★★★★☆",
+   "intro": "Een schaduw op de trap kan van iedereen zijn. Daar gaat het nou net om.",
+   "aanwijzingen": [
+    "<strong>A · Amira</strong> (♀ vrouw)<strong>:</strong> Bevond zich in de <strong>onderste rij</strong> van de ruimte. Was <strong>de enige</strong> persoon in de ruimte.",
+    "<strong>B · Boris</strong> (♂ man · hoed)<strong>:</strong> Was <strong>precies</strong> drie <strong>kolommen</strong> <strong>links van</strong> <strong>een man</strong>. Was in de <strong>bovenste helft</strong>.",
+    "<strong>C · Chantal</strong> (♀ vrouw)<strong>:</strong> Was in de <strong>rechterkolom</strong> van de ruimte.",
+    "<strong>D · Demi</strong> (♀ vrouw)<strong>:</strong> Bevond zich in de <strong>6e kolom</strong>.",
+    "<strong>E · Elias</strong> (♂ man)<strong>:</strong> Bevond zich in de <strong>rechterhelft</strong>. Was <strong>alleen</strong> op de <strong>uitkijktoren</strong>.",
+    "<strong>F · Freek</strong> (♂ man · bril)<strong>:</strong> Was in de <strong>7e rij</strong>. Bevond zich <strong>precies</strong> twee <strong>kolommen</strong> <strong>links van</strong> <strong>Boris</strong>.",
+    "<strong>G · Gijs</strong> (♂ man)<strong>:</strong> Bevond zich <strong>boven</strong> <strong>Elias</strong>.",
+    "<strong>V · Vadim</strong> (♂ man)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Boris (B).</strong> Het slachtoffer Vadim lag in de generatorruimte.",
+   "stappen": [
+    "\"Boris was precies drie kolommen links van een man.\": voor deze vakjes van Boris staat er nergens een man op de goede plek.",
+    "\"Freek bevond zich precies twee kolommen links van Boris.\": voor deze vakjes van Freek is er geen passende plek voor Boris. → Freek op [7,2]",
+    "\"Freek bevond zich precies twee kolommen links van Boris.\": voor deze vakjes van Boris is er geen passende plek voor Freek.",
+    "\"Gijs bevond zich boven Elias.\": voor deze vakjes van Gijs is er geen passende plek voor Elias.",
+    "Gijs staat zeker in rij 1, dus Elias kan daar niet staan. → Elias op [2,5]",
+    "Amira was alleen, dus kan niet in een ruimte staan waar al zeker iemand anders is.",
+    "\"Boris was precies drie kolommen links van een man.\": alleen Gijs kan die persoon zijn, dus Gijs staat op een passende plek ten opzichte van Boris. → Gijs op [1,7]",
+    "Gijs staat op [1,7], dus rij 1 en kolom 7 vallen af voor Amira. → Amira op [8,8]",
+    "In de sauna staan al Chantal en Freek, dus het slachtoffer kan daar niet liggen (bij het slachtoffer stond maar één verdachte). → Vadim op [3,1]",
+    "Vadim staat op [3,1], dus rij 3 en kolom 1 vallen af voor Boris. → Boris op [4,4]",
+    "Vadim staat op [3,1], dus rij 3 en kolom 1 vallen af voor Demi. → Demi op [6,6]",
+    "Demi staat op [6,6], dus rij 6 en kolom 6 vallen af voor Chantal. → Chantal op [5,3]"
+   ]
+  },
+  "de": {
+   "titel": "Die Polarstation: ein Schatten auf der Treppe",
+   "niveau": "Stufe 4 · Kommissar ★★★★☆",
+   "intro": "Eis konserviert alles. Auch ein Geheimnis, aber nicht vor dir.",
+   "aanwijzingen": [
+    "<strong>A · Anja</strong> (♀ Frau)<strong>:</strong> Befand sich in der <strong>untersten Reihe</strong> <strong>des Raums</strong>. War <strong>die einzige</strong> Person <strong>im Raum</strong>.",
+    "<strong>B · Björn</strong> (♂ Mann · Hut)<strong>:</strong> War <strong>genau</strong> drei <strong>Spalten</strong> <strong>links von</strong> <strong>einem Mann</strong>. War in der <strong>oberen Hälfte</strong>.",
+    "<strong>C · Clara</strong> (♀ Frau)<strong>:</strong> War in der <strong>Spalte ganz rechts</strong> <strong>im Raum</strong>.",
+    "<strong>D · Denise</strong> (♀ Frau)<strong>:</strong> Befand sich in der <strong>6. Spalte</strong>.",
+    "<strong>E · Elias</strong> (♂ Mann)<strong>:</strong> Befand sich in der <strong>rechten Hälfte</strong>. War <strong>allein</strong> auf dem <strong>Beobachtungsturm</strong>.",
+    "<strong>F · Felix</strong> (♂ Mann · Brille)<strong>:</strong> War in der <strong>7. Reihe</strong>. Befand sich <strong>genau</strong> zwei <strong>Spalten</strong> <strong>links von</strong> <strong>Björn</strong>.",
+    "<strong>G · Günter</strong> (♂ Mann)<strong>:</strong> Befand sich in einer <strong>Reihe</strong> <strong>weiter oben als</strong> <strong>Elias</strong>.",
+    "<strong>V · Vinzenz</strong> (♂ Mann)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Björn (B).</strong> Das Opfer, Vinzenz, lag im Generatorraum.",
+   "stappen": [
+    "\"Björn war genau drei Spalten links von einem Mann.\": Für diese Felder von Björn steht nirgends ein Mann an der passenden Stelle.",
+    "\"Felix befand sich genau zwei Spalten links von Björn.\": Für diese Felder von Felix gibt es keinen passenden Platz für Björn. → Felix in [7,2]",
+    "\"Felix befand sich genau zwei Spalten links von Björn.\": Für diese Felder von Björn gibt es keinen passenden Platz für Felix.",
+    "\"Günter befand sich in einer Reihe weiter oben als Elias.\": Für diese Felder von Günter gibt es keinen passenden Platz für Elias.",
+    "Günter steht sicher in Reihe 1, also kann Elias dort nicht stehen. → Elias in [2,5]",
+    "Anja war allein, kann also nicht in einem Raum stehen, in dem sicher schon jemand anders ist.",
+    "\"Björn war genau drei Spalten links von einem Mann.\": Nur Günter kann diese Person sein, also steht Günter an einer passenden Stelle im Verhältnis zu Björn. → Günter in [1,7]",
+    "Günter steht in [1,7], also fallen Reihe 1 und Spalte 7 für Anja weg. → Anja in [8,8]",
+    "In der Sauna stehen schon Clara und Felix, also kann das Opfer dort nicht liegen (beim Opfer war nur ein einziger Verdächtiger). → Vinzenz in [3,1]",
+    "Vinzenz steht in [3,1], also fallen Reihe 3 und Spalte 1 für Björn weg. → Björn in [4,4]",
+    "Vinzenz steht in [3,1], also fallen Reihe 3 und Spalte 1 für Denise weg. → Denise in [6,6]",
+    "Denise steht in [6,6], also fallen Reihe 6 und Spalte 6 für Clara weg. → Clara in [5,3]"
+   ]
+  },
+  "fr": {
+   "titel": "La station polaire: une ombre dans l'escalier",
+   "niveau": "Niveau 4 · Commissaire ★★★★☆",
+   "intro": "La glace conserve tout. Un secret aussi, mais pas à l'abri de vous.",
+   "aanwijzingen": [
+    "<strong>A · Alice</strong> (♀ femme)<strong>:</strong> Se trouvait dans la <strong>rangée</strong> <strong>la plus basse</strong> <strong>de sa pièce</strong>. Était <strong>la seule personne</strong> dans <strong>sa pièce</strong>.",
+    "<strong>B · Bernard</strong> (♂ homme · chapeau)<strong>:</strong> Était <strong>exactement</strong> trois <strong>colonnes</strong> <strong>à gauche</strong> d'<strong>un homme</strong>. Était dans la <strong>moitié supérieure</strong>.",
+    "<strong>C · Cécile</strong> (♀ femme)<strong>:</strong> Était dans la <strong>colonne</strong> <strong>la plus à droite</strong> <strong>de sa pièce</strong>.",
+    "<strong>D · Daphné</strong> (♀ femme)<strong>:</strong> Se trouvait dans la <strong>6e colonne</strong>.",
+    "<strong>E · Éric</strong> (♂ homme)<strong>:</strong> Se trouvait dans la <strong>moitié droite</strong>. Était <strong>seul</strong> dans la <strong>tour d'observation</strong>.",
+    "<strong>F · Félix</strong> (♂ homme · lunettes)<strong>:</strong> Était dans la <strong>7e rangée</strong>. Se trouvait <strong>exactement</strong> deux <strong>colonnes</strong> <strong>à gauche</strong> de <strong>Bernard</strong>.",
+    "<strong>G · Guillaume</strong> (♂ homme)<strong>:</strong> Était dans une <strong>rangée</strong> <strong>plus haute que</strong> celle d'<strong>Éric</strong>.",
+    "<strong>V · Vladimir</strong> (♂ homme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Bernard (B).</strong> La victime, Vladimir, se trouvait dans le local du générateur.",
+   "stappen": [
+    "\"Bernard était exactement trois colonnes à gauche d'un homme.\" : pour ces cases de Bernard, il n'y a aucun homme au bon endroit.",
+    "\"Félix se trouvait exactement deux colonnes à gauche de Bernard.\" : pour ces cases de Félix, il n'y a aucune place qui convienne pour Bernard. → Félix en [7,2]",
+    "\"Félix se trouvait exactement deux colonnes à gauche de Bernard.\" : pour ces cases de Bernard, il n'y a aucune place qui convienne pour Félix.",
+    "\"Guillaume était dans une rangée plus haute que celle d'Éric.\" : pour ces cases de Guillaume, il n'y a aucune place qui convienne pour Éric.",
+    "Guillaume se trouve forcément dans la rangée 1, donc Éric ne peut pas s'y trouver. → Éric en [2,5]",
+    "Alice était seule, donc elle ne peut pas se trouver dans une pièce où se trouve à coup sûr quelqu'un d'autre.",
+    "\"Bernard était exactement trois colonnes à gauche d'un homme.\" : seul Guillaume peut être cette personne, donc Guillaume se trouve à un endroit qui convient par rapport à Bernard. → Guillaume en [1,7]",
+    "Guillaume se trouve en [1,7], donc la rangée 1 et la colonne 7 sont exclues pour Alice. → Alice en [8,8]",
+    "Cécile et Félix se trouvent déjà dans le sauna, donc la victime ne peut pas s'y trouver (la victime n'était qu'avec un seul suspect). → Vladimir en [3,1]",
+    "Vladimir se trouve en [3,1], donc la rangée 3 et la colonne 1 sont exclues pour Bernard. → Bernard en [4,4]",
+    "Vladimir se trouve en [3,1], donc la rangée 3 et la colonne 1 sont exclues pour Daphné. → Daphné en [6,6]",
+    "Daphné se trouve en [6,6], donc la rangée 6 et la colonne 6 sont exclues pour Cécile. → Cécile en [5,3]"
+   ]
+  },
+  "it": {
+   "titel": "La base polare: un'ombra sulle scale",
+   "niveau": "Livello 4 · Commissario ★★★★☆",
+   "intro": "Il ghiaccio conserva tutto. Anche un segreto, ma non al sicuro da te.",
+   "aanwijzingen": [
+    "<strong>A · Alessia</strong> (♀ donna)<strong>:</strong> Si trovava nella <strong>riga più in basso</strong> <strong>della stanza</strong>. Era <strong>l'unica persona</strong> nella <strong>sua stanza</strong>.",
+    "<strong>B · Bernardo</strong> (♂ uomo · cappello)<strong>:</strong> Era <strong>esattamente</strong> tre <strong>colonne</strong> <strong>più a sinistra di</strong> <strong>un uomo</strong>. Era nella <strong>metà superiore</strong>.",
+    "<strong>C · Carolina</strong> (♀ donna)<strong>:</strong> Era nella <strong>colonna più a destra</strong> <strong>della stanza</strong>.",
+    "<strong>D · Dora</strong> (♀ donna)<strong>:</strong> Si trovava nella <strong>6ª colonna</strong>.",
+    "<strong>E · Edoardo</strong> (♂ uomo)<strong>:</strong> Si trovava nella <strong>metà destra</strong>. Era <strong>da solo</strong> sulla <strong>torre di vedetta</strong>.",
+    "<strong>F · Filippo</strong> (♂ uomo · occhiali)<strong>:</strong> Era nella <strong>7ª riga</strong>. Si trovava <strong>esattamente</strong> due <strong>colonne</strong> <strong>più a sinistra di</strong> <strong>Bernardo</strong>.",
+    "<strong>G · Giorgio</strong> (♂ uomo)<strong>:</strong> Si trovava <strong>in una riga più in alto di</strong> <strong>Edoardo</strong>.",
+    "<strong>V · Vasco</strong> (♂ uomo)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Bernardo (B).</strong> La vittima, Vasco, giaceva nella sala generatori.",
+   "stappen": [
+    "\"Bernardo era esattamente tre colonne più a sinistra di un uomo.\": per queste caselle di Bernardo non c'è nessun uomo nel posto giusto.",
+    "\"Filippo si trovava esattamente due colonne più a sinistra di Bernardo.\": per queste caselle di Filippo non c'è un posto adatto per Bernardo. → Filippo in [7,2]",
+    "\"Filippo si trovava esattamente due colonne più a sinistra di Bernardo.\": per queste caselle di Bernardo non c'è un posto adatto per Filippo.",
+    "\"Giorgio si trovava in una riga più in alto di Edoardo.\": per queste caselle di Giorgio non c'è un posto adatto per Edoardo.",
+    "Giorgio è sicuramente nella riga 1, quindi Edoardo non può essere lì. → Edoardo in [2,5]",
+    "Alessia era da sola, quindi non può essere in una stanza in cui c'è sicuramente qualcun altro.",
+    "\"Bernardo era esattamente tre colonne più a sinistra di un uomo.\": solo Giorgio può essere quella persona, quindi Giorgio si trova in un posto adatto rispetto a Bernardo. → Giorgio in [1,7]",
+    "Giorgio è in [1,7], quindi la riga 1 e la colonna 7 sono escluse per Alessia. → Alessia in [8,8]",
+    "In sauna ci sono già Carolina e Filippo, quindi la vittima non può essere lì (con la vittima c'era un solo sospettato). → Vasco in [3,1]",
+    "Vasco è in [3,1], quindi la riga 3 e la colonna 1 sono escluse per Bernardo. → Bernardo in [4,4]",
+    "Vasco è in [3,1], quindi la riga 3 e la colonna 1 sono escluse per Dora. → Dora in [6,6]",
+    "Dora è in [6,6], quindi la riga 6 e la colonna 6 sono escluse per Carolina. → Carolina in [5,3]"
+   ]
+  },
+  "es": {
+   "titel": "La estación polar: sombra en la escalera",
+   "niveau": "Nivel 4 · Detective ★★★★☆",
+   "intro": "El hielo lo conserva todo, hasta los secretos. A ti no se te escapará ninguno.",
+   "aanwijzingen": [
+    "<strong>A · Alicia</strong> (♀ mujer)<strong>:</strong> Estaba en la <strong>fila inferior</strong> <strong>de su estancia</strong>. Era <strong>la única persona</strong> en <strong>su estancia</strong>.",
+    "<strong>B · Benito</strong> (♂ hombre · sombrero)<strong>:</strong> Se encontraba <strong>exactamente</strong> tres <strong>columnas</strong> <strong>a la izquierda de</strong> <strong>un hombre</strong>. Se encontraba en la <strong>mitad superior</strong>.",
+    "<strong>C · Catalina</strong> (♀ mujer)<strong>:</strong> Se encontraba en la <strong>columna más a la derecha</strong> <strong>de su estancia</strong>.",
+    "<strong>D · Dorotea</strong> (♀ mujer)<strong>:</strong> Estaba en la <strong>6.ª columna</strong>.",
+    "<strong>E · Esteban</strong> (♂ hombre)<strong>:</strong> Estaba en la <strong>mitad derecha</strong>. Estaba <strong>solo</strong> en la <strong>torre de observación</strong>.",
+    "<strong>F · Federico</strong> (♂ hombre · gafas)<strong>:</strong> Se encontraba en la <strong>7.ª fila</strong>. Estaba <strong>exactamente</strong> dos <strong>columnas</strong> <strong>a la izquierda de</strong> <strong>Benito</strong>.",
+    "<strong>G · Gonzalo</strong> (♂ hombre)<strong>:</strong> Se encontraba <strong>en una fila más alta que la de</strong> <strong>Esteban</strong>.",
+    "<strong>V · Vidal</strong> (♂ hombre)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Benito (B).</strong> La víctima, Vidal, yacía en la sala del generador.",
+   "stappen": [
+    "\"Benito se encontraba exactamente tres columnas a la izquierda de un hombre.\": para estas casillas de Benito no hay ningún hombre en el sitio adecuado.",
+    "\"Federico estaba exactamente dos columnas a la izquierda de Benito.\": para estas casillas de Federico no hay ningún sitio adecuado para Benito. → Federico en [7,2]",
+    "\"Federico estaba exactamente dos columnas a la izquierda de Benito.\": para estas casillas de Benito no hay ningún sitio adecuado para Federico.",
+    "\"Gonzalo se encontraba en una fila más alta que la de Esteban.\": para estas casillas de Gonzalo no hay ningún sitio adecuado para Esteban.",
+    "Gonzalo está con seguridad en la fila 1, así que Esteban no puede estar ahí. → Esteban en [2,5]",
+    "Alicia estaba sola, así que no puede estar en una estancia donde seguro que hay otra persona.",
+    "\"Benito se encontraba exactamente tres columnas a la izquierda de un hombre.\": solo Gonzalo puede ser esa persona, así que Gonzalo está en un sitio adecuado respecto a Benito. → Gonzalo en [1,7]",
+    "Gonzalo está en la fila 1, columna 7, así que la fila 1 y la columna 7 quedan descartadas para Alicia. → Alicia en [8,8]",
+    "En la sauna ya están Catalina y Federico, así que la víctima no puede estar ahí (con la víctima había un solo sospechoso). → Vidal en [3,1]",
+    "Vidal está en la fila 3, columna 1, así que la fila 3 y la columna 1 quedan descartadas para Benito. → Benito en [4,4]",
+    "Vidal está en la fila 3, columna 1, así que la fila 3 y la columna 1 quedan descartadas para Dorotea. → Dorotea en [6,6]",
+    "Dorotea está en la fila 6, columna 6, así que la fila 6 y la columna 6 quedan descartadas para Catalina. → Catalina en [5,3]"
+   ]
+  },
+  "pt": {
+   "titel": "A estação polar: sombra na escada",
+   "niveau": "Nível 4 · Detetive ★★★★☆",
+   "intro": "O gelo conserva tudo. Até um segredo, mas não o esconde de ti.",
+   "aanwijzingen": [
+    "<strong>A · Alice</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>linha mais abaixo</strong> <strong>da divisão</strong>. Era <strong>a única pessoa</strong> na divisão.",
+    "<strong>B · Bento</strong> (♂ homem · chapéu)<strong>:</strong> Estava <strong>exatamente</strong> três <strong>colunas</strong> <strong>à esquerda de</strong> <strong>um homem</strong>. Estava na <strong>metade superior</strong>.",
+    "<strong>C · Carla</strong> (♀ mulher)<strong>:</strong> Estava na <strong>coluna mais à direita</strong> <strong>da divisão</strong>.",
+    "<strong>D · Dalila</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>6.ª coluna</strong>.",
+    "<strong>E · Ernesto</strong> (♂ homem)<strong>:</strong> Encontrava-se na <strong>metade direita</strong>. Estava <strong>sozinho</strong> na <strong>torre de vigia</strong>.",
+    "<strong>F · Fábio</strong> (♂ homem · óculos)<strong>:</strong> Estava na <strong>7.ª linha</strong>. Encontrava-se <strong>exatamente</strong> duas <strong>colunas</strong> <strong>à esquerda de</strong> <strong>Bento</strong>.",
+    "<strong>G · Gonçalo</strong> (♂ homem)<strong>:</strong> Encontrava-se <strong>numa linha mais acima do que</strong> <strong>Ernesto</strong>.",
+    "<strong>V · Valdemar</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Bento (B).</strong> A vítima, Valdemar, estava na sala do gerador.",
+   "stappen": [
+    "\"Bento estava exatamente três colunas à esquerda de um homem.\": para estas casas de Bento não há nenhum homem no sítio certo.",
+    "\"Fábio encontrava-se exatamente duas colunas à esquerda de Bento.\": para estas casas de Fábio não há nenhum sítio adequado para Bento. → Fábio: [7,2]",
+    "\"Fábio encontrava-se exatamente duas colunas à esquerda de Bento.\": para estas casas de Bento não há nenhum sítio adequado para Fábio.",
+    "\"Gonçalo encontrava-se numa linha mais acima do que Ernesto.\": para estas casas de Gonçalo não há nenhum sítio adequado para Ernesto.",
+    "Gonçalo está de certeza na linha 1, por isso Ernesto não pode estar lá. → Ernesto: [2,5]",
+    "Alice estava sozinha, por isso não pode estar numa divisão onde já está de certeza outra pessoa.",
+    "\"Bento estava exatamente três colunas à esquerda de um homem.\": só Gonçalo pode ser essa pessoa, por isso Gonçalo está num sítio adequado em relação a Bento. → Gonçalo: [1,7]",
+    "Gonçalo está na [1,7], por isso a linha 1 e a coluna 7 ficam excluídas para Alice. → Alice: [8,8]",
+    "Carla e Fábio já estão na sauna, por isso a vítima não pode estar lá (a vítima estava com apenas um suspeito). → Valdemar: [3,1]",
+    "Valdemar está na [3,1], por isso a linha 3 e a coluna 1 ficam excluídas para Bento. → Bento: [4,4]",
+    "Valdemar está na [3,1], por isso a linha 3 e a coluna 1 ficam excluídas para Dalila. → Dalila: [6,6]",
+    "Dalila está na [6,6], por isso a linha 6 e a coluna 6 ficam excluídas para Carla. → Carla: [5,3]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "A estação polar: sombra na escada",
+   "niveau": "Nível 4 · Detetive ★★★★☆",
+   "intro": "O gelo guarda tudo. Até segredo, mas não de você.",
+   "aanwijzingen": [
+    "<strong>A · Amanda</strong> (♀ mulher)<strong>:</strong> Estava na <strong>linha inferior</strong> <strong>do cômodo</strong>. Era <strong>a única pessoa</strong> no cômodo.",
+    "<strong>B · Breno</strong> (♂ homem · chapéu)<strong>:</strong> Encontrava-se <strong>exatamente</strong> três <strong>colunas</strong> <strong>à esquerda de</strong> <strong>um homem</strong>. Encontrava-se na <strong>metade superior</strong>.",
+    "<strong>C · Carolina</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>coluna mais à direita</strong> <strong>do cômodo</strong>.",
+    "<strong>D · Dulce</strong> (♀ mulher)<strong>:</strong> Estava na <strong>6ª coluna</strong>.",
+    "<strong>E · Emanuel</strong> (♂ homem)<strong>:</strong> Estava na <strong>metade direita</strong>. Estava <strong>sozinho</strong> na <strong>torre de observação</strong>.",
+    "<strong>F · Francisco</strong> (♂ homem · óculos)<strong>:</strong> Encontrava-se na <strong>7ª linha</strong>. Estava <strong>exatamente</strong> duas <strong>colunas</strong> <strong>à esquerda de</strong> <strong>Breno</strong>.",
+    "<strong>G · Gabriel</strong> (♂ homem)<strong>:</strong> Estava <strong>numa linha mais acima que</strong> a de <strong>Emanuel</strong>.",
+    "<strong>V · Vagner</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Breno (B).</strong> A vítima, Vagner, estava na sala do gerador.",
+   "stappen": [
+    "\"Breno se encontrava exatamente três colunas à esquerda de um homem.\": para esses quadrados de Breno, não há nenhum homem no lugar certo.",
+    "\"Francisco estava exatamente duas colunas à esquerda de Breno.\": para esses quadrados de Francisco, não há lugar adequado para Breno. → Francisco em [7,2]",
+    "\"Francisco estava exatamente duas colunas à esquerda de Breno.\": para esses quadrados de Breno, não há lugar adequado para Francisco.",
+    "\"Gabriel estava numa linha mais acima que a de Emanuel.\": para esses quadrados de Gabriel, não há lugar adequado para Emanuel.",
+    "Gabriel está com certeza na linha 1, então Emanuel não pode estar ali. → Emanuel em [2,5]",
+    "Amanda estava sozinha, então não pode estar num cômodo onde com certeza já há outra pessoa.",
+    "\"Breno se encontrava exatamente três colunas à esquerda de um homem.\": só Gabriel pode ser essa pessoa, então Gabriel está num lugar adequado em relação a Breno. → Gabriel em [1,7]",
+    "Gabriel está na [1,7], então a linha 1 e a coluna 7 ficam descartadas para Amanda. → Amanda em [8,8]",
+    "Carolina e Francisco já estão na sauna, então a vítima não pode estar ali (com a vítima havia apenas um suspeito). → Vagner em [3,1]",
+    "Vagner está na [3,1], então a linha 3 e a coluna 1 ficam descartadas para Breno. → Breno em [4,4]",
+    "Vagner está na [3,1], então a linha 3 e a coluna 1 ficam descartadas para Dulce. → Dulce em [6,6]",
+    "Dulce está na [6,6], então a linha 6 e a coluna 6 ficam descartadas para Carolina. → Carolina em [5,3]"
+   ]
+  },
+  "pl": {
+   "titel": "Stacja polarna: cień na schodach",
+   "niveau": "Poziom 4 · Detektyw ★★★★☆",
+   "intro": "Lód przechowuje wszystko. Sekret też, ale nie przed tobą.",
+   "aanwijzingen": [
+    "<strong>A · Agata</strong> (♀ kobieta)<strong>:</strong> Była w <strong>najniższym rzędzie</strong> <strong>swojego pomieszczenia</strong>. Była <strong>jedyną osobą</strong> w swoim pomieszczeniu.",
+    "<strong>B · Borys</strong> (♂ mężczyzna · kapelusz)<strong>:</strong> Znajdował się <strong>dokładnie</strong> trzy <strong>kolumny</strong> <strong>na lewo od</strong> <strong>jakiegoś mężczyzny</strong>. Znajdował się w <strong>górnej połowie</strong> planszy.",
+    "<strong>C · Carla</strong> (♀ kobieta)<strong>:</strong> Znajdowała się w <strong>skrajnej prawej kolumnie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>D · Delfina</strong> (♀ kobieta)<strong>:</strong> Była w <strong>6. kolumnie</strong>.",
+    "<strong>E · Edward</strong> (♂ mężczyzna)<strong>:</strong> Był w <strong>prawej połowie</strong> planszy. <strong>Był sam</strong> na <strong>wieży obserwacyjnej</strong>.",
+    "<strong>F · Fabian</strong> (♂ mężczyzna · okulary)<strong>:</strong> Znajdował się w <strong>7. rzędzie</strong>. Był <strong>dokładnie</strong> dwie <strong>kolumny</strong> <strong>na lewo od</strong> <strong>Borysa</strong>.",
+    "<strong>G · Grzegorz</strong> (♂ mężczyzna)<strong>:</strong> Był <strong>w wyższym rzędzie niż</strong> <strong>Edward</strong>.",
+    "<strong>V · Vasyl</strong> (♂ mężczyzna)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Borys (B).</strong> Ofiara (Vasyl) leżała w generatorowni.",
+   "stappen": [
+    "\"Borys znajdował się dokładnie trzy kolumny na lewo od jakiegoś mężczyzny.\": dla tych pól Borysa nigdzie nie ma żadnego mężczyzny we właściwym miejscu.",
+    "\"Fabian był dokładnie dwie kolumny na lewo od Borysa.\": dla tych pól Fabiana nie ma odpowiedniego miejsca dla Borysa. → Fabian: [7,2]",
+    "\"Fabian był dokładnie dwie kolumny na lewo od Borysa.\": dla tych pól Borysa nie ma odpowiedniego miejsca dla Fabiana.",
+    "\"Grzegorz był w wyższym rzędzie niż Edward.\": dla tych pól Grzegorza nie ma odpowiedniego miejsca dla Edwarda.",
+    "Grzegorz na pewno jest w rzędzie 1, więc Edward nie może tam być. → Edward: [2,5]",
+    "Agata była sama, więc nie może być w pomieszczeniu, w którym na pewno jest już ktoś inny.",
+    "\"Borys znajdował się dokładnie trzy kolumny na lewo od jakiegoś mężczyzny.\": tylko Grzegorz może być tą osobą, więc Grzegorz jest w odpowiednim miejscu względem Borysa. → Grzegorz: [1,7]",
+    "Grzegorz jest w rzędzie 1 i kolumnie 7, więc ten rząd i ta kolumna odpadają dla Agaty. → Agata: [8,8]",
+    "W saunie są już Carla i Fabian, więc ofiara nie może tam leżeć (z ofiarą był w pomieszczeniu tylko jeden podejrzany). → Vasyl: [3,1]",
+    "Vasyl jest w rzędzie 3 i kolumnie 1, więc ten rząd i ta kolumna odpadają dla Borysa. → Borys: [4,4]",
+    "Vasyl jest w rzędzie 3 i kolumnie 1, więc ten rząd i ta kolumna odpadają dla Delfiny. → Delfina: [6,6]",
+    "Delfina jest w rzędzie 6 i kolumnie 6, więc ten rząd i ta kolumna odpadają dla Carli. → Carla: [5,3]"
+   ]
+  }
+ }
+}

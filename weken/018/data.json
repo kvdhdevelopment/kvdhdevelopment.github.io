@@ -1,0 +1,215 @@
+{
+ "week": 18,
+ "id": "L3-00hve1c",
+ "level": 3,
+ "theme": "bazaar",
+ "talen": {
+  "en": {
+   "titel": "The Bazaar: the stolen saffron",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "The police are still on their way. You're already here.",
+   "aanwijzingen": [
+    "<strong>A · Angus</strong> (♂ man · glasses)<strong>:</strong> Was <strong>the only</strong> person in the <strong>lamp shop</strong>.",
+    "<strong>B · Ben</strong> (♂ man · hat)<strong>:</strong> Was in the <strong>top row</strong>.",
+    "<strong>C · Chloe</strong> (♀ woman)<strong>:</strong> Was <strong>next to</strong> a <strong>fountain</strong>.",
+    "<strong>D · Delia</strong> (♀ woman)<strong>:</strong> Was in the <strong>3rd row</strong>. Was <strong>in a column further right than</strong> <strong>Angus</strong>.",
+    "<strong>E · Eleanor</strong> (♀ woman)<strong>:</strong> Was <strong>alone</strong> in the <strong>tea house</strong>. Was in the <strong>leftmost column</strong> <strong>of the room</strong>.",
+    "<strong>V · Vivienne</strong> (♀ woman)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Chloe (C).</strong> The victim, Vivienne, lay in the stockroom.",
+   "stappen": [
+    "Delia is certainly in row 3, so Eleanor cannot be there. → Eleanor at [2,4]",
+    "Eleanor is on [2,4], so row 2 and column 4 are ruled out for Chloe. → Chloe at [5,5]",
+    "Only Vivienne can still be in column 6. → Vivienne at [4,6]",
+    "\"Delia was in a column further right than Angus.\": for these squares of Delia there is no fitting place for Angus. → Delia at [3,3]",
+    "Delia is on [3,3], so row 3 and column 3 are ruled out for Angus. → Angus at [6,2]",
+    "Delia is on [3,3], so row 3 and column 3 are ruled out for Ben. → Ben at [1,1]"
+   ]
+  },
+  "nl": {
+   "titel": "De bazaar: de gestolen saffraan",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Saffraan is per gram duurder dan goud. Vanavond is er iets veel kostbaarders verloren gegaan.",
+   "aanwijzingen": [
+    "<strong>A · Abel</strong> (♂ man · bril)<strong>:</strong> Was <strong>de enige</strong> persoon in de <strong>lampenwinkel</strong>.",
+    "<strong>B · Brian</strong> (♂ man · hoed)<strong>:</strong> Was in de <strong>bovenste rij</strong>.",
+    "<strong>C · Celine</strong> (♀ vrouw)<strong>:</strong> Bevond zich <strong>naast</strong> een <strong>fontein</strong>.",
+    "<strong>D · Daphne</strong> (♀ vrouw)<strong>:</strong> Bevond zich in de <strong>3e rij</strong>. Bevond zich <strong>rechts van</strong> <strong>Abel</strong>.",
+    "<strong>E · Ellen</strong> (♀ vrouw)<strong>:</strong> Was <strong>alleen</strong> in het <strong>theehuis</strong>. Bevond zich in de <strong>linkerkolom</strong> van de ruimte.",
+    "<strong>V · Vivian</strong> (♀ vrouw)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Celine (C).</strong> Het slachtoffer Vivian lag in het magazijn.",
+   "stappen": [
+    "Daphne staat zeker in rij 3, dus Ellen kan daar niet staan. → Ellen op [2,4]",
+    "Ellen staat op [2,4], dus rij 2 en kolom 4 vallen af voor Celine. → Celine op [5,5]",
+    "In kolom 6 kan alleen Vivian nog staan. → Vivian op [4,6]",
+    "\"Daphne bevond zich rechts van Abel.\": voor deze vakjes van Daphne is er geen passende plek voor Abel. → Daphne op [3,3]",
+    "Daphne staat op [3,3], dus rij 3 en kolom 3 vallen af voor Abel. → Abel op [6,2]",
+    "Daphne staat op [3,3], dus rij 3 en kolom 3 vallen af voor Brian. → Brian op [1,1]"
+   ]
+  },
+  "de": {
+   "titel": "Der Basar: der gestohlene Safran",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Die Kripo ist noch unterwegs. Du bist schon da.",
+   "aanwijzingen": [
+    "<strong>A · Ahmet</strong> (♂ Mann · Brille)<strong>:</strong> War <strong>die einzige</strong> Person im <strong>Lampenladen</strong>.",
+    "<strong>B · Bernd</strong> (♂ Mann · Hut)<strong>:</strong> War in der <strong>obersten Reihe</strong>.",
+    "<strong>C · Christina</strong> (♀ Frau)<strong>:</strong> Befand sich <strong>neben</strong> einem <strong>Brunnen</strong>.",
+    "<strong>D · Dagmar</strong> (♀ Frau)<strong>:</strong> Befand sich in der <strong>3. Reihe</strong>. Befand sich in einer <strong>Spalte</strong> <strong>weiter rechts als</strong> <strong>Ahmet</strong>.",
+    "<strong>E · Erika</strong> (♀ Frau)<strong>:</strong> War <strong>allein</strong> im <strong>Teehaus</strong>. Befand sich in der <strong>Spalte ganz links</strong> <strong>im Raum</strong>.",
+    "<strong>V · Valerie</strong> (♀ Frau)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Christina (C).</strong> Das Opfer, Valerie, lag im Lager.",
+   "stappen": [
+    "Dagmar steht sicher in Reihe 3, also kann Erika dort nicht stehen. → Erika in [2,4]",
+    "Erika steht in [2,4], also fallen Reihe 2 und Spalte 4 für Christina weg. → Christina in [5,5]",
+    "In Spalte 6 kann nur noch Valerie stehen. → Valerie in [4,6]",
+    "\"Dagmar befand sich in einer Spalte weiter rechts als Ahmet.\": Für diese Felder von Dagmar gibt es keinen passenden Platz für Ahmet. → Dagmar in [3,3]",
+    "Dagmar steht in [3,3], also fallen Reihe 3 und Spalte 3 für Ahmet weg. → Ahmet in [6,2]",
+    "Dagmar steht in [3,3], also fallen Reihe 3 und Spalte 3 für Bernd weg. → Bernd in [1,1]"
+   ]
+  },
+  "fr": {
+   "titel": "Le bazar: le safran volé",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "La police est encore en route. Vous, vous êtes déjà là.",
+   "aanwijzingen": [
+    "<strong>A · Albert</strong> (♂ homme · lunettes)<strong>:</strong> Était <strong>la seule personne</strong> dans la <strong>boutique de lampes</strong>.",
+    "<strong>B · Benoît</strong> (♂ homme · chapeau)<strong>:</strong> Était dans la <strong>rangée du haut</strong>.",
+    "<strong>C · Céline</strong> (♀ femme)<strong>:</strong> Se trouvait <strong>à côté</strong> d'une <strong>fontaine</strong>.",
+    "<strong>D · Danielle</strong> (♀ femme)<strong>:</strong> Se trouvait dans la <strong>3e rangée</strong>. Était dans une <strong>colonne</strong> <strong>plus à droite que</strong> celle d'<strong>Albert</strong>.",
+    "<strong>E · Emma</strong> (♀ femme)<strong>:</strong> Était <strong>seule</strong> dans le <strong>salon de thé</strong>. Se trouvait dans la <strong>colonne</strong> <strong>la plus à gauche</strong> <strong>de sa pièce</strong>.",
+    "<strong>V · Vanessa</strong> (♀ femme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Céline (C).</strong> La victime, Vanessa, se trouvait dans la réserve.",
+   "stappen": [
+    "Danielle se trouve forcément dans la rangée 3, donc Emma ne peut pas s'y trouver. → Emma en [2,4]",
+    "Emma se trouve en [2,4], donc la rangée 2 et la colonne 4 sont exclues pour Céline. → Céline en [5,5]",
+    "Seule Vanessa peut encore se trouver dans la colonne 6. → Vanessa en [4,6]",
+    "\"Danielle était dans une colonne plus à droite que celle d'Albert.\" : pour ces cases de Danielle, il n'y a aucune place qui convienne pour Albert. → Danielle en [3,3]",
+    "Danielle se trouve en [3,3], donc la rangée 3 et la colonne 3 sont exclues pour Albert. → Albert en [6,2]",
+    "Danielle se trouve en [3,3], donc la rangée 3 et la colonne 3 sont exclues pour Benoît. → Benoît en [1,1]"
+   ]
+  },
+  "it": {
+   "titel": "Il bazar: lo zafferano rubato",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "La polizia è ancora per strada. Tu sei già qui.",
+   "aanwijzingen": [
+    "<strong>A · Angelo</strong> (♂ uomo · occhiali)<strong>:</strong> Era <strong>l'unica persona</strong> nel <strong>negozio di lampade</strong>.",
+    "<strong>B · Bruno</strong> (♂ uomo · cappello)<strong>:</strong> Era nella <strong>riga più in alto</strong>.",
+    "<strong>C · Cecilia</strong> (♀ donna)<strong>:</strong> Si trovava <strong>accanto a</strong> una <strong>fontana</strong>.",
+    "<strong>D · Delia</strong> (♀ donna)<strong>:</strong> Si trovava nella <strong>3ª riga</strong>. Si trovava <strong>in una colonna più a destra di</strong> <strong>Angelo</strong>.",
+    "<strong>E · Ester</strong> (♀ donna)<strong>:</strong> Era <strong>da sola</strong> nella <strong>sala da tè</strong>. Si trovava nella <strong>colonna più a sinistra</strong> <strong>della stanza</strong>.",
+    "<strong>V · Viviana</strong> (♀ donna)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Cecilia (C).</strong> La vittima, Viviana, giaceva in magazzino.",
+   "stappen": [
+    "Delia è sicuramente nella riga 3, quindi Ester non può essere lì. → Ester in [2,4]",
+    "Ester è in [2,4], quindi la riga 2 e la colonna 4 sono escluse per Cecilia. → Cecilia in [5,5]",
+    "Solo Viviana può ancora essere nella colonna 6. → Viviana in [4,6]",
+    "\"Delia si trovava in una colonna più a destra di Angelo.\": per queste caselle di Delia non c'è un posto adatto per Angelo. → Delia in [3,3]",
+    "Delia è in [3,3], quindi la riga 3 e la colonna 3 sono escluse per Angelo. → Angelo in [6,2]",
+    "Delia è in [3,3], quindi la riga 3 e la colonna 3 sono escluse per Bruno. → Bruno in [1,1]"
+   ]
+  },
+  "es": {
+   "titel": "El bazar: el azafrán robado",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "La policía aún está de camino. Tú ya estás aquí.",
+   "aanwijzingen": [
+    "<strong>A · Arturo</strong> (♂ hombre · gafas)<strong>:</strong> Era <strong>la única persona</strong> en la <strong>tienda de lámparas</strong>.",
+    "<strong>B · Bruno</strong> (♂ hombre · sombrero)<strong>:</strong> Se encontraba en la <strong>fila superior</strong>.",
+    "<strong>C · Cristina</strong> (♀ mujer)<strong>:</strong> Estaba <strong>junto a</strong> una <strong>fuente</strong>.",
+    "<strong>D · Delia</strong> (♀ mujer)<strong>:</strong> Estaba en la <strong>3.ª fila</strong>. Se encontraba <strong>en una columna más a la derecha que la de</strong> <strong>Arturo</strong>.",
+    "<strong>E · Eugenia</strong> (♀ mujer)<strong>:</strong> Estaba <strong>sola</strong> en la <strong>casa de té</strong>. Estaba en la <strong>columna más a la izquierda</strong> <strong>de su estancia</strong>.",
+    "<strong>V · Vanesa</strong> (♀ mujer)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Cristina (C).</strong> La víctima, Vanesa, yacía en el almacén.",
+   "stappen": [
+    "Delia está con seguridad en la fila 3, así que Eugenia no puede estar ahí. → Eugenia en [2,4]",
+    "Eugenia está en la fila 2, columna 4, así que la fila 2 y la columna 4 quedan descartadas para Cristina. → Cristina en [5,5]",
+    "En la columna 6 ya solo puede estar Vanesa. → Vanesa en [4,6]",
+    "\"Delia se encontraba en una columna más a la derecha que la de Arturo.\": para estas casillas de Delia no hay ningún sitio adecuado para Arturo. → Delia en [3,3]",
+    "Delia está en la fila 3, columna 3, así que la fila 3 y la columna 3 quedan descartadas para Arturo. → Arturo en [6,2]",
+    "Delia está en la fila 3, columna 3, así que la fila 3 y la columna 3 quedan descartadas para Bruno. → Bruno en [1,1]"
+   ]
+  },
+  "pt": {
+   "titel": "O bazar: o açafrão roubado",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "A Polícia Judiciária ainda vem a caminho. Tu já cá estás.",
+   "aanwijzingen": [
+    "<strong>A · Abel</strong> (♂ homem · óculos)<strong>:</strong> Era <strong>a única pessoa</strong> na <strong>loja de candeeiros</strong>.",
+    "<strong>B · Bruno</strong> (♂ homem · chapéu)<strong>:</strong> Estava na <strong>linha mais acima</strong>.",
+    "<strong>C · Catarina</strong> (♀ mulher)<strong>:</strong> Encontrava-se <strong>ao lado de</strong> uma <strong>fonte</strong>.",
+    "<strong>D · Dora</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>3.ª linha</strong>. Encontrava-se <strong>numa coluna mais à direita do que</strong> <strong>Abel</strong>.",
+    "<strong>E · Elsa</strong> (♀ mulher)<strong>:</strong> Estava <strong>sozinha</strong> no <strong>salão de chá</strong>. Encontrava-se na <strong>coluna mais à esquerda</strong> <strong>da divisão</strong>.",
+    "<strong>V · Valéria</strong> (♀ mulher)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Catarina (C).</strong> A vítima, Valéria, estava no armazém.",
+   "stappen": [
+    "Dora está de certeza na linha 3, por isso Elsa não pode estar lá. → Elsa: [2,4]",
+    "Elsa está na [2,4], por isso a linha 2 e a coluna 4 ficam excluídas para Catarina. → Catarina: [5,5]",
+    "Só Valéria ainda pode estar na coluna 6. → Valéria: [4,6]",
+    "\"Dora encontrava-se numa coluna mais à direita do que Abel.\": para estas casas de Dora não há nenhum sítio adequado para Abel. → Dora: [3,3]",
+    "Dora está na [3,3], por isso a linha 3 e a coluna 3 ficam excluídas para Abel. → Abel: [6,2]",
+    "Dora está na [3,3], por isso a linha 3 e a coluna 3 ficam excluídas para Bruno. → Bruno: [1,1]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O bazar: o açafrão roubado",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "A polícia ainda está a caminho. Você já chegou.",
+   "aanwijzingen": [
+    "<strong>A · Afonso</strong> (♂ homem · óculos)<strong>:</strong> Era <strong>a única pessoa</strong> na <strong>loja de luminárias</strong>.",
+    "<strong>B · Bruno</strong> (♂ homem · chapéu)<strong>:</strong> Encontrava-se na <strong>linha superior</strong>.",
+    "<strong>C · Carla</strong> (♀ mulher)<strong>:</strong> Estava <strong>ao lado de</strong> um <strong>chafariz</strong>.",
+    "<strong>D · Diana</strong> (♀ mulher)<strong>:</strong> Estava na <strong>3ª linha</strong>. Estava <strong>numa coluna mais à direita que</strong> a de <strong>Afonso</strong>.",
+    "<strong>E · Eloá</strong> (♀ mulher)<strong>:</strong> Estava <strong>sozinha</strong> na <strong>casa de chá</strong>. Estava na <strong>coluna mais à esquerda</strong> <strong>do cômodo</strong>.",
+    "<strong>V · Viviane</strong> (♀ mulher)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Carla (C).</strong> A vítima, Viviane, estava no depósito.",
+   "stappen": [
+    "Diana está com certeza na linha 3, então Eloá não pode estar ali. → Eloá em [2,4]",
+    "Eloá está na [2,4], então a linha 2 e a coluna 4 ficam descartadas para Carla. → Carla em [5,5]",
+    "Só Viviane ainda pode estar na coluna 6. → Viviane em [4,6]",
+    "\"Diana estava numa coluna mais à direita que a de Afonso.\": para esses quadrados de Diana, não há lugar adequado para Afonso. → Diana em [3,3]",
+    "Diana está na [3,3], então a linha 3 e a coluna 3 ficam descartadas para Afonso. → Afonso em [6,2]",
+    "Diana está na [3,3], então a linha 3 e a coluna 3 ficam descartadas para Bruno. → Bruno em [1,1]"
+   ]
+  },
+  "pl": {
+   "titel": "Bazar: skradziony szafran",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Policja jest jeszcze w drodze. Ty już jesteś na miejscu.",
+   "aanwijzingen": [
+    "<strong>A · Albert</strong> (♂ mężczyzna · okulary)<strong>:</strong> Był <strong>jedyną osobą</strong> w <strong>sklepie z lampami</strong>.",
+    "<strong>B · Bartosz</strong> (♂ mężczyzna · kapelusz)<strong>:</strong> Znajdował się w <strong>najwyższym rzędzie</strong>.",
+    "<strong>C · Cecylia</strong> (♀ kobieta)<strong>:</strong> Była <strong>obok</strong> <strong>fontanny</strong>.",
+    "<strong>D · Daria</strong> (♀ kobieta)<strong>:</strong> Była w <strong>3. rzędzie</strong>. Była w <strong>kolumnie</strong> <strong>bardziej na prawo niż</strong> <strong>Albert</strong>.",
+    "<strong>E · Eliza</strong> (♀ kobieta)<strong>:</strong> <strong>Była sama</strong> w <strong>herbaciarni</strong>. Była w <strong>skrajnej lewej kolumnie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>V · Vanessa</strong> (♀ kobieta)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Cecylia (C).</strong> Ofiara (Vanessa) leżała w magazynie.",
+   "stappen": [
+    "Daria na pewno jest w rzędzie 3, więc Eliza nie może tam być. → Eliza: [2,4]",
+    "Eliza jest w rzędzie 2 i kolumnie 4, więc ten rząd i ta kolumna odpadają dla Cecylii. → Cecylia: [5,5]",
+    "W kolumnie 6 może jeszcze być tylko Vanessa. → Vanessa: [4,6]",
+    "\"Daria była w kolumnie bardziej na prawo niż Albert.\": dla tych pól Darii nie ma odpowiedniego miejsca dla Alberta. → Daria: [3,3]",
+    "Daria jest w rzędzie 3 i kolumnie 3, więc ten rząd i ta kolumna odpadają dla Alberta. → Albert: [6,2]",
+    "Daria jest w rzędzie 3 i kolumnie 3, więc ten rząd i ta kolumna odpadają dla Bartosza. → Bartosz: [1,1]"
+   ]
+  }
+ }
+}

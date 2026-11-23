@@ -1,0 +1,197 @@
+{
+ "week": 17,
+ "id": "L2-00hvd9n",
+ "level": 2,
+ "theme": "paleis",
+ "talen": {
+  "en": {
+   "titel": "The Palace: the tea tasting",
+   "niveau": "Level 2 · Sleuth ★★☆☆☆",
+   "intro": "Silk, jewels and a murder. The palace has seen it all.",
+   "aanwijzingen": [
+    "<strong>A · Arthur</strong> (♂ man · glasses)<strong>:</strong> Was <strong>at a window</strong>.",
+    "<strong>B · Barbara</strong> (♀ woman · hat)<strong>:</strong> Was in the <strong>rightmost column</strong> <strong>of the room</strong>.",
+    "<strong>C · Claire</strong> (♀ woman)<strong>:</strong> Was <strong>the only</strong> person in the <strong>throne room</strong>.",
+    "<strong>D · Dorothy</strong> (♀ woman)<strong>:</strong> Was in the <strong>4th row</strong>.",
+    "<strong>V · Vanessa</strong> (♀ woman)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Barbara (B).</strong> The victim, Vanessa, lay in the elephant stable.",
+   "stappen": [
+    "Dorothy is certainly in row 4, so Claire cannot be there. → Claire at [5,2]",
+    "Barbara is certainly in column 5, so Dorothy cannot be there. → Dorothy at [4,4]",
+    "Dorothy is on [4,4], so row 4 and column 4 are ruled out for Arthur. → Arthur at [3,1]",
+    "Arthur is on [3,1], so row 3 and column 1 are ruled out for Barbara. → Barbara at [2,5]",
+    "Dorothy is on [4,4], so row 4 and column 4 are ruled out for Vanessa. → Vanessa at [1,3]"
+   ]
+  },
+  "nl": {
+   "titel": "Het paleis: de theeproeverij",
+   "niveau": "Niveau 2 · Speurder ★★☆☆☆",
+   "intro": "Bij een theeproeverij ruik, proef en vergelijk je. Precies wat jij ook gaat doen.",
+   "aanwijzingen": [
+    "<strong>A · Arjen</strong> (♂ man · bril)<strong>:</strong> Bevond zich <strong>aan een raam</strong>.",
+    "<strong>B · Bella</strong> (♀ vrouw · hoed)<strong>:</strong> Bevond zich in de <strong>rechterkolom</strong> van de ruimte.",
+    "<strong>C · Claire</strong> (♀ vrouw)<strong>:</strong> Was <strong>de enige</strong> persoon in de <strong>troonzaal</strong>.",
+    "<strong>D · Dewi</strong> (♀ vrouw)<strong>:</strong> Bevond zich in de <strong>4e rij</strong>.",
+    "<strong>V · Vanessa</strong> (♀ vrouw)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Bella (B).</strong> Het slachtoffer Vanessa lag in de olifantenstal.",
+   "stappen": [
+    "Dewi staat zeker in rij 4, dus Claire kan daar niet staan. → Claire op [5,2]",
+    "Bella staat zeker in kolom 5, dus Dewi kan daar niet staan. → Dewi op [4,4]",
+    "Dewi staat op [4,4], dus rij 4 en kolom 4 vallen af voor Arjen. → Arjen op [3,1]",
+    "Arjen staat op [3,1], dus rij 3 en kolom 1 vallen af voor Bella. → Bella op [2,5]",
+    "Dewi staat op [4,4], dus rij 4 en kolom 4 vallen af voor Vanessa. → Vanessa op [1,3]"
+   ]
+  },
+  "de": {
+   "titel": "Der Palast: die Teeverkostung",
+   "niveau": "Stufe 2 · Spürnase ★★☆☆☆",
+   "intro": "Seide, Juwelen und ein Mord. Der Palast hat schon alles gesehen.",
+   "aanwijzingen": [
+    "<strong>A · Anton</strong> (♂ Mann · Brille)<strong>:</strong> Befand sich <strong>bei einem Fenster</strong>.",
+    "<strong>B · Barbara</strong> (♀ Frau · Hut)<strong>:</strong> Befand sich in der <strong>Spalte ganz rechts</strong> <strong>im Raum</strong>.",
+    "<strong>C · Corinna</strong> (♀ Frau)<strong>:</strong> War <strong>die einzige</strong> Person im <strong>Thronsaal</strong>.",
+    "<strong>D · Doris</strong> (♀ Frau)<strong>:</strong> Befand sich in der <strong>4. Reihe</strong>.",
+    "<strong>V · Verena</strong> (♀ Frau)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Barbara (B).</strong> Das Opfer, Verena, lag im Elefantenstall.",
+   "stappen": [
+    "Doris steht sicher in Reihe 4, also kann Corinna dort nicht stehen. → Corinna in [5,2]",
+    "Barbara steht sicher in Spalte 5, also kann Doris dort nicht stehen. → Doris in [4,4]",
+    "Doris steht in [4,4], also fallen Reihe 4 und Spalte 4 für Anton weg. → Anton in [3,1]",
+    "Anton steht in [3,1], also fallen Reihe 3 und Spalte 1 für Barbara weg. → Barbara in [2,5]",
+    "Doris steht in [4,4], also fallen Reihe 4 und Spalte 4 für Verena weg. → Verena in [1,3]"
+   ]
+  },
+  "fr": {
+   "titel": "Le palais: la dégustation de thé",
+   "niveau": "Niveau 2 · Limier ★★☆☆☆",
+   "intro": "De la soie, des bijoux et un meurtre. Le palais en a vu d'autres.",
+   "aanwijzingen": [
+    "<strong>A · Arthur</strong> (♂ homme · lunettes)<strong>:</strong> Se trouvait <strong>devant une fenêtre</strong>.",
+    "<strong>B · Barbara</strong> (♀ femme · chapeau)<strong>:</strong> Se trouvait dans la <strong>colonne</strong> <strong>la plus à droite</strong> <strong>de sa pièce</strong>.",
+    "<strong>C · Charlotte</strong> (♀ femme)<strong>:</strong> Était <strong>la seule personne</strong> dans la <strong>salle du trône</strong>.",
+    "<strong>D · Delphine</strong> (♀ femme)<strong>:</strong> Se trouvait dans la <strong>4e rangée</strong>.",
+    "<strong>V · Victoire</strong> (♀ femme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Barbara (B).</strong> La victime, Victoire, se trouvait dans l'écurie des éléphants.",
+   "stappen": [
+    "Delphine se trouve forcément dans la rangée 4, donc Charlotte ne peut pas s'y trouver. → Charlotte en [5,2]",
+    "Barbara se trouve forcément dans la colonne 5, donc Delphine ne peut pas s'y trouver. → Delphine en [4,4]",
+    "Delphine se trouve en [4,4], donc la rangée 4 et la colonne 4 sont exclues pour Arthur. → Arthur en [3,1]",
+    "Arthur se trouve en [3,1], donc la rangée 3 et la colonne 1 sont exclues pour Barbara. → Barbara en [2,5]",
+    "Delphine se trouve en [4,4], donc la rangée 4 et la colonne 4 sont exclues pour Victoire. → Victoire en [1,3]"
+   ]
+  },
+  "it": {
+   "titel": "Il palazzo: la degustazione di tè",
+   "niveau": "Livello 2 · Segugio ★★☆☆☆",
+   "intro": "Seta, gioielli e un omicidio. Il palazzo ne ha viste di tutti i colori.",
+   "aanwijzingen": [
+    "<strong>A · Alessio</strong> (♂ uomo · occhiali)<strong>:</strong> Si trovava <strong>presso una finestra</strong>.",
+    "<strong>B · Brigida</strong> (♀ donna · cappello)<strong>:</strong> Si trovava nella <strong>colonna più a destra</strong> <strong>della stanza</strong>.",
+    "<strong>C · Chiara</strong> (♀ donna)<strong>:</strong> Era <strong>l'unica persona</strong> nella <strong>sala del trono</strong>.",
+    "<strong>D · Daniela</strong> (♀ donna)<strong>:</strong> Si trovava nella <strong>4ª riga</strong>.",
+    "<strong>V · Vanessa</strong> (♀ donna)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Brigida (B).</strong> La vittima, Vanessa, giaceva nella stalla degli elefanti.",
+   "stappen": [
+    "Daniela è sicuramente nella riga 4, quindi Chiara non può essere lì. → Chiara in [5,2]",
+    "Brigida è sicuramente nella colonna 5, quindi Daniela non può essere lì. → Daniela in [4,4]",
+    "Daniela è in [4,4], quindi la riga 4 e la colonna 4 sono escluse per Alessio. → Alessio in [3,1]",
+    "Alessio è in [3,1], quindi la riga 3 e la colonna 1 sono escluse per Brigida. → Brigida in [2,5]",
+    "Daniela è in [4,4], quindi la riga 4 e la colonna 4 sono escluse per Vanessa. → Vanessa in [1,3]"
+   ]
+  },
+  "es": {
+   "titel": "El palacio: la cata de té",
+   "niveau": "Nivel 2 · Sabueso ★★☆☆☆",
+   "intro": "Seda, joyas y un asesinato. El palacio lo ha visto todo.",
+   "aanwijzingen": [
+    "<strong>A · Antonio</strong> (♂ hombre · gafas)<strong>:</strong> Se encontraba <strong>ante una ventana</strong>.",
+    "<strong>B · Berta</strong> (♀ mujer · sombrero)<strong>:</strong> Estaba en la <strong>columna más a la derecha</strong> <strong>de su estancia</strong>.",
+    "<strong>C · Celia</strong> (♀ mujer)<strong>:</strong> Era <strong>la única persona</strong> en el <strong>salón del trono</strong>.",
+    "<strong>D · Diana</strong> (♀ mujer)<strong>:</strong> Estaba en la <strong>4.ª fila</strong>.",
+    "<strong>V · Vera</strong> (♀ mujer)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Berta (B).</strong> La víctima, Vera, yacía en el establo de los elefantes.",
+   "stappen": [
+    "Diana está con seguridad en la fila 4, así que Celia no puede estar ahí. → Celia en [5,2]",
+    "Berta está con seguridad en la columna 5, así que Diana no puede estar ahí. → Diana en [4,4]",
+    "Diana está en la fila 4, columna 4, así que la fila 4 y la columna 4 quedan descartadas para Antonio. → Antonio en [3,1]",
+    "Antonio está en la fila 3, columna 1, así que la fila 3 y la columna 1 quedan descartadas para Berta. → Berta en [2,5]",
+    "Diana está en la fila 4, columna 4, así que la fila 4 y la columna 4 quedan descartadas para Vera. → Vera en [1,3]"
+   ]
+  },
+  "pt": {
+   "titel": "O palácio: a prova de chás",
+   "niveau": "Nível 2 · Investigador ★★☆☆☆",
+   "intro": "Seda, joias e um homicídio. O palácio já viu de tudo.",
+   "aanwijzingen": [
+    "<strong>A · António</strong> (♂ homem · óculos)<strong>:</strong> Encontrava-se <strong>à janela</strong>.",
+    "<strong>B · Berta</strong> (♀ mulher · chapéu)<strong>:</strong> Encontrava-se na <strong>coluna mais à direita</strong> <strong>da divisão</strong>.",
+    "<strong>C · Constança</strong> (♀ mulher)<strong>:</strong> Era <strong>a única pessoa</strong> na <strong>sala do trono</strong>.",
+    "<strong>D · Diana</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>4.ª linha</strong>.",
+    "<strong>V · Violante</strong> (♀ mulher)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Berta (B).</strong> A vítima, Violante, estava no estábulo dos elefantes.",
+   "stappen": [
+    "Diana está de certeza na linha 4, por isso Constança não pode estar lá. → Constança: [5,2]",
+    "Berta está de certeza na coluna 5, por isso Diana não pode estar lá. → Diana: [4,4]",
+    "Diana está na [4,4], por isso a linha 4 e a coluna 4 ficam excluídas para António. → António: [3,1]",
+    "António está na [3,1], por isso a linha 3 e a coluna 1 ficam excluídas para Berta. → Berta: [2,5]",
+    "Diana está na [4,4], por isso a linha 4 e a coluna 4 ficam excluídas para Violante. → Violante: [1,3]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O palácio: a degustação de chá",
+   "niveau": "Nível 2 · Investigador ★★☆☆☆",
+   "intro": "Seda, joias e um assassinato. O palácio já viu de tudo.",
+   "aanwijzingen": [
+    "<strong>A · André</strong> (♂ homem · óculos)<strong>:</strong> Encontrava-se <strong>junto a uma janela</strong>.",
+    "<strong>B · Brenda</strong> (♀ mulher · chapéu)<strong>:</strong> Estava na <strong>coluna mais à direita</strong> <strong>do cômodo</strong>.",
+    "<strong>C · Cristina</strong> (♀ mulher)<strong>:</strong> Era <strong>a única pessoa</strong> na <strong>sala do trono</strong>.",
+    "<strong>D · Daiane</strong> (♀ mulher)<strong>:</strong> Estava na <strong>4ª linha</strong>.",
+    "<strong>V · Verônica</strong> (♀ mulher)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Brenda (B).</strong> A vítima, Verônica, estava no estábulo dos elefantes.",
+   "stappen": [
+    "Daiane está com certeza na linha 4, então Cristina não pode estar ali. → Cristina em [5,2]",
+    "Brenda está com certeza na coluna 5, então Daiane não pode estar ali. → Daiane em [4,4]",
+    "Daiane está na [4,4], então a linha 4 e a coluna 4 ficam descartadas para André. → André em [3,1]",
+    "André está na [3,1], então a linha 3 e a coluna 1 ficam descartadas para Brenda. → Brenda em [2,5]",
+    "Daiane está na [4,4], então a linha 4 e a coluna 4 ficam descartadas para Verônica. → Verônica em [1,3]"
+   ]
+  },
+  "pl": {
+   "titel": "Pałac: degustacja herbaty",
+   "niveau": "Poziom 2 · Tropiciel ★★☆☆☆",
+   "intro": "Jedwab, klejnoty i morderstwo. Ten pałac widział już wszystko.",
+   "aanwijzingen": [
+    "<strong>A · Artur</strong> (♂ mężczyzna · okulary)<strong>:</strong> Znajdował się <strong>przy oknie</strong>.",
+    "<strong>B · Berenika</strong> (♀ kobieta · kapelusz)<strong>:</strong> Była w <strong>skrajnej prawej kolumnie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>C · Celestyna</strong> (♀ kobieta)<strong>:</strong> Była <strong>jedyną osobą</strong> w <strong>sali tronowej</strong>.",
+    "<strong>D · Dorota</strong> (♀ kobieta)<strong>:</strong> Była w <strong>4. rzędzie</strong>.",
+    "<strong>V · Veronika</strong> (♀ kobieta)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Berenika (B).</strong> Ofiara (Veronika) leżała w stajni słoni.",
+   "stappen": [
+    "Dorota na pewno jest w rzędzie 4, więc Celestyna nie może tam być. → Celestyna: [5,2]",
+    "Berenika na pewno jest w kolumnie 5, więc Dorota nie może tam być. → Dorota: [4,4]",
+    "Dorota jest w rzędzie 4 i kolumnie 4, więc ten rząd i ta kolumna odpadają dla Artura. → Artur: [3,1]",
+    "Artur jest w rzędzie 3 i kolumnie 1, więc ten rząd i ta kolumna odpadają dla Bereniki. → Berenika: [2,5]",
+    "Dorota jest w rzędzie 4 i kolumnie 4, więc ten rząd i ta kolumna odpadają dla Veroniki. → Veronika: [1,3]"
+   ]
+  }
+ }
+}

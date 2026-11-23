@@ -1,0 +1,224 @@
+{
+ "week": 30,
+ "id": "L3-00hvnaq",
+ "level": 3,
+ "theme": "kasteel",
+ "talen": {
+  "en": {
+   "titel": "The Castle: the moat",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "At court they whisper, they scheme, and tonight they murder.",
+   "aanwijzingen": [
+    "<strong>A · Alice</strong> (♀ woman)<strong>:</strong> Was <strong>in a higher row than</strong> <strong>Claire</strong>.",
+    "<strong>B · Brian</strong> (♂ man · glasses)<strong>:</strong> Was <strong>not next to</strong> a <strong>bookcase</strong>. Was in the <strong>2nd column</strong>.",
+    "<strong>C · Claire</strong> (♀ woman)<strong>:</strong> Was <strong>the only</strong> person in the <strong>sleeping quarters</strong>. Was in the <strong>right half</strong>.",
+    "<strong>D · Dexter</strong> (♂ man · glasses)<strong>:</strong> <strong>Someone else</strong> in <strong>their room</strong> was <strong>a man</strong>. Was in the <strong>top row</strong>.",
+    "<strong>E · Eve</strong> (♀ woman)<strong>:</strong> Was <strong>in a higher row than</strong> <strong>Alice</strong>.",
+    "<strong>V · Vladimir</strong> (♂ man)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Dexter (D).</strong> The victim, Vladimir, lay in the throne room.",
+   "stappen": [
+    "Dexter is certainly in row 1, so Brian cannot be there. → Brian at [3,2]",
+    "Only Dexter can still be in column 1. → Dexter at [1,1]",
+    "\"Alice was in a higher row than Claire.\": for these squares of Alice there is no fitting place for Claire.",
+    "\"Someone else in Dexter's room was a man.\": only Vladimir can be that person, so Vladimir is in the same room as Dexter. → Vladimir at [2,3]",
+    "\"Eve was in a higher row than Alice.\": for these squares of Eve there is no fitting place for Alice. → Eve at [4,6]",
+    "Eve is on [4,6], so row 4 and column 6 are ruled out for Alice. → Alice at [5,5]",
+    "Alice is on [5,5], so row 5 and column 5 are ruled out for Claire. → Claire at [6,4]"
+   ]
+  },
+  "nl": {
+   "titel": "Het kasteel: de slotgracht",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "De slotgracht houdt vijanden buiten. Helaas niet de vijanden binnen.",
+   "aanwijzingen": [
+    "<strong>A · Anna</strong> (♀ vrouw)<strong>:</strong> Bevond zich <strong>boven</strong> <strong>Claire</strong>.",
+    "<strong>B · Bart</strong> (♂ man · bril)<strong>:</strong> Bevond zich <strong>niet naast</strong> een <strong>boekenkast</strong>. Bevond zich in de <strong>2e kolom</strong>.",
+    "<strong>C · Claire</strong> (♀ vrouw)<strong>:</strong> Was <strong>de enige</strong> persoon in de <strong>slaapvertrekken</strong>. Was in de <strong>rechterhelft</strong>.",
+    "<strong>D · Dex</strong> (♂ man · bril)<strong>:</strong> <strong>Iemand anders</strong> in de ruimte was <strong>een man</strong>. Was in de <strong>bovenste rij</strong>.",
+    "<strong>E · Eva</strong> (♀ vrouw)<strong>:</strong> Bevond zich <strong>boven</strong> <strong>Anna</strong>.",
+    "<strong>V · Vladimir</strong> (♂ man)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Dex (D).</strong> Het slachtoffer Vladimir lag in de troonzaal.",
+   "stappen": [
+    "Dex staat zeker in rij 1, dus Bart kan daar niet staan. → Bart op [3,2]",
+    "In kolom 1 kan alleen Dex nog staan. → Dex op [1,1]",
+    "\"Anna bevond zich boven Claire.\": voor deze vakjes van Anna is er geen passende plek voor Claire.",
+    "\"Iemand anders in de ruimte van Dex was een man.\": alleen Vladimir kan die persoon zijn, dus Vladimir staat bij Dex in de ruimte. → Vladimir op [2,3]",
+    "\"Eva bevond zich boven Anna.\": voor deze vakjes van Eva is er geen passende plek voor Anna. → Eva op [4,6]",
+    "Eva staat op [4,6], dus rij 4 en kolom 6 vallen af voor Anna. → Anna op [5,5]",
+    "Anna staat op [5,5], dus rij 5 en kolom 5 vallen af voor Claire. → Claire op [6,4]"
+   ]
+  },
+  "de": {
+   "titel": "Die Burg: der Burggraben",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Bei Hofe wird geflüstert, intrigiert und heute Nacht auch gemordet.",
+   "aanwijzingen": [
+    "<strong>A · Anna</strong> (♀ Frau)<strong>:</strong> Befand sich in einer <strong>Reihe</strong> <strong>weiter oben als</strong> <strong>Corinna</strong>.",
+    "<strong>B · Bastian</strong> (♂ Mann · Brille)<strong>:</strong> Befand sich <strong>neben keinem</strong> <strong>Bücherregal</strong>. Befand sich in der <strong>2. Spalte</strong>.",
+    "<strong>C · Corinna</strong> (♀ Frau)<strong>:</strong> War <strong>die einzige</strong> Person im <strong>Schlafgemach</strong>. War in der <strong>rechten Hälfte</strong>.",
+    "<strong>D · Dominik</strong> (♂ Mann · Brille)<strong>:</strong> <strong>Eine andere Person</strong> in seinem Raum war <strong>ein Mann</strong>. War in der <strong>obersten Reihe</strong>.",
+    "<strong>E · Emma</strong> (♀ Frau)<strong>:</strong> Befand sich in einer <strong>Reihe</strong> <strong>weiter oben als</strong> <strong>Anna</strong>.",
+    "<strong>V · Vladimir</strong> (♂ Mann)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Dominik (D).</strong> Das Opfer, Vladimir, lag im Thronsaal.",
+   "stappen": [
+    "Dominik steht sicher in Reihe 1, also kann Bastian dort nicht stehen. → Bastian in [3,2]",
+    "In Spalte 1 kann nur noch Dominik stehen. → Dominik in [1,1]",
+    "\"Anna befand sich in einer Reihe weiter oben als Corinna.\": Für diese Felder von Anna gibt es keinen passenden Platz für Corinna.",
+    "\"Eine andere Person in Dominiks Raum war ein Mann.\": Nur Vladimir kann diese Person sein, also steht Vladimir mit Dominik im selben Raum. → Vladimir in [2,3]",
+    "\"Emma befand sich in einer Reihe weiter oben als Anna.\": Für diese Felder von Emma gibt es keinen passenden Platz für Anna. → Emma in [4,6]",
+    "Emma steht in [4,6], also fallen Reihe 4 und Spalte 6 für Anna weg. → Anna in [5,5]",
+    "Anna steht in [5,5], also fallen Reihe 5 und Spalte 5 für Corinna weg. → Corinna in [6,4]"
+   ]
+  },
+  "fr": {
+   "titel": "Le château: les douves",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "À la cour, on chuchote, on complote et, cette nuit, on tue.",
+   "aanwijzingen": [
+    "<strong>A · Amélie</strong> (♀ femme)<strong>:</strong> Était dans une <strong>rangée</strong> <strong>plus haute que</strong> celle de <strong>Charlotte</strong>.",
+    "<strong>B · Bertrand</strong> (♂ homme · lunettes)<strong>:</strong> Ne se trouvait <strong>pas à côté</strong> d'une <strong>étagère</strong>. Se trouvait dans la <strong>2e colonne</strong>.",
+    "<strong>C · Charlotte</strong> (♀ femme)<strong>:</strong> Était <strong>la seule personne</strong> dans le <strong>dortoir</strong>. Était dans la <strong>moitié droite</strong>.",
+    "<strong>D · Dorian</strong> (♂ homme · lunettes)<strong>:</strong> <strong>Quelqu'un d'autre</strong> dans <strong>sa pièce</strong> était <strong>un homme</strong>. Était dans la <strong>rangée du haut</strong>.",
+    "<strong>E · Estelle</strong> (♀ femme)<strong>:</strong> Était dans une <strong>rangée</strong> <strong>plus haute que</strong> celle d'<strong>Amélie</strong>.",
+    "<strong>V · Valère</strong> (♂ homme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Dorian (D).</strong> La victime, Valère, se trouvait dans la salle du trône.",
+   "stappen": [
+    "Dorian se trouve forcément dans la rangée 1, donc Bertrand ne peut pas s'y trouver. → Bertrand en [3,2]",
+    "Seul Dorian peut encore se trouver dans la colonne 1. → Dorian en [1,1]",
+    "\"Amélie était dans une rangée plus haute que celle de Charlotte.\" : pour ces cases d'Amélie, il n'y a aucune place qui convienne pour Charlotte.",
+    "\"Quelqu'un d'autre dans la pièce de Dorian était un homme.\" : seul Valère peut être cette personne, donc Valère est dans la même pièce que Dorian. → Valère en [2,3]",
+    "\"Estelle était dans une rangée plus haute que celle d'Amélie.\" : pour ces cases d'Estelle, il n'y a aucune place qui convienne pour Amélie. → Estelle en [4,6]",
+    "Estelle se trouve en [4,6], donc la rangée 4 et la colonne 6 sont exclues pour Amélie. → Amélie en [5,5]",
+    "Amélie se trouve en [5,5], donc la rangée 5 et la colonne 5 sont exclues pour Charlotte. → Charlotte en [6,4]"
+   ]
+  },
+  "it": {
+   "titel": "Il castello: il fossato",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "A corte si sussurra, si complotta e stanotte anche si uccide.",
+   "aanwijzingen": [
+    "<strong>A · Anna</strong> (♀ donna)<strong>:</strong> Si trovava <strong>in una riga più in alto di</strong> <strong>Chiara</strong>.",
+    "<strong>B · Basilio</strong> (♂ uomo · occhiali)<strong>:</strong> <strong>Non si trovava accanto a</strong> una <strong>libreria</strong>. Si trovava nella <strong>2ª colonna</strong>.",
+    "<strong>C · Chiara</strong> (♀ donna)<strong>:</strong> Era <strong>l'unica persona</strong> negli <strong>alloggi</strong>. Era nella <strong>metà destra</strong>.",
+    "<strong>D · Donato</strong> (♂ uomo · occhiali)<strong>:</strong> <strong>Qualcun altro</strong> nella <strong>sua stanza</strong> era <strong>un uomo</strong>. Era nella <strong>riga più in alto</strong>.",
+    "<strong>E · Emma</strong> (♀ donna)<strong>:</strong> Si trovava <strong>in una riga più in alto di</strong> <strong>Anna</strong>.",
+    "<strong>V · Virgilio</strong> (♂ uomo)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Donato (D).</strong> La vittima, Virgilio, giaceva nella sala del trono.",
+   "stappen": [
+    "Donato è sicuramente nella riga 1, quindi Basilio non può essere lì. → Basilio in [3,2]",
+    "Solo Donato può ancora essere nella colonna 1. → Donato in [1,1]",
+    "\"Anna si trovava in una riga più in alto di Chiara.\": per queste caselle di Anna non c'è un posto adatto per Chiara.",
+    "\"Qualcun altro nella stanza di Donato era un uomo.\": solo Virgilio può essere quella persona, quindi Virgilio è nella stessa stanza di Donato. → Virgilio in [2,3]",
+    "\"Emma si trovava in una riga più in alto di Anna.\": per queste caselle di Emma non c'è un posto adatto per Anna. → Emma in [4,6]",
+    "Emma è in [4,6], quindi la riga 4 e la colonna 6 sono escluse per Anna. → Anna in [5,5]",
+    "Anna è in [5,5], quindi la riga 5 e la colonna 5 sono escluse per Chiara. → Chiara in [6,4]"
+   ]
+  },
+  "es": {
+   "titel": "El castillo: el foso",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "En la corte se cuchichea, se conspira y, esta noche, también se mata.",
+   "aanwijzingen": [
+    "<strong>A · Ana</strong> (♀ mujer)<strong>:</strong> Se encontraba <strong>en una fila más alta que la de</strong> <strong>Celia</strong>.",
+    "<strong>B · Blas</strong> (♂ hombre · gafas)<strong>:</strong> <strong>No estaba</strong> <strong>junto a</strong> <strong>ninguna</strong> <strong>estantería</strong>. Estaba en la <strong>2.ª columna</strong>.",
+    "<strong>C · Celia</strong> (♀ mujer)<strong>:</strong> Era <strong>la única persona</strong> en los <strong>aposentos</strong>. Se encontraba en la <strong>mitad derecha</strong>.",
+    "<strong>D · Dionisio</strong> (♂ hombre · gafas)<strong>:</strong> <strong>Alguien más</strong> en <strong>su estancia</strong> era <strong>un hombre</strong>. Se encontraba en la <strong>fila superior</strong>.",
+    "<strong>E · Esther</strong> (♀ mujer)<strong>:</strong> Se encontraba <strong>en una fila más alta que la de</strong> <strong>Ana</strong>.",
+    "<strong>V · Virgilio</strong> (♂ hombre)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Dionisio (D).</strong> La víctima, Virgilio, yacía en el salón del trono.",
+   "stappen": [
+    "Dionisio está con seguridad en la fila 1, así que Blas no puede estar ahí. → Blas en [3,2]",
+    "En la columna 1 ya solo puede estar Dionisio. → Dionisio en [1,1]",
+    "\"Ana se encontraba en una fila más alta que la de Celia.\": para estas casillas de Ana no hay ningún sitio adecuado para Celia.",
+    "\"Alguien más en la estancia de Dionisio era un hombre.\": solo Virgilio puede ser esa persona, así que Virgilio está en la misma estancia que Dionisio. → Virgilio en [2,3]",
+    "\"Esther se encontraba en una fila más alta que la de Ana.\": para estas casillas de Esther no hay ningún sitio adecuado para Ana. → Esther en [4,6]",
+    "Esther está en la fila 4, columna 6, así que la fila 4 y la columna 6 quedan descartadas para Ana. → Ana en [5,5]",
+    "Ana está en la fila 5, columna 5, así que la fila 5 y la columna 5 quedan descartadas para Celia. → Celia en [6,4]"
+   ]
+  },
+  "pt": {
+   "titel": "O castelo: o fosso",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Na corte cochicha-se, conspira-se e, esta noite, também se mata.",
+   "aanwijzingen": [
+    "<strong>A · Ana</strong> (♀ mulher)<strong>:</strong> Encontrava-se <strong>numa linha mais acima do que</strong> <strong>Constança</strong>.",
+    "<strong>B · Basílio</strong> (♂ homem · óculos)<strong>:</strong> <strong>Não se encontrava</strong> <strong>ao lado de</strong> uma <strong>estante</strong>. Encontrava-se na <strong>2.ª coluna</strong>.",
+    "<strong>C · Constança</strong> (♀ mulher)<strong>:</strong> Era <strong>a única pessoa</strong> nos <strong>aposentos</strong>. Estava na <strong>metade direita</strong>.",
+    "<strong>D · Dinis</strong> (♂ homem · óculos)<strong>:</strong> <strong>Outra pessoa</strong> na <strong>sua divisão</strong> era <strong>um homem</strong>. Estava na <strong>linha mais acima</strong>.",
+    "<strong>E · Ema</strong> (♀ mulher)<strong>:</strong> Encontrava-se <strong>numa linha mais acima do que</strong> <strong>Ana</strong>.",
+    "<strong>V · Virgílio</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Dinis (D).</strong> A vítima, Virgílio, estava na sala do trono.",
+   "stappen": [
+    "Dinis está de certeza na linha 1, por isso Basílio não pode estar lá. → Basílio: [3,2]",
+    "Só Dinis ainda pode estar na coluna 1. → Dinis: [1,1]",
+    "\"Ana encontrava-se numa linha mais acima do que Constança.\": para estas casas de Ana não há nenhum sítio adequado para Constança.",
+    "\"Outra pessoa na divisão de Dinis era um homem.\": só Virgílio pode ser essa pessoa, por isso Virgílio está na mesma divisão que Dinis. → Virgílio: [2,3]",
+    "\"Ema encontrava-se numa linha mais acima do que Ana.\": para estas casas de Ema não há nenhum sítio adequado para Ana. → Ema: [4,6]",
+    "Ema está na [4,6], por isso a linha 4 e a coluna 6 ficam excluídas para Ana. → Ana: [5,5]",
+    "Ana está na [5,5], por isso a linha 5 e a coluna 5 ficam excluídas para Constança. → Constança: [6,4]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O castelo: o fosso",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Na corte se cochicha, se conspira e, esta noite, também se mata.",
+   "aanwijzingen": [
+    "<strong>A · Ana</strong> (♀ mulher)<strong>:</strong> Estava <strong>numa linha mais acima que</strong> a de <strong>Cristina</strong>.",
+    "<strong>B · Bento</strong> (♂ homem · óculos)<strong>:</strong> <strong>Não estava ao lado de</strong> <strong>nenhuma</strong> <strong>estante</strong>. Estava na <strong>2ª coluna</strong>.",
+    "<strong>C · Cristina</strong> (♀ mulher)<strong>:</strong> Era <strong>a única pessoa</strong> nos <strong>aposentos</strong>. Encontrava-se na <strong>metade direita</strong>.",
+    "<strong>D · Danilo</strong> (♂ homem · óculos)<strong>:</strong> <strong>Outra pessoa</strong> no <strong>cômodo dele</strong> era <strong>um homem</strong>. Encontrava-se na <strong>linha superior</strong>.",
+    "<strong>E · Edna</strong> (♀ mulher)<strong>:</strong> Estava <strong>numa linha mais acima que</strong> a de <strong>Ana</strong>.",
+    "<strong>V · Vladimir</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Danilo (D).</strong> A vítima, Vladimir, estava na sala do trono.",
+   "stappen": [
+    "Danilo está com certeza na linha 1, então Bento não pode estar ali. → Bento em [3,2]",
+    "Só Danilo ainda pode estar na coluna 1. → Danilo em [1,1]",
+    "\"Ana estava numa linha mais acima que a de Cristina.\": para esses quadrados de Ana, não há lugar adequado para Cristina.",
+    "\"Outra pessoa no cômodo de Danilo era um homem.\": só Vladimir pode ser essa pessoa, então Vladimir está no mesmo cômodo que Danilo. → Vladimir em [2,3]",
+    "\"Edna estava numa linha mais acima que a de Ana.\": para esses quadrados de Edna, não há lugar adequado para Ana. → Edna em [4,6]",
+    "Edna está na [4,6], então a linha 4 e a coluna 6 ficam descartadas para Ana. → Ana em [5,5]",
+    "Ana está na [5,5], então a linha 5 e a coluna 5 ficam descartadas para Cristina. → Cristina em [6,4]"
+   ]
+  },
+  "pl": {
+   "titel": "Zamek: fosa",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Na dworze się szepcze, knuje, a tej nocy także zabija.",
+   "aanwijzingen": [
+    "<strong>A · Anna</strong> (♀ kobieta)<strong>:</strong> Była <strong>w wyższym rzędzie niż</strong> <strong>Celestyna</strong>.",
+    "<strong>B · Benedykt</strong> (♂ mężczyzna · okulary)<strong>:</strong> <strong>Nie był</strong> <strong>obok</strong> <strong>żadnego</strong> <strong>regału na książki</strong>. Był w <strong>2. kolumnie</strong>.",
+    "<strong>C · Celestyna</strong> (♀ kobieta)<strong>:</strong> Była <strong>jedyną osobą</strong> w <strong>komnatach sypialnych</strong>. Znajdowała się w <strong>prawej połowie</strong> planszy.",
+    "<strong>D · Dorian</strong> (♂ mężczyzna · okulary)<strong>:</strong> Dzielił pomieszczenie z <strong>co najmniej</strong> jednym <strong>mężczyzną</strong>. Znajdował się w <strong>najwyższym rzędzie</strong>.",
+    "<strong>E · Emilia</strong> (♀ kobieta)<strong>:</strong> Była <strong>w wyższym rzędzie niż</strong> <strong>Anna</strong>.",
+    "<strong>V · Volker</strong> (♂ mężczyzna)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Dorian (D).</strong> Ofiara (Volker) leżała w sali tronowej.",
+   "stappen": [
+    "Dorian na pewno jest w rzędzie 1, więc Benedykt nie może tam być. → Benedykt: [3,2]",
+    "W kolumnie 1 może jeszcze być tylko Dorian. → Dorian: [1,1]",
+    "\"Anna była w wyższym rzędzie niż Celestyna.\": dla tych pól Anny nie ma odpowiedniego miejsca dla Celestyny.",
+    "\"Dorian dzielił pomieszczenie z co najmniej jednym mężczyzną.\": tylko Volker może być tą osobą, więc Volker jest w tym samym pomieszczeniu co Dorian. → Volker: [2,3]",
+    "\"Emilia była w wyższym rzędzie niż Anna.\": dla tych pól Emilii nie ma odpowiedniego miejsca dla Anny. → Emilia: [4,6]",
+    "Emilia jest w rzędzie 4 i kolumnie 6, więc ten rząd i ta kolumna odpadają dla Anny. → Anna: [5,5]",
+    "Anna jest w rzędzie 5 i kolumnie 5, więc ten rząd i ta kolumna odpadają dla Celestyny. → Celestyna: [6,4]"
+   ]
+  }
+ }
+}

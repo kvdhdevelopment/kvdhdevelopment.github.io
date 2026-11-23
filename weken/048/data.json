@@ -1,0 +1,233 @@
+{
+ "week": 48,
+ "id": "L3-00hw16o",
+ "level": 3,
+ "theme": "kantoor",
+ "talen": {
+  "en": {
+   "titel": "The Office: the new intern",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "Out-of-office reply from Vincent: \"I am currently unavailable.\"",
+   "aanwijzingen": [
+    "<strong>A · Adam</strong> (♂ man)<strong>:</strong> Was <strong>alone</strong> in the <strong>open-plan office</strong>. Was <strong>somewhere below</strong> <strong>David</strong>.",
+    "<strong>B · Beth</strong> (♀ woman · glasses)<strong>:</strong> Was in the <strong>5th row</strong>. Was <strong>not by a window</strong>.",
+    "<strong>C · Connor</strong> (♂ man · glasses)<strong>:</strong> Was <strong>the only</strong> person in the <strong>corridor</strong>.",
+    "<strong>D · David</strong> (♂ man · glasses)<strong>:</strong> Was <strong>somewhere to the left of</strong> <strong>Emily</strong>.",
+    "<strong>E · Emily</strong> (♀ woman · glasses)<strong>:</strong> Was <strong>not by a window</strong>. Was in the <strong>2nd row</strong>.",
+    "<strong>V · Vincent</strong> (♂ man)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Beth (B).</strong> The victim, Vincent, lay in the meeting room.",
+   "stappen": [
+    "Because of \"Connor was the only person in the corridor.\", Beth cannot be in the corridor. → Beth at [5,5]",
+    "Beth is on [5,5], so row 5 and column 5 are ruled out for Emily. → Emily at [2,2]",
+    "Only Connor can still be in column 4. → Connor at [6,4]",
+    "\"Adam was somewhere below David.\": for these squares of Adam there is no fitting place for David.",
+    "\"Adam was somewhere below David.\": for these squares of David there is no fitting place for Adam.",
+    "\"David was somewhere to the left of Emily.\": for these squares of David there is no fitting place for Emily. → David at [3,1]",
+    "David is on [3,1], so row 3 and column 1 are ruled out for Adam. → Adam at [4,3]",
+    "David is on [3,1], so row 3 and column 1 are ruled out for Vincent. → Vincent at [1,6]"
+   ]
+  },
+  "nl": {
+   "titel": "Het kantoor: de nieuwe stagiair",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "De nieuwe stagiair is net begonnen. Dit stond niet in het inwerkplan.",
+   "aanwijzingen": [
+    "<strong>A · Alain</strong> (♂ man)<strong>:</strong> Was <strong>alleen</strong> in de <strong>kantoortuin</strong>. Bevond zich <strong>ergens onder</strong> <strong>David</strong>.",
+    "<strong>B · Bianca</strong> (♀ vrouw · bril)<strong>:</strong> Bevond zich in de <strong>5e rij</strong>. Bevond zich <strong>niet bij een raam</strong>.",
+    "<strong>C · Coen</strong> (♂ man · bril)<strong>:</strong> Was <strong>de enige</strong> persoon in de <strong>gang</strong>.",
+    "<strong>D · David</strong> (♂ man · bril)<strong>:</strong> Bevond zich <strong>ergens links van</strong> <strong>Esmee</strong>.",
+    "<strong>E · Esmee</strong> (♀ vrouw · bril)<strong>:</strong> Bevond zich <strong>niet bij een raam</strong>. Was in de <strong>2e rij</strong>.",
+    "<strong>V · Vincent</strong> (♂ man)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Bianca (B).</strong> Het slachtoffer Vincent lag in de vergaderzaal.",
+   "stappen": [
+    "Door \"Coen was de enige persoon in de gang.\" kan Bianca niet in de gang staan. → Bianca op [5,5]",
+    "Bianca staat op [5,5], dus rij 5 en kolom 5 vallen af voor Esmee. → Esmee op [2,2]",
+    "In kolom 4 kan alleen Coen nog staan. → Coen op [6,4]",
+    "\"Alain bevond zich ergens onder David.\": voor deze vakjes van Alain is er geen passende plek voor David.",
+    "\"Alain bevond zich ergens onder David.\": voor deze vakjes van David is er geen passende plek voor Alain.",
+    "\"David bevond zich ergens links van Esmee.\": voor deze vakjes van David is er geen passende plek voor Esmee. → David op [3,1]",
+    "David staat op [3,1], dus rij 3 en kolom 1 vallen af voor Alain. → Alain op [4,3]",
+    "David staat op [3,1], dus rij 3 en kolom 1 vallen af voor Vincent. → Vincent op [1,6]"
+   ]
+  },
+  "de": {
+   "titel": "Das Büro: der neue Praktikant",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Abwesenheitsnotiz von Volker: \"Ich bin bis auf Weiteres nicht erreichbar.\"",
+   "aanwijzingen": [
+    "<strong>A · Andreas</strong> (♂ Mann)<strong>:</strong> War <strong>allein</strong> im <strong>Großraumbüro</strong>. Befand sich <strong>irgendwo unterhalb von</strong> <strong>David</strong>.",
+    "<strong>B · Bettina</strong> (♀ Frau · Brille)<strong>:</strong> Befand sich in der <strong>5. Reihe</strong>. Befand sich <strong>an keinem Fenster</strong>.",
+    "<strong>C · Clemens</strong> (♂ Mann · Brille)<strong>:</strong> War <strong>die einzige</strong> Person im <strong>Flur</strong>.",
+    "<strong>D · David</strong> (♂ Mann · Brille)<strong>:</strong> Befand sich <strong>irgendwo links von</strong> <strong>Elena</strong>.",
+    "<strong>E · Elena</strong> (♀ Frau · Brille)<strong>:</strong> Befand sich <strong>an keinem Fenster</strong>. War in der <strong>2. Reihe</strong>.",
+    "<strong>V · Volker</strong> (♂ Mann)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Bettina (B).</strong> Das Opfer, Volker, lag im Besprechungsraum.",
+   "stappen": [
+    "Wegen \"Clemens war die einzige Person im Flur.\" kann Bettina nicht im Flur stehen. → Bettina in [5,5]",
+    "Bettina steht in [5,5], also fallen Reihe 5 und Spalte 5 für Elena weg. → Elena in [2,2]",
+    "In Spalte 4 kann nur noch Clemens stehen. → Clemens in [6,4]",
+    "\"Andreas befand sich irgendwo unterhalb von David.\": Für diese Felder von Andreas gibt es keinen passenden Platz für David.",
+    "\"Andreas befand sich irgendwo unterhalb von David.\": Für diese Felder von David gibt es keinen passenden Platz für Andreas.",
+    "\"David befand sich irgendwo links von Elena.\": Für diese Felder von David gibt es keinen passenden Platz für Elena. → David in [3,1]",
+    "David steht in [3,1], also fallen Reihe 3 und Spalte 1 für Andreas weg. → Andreas in [4,3]",
+    "David steht in [3,1], also fallen Reihe 3 und Spalte 1 für Volker weg. → Volker in [1,6]"
+   ]
+  },
+  "fr": {
+   "titel": "Le bureau: le nouveau stagiaire",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Réponse automatique de Vincent : \"Je suis absent jusqu'à nouvel ordre.\"",
+   "aanwijzingen": [
+    "<strong>A · Antoine</strong> (♂ homme)<strong>:</strong> Était <strong>seul</strong> dans l'<strong>open space</strong>. Se trouvait <strong>quelque part en dessous</strong> de <strong>Daniel</strong>.",
+    "<strong>B · Béatrice</strong> (♀ femme · lunettes)<strong>:</strong> Se trouvait dans la <strong>5e rangée</strong>. Ne se trouvait pas <strong>près d'une fenêtre</strong>.",
+    "<strong>C · Cyril</strong> (♂ homme · lunettes)<strong>:</strong> Était <strong>la seule personne</strong> dans le <strong>couloir</strong>.",
+    "<strong>D · Daniel</strong> (♂ homme · lunettes)<strong>:</strong> Se trouvait <strong>quelque part à gauche</strong> d'<strong>Élise</strong>.",
+    "<strong>E · Élise</strong> (♀ femme · lunettes)<strong>:</strong> Ne se trouvait pas <strong>près d'une fenêtre</strong>. Était dans la <strong>2e rangée</strong>.",
+    "<strong>V · Vincent</strong> (♂ homme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Béatrice (B).</strong> La victime, Vincent, se trouvait dans la salle de réunion.",
+   "stappen": [
+    "D'après \"Cyril était la seule personne dans le couloir.\", Béatrice ne peut pas se trouver dans le couloir. → Béatrice en [5,5]",
+    "Béatrice se trouve en [5,5], donc la rangée 5 et la colonne 5 sont exclues pour Élise. → Élise en [2,2]",
+    "Seul Cyril peut encore se trouver dans la colonne 4. → Cyril en [6,4]",
+    "\"Antoine se trouvait quelque part en dessous de Daniel.\" : pour ces cases d'Antoine, il n'y a aucune place qui convienne pour Daniel.",
+    "\"Antoine se trouvait quelque part en dessous de Daniel.\" : pour ces cases de Daniel, il n'y a aucune place qui convienne pour Antoine.",
+    "\"Daniel se trouvait quelque part à gauche d'Élise.\" : pour ces cases de Daniel, il n'y a aucune place qui convienne pour Élise. → Daniel en [3,1]",
+    "Daniel se trouve en [3,1], donc la rangée 3 et la colonne 1 sont exclues pour Antoine. → Antoine en [4,3]",
+    "Daniel se trouve en [3,1], donc la rangée 3 et la colonne 1 sont exclues pour Vincent. → Vincent en [1,6]"
+   ]
+  },
+  "it": {
+   "titel": "L'ufficio: il nuovo stagista",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "Risposta automatica di Valerio: \"Sarò irraggiungibile fino a nuovo avviso.\"",
+   "aanwijzingen": [
+    "<strong>A · Alberto</strong> (♂ uomo)<strong>:</strong> Era <strong>da solo</strong> nell'<strong>open space</strong>. Si trovava <strong>da qualche parte</strong> <strong>più in basso di</strong> <strong>Dante</strong>.",
+    "<strong>B · Barbara</strong> (♀ donna · occhiali)<strong>:</strong> Si trovava nella <strong>5ª riga</strong>. <strong>Non si trovava</strong> <strong>vicino a nessuna finestra</strong>.",
+    "<strong>C · Cristian</strong> (♂ uomo · occhiali)<strong>:</strong> Era <strong>l'unica persona</strong> nel <strong>corridoio</strong>.",
+    "<strong>D · Dante</strong> (♂ uomo · occhiali)<strong>:</strong> Si trovava <strong>da qualche parte</strong> <strong>più a sinistra di</strong> <strong>Elena</strong>.",
+    "<strong>E · Elena</strong> (♀ donna · occhiali)<strong>:</strong> <strong>Non si trovava</strong> <strong>vicino a nessuna finestra</strong>. Era nella <strong>2ª riga</strong>.",
+    "<strong>V · Valerio</strong> (♂ uomo)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Barbara (B).</strong> La vittima, Valerio, giaceva in sala riunioni.",
+   "stappen": [
+    "In base a \"Cristian era l'unica persona nel corridoio.\", Barbara non può essere nel corridoio. → Barbara in [5,5]",
+    "Barbara è in [5,5], quindi la riga 5 e la colonna 5 sono escluse per Elena. → Elena in [2,2]",
+    "Solo Cristian può ancora essere nella colonna 4. → Cristian in [6,4]",
+    "\"Alberto si trovava da qualche parte più in basso di Dante.\": per queste caselle di Alberto non c'è un posto adatto per Dante.",
+    "\"Alberto si trovava da qualche parte più in basso di Dante.\": per queste caselle di Dante non c'è un posto adatto per Alberto.",
+    "\"Dante si trovava da qualche parte più a sinistra di Elena.\": per queste caselle di Dante non c'è un posto adatto per Elena. → Dante in [3,1]",
+    "Dante è in [3,1], quindi la riga 3 e la colonna 1 sono escluse per Alberto. → Alberto in [4,3]",
+    "Dante è in [3,1], quindi la riga 3 e la colonna 1 sono escluse per Valerio. → Valerio in [1,6]"
+   ]
+  },
+  "es": {
+   "titel": "La oficina: el nuevo becario",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "Respuesta automática de Vicente: \"Estaré fuera de la oficina hasta nuevo aviso.\"",
+   "aanwijzingen": [
+    "<strong>A · Alberto</strong> (♂ hombre)<strong>:</strong> Estaba <strong>solo</strong> en la <strong>oficina diáfana</strong>. Estaba <strong>en algún lugar</strong> <strong>por debajo de</strong> <strong>Damián</strong>.",
+    "<strong>B · Bárbara</strong> (♀ mujer · gafas)<strong>:</strong> Estaba en la <strong>5.ª fila</strong>. <strong>No estaba</strong> <strong>al pie de ninguna ventana</strong>.",
+    "<strong>C · Clemente</strong> (♂ hombre · gafas)<strong>:</strong> Era <strong>la única persona</strong> en el <strong>pasillo</strong>.",
+    "<strong>D · Damián</strong> (♂ hombre · gafas)<strong>:</strong> Estaba <strong>en algún lugar</strong> <strong>a la izquierda de</strong> <strong>Elena</strong>.",
+    "<strong>E · Elena</strong> (♀ mujer · gafas)<strong>:</strong> <strong>No estaba</strong> <strong>al pie de ninguna ventana</strong>. Se encontraba en la <strong>2.ª fila</strong>.",
+    "<strong>V · Vicente</strong> (♂ hombre)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Bárbara (B).</strong> La víctima, Vicente, yacía en la sala de reuniones.",
+   "stappen": [
+    "Por \"Clemente era la única persona en el pasillo.\", Bárbara no puede estar en el pasillo. → Bárbara en [5,5]",
+    "Bárbara está en la fila 5, columna 5, así que la fila 5 y la columna 5 quedan descartadas para Elena. → Elena en [2,2]",
+    "En la columna 4 ya solo puede estar Clemente. → Clemente en [6,4]",
+    "\"Alberto estaba en algún lugar por debajo de Damián.\": para estas casillas de Alberto no hay ningún sitio adecuado para Damián.",
+    "\"Alberto estaba en algún lugar por debajo de Damián.\": para estas casillas de Damián no hay ningún sitio adecuado para Alberto.",
+    "\"Damián estaba en algún lugar a la izquierda de Elena.\": para estas casillas de Damián no hay ningún sitio adecuado para Elena. → Damián en [3,1]",
+    "Damián está en la fila 3, columna 1, así que la fila 3 y la columna 1 quedan descartadas para Alberto. → Alberto en [4,3]",
+    "Damián está en la fila 3, columna 1, así que la fila 3 y la columna 1 quedan descartadas para Vicente. → Vicente en [1,6]"
+   ]
+  },
+  "pt": {
+   "titel": "O escritório: o novo estagiário",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Resposta automática de Vítor: \"De momento não estou contactável.\"",
+   "aanwijzingen": [
+    "<strong>A · Afonso</strong> (♂ homem)<strong>:</strong> Estava <strong>sozinho</strong> no <strong>open space</strong>. Encontrava-se <strong>algures abaixo de</strong> <strong>Domingos</strong>.",
+    "<strong>B · Bárbara</strong> (♀ mulher · óculos)<strong>:</strong> Encontrava-se na <strong>5.ª linha</strong>. <strong>Não se encontrava</strong> <strong>junto a uma janela</strong>.",
+    "<strong>C · Caetano</strong> (♂ homem · óculos)<strong>:</strong> Era <strong>a única pessoa</strong> no <strong>corredor</strong>.",
+    "<strong>D · Domingos</strong> (♂ homem · óculos)<strong>:</strong> Encontrava-se <strong>algures à esquerda de</strong> <strong>Eva</strong>.",
+    "<strong>E · Eva</strong> (♀ mulher · óculos)<strong>:</strong> <strong>Não se encontrava</strong> <strong>junto a uma janela</strong>. Estava na <strong>2.ª linha</strong>.",
+    "<strong>V · Vítor</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Bárbara (B).</strong> A vítima, Vítor, estava na sala de reuniões.",
+   "stappen": [
+    "Por causa de \"Caetano era a única pessoa no corredor.\", Bárbara não pode estar no corredor. → Bárbara: [5,5]",
+    "Bárbara está na [5,5], por isso a linha 5 e a coluna 5 ficam excluídas para Eva. → Eva: [2,2]",
+    "Só Caetano ainda pode estar na coluna 4. → Caetano: [6,4]",
+    "\"Afonso encontrava-se algures abaixo de Domingos.\": para estas casas de Afonso não há nenhum sítio adequado para Domingos.",
+    "\"Afonso encontrava-se algures abaixo de Domingos.\": para estas casas de Domingos não há nenhum sítio adequado para Afonso.",
+    "\"Domingos encontrava-se algures à esquerda de Eva.\": para estas casas de Domingos não há nenhum sítio adequado para Eva. → Domingos: [3,1]",
+    "Domingos está na [3,1], por isso a linha 3 e a coluna 1 ficam excluídas para Afonso. → Afonso: [4,3]",
+    "Domingos está na [3,1], por isso a linha 3 e a coluna 1 ficam excluídas para Vítor. → Vítor: [1,6]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O escritório: o novo estagiário",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Resposta automática de Vicente: \"Estou fora do escritório por tempo indeterminado.\"",
+   "aanwijzingen": [
+    "<strong>A · Antônio</strong> (♂ homem)<strong>:</strong> Estava <strong>sozinho</strong> no <strong>open space</strong>. Estava <strong>em algum lugar abaixo de</strong> <strong>Diogo</strong>.",
+    "<strong>B · Bruna</strong> (♀ mulher · óculos)<strong>:</strong> Estava na <strong>5ª linha</strong>. <strong>Não estava</strong> <strong>junto a nenhuma janela</strong>.",
+    "<strong>C · Cláudio</strong> (♂ homem · óculos)<strong>:</strong> Era <strong>a única pessoa</strong> no <strong>corredor</strong>.",
+    "<strong>D · Diogo</strong> (♂ homem · óculos)<strong>:</strong> Estava <strong>em algum lugar à esquerda de</strong> <strong>Eliane</strong>.",
+    "<strong>E · Eliane</strong> (♀ mulher · óculos)<strong>:</strong> <strong>Não estava</strong> <strong>junto a nenhuma janela</strong>. Encontrava-se na <strong>2ª linha</strong>.",
+    "<strong>V · Vicente</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Bruna (B).</strong> A vítima, Vicente, estava na sala de reuniões.",
+   "stappen": [
+    "Por causa de \"Cláudio era a única pessoa no corredor.\", Bruna não pode estar no corredor. → Bruna em [5,5]",
+    "Bruna está na [5,5], então a linha 5 e a coluna 5 ficam descartadas para Eliane. → Eliane em [2,2]",
+    "Só Cláudio ainda pode estar na coluna 4. → Cláudio em [6,4]",
+    "\"Antônio estava em algum lugar abaixo de Diogo.\": para esses quadrados de Antônio, não há lugar adequado para Diogo.",
+    "\"Antônio estava em algum lugar abaixo de Diogo.\": para esses quadrados de Diogo, não há lugar adequado para Antônio.",
+    "\"Diogo estava em algum lugar à esquerda de Eliane.\": para esses quadrados de Diogo, não há lugar adequado para Eliane. → Diogo em [3,1]",
+    "Diogo está na [3,1], então a linha 3 e a coluna 1 ficam descartadas para Antônio. → Antônio em [4,3]",
+    "Diogo está na [3,1], então a linha 3 e a coluna 1 ficam descartadas para Vicente. → Vicente em [1,6]"
+   ]
+  },
+  "pl": {
+   "titel": "Biuro: nowy stażysta",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Autoodpowiedź od Vincenta: \"Do odwołania jestem nieosiągalny.\"",
+   "aanwijzingen": [
+    "<strong>A · Adam</strong> (♂ mężczyzna)<strong>:</strong> <strong>Był sam</strong> w <strong>open space</strong>. Był <strong>gdzieś niżej niż</strong> <strong>Dariusz</strong>.",
+    "<strong>B · Beata</strong> (♀ kobieta · okulary)<strong>:</strong> Była w <strong>5. rzędzie</strong>. <strong>Nie była</strong> <strong>przy żadnym oknie</strong>.",
+    "<strong>C · Czesław</strong> (♂ mężczyzna · okulary)<strong>:</strong> Był <strong>jedyną osobą</strong> na <strong>korytarzu</strong>.",
+    "<strong>D · Dariusz</strong> (♂ mężczyzna · okulary)<strong>:</strong> Był <strong>gdzieś na lewo od</strong> Ewy.",
+    "<strong>E · Ewa</strong> (♀ kobieta · okulary)<strong>:</strong> <strong>Nie była</strong> <strong>przy żadnym oknie</strong>. Znajdowała się w <strong>2. rzędzie</strong>.",
+    "<strong>V · Vincent</strong> (♂ mężczyzna)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Beata (B).</strong> Ofiara (Vincent) leżała w sali konferencyjnej.",
+   "stappen": [
+    "Ze wskazówki \"Czesław był jedyną osobą na korytarzu.\" wynika, że Beata nie może być na korytarzu. → Beata: [5,5]",
+    "Beata jest w rzędzie 5 i kolumnie 5, więc ten rząd i ta kolumna odpadają dla Ewy. → Ewa: [2,2]",
+    "W kolumnie 4 może jeszcze być tylko Czesław. → Czesław: [6,4]",
+    "\"Adam był gdzieś niżej niż Dariusz.\": dla tych pól Adama nie ma odpowiedniego miejsca dla Dariusza.",
+    "\"Adam był gdzieś niżej niż Dariusz.\": dla tych pól Dariusza nie ma odpowiedniego miejsca dla Adama.",
+    "\"Dariusz był gdzieś na lewo od Ewy.\": dla tych pól Dariusza nie ma odpowiedniego miejsca dla Ewy. → Dariusz: [3,1]",
+    "Dariusz jest w rzędzie 3 i kolumnie 1, więc ten rząd i ta kolumna odpadają dla Adama. → Adam: [4,3]",
+    "Dariusz jest w rzędzie 3 i kolumnie 1, więc ten rząd i ta kolumna odpadają dla Vincenta. → Vincent: [1,6]"
+   ]
+  }
+ }
+}

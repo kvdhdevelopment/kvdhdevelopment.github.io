@@ -1,0 +1,215 @@
+{
+ "week": 24,
+ "id": "L3-00hvio6",
+ "level": 3,
+ "theme": "restaurant",
+ "talen": {
+  "en": {
+   "titel": "The Restaurant: the kitchen brigade",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "Vaughan was a regular here. Tonight he became a rather special case.",
+   "aanwijzingen": [
+    "<strong>A · Alice</strong> (♀ woman)<strong>:</strong> Was <strong>the only</strong> person in the <strong>kitchen</strong>. Was <strong>somewhere above</strong> <strong>Bella</strong>.",
+    "<strong>B · Bella</strong> (♀ woman)<strong>:</strong> In <strong>their room</strong> there was <strong>no</strong> <strong>table</strong>.",
+    "<strong>C · Claire</strong> (♀ woman)<strong>:</strong> Was in the <strong>5th row</strong>.",
+    "<strong>D · Denise</strong> (♀ woman)<strong>:</strong> Was <strong>not in</strong> the <strong>wine cellar</strong>.",
+    "<strong>E · Eve</strong> (♀ woman · glasses · hat)<strong>:</strong> Was <strong>alone</strong> in the <strong>corridor</strong>. Was in the <strong>bottom row</strong> <strong>of the room</strong>.",
+    "<strong>V · Vaughan</strong> (♂ man · glasses)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Claire (C).</strong> The victim, Vaughan, lay in the wine cellar.",
+   "stappen": [
+    "\"Alice was somewhere above Bella.\": for these squares of Alice there is no fitting place for Bella. → Alice at [1,1]",
+    "Alice is on [1,1], so row 1 and column 1 are ruled out for Bella. → Bella at [2,6]",
+    "Alice is on [1,1], so row 1 and column 1 are ruled out for Denise. → Denise at [6,2]",
+    "Denise is on [6,2], so row 6 and column 2 are ruled out for Claire. → Claire at [5,3]",
+    "Claire is on [5,3], so row 5 and column 3 are ruled out for Eve. → Eve at [3,4]",
+    "Eve is on [3,4], so row 3 and column 4 are ruled out for Vaughan. → Vaughan at [4,5]"
+   ]
+  },
+  "nl": {
+   "titel": "Het restaurant: de keukenbrigade",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "De keukenbrigade werkt als een geoliede machine. Tot er een radertje hapert.",
+   "aanwijzingen": [
+    "<strong>A · Anna</strong> (♀ vrouw)<strong>:</strong> Was <strong>de enige</strong> persoon in de <strong>keuken</strong>. Bevond zich <strong>ergens boven</strong> <strong>Britt</strong>.",
+    "<strong>B · Britt</strong> (♀ vrouw)<strong>:</strong> In de ruimte stond <strong>geen</strong> <strong>tafel</strong>.",
+    "<strong>C · Claire</strong> (♀ vrouw)<strong>:</strong> Was in de <strong>5e rij</strong>.",
+    "<strong>D · Demi</strong> (♀ vrouw)<strong>:</strong> Bevond zich <strong>niet in</strong> de <strong>wijnkelder</strong>.",
+    "<strong>E · Eva</strong> (♀ vrouw · bril · hoed)<strong>:</strong> Was <strong>alleen</strong> in de <strong>gang</strong>. Was in de <strong>onderste rij</strong> van de ruimte.",
+    "<strong>V · Vito</strong> (♂ man · bril)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Claire (C).</strong> Het slachtoffer Vito lag in de wijnkelder.",
+   "stappen": [
+    "\"Anna bevond zich ergens boven Britt.\": voor deze vakjes van Anna is er geen passende plek voor Britt. → Anna op [1,1]",
+    "Anna staat op [1,1], dus rij 1 en kolom 1 vallen af voor Britt. → Britt op [2,6]",
+    "Anna staat op [1,1], dus rij 1 en kolom 1 vallen af voor Demi. → Demi op [6,2]",
+    "Demi staat op [6,2], dus rij 6 en kolom 2 vallen af voor Claire. → Claire op [5,3]",
+    "Claire staat op [5,3], dus rij 5 en kolom 3 vallen af voor Eva. → Eva op [3,4]",
+    "Eva staat op [3,4], dus rij 3 en kolom 4 vallen af voor Vito. → Vito op [4,5]"
+   ]
+  },
+  "de": {
+   "titel": "Das Restaurant: die Küchenbrigade",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Vincent war hier Stammgast. Heute Abend wurde er zum Sonderfall.",
+   "aanwijzingen": [
+    "<strong>A · Anna</strong> (♀ Frau)<strong>:</strong> War <strong>die einzige</strong> Person in der <strong>Küche</strong>. Befand sich <strong>irgendwo oberhalb von</strong> <strong>Birgit</strong>.",
+    "<strong>B · Birgit</strong> (♀ Frau)<strong>:</strong> In ihrem Raum gab es <strong>keinen</strong> <strong>Tisch</strong>.",
+    "<strong>C · Corinna</strong> (♀ Frau)<strong>:</strong> War in der <strong>5. Reihe</strong>.",
+    "<strong>D · Denise</strong> (♀ Frau)<strong>:</strong> Befand sich <strong>nicht im</strong> <strong>Weinkeller</strong>.",
+    "<strong>E · Emma</strong> (♀ Frau · Brille · Hut)<strong>:</strong> War <strong>allein</strong> im <strong>Flur</strong>. War in der <strong>untersten Reihe</strong> <strong>des Raums</strong>.",
+    "<strong>V · Vincent</strong> (♂ Mann · Brille)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Corinna (C).</strong> Das Opfer, Vincent, lag im Weinkeller.",
+   "stappen": [
+    "\"Anna befand sich irgendwo oberhalb von Birgit.\": Für diese Felder von Anna gibt es keinen passenden Platz für Birgit. → Anna in [1,1]",
+    "Anna steht in [1,1], also fallen Reihe 1 und Spalte 1 für Birgit weg. → Birgit in [2,6]",
+    "Anna steht in [1,1], also fallen Reihe 1 und Spalte 1 für Denise weg. → Denise in [6,2]",
+    "Denise steht in [6,2], also fallen Reihe 6 und Spalte 2 für Corinna weg. → Corinna in [5,3]",
+    "Corinna steht in [5,3], also fallen Reihe 5 und Spalte 3 für Emma weg. → Emma in [3,4]",
+    "Emma steht in [3,4], also fallen Reihe 3 und Spalte 4 für Vincent weg. → Vincent in [4,5]"
+   ]
+  },
+  "fr": {
+   "titel": "Le restaurant: la brigade de cuisine",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Virgile était un habitué de la maison. Ce soir, il est devenu un cas à part.",
+   "aanwijzingen": [
+    "<strong>A · Amélie</strong> (♀ femme)<strong>:</strong> Était <strong>la seule personne</strong> dans la <strong>cuisine</strong>. Se trouvait <strong>quelque part au-dessus</strong> de <strong>Brigitte</strong>.",
+    "<strong>B · Brigitte</strong> (♀ femme)<strong>:</strong> Dans <strong>sa pièce</strong>, il n'y avait <strong>aucune</strong> <strong>table</strong>.",
+    "<strong>C · Charlotte</strong> (♀ femme)<strong>:</strong> Était dans la <strong>5e rangée</strong>.",
+    "<strong>D · Daphné</strong> (♀ femme)<strong>:</strong> Ne se trouvait <strong>pas dans</strong> la <strong>cave à vin</strong>.",
+    "<strong>E · Estelle</strong> (♀ femme · lunettes · chapeau)<strong>:</strong> Était <strong>seule</strong> dans le <strong>couloir</strong>. Était dans la <strong>rangée</strong> <strong>la plus basse</strong> <strong>de sa pièce</strong>.",
+    "<strong>V · Virgile</strong> (♂ homme · lunettes)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Charlotte (C).</strong> La victime, Virgile, se trouvait dans la cave à vin.",
+   "stappen": [
+    "\"Amélie se trouvait quelque part au-dessus de Brigitte.\" : pour ces cases d'Amélie, il n'y a aucune place qui convienne pour Brigitte. → Amélie en [1,1]",
+    "Amélie se trouve en [1,1], donc la rangée 1 et la colonne 1 sont exclues pour Brigitte. → Brigitte en [2,6]",
+    "Amélie se trouve en [1,1], donc la rangée 1 et la colonne 1 sont exclues pour Daphné. → Daphné en [6,2]",
+    "Daphné se trouve en [6,2], donc la rangée 6 et la colonne 2 sont exclues pour Charlotte. → Charlotte en [5,3]",
+    "Charlotte se trouve en [5,3], donc la rangée 5 et la colonne 3 sont exclues pour Estelle. → Estelle en [3,4]",
+    "Estelle se trouve en [3,4], donc la rangée 3 et la colonne 4 sont exclues pour Virgile. → Virgile en [4,5]"
+   ]
+  },
+  "it": {
+   "titel": "Il ristorante: la brigata di cucina",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "Vito era un cliente abituale. Stasera è diventato un caso a parte.",
+   "aanwijzingen": [
+    "<strong>A · Anna</strong> (♀ donna)<strong>:</strong> Era <strong>l'unica persona</strong> in <strong>cucina</strong>. Si trovava <strong>da qualche parte</strong> <strong>più in alto di</strong> <strong>Beatrice</strong>.",
+    "<strong>B · Beatrice</strong> (♀ donna)<strong>:</strong> Nella <strong>sua stanza</strong> non c'era <strong>nessun</strong> <strong>tavolo</strong>.",
+    "<strong>C · Chiara</strong> (♀ donna)<strong>:</strong> Era nella <strong>5ª riga</strong>.",
+    "<strong>D · Dora</strong> (♀ donna)<strong>:</strong> <strong>Non si trovava</strong> in <strong>cantina</strong>.",
+    "<strong>E · Emma</strong> (♀ donna · occhiali · cappello)<strong>:</strong> Era <strong>da sola</strong> nel <strong>corridoio</strong>. Era nella <strong>riga più in basso</strong> <strong>della stanza</strong>.",
+    "<strong>V · Vito</strong> (♂ uomo · occhiali)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Chiara (C).</strong> La vittima, Vito, giaceva in cantina.",
+   "stappen": [
+    "\"Anna si trovava da qualche parte più in alto di Beatrice.\": per queste caselle di Anna non c'è un posto adatto per Beatrice. → Anna in [1,1]",
+    "Anna è in [1,1], quindi la riga 1 e la colonna 1 sono escluse per Beatrice. → Beatrice in [2,6]",
+    "Anna è in [1,1], quindi la riga 1 e la colonna 1 sono escluse per Dora. → Dora in [6,2]",
+    "Dora è in [6,2], quindi la riga 6 e la colonna 2 sono escluse per Chiara. → Chiara in [5,3]",
+    "Chiara è in [5,3], quindi la riga 5 e la colonna 3 sono escluse per Emma. → Emma in [3,4]",
+    "Emma è in [3,4], quindi la riga 3 e la colonna 4 sono escluse per Vito. → Vito in [4,5]"
+   ]
+  },
+  "es": {
+   "titel": "El restaurante: la brigada de cocina",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "Valerio era cliente habitual. Esta noche se convirtió en un caso muy especial.",
+   "aanwijzingen": [
+    "<strong>A · Ana</strong> (♀ mujer)<strong>:</strong> Era <strong>la única persona</strong> en la <strong>cocina</strong>. Estaba <strong>en algún lugar</strong> <strong>por encima de</strong> <strong>Beatriz</strong>.",
+    "<strong>B · Beatriz</strong> (♀ mujer)<strong>:</strong> En <strong>su estancia</strong> no había <strong>ninguna</strong> <strong>mesa</strong>.",
+    "<strong>C · Celia</strong> (♀ mujer)<strong>:</strong> Se encontraba en la <strong>5.ª fila</strong>.",
+    "<strong>D · Dorotea</strong> (♀ mujer)<strong>:</strong> <strong>No se encontraba</strong> en la <strong>bodega</strong>.",
+    "<strong>E · Esther</strong> (♀ mujer · gafas · sombrero)<strong>:</strong> Estaba <strong>sola</strong> en el <strong>pasillo</strong>. Se encontraba en la <strong>fila inferior</strong> <strong>de su estancia</strong>.",
+    "<strong>V · Valerio</strong> (♂ hombre · gafas)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Celia (C).</strong> La víctima, Valerio, yacía en la bodega.",
+   "stappen": [
+    "\"Ana estaba en algún lugar por encima de Beatriz.\": para estas casillas de Ana no hay ningún sitio adecuado para Beatriz. → Ana en [1,1]",
+    "Ana está en la fila 1, columna 1, así que la fila 1 y la columna 1 quedan descartadas para Beatriz. → Beatriz en [2,6]",
+    "Ana está en la fila 1, columna 1, así que la fila 1 y la columna 1 quedan descartadas para Dorotea. → Dorotea en [6,2]",
+    "Dorotea está en la fila 6, columna 2, así que la fila 6 y la columna 2 quedan descartadas para Celia. → Celia en [5,3]",
+    "Celia está en la fila 5, columna 3, así que la fila 5 y la columna 3 quedan descartadas para Esther. → Esther en [3,4]",
+    "Esther está en la fila 3, columna 4, así que la fila 3 y la columna 4 quedan descartadas para Valerio. → Valerio en [4,5]"
+   ]
+  },
+  "pt": {
+   "titel": "O restaurante: a brigada da cozinha",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Valter era cliente da casa. Esta noite tornou-se um caso muito especial.",
+   "aanwijzingen": [
+    "<strong>A · Ana</strong> (♀ mulher)<strong>:</strong> Era <strong>a única pessoa</strong> na <strong>cozinha</strong>. Encontrava-se <strong>algures acima de</strong> <strong>Beatriz</strong>.",
+    "<strong>B · Beatriz</strong> (♀ mulher)<strong>:</strong> Na <strong>sua divisão</strong> não havia <strong>nenhuma</strong> <strong>mesa</strong>.",
+    "<strong>C · Constança</strong> (♀ mulher)<strong>:</strong> Estava na <strong>5.ª linha</strong>.",
+    "<strong>D · Dalila</strong> (♀ mulher)<strong>:</strong> <strong>Não se encontrava</strong> na <strong>adega</strong>.",
+    "<strong>E · Ema</strong> (♀ mulher · óculos · chapéu)<strong>:</strong> Estava <strong>sozinha</strong> no <strong>corredor</strong>. Estava na <strong>linha mais abaixo</strong> <strong>da divisão</strong>.",
+    "<strong>V · Valter</strong> (♂ homem · óculos)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Constança (C).</strong> A vítima, Valter, estava na adega.",
+   "stappen": [
+    "\"Ana encontrava-se algures acima de Beatriz.\": para estas casas de Ana não há nenhum sítio adequado para Beatriz. → Ana: [1,1]",
+    "Ana está na [1,1], por isso a linha 1 e a coluna 1 ficam excluídas para Beatriz. → Beatriz: [2,6]",
+    "Ana está na [1,1], por isso a linha 1 e a coluna 1 ficam excluídas para Dalila. → Dalila: [6,2]",
+    "Dalila está na [6,2], por isso a linha 6 e a coluna 2 ficam excluídas para Constança. → Constança: [5,3]",
+    "Constança está na [5,3], por isso a linha 5 e a coluna 3 ficam excluídas para Ema. → Ema: [3,4]",
+    "Ema está na [3,4], por isso a linha 3 e a coluna 4 ficam excluídas para Valter. → Valter: [4,5]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O restaurante: a brigada da cozinha",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "Vinícius era freguês de carteirinha. Hoje virou um caso à parte.",
+   "aanwijzingen": [
+    "<strong>A · Ana</strong> (♀ mulher)<strong>:</strong> Era <strong>a única pessoa</strong> na <strong>cozinha</strong>. Estava <strong>em algum lugar acima de</strong> <strong>Beatriz</strong>.",
+    "<strong>B · Beatriz</strong> (♀ mulher)<strong>:</strong> No <strong>cômodo dela</strong> não havia <strong>nenhuma</strong> <strong>mesa</strong>.",
+    "<strong>C · Cristina</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>5ª linha</strong>.",
+    "<strong>D · Dulce</strong> (♀ mulher)<strong>:</strong> <strong>Não se encontrava</strong> na <strong>adega</strong>.",
+    "<strong>E · Edna</strong> (♀ mulher · óculos · chapéu)<strong>:</strong> Estava <strong>sozinha</strong> no <strong>corredor</strong>. Encontrava-se na <strong>linha inferior</strong> <strong>do cômodo</strong>.",
+    "<strong>V · Vinícius</strong> (♂ homem · óculos)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Cristina (C).</strong> A vítima, Vinícius, estava na adega.",
+   "stappen": [
+    "\"Ana estava em algum lugar acima de Beatriz.\": para esses quadrados de Ana, não há lugar adequado para Beatriz. → Ana em [1,1]",
+    "Ana está na [1,1], então a linha 1 e a coluna 1 ficam descartadas para Beatriz. → Beatriz em [2,6]",
+    "Ana está na [1,1], então a linha 1 e a coluna 1 ficam descartadas para Dulce. → Dulce em [6,2]",
+    "Dulce está na [6,2], então a linha 6 e a coluna 2 ficam descartadas para Cristina. → Cristina em [5,3]",
+    "Cristina está na [5,3], então a linha 5 e a coluna 3 ficam descartadas para Edna. → Edna em [3,4]",
+    "Edna está na [3,4], então a linha 3 e a coluna 4 ficam descartadas para Vinícius. → Vinícius em [4,5]"
+   ]
+  },
+  "pl": {
+   "titel": "Restauracja: brygada kuchenna",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Valdemar był tu stałym bywalcem. Dziś został przypadkiem specjalnym.",
+   "aanwijzingen": [
+    "<strong>A · Anna</strong> (♀ kobieta)<strong>:</strong> Była <strong>jedyną osobą</strong> w <strong>kuchni</strong>. Była <strong>gdzieś wyżej niż</strong> <strong>Barbara</strong>.",
+    "<strong>B · Barbara</strong> (♀ kobieta)<strong>:</strong> W pomieszczeniu, w którym była, <strong>nie było</strong> <strong>żadnego</strong> <strong>stołu</strong>.",
+    "<strong>C · Celestyna</strong> (♀ kobieta)<strong>:</strong> Znajdowała się w <strong>5. rzędzie</strong>.",
+    "<strong>D · Delfina</strong> (♀ kobieta)<strong>:</strong> Nie znajdowała się w <strong>piwnicy z winem</strong>.",
+    "<strong>E · Emilia</strong> (♀ kobieta · okulary · kapelusz)<strong>:</strong> <strong>Była sama</strong> na <strong>korytarzu</strong>. Znajdowała się w <strong>najniższym rzędzie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>V · Valdemar</strong> (♂ mężczyzna · okulary)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Celestyna (C).</strong> Ofiara (Valdemar) leżała w piwnicy z winem.",
+   "stappen": [
+    "\"Anna była gdzieś wyżej niż Barbara.\": dla tych pól Anny nie ma odpowiedniego miejsca dla Barbary. → Anna: [1,1]",
+    "Anna jest w rzędzie 1 i kolumnie 1, więc ten rząd i ta kolumna odpadają dla Barbary. → Barbara: [2,6]",
+    "Anna jest w rzędzie 1 i kolumnie 1, więc ten rząd i ta kolumna odpadają dla Delfiny. → Delfina: [6,2]",
+    "Delfina jest w rzędzie 6 i kolumnie 2, więc ten rząd i ta kolumna odpadają dla Celestyny. → Celestyna: [5,3]",
+    "Celestyna jest w rzędzie 5 i kolumnie 3, więc ten rząd i ta kolumna odpadają dla Emilii. → Emilia: [3,4]",
+    "Emilia jest w rzędzie 3 i kolumnie 4, więc ten rząd i ta kolumna odpadają dla Valdemara. → Valdemar: [4,5]"
+   ]
+  }
+ }
+}

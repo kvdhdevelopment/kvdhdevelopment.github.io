@@ -1,0 +1,215 @@
+{
+ "week": 36,
+ "id": "L3-00hvrxd",
+ "level": 3,
+ "theme": "ijsbaan",
+ "talen": {
+  "en": {
+   "titel": "The Ice Rink: the ice resurfacer",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "The rink is round. This case, thankfully, isn't: it has an end.",
+   "aanwijzingen": [
+    "<strong>A · Amelia</strong> (♀ woman)<strong>:</strong> Was in the <strong>3rd column</strong>. Was <strong>in a higher row than</strong> <strong>Brian</strong>.",
+    "<strong>B · Brian</strong> (♂ man)<strong>:</strong> In <strong>their room</strong> there was a <strong>chair</strong>.",
+    "<strong>C · Colin</strong> (♂ man · glasses)<strong>:</strong> Was <strong>the only</strong> person on the <strong>infield</strong>. Was in the <strong>leftmost column</strong> <strong>of the room</strong>.",
+    "<strong>D · Donna</strong> (♀ woman · glasses)<strong>:</strong> Was in the <strong>5th column</strong>.",
+    "<strong>E · Emma</strong> (♀ woman)<strong>:</strong> <strong>Someone else</strong> in <strong>their room</strong> was <strong>a man</strong>. Was <strong>in a corner</strong>.",
+    "<strong>V · Vaughan</strong> (♂ man)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Emma (E).</strong> The victim, Vaughan, lay at the ticket office.",
+   "stappen": [
+    "\"Amelia was in a higher row than Brian.\": for these squares of Amelia there is no fitting place for Brian. → Amelia at [1,3]",
+    "\"Someone else in Emma's room was a man.\": in these rooms a man cannot be with Emma. → Emma at [5,4]",
+    "Emma is on [5,4], so row 5 and column 4 are ruled out for Donna. → Donna at [4,5]",
+    "Donna is on [4,5], so row 4 and column 5 are ruled out for Colin. → Colin at [3,1]",
+    "\"Someone else in Emma's room was a man.\": only Vaughan can be that person, so Vaughan is in the same room as Emma. → Vaughan at [6,2]",
+    "Vaughan is on [6,2], so row 6 and column 2 are ruled out for Brian. → Brian at [2,6]"
+   ]
+  },
+  "nl": {
+   "titel": "De ijsbaan: de ijsdweilmachine",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "De ijsdweilmachine maakt het ijs weer glad. Het spoor van de dader gaat niet zo makkelijk weg.",
+   "aanwijzingen": [
+    "<strong>A · Amira</strong> (♀ vrouw)<strong>:</strong> Was in de <strong>3e kolom</strong>. Bevond zich <strong>boven</strong> <strong>Bart</strong>.",
+    "<strong>B · Bart</strong> (♂ man)<strong>:</strong> In de ruimte stond een <strong>stoel</strong>.",
+    "<strong>C · Cyrus</strong> (♂ man · bril)<strong>:</strong> Was <strong>de enige</strong> persoon op het <strong>middenterrein</strong>. Bevond zich in de <strong>linkerkolom</strong> van de ruimte.",
+    "<strong>D · Dunya</strong> (♀ vrouw · bril)<strong>:</strong> Bevond zich in de <strong>5e kolom</strong>.",
+    "<strong>E · Emma</strong> (♀ vrouw)<strong>:</strong> <strong>Iemand anders</strong> in de ruimte was <strong>een man</strong>. Bevond zich <strong>in een hoek</strong>.",
+    "<strong>V · Vito</strong> (♂ man)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Emma (E).</strong> Het slachtoffer Vito lag bij de kassa.",
+   "stappen": [
+    "\"Amira bevond zich boven Bart.\": voor deze vakjes van Amira is er geen passende plek voor Bart. → Amira op [1,3]",
+    "\"Iemand anders in de ruimte van Emma was een man.\": in deze ruimtes kan een man niet bij Emma staan. → Emma op [5,4]",
+    "Emma staat op [5,4], dus rij 5 en kolom 4 vallen af voor Dunya. → Dunya op [4,5]",
+    "Dunya staat op [4,5], dus rij 4 en kolom 5 vallen af voor Cyrus. → Cyrus op [3,1]",
+    "\"Iemand anders in de ruimte van Emma was een man.\": alleen Vito kan die persoon zijn, dus Vito staat bij Emma in de ruimte. → Vito op [6,2]",
+    "Vito staat op [6,2], dus rij 6 en kolom 2 vallen af voor Bart. → Bart op [2,6]"
+   ]
+  },
+  "de": {
+   "titel": "Die Eisbahn: die Eispflegemaschine",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Die Bahn ist rund. Dieser Fall zum Glück nicht: Er hat ein Ende.",
+   "aanwijzingen": [
+    "<strong>A · Anja</strong> (♀ Frau)<strong>:</strong> War in der <strong>3. Spalte</strong>. Befand sich in einer <strong>Reihe</strong> <strong>weiter oben als</strong> <strong>Bastian</strong>.",
+    "<strong>B · Bastian</strong> (♂ Mann)<strong>:</strong> In seinem Raum gab es einen <strong>Stuhl</strong>.",
+    "<strong>C · Christoph</strong> (♂ Mann · Brille)<strong>:</strong> War <strong>die einzige</strong> Person auf dem <strong>Innenfeld</strong>. Befand sich in der <strong>Spalte ganz links</strong> <strong>im Raum</strong>.",
+    "<strong>D · Dorothea</strong> (♀ Frau · Brille)<strong>:</strong> Befand sich in der <strong>5. Spalte</strong>.",
+    "<strong>E · Elke</strong> (♀ Frau)<strong>:</strong> <strong>Eine andere Person</strong> in ihrem Raum war <strong>ein Mann</strong>. Befand sich <strong>in einer Ecke</strong>.",
+    "<strong>V · Vincent</strong> (♂ Mann)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Elke (E).</strong> Das Opfer, Vincent, lag an der Kasse.",
+   "stappen": [
+    "\"Anja befand sich in einer Reihe weiter oben als Bastian.\": Für diese Felder von Anja gibt es keinen passenden Platz für Bastian. → Anja in [1,3]",
+    "\"Eine andere Person in Elkes Raum war ein Mann.\": In diesen Räumen kann ein Mann nicht zusammen mit Elke stehen. → Elke in [5,4]",
+    "Elke steht in [5,4], also fallen Reihe 5 und Spalte 4 für Dorothea weg. → Dorothea in [4,5]",
+    "Dorothea steht in [4,5], also fallen Reihe 4 und Spalte 5 für Christoph weg. → Christoph in [3,1]",
+    "\"Eine andere Person in Elkes Raum war ein Mann.\": Nur Vincent kann diese Person sein, also steht Vincent mit Elke im selben Raum. → Vincent in [6,2]",
+    "Vincent steht in [6,2], also fallen Reihe 6 und Spalte 2 für Bastian weg. → Bastian in [2,6]"
+   ]
+  },
+  "fr": {
+   "titel": "La patinoire: la surfaceuse",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "La piste est ronde. Cette affaire, heureusement, non : elle a une fin.",
+   "aanwijzingen": [
+    "<strong>A · Alice</strong> (♀ femme)<strong>:</strong> Était dans la <strong>3e colonne</strong>. Était dans une <strong>rangée</strong> <strong>plus haute que</strong> celle de <strong>Bertrand</strong>.",
+    "<strong>B · Bertrand</strong> (♂ homme)<strong>:</strong> Dans <strong>sa pièce</strong>, il y avait une <strong>chaise</strong>.",
+    "<strong>C · Charles</strong> (♂ homme · lunettes)<strong>:</strong> Était <strong>la seule personne</strong> sur la <strong>piste centrale</strong>. Se trouvait dans la <strong>colonne</strong> <strong>la plus à gauche</strong> <strong>de sa pièce</strong>.",
+    "<strong>D · Dorothée</strong> (♀ femme · lunettes)<strong>:</strong> Se trouvait dans la <strong>5e colonne</strong>.",
+    "<strong>E · Éloïse</strong> (♀ femme)<strong>:</strong> <strong>Quelqu'un d'autre</strong> dans <strong>sa pièce</strong> était <strong>un homme</strong>. Se trouvait <strong>dans un coin</strong>.",
+    "<strong>V · Virgile</strong> (♂ homme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Éloïse (E).</strong> La victime, Virgile, se trouvait à la caisse.",
+   "stappen": [
+    "\"Alice était dans une rangée plus haute que celle de Bertrand.\" : pour ces cases d'Alice, il n'y a aucune place qui convienne pour Bertrand. → Alice en [1,3]",
+    "\"Quelqu'un d'autre dans la pièce d'Éloïse était un homme.\" : dans ces pièces, un homme ne peut pas être avec Éloïse. → Éloïse en [5,4]",
+    "Éloïse se trouve en [5,4], donc la rangée 5 et la colonne 4 sont exclues pour Dorothée. → Dorothée en [4,5]",
+    "Dorothée se trouve en [4,5], donc la rangée 4 et la colonne 5 sont exclues pour Charles. → Charles en [3,1]",
+    "\"Quelqu'un d'autre dans la pièce d'Éloïse était un homme.\" : seul Virgile peut être cette personne, donc Virgile est dans la même pièce qu'Éloïse. → Virgile en [6,2]",
+    "Virgile se trouve en [6,2], donc la rangée 6 et la colonne 2 sont exclues pour Bertrand. → Bertrand en [2,6]"
+   ]
+  },
+  "it": {
+   "titel": "La pista di pattinaggio: la macchina lisciaghiaccio",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "La pista è tonda. Questo caso per fortuna no: ha una fine.",
+   "aanwijzingen": [
+    "<strong>A · Alessia</strong> (♀ donna)<strong>:</strong> Era nella <strong>3ª colonna</strong>. Si trovava <strong>in una riga più in alto di</strong> <strong>Basilio</strong>.",
+    "<strong>B · Basilio</strong> (♂ uomo)<strong>:</strong> Nella <strong>sua stanza</strong> c'era una <strong>sedia</strong>.",
+    "<strong>C · Cesare</strong> (♂ uomo · occhiali)<strong>:</strong> Era <strong>l'unica persona</strong> al <strong>centro della pista</strong>. Si trovava nella <strong>colonna più a sinistra</strong> <strong>della stanza</strong>.",
+    "<strong>D · Dalila</strong> (♀ donna · occhiali)<strong>:</strong> Si trovava nella <strong>5ª colonna</strong>.",
+    "<strong>E · Eleonora</strong> (♀ donna)<strong>:</strong> <strong>Qualcun altro</strong> nella <strong>sua stanza</strong> era <strong>un uomo</strong>. Si trovava <strong>in un angolo</strong>.",
+    "<strong>V · Vito</strong> (♂ uomo)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Eleonora (E).</strong> La vittima, Vito, giaceva alla cassa.",
+   "stappen": [
+    "\"Alessia si trovava in una riga più in alto di Basilio.\": per queste caselle di Alessia non c'è un posto adatto per Basilio. → Alessia in [1,3]",
+    "\"Qualcun altro nella stanza di Eleonora era un uomo.\": in queste stanze un uomo non può essere insieme a Eleonora. → Eleonora in [5,4]",
+    "Eleonora è in [5,4], quindi la riga 5 e la colonna 4 sono escluse per Dalila. → Dalila in [4,5]",
+    "Dalila è in [4,5], quindi la riga 4 e la colonna 5 sono escluse per Cesare. → Cesare in [3,1]",
+    "\"Qualcun altro nella stanza di Eleonora era un uomo.\": solo Vito può essere quella persona, quindi Vito è nella stessa stanza di Eleonora. → Vito in [6,2]",
+    "Vito è in [6,2], quindi la riga 6 e la colonna 2 sono escluse per Basilio. → Basilio in [2,6]"
+   ]
+  },
+  "es": {
+   "titel": "La pista de hielo: la máquina alisadora",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "La pista es redonda. Este caso, por suerte, no: tiene final.",
+   "aanwijzingen": [
+    "<strong>A · Alicia</strong> (♀ mujer)<strong>:</strong> Se encontraba en la <strong>3.ª columna</strong>. Se encontraba <strong>en una fila más alta que la de</strong> <strong>Blas</strong>.",
+    "<strong>B · Blas</strong> (♂ hombre)<strong>:</strong> En <strong>su estancia</strong> había una <strong>silla</strong>.",
+    "<strong>C · Cristian</strong> (♂ hombre · gafas)<strong>:</strong> Era <strong>la única persona</strong> en la <strong>pista central</strong>. Estaba en la <strong>columna más a la izquierda</strong> <strong>de su estancia</strong>.",
+    "<strong>D · Dafne</strong> (♀ mujer · gafas)<strong>:</strong> Estaba en la <strong>5.ª columna</strong>.",
+    "<strong>E · Elisa</strong> (♀ mujer)<strong>:</strong> <strong>Alguien más</strong> en <strong>su estancia</strong> era <strong>un hombre</strong>. Estaba en <strong>una esquina</strong>.",
+    "<strong>V · Valerio</strong> (♂ hombre)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Elisa (E).</strong> La víctima, Valerio, yacía en la taquilla.",
+   "stappen": [
+    "\"Alicia se encontraba en una fila más alta que la de Blas.\": para estas casillas de Alicia no hay ningún sitio adecuado para Blas. → Alicia en [1,3]",
+    "\"Alguien más en la estancia de Elisa era un hombre.\": en estas estancias no puede haber ningún hombre con Elisa. → Elisa en [5,4]",
+    "Elisa está en la fila 5, columna 4, así que la fila 5 y la columna 4 quedan descartadas para Dafne. → Dafne en [4,5]",
+    "Dafne está en la fila 4, columna 5, así que la fila 4 y la columna 5 quedan descartadas para Cristian. → Cristian en [3,1]",
+    "\"Alguien más en la estancia de Elisa era un hombre.\": solo Valerio puede ser esa persona, así que Valerio está en la misma estancia que Elisa. → Valerio en [6,2]",
+    "Valerio está en la fila 6, columna 2, así que la fila 6 y la columna 2 quedan descartadas para Blas. → Blas en [2,6]"
+   ]
+  },
+  "pt": {
+   "titel": "A pista de gelo: a máquina alisadora de gelo",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "A pista é redonda. Este caso, felizmente, não: tem fim.",
+   "aanwijzingen": [
+    "<strong>A · Alice</strong> (♀ mulher)<strong>:</strong> Estava na <strong>3.ª coluna</strong>. Encontrava-se <strong>numa linha mais acima do que</strong> <strong>Basílio</strong>.",
+    "<strong>B · Basílio</strong> (♂ homem)<strong>:</strong> Na <strong>sua divisão</strong> havia uma <strong>cadeira</strong>.",
+    "<strong>C · César</strong> (♂ homem · óculos)<strong>:</strong> Era <strong>a única pessoa</strong> no <strong>centro da pista</strong>. Encontrava-se na <strong>coluna mais à esquerda</strong> <strong>da divisão</strong>.",
+    "<strong>D · Denise</strong> (♀ mulher · óculos)<strong>:</strong> Encontrava-se na <strong>5.ª coluna</strong>.",
+    "<strong>E · Eunice</strong> (♀ mulher)<strong>:</strong> <strong>Outra pessoa</strong> na <strong>sua divisão</strong> era <strong>um homem</strong>. Encontrava-se <strong>num canto</strong>.",
+    "<strong>V · Valter</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Eunice (E).</strong> A vítima, Valter, estava na bilheteira.",
+   "stappen": [
+    "\"Alice encontrava-se numa linha mais acima do que Basílio.\": para estas casas de Alice não há nenhum sítio adequado para Basílio. → Alice: [1,3]",
+    "\"Outra pessoa na divisão de Eunice era um homem.\": nestas divisões não pode estar um homem com Eunice. → Eunice: [5,4]",
+    "Eunice está na [5,4], por isso a linha 5 e a coluna 4 ficam excluídas para Denise. → Denise: [4,5]",
+    "Denise está na [4,5], por isso a linha 4 e a coluna 5 ficam excluídas para César. → César: [3,1]",
+    "\"Outra pessoa na divisão de Eunice era um homem.\": só Valter pode ser essa pessoa, por isso Valter está na mesma divisão que Eunice. → Valter: [6,2]",
+    "Valter está na [6,2], por isso a linha 6 e a coluna 2 ficam excluídas para Basílio. → Basílio: [2,6]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "A pista de patinação: a máquina de alisar o gelo",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "A pista é redonda. Este caso, por sorte, não: ele tem fim.",
+   "aanwijzingen": [
+    "<strong>A · Amanda</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>3ª coluna</strong>. Estava <strong>numa linha mais acima que</strong> a de <strong>Bento</strong>.",
+    "<strong>B · Bento</strong> (♂ homem)<strong>:</strong> No <strong>cômodo dele</strong> havia uma <strong>cadeira</strong>.",
+    "<strong>C · César</strong> (♂ homem · óculos)<strong>:</strong> Era <strong>a única pessoa</strong> no <strong>centro da pista</strong>. Estava na <strong>coluna mais à esquerda</strong> <strong>do cômodo</strong>.",
+    "<strong>D · Dalva</strong> (♀ mulher · óculos)<strong>:</strong> Estava na <strong>5ª coluna</strong>.",
+    "<strong>E · Ester</strong> (♀ mulher)<strong>:</strong> <strong>Outra pessoa</strong> no <strong>cômodo dela</strong> era <strong>um homem</strong>. Estava <strong>num canto</strong>.",
+    "<strong>V · Vinícius</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Ester (E).</strong> A vítima, Vinícius, estava na bilheteria.",
+   "stappen": [
+    "\"Amanda estava numa linha mais acima que a de Bento.\": para esses quadrados de Amanda, não há lugar adequado para Bento. → Amanda em [1,3]",
+    "\"Outra pessoa no cômodo de Ester era um homem.\": nesses cômodos, um homem não pode estar com Ester. → Ester em [5,4]",
+    "Ester está na [5,4], então a linha 5 e a coluna 4 ficam descartadas para Dalva. → Dalva em [4,5]",
+    "Dalva está na [4,5], então a linha 4 e a coluna 5 ficam descartadas para César. → César em [3,1]",
+    "\"Outra pessoa no cômodo de Ester era um homem.\": só Vinícius pode ser essa pessoa, então Vinícius está no mesmo cômodo que Ester. → Vinícius em [6,2]",
+    "Vinícius está na [6,2], então a linha 6 e a coluna 2 ficam descartadas para Bento. → Bento em [2,6]"
+   ]
+  },
+  "pl": {
+   "titel": "Lodowisko: rolba",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Tor jest okrągły. Ta sprawa na szczęście nie: ma swój koniec.",
+   "aanwijzingen": [
+    "<strong>A · Agata</strong> (♀ kobieta)<strong>:</strong> Znajdowała się w <strong>3. kolumnie</strong>. Była <strong>w wyższym rzędzie niż</strong> <strong>Benedykt</strong>.",
+    "<strong>B · Benedykt</strong> (♂ mężczyzna)<strong>:</strong> W pomieszczeniu, w którym był, znajdowało się <strong>krzesło</strong>.",
+    "<strong>C · Cyryl</strong> (♂ mężczyzna · okulary)<strong>:</strong> Był <strong>jedyną osobą</strong> na <strong>płycie lodowiska</strong>. Był w <strong>skrajnej lewej kolumnie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>D · Dagmara</strong> (♀ kobieta · okulary)<strong>:</strong> Była w <strong>5. kolumnie</strong>.",
+    "<strong>E · Edyta</strong> (♀ kobieta)<strong>:</strong> Dzieliła pomieszczenie z <strong>co najmniej</strong> jednym <strong>mężczyzną</strong>. Była <strong>w rogu</strong>.",
+    "<strong>V · Valdemar</strong> (♂ mężczyzna)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Edyta (E).</strong> Ofiara (Valdemar) leżała w kasie biletowej.",
+   "stappen": [
+    "\"Agata była w wyższym rzędzie niż Benedykt.\": dla tych pól Agaty nie ma odpowiedniego miejsca dla Benedykta. → Agata: [1,3]",
+    "\"Edyta dzieliła pomieszczenie z co najmniej jednym mężczyzną.\": w tych pomieszczeniach żaden mężczyzna nie może być razem z Edytą. → Edyta: [5,4]",
+    "Edyta jest w rzędzie 5 i kolumnie 4, więc ten rząd i ta kolumna odpadają dla Dagmary. → Dagmara: [4,5]",
+    "Dagmara jest w rzędzie 4 i kolumnie 5, więc ten rząd i ta kolumna odpadają dla Cyryla. → Cyryl: [3,1]",
+    "\"Edyta dzieliła pomieszczenie z co najmniej jednym mężczyzną.\": tylko Valdemar może być tą osobą, więc Valdemar jest w tym samym pomieszczeniu co Edyta. → Valdemar: [6,2]",
+    "Valdemar jest w rzędzie 6 i kolumnie 2, więc ten rząd i ta kolumna odpadają dla Benedykta. → Benedykt: [2,6]"
+   ]
+  }
+ }
+}

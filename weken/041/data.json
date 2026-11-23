@@ -1,0 +1,197 @@
+{
+ "week": 41,
+ "id": "L2-00hvvs9",
+ "level": 2,
+ "theme": "landhuis",
+ "talen": {
+  "en": {
+   "titel": "The Manor: the secret door",
+   "niveau": "Level 2 · Sleuth ★★☆☆☆",
+   "intro": "Victor had something important to tell the family tonight. He never got the chance.",
+   "aanwijzingen": [
+    "<strong>A · Annie</strong> (♀ woman · glasses)<strong>:</strong> Was <strong>by a window</strong>.",
+    "<strong>B · Barry</strong> (♂ man)<strong>:</strong> Was <strong>alone</strong> in the <strong>wine cellar</strong>.",
+    "<strong>C · Catherine</strong> (♀ woman)<strong>:</strong> Was <strong>next to</strong> a <strong>sofa</strong>.",
+    "<strong>D · Dorothy</strong> (♀ woman)<strong>:</strong> Was in the <strong>4th row</strong>.",
+    "<strong>V · Victor</strong> (♂ man · hat)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Annie (A).</strong> The victim, Victor, lay in the dining room.",
+   "stappen": [
+    "Catherine is certainly in row 5, so Annie cannot be there. → Annie at [1,4]",
+    "Dorothy is certainly in row 4, so Victor cannot be there. → Victor at [3,5]",
+    "Victor is on [3,5], so row 3 and column 5 are ruled out for Catherine. → Catherine at [5,1]",
+    "Victor is on [3,5], so row 3 and column 5 are ruled out for Dorothy. → Dorothy at [4,2]",
+    "Dorothy is on [4,2], so row 4 and column 2 are ruled out for Barry. → Barry at [2,3]"
+   ]
+  },
+  "nl": {
+   "titel": "Het landhuis: de geheime deur",
+   "niveau": "Niveau 2 · Speurder ★★☆☆☆",
+   "intro": "Een geheime deur lijkt op een muur. Een schuldige lijkt soms op een onschuldige.",
+   "aanwijzingen": [
+    "<strong>A · Annick</strong> (♀ vrouw · bril)<strong>:</strong> Bevond zich <strong>bij een raam</strong>.",
+    "<strong>B · Boris</strong> (♂ man)<strong>:</strong> Was <strong>alleen</strong> in de <strong>wijnkelder</strong>.",
+    "<strong>C · Chantal</strong> (♀ vrouw)<strong>:</strong> Bevond zich <strong>naast</strong> een <strong>bank</strong>.",
+    "<strong>D · Dewi</strong> (♀ vrouw)<strong>:</strong> Was in de <strong>4e rij</strong>.",
+    "<strong>V · Victor</strong> (♂ man · hoed)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Annick (A).</strong> Het slachtoffer Victor lag in de eetkamer.",
+   "stappen": [
+    "Chantal staat zeker in rij 5, dus Annick kan daar niet staan. → Annick op [1,4]",
+    "Dewi staat zeker in rij 4, dus Victor kan daar niet staan. → Victor op [3,5]",
+    "Victor staat op [3,5], dus rij 3 en kolom 5 vallen af voor Chantal. → Chantal op [5,1]",
+    "Victor staat op [3,5], dus rij 3 en kolom 5 vallen af voor Dewi. → Dewi op [4,2]",
+    "Dewi staat op [4,2], dus rij 4 en kolom 2 vallen af voor Boris. → Boris op [2,3]"
+   ]
+  },
+  "de": {
+   "titel": "Das Landhaus: die geheime Tür",
+   "niveau": "Stufe 2 · Spürnase ★★☆☆☆",
+   "intro": "Viktor wollte der Familie heute Abend etwas Wichtiges sagen. Dazu kam er nicht mehr.",
+   "aanwijzingen": [
+    "<strong>A · Annika</strong> (♀ Frau · Brille)<strong>:</strong> Befand sich <strong>an einem Fenster</strong>.",
+    "<strong>B · Björn</strong> (♂ Mann)<strong>:</strong> War <strong>allein</strong> im <strong>Weinkeller</strong>.",
+    "<strong>C · Clara</strong> (♀ Frau)<strong>:</strong> Befand sich <strong>neben</strong> einem <strong>Sofa</strong>.",
+    "<strong>D · Doris</strong> (♀ Frau)<strong>:</strong> War in der <strong>4. Reihe</strong>.",
+    "<strong>V · Viktor</strong> (♂ Mann · Hut)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Annika (A).</strong> Das Opfer, Viktor, lag im Speisezimmer.",
+   "stappen": [
+    "Clara steht sicher in Reihe 5, also kann Annika dort nicht stehen. → Annika in [1,4]",
+    "Doris steht sicher in Reihe 4, also kann Viktor dort nicht stehen. → Viktor in [3,5]",
+    "Viktor steht in [3,5], also fallen Reihe 3 und Spalte 5 für Clara weg. → Clara in [5,1]",
+    "Viktor steht in [3,5], also fallen Reihe 3 und Spalte 5 für Doris weg. → Doris in [4,2]",
+    "Doris steht in [4,2], also fallen Reihe 4 und Spalte 2 für Björn weg. → Björn in [2,3]"
+   ]
+  },
+  "fr": {
+   "titel": "Le manoir: la porte dérobée",
+   "niveau": "Niveau 2 · Limier ★★☆☆☆",
+   "intro": "Victor voulait annoncer quelque chose d'important à la famille ce soir. Il n'en a pas eu le temps.",
+   "aanwijzingen": [
+    "<strong>A · Adèle</strong> (♀ femme · lunettes)<strong>:</strong> Se trouvait <strong>près d'une fenêtre</strong>.",
+    "<strong>B · Bernard</strong> (♂ homme)<strong>:</strong> Était <strong>seul</strong> dans la <strong>cave à vin</strong>.",
+    "<strong>C · Cécile</strong> (♀ femme)<strong>:</strong> Se trouvait <strong>à côté</strong> d'un <strong>canapé</strong>.",
+    "<strong>D · Delphine</strong> (♀ femme)<strong>:</strong> Était dans la <strong>4e rangée</strong>.",
+    "<strong>V · Victor</strong> (♂ homme · chapeau)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Adèle (A).</strong> La victime, Victor, se trouvait dans la salle à manger.",
+   "stappen": [
+    "Cécile se trouve forcément dans la rangée 5, donc Adèle ne peut pas s'y trouver. → Adèle en [1,4]",
+    "Delphine se trouve forcément dans la rangée 4, donc Victor ne peut pas s'y trouver. → Victor en [3,5]",
+    "Victor se trouve en [3,5], donc la rangée 3 et la colonne 5 sont exclues pour Cécile. → Cécile en [5,1]",
+    "Victor se trouve en [3,5], donc la rangée 3 et la colonne 5 sont exclues pour Delphine. → Delphine en [4,2]",
+    "Delphine se trouve en [4,2], donc la rangée 4 et la colonne 2 sont exclues pour Bernard. → Bernard en [2,3]"
+   ]
+  },
+  "it": {
+   "titel": "La villa: la porta segreta",
+   "niveau": "Livello 2 · Segugio ★★☆☆☆",
+   "intro": "Vittorio voleva annunciare qualcosa di importante alla famiglia. Non ne ha avuto il tempo.",
+   "aanwijzingen": [
+    "<strong>A · Adele</strong> (♀ donna · occhiali)<strong>:</strong> Si trovava <strong>vicino a una finestra</strong>.",
+    "<strong>B · Bernardo</strong> (♂ uomo)<strong>:</strong> Era <strong>da solo</strong> in <strong>cantina</strong>.",
+    "<strong>C · Carolina</strong> (♀ donna)<strong>:</strong> Si trovava <strong>accanto a</strong> un <strong>divano</strong>.",
+    "<strong>D · Daniela</strong> (♀ donna)<strong>:</strong> Era nella <strong>4ª riga</strong>.",
+    "<strong>V · Vittorio</strong> (♂ uomo · cappello)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Adele (A).</strong> La vittima, Vittorio, giaceva in sala da pranzo.",
+   "stappen": [
+    "Carolina è sicuramente nella riga 5, quindi Adele non può essere lì. → Adele in [1,4]",
+    "Daniela è sicuramente nella riga 4, quindi Vittorio non può essere lì. → Vittorio in [3,5]",
+    "Vittorio è in [3,5], quindi la riga 3 e la colonna 5 sono escluse per Carolina. → Carolina in [5,1]",
+    "Vittorio è in [3,5], quindi la riga 3 e la colonna 5 sono escluse per Daniela. → Daniela in [4,2]",
+    "Daniela è in [4,2], quindi la riga 4 e la colonna 2 sono escluse per Bernardo. → Bernardo in [2,3]"
+   ]
+  },
+  "es": {
+   "titel": "La mansión: la puerta secreta",
+   "niveau": "Nivel 2 · Sabueso ★★☆☆☆",
+   "intro": "Víctor quería contar algo importante a la familia esta noche. No llegó a hacerlo.",
+   "aanwijzingen": [
+    "<strong>A · Ainhoa</strong> (♀ mujer · gafas)<strong>:</strong> Estaba <strong>al pie de una ventana</strong>.",
+    "<strong>B · Benito</strong> (♂ hombre)<strong>:</strong> Estaba <strong>solo</strong> en la <strong>bodega</strong>.",
+    "<strong>C · Catalina</strong> (♀ mujer)<strong>:</strong> Estaba <strong>junto a</strong> un <strong>sofá</strong>.",
+    "<strong>D · Diana</strong> (♀ mujer)<strong>:</strong> Se encontraba en la <strong>4.ª fila</strong>.",
+    "<strong>V · Víctor</strong> (♂ hombre · sombrero)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Ainhoa (A).</strong> La víctima, Víctor, yacía en el comedor.",
+   "stappen": [
+    "Catalina está con seguridad en la fila 5, así que Ainhoa no puede estar ahí. → Ainhoa en [1,4]",
+    "Diana está con seguridad en la fila 4, así que Víctor no puede estar ahí. → Víctor en [3,5]",
+    "Víctor está en la fila 3, columna 5, así que la fila 3 y la columna 5 quedan descartadas para Catalina. → Catalina en [5,1]",
+    "Víctor está en la fila 3, columna 5, así que la fila 3 y la columna 5 quedan descartadas para Diana. → Diana en [4,2]",
+    "Diana está en la fila 4, columna 2, así que la fila 4 y la columna 2 quedan descartadas para Benito. → Benito en [2,3]"
+   ]
+  },
+  "pt": {
+   "titel": "O solar: a porta secreta",
+   "niveau": "Nível 2 · Investigador ★★☆☆☆",
+   "intro": "Vasco queria dizer algo importante à família esta noite. Já não foi a tempo.",
+   "aanwijzingen": [
+    "<strong>A · Anabela</strong> (♀ mulher · óculos)<strong>:</strong> Encontrava-se <strong>junto a uma janela</strong>.",
+    "<strong>B · Bento</strong> (♂ homem)<strong>:</strong> Estava <strong>sozinho</strong> na <strong>adega</strong>.",
+    "<strong>C · Carla</strong> (♀ mulher)<strong>:</strong> Encontrava-se <strong>ao lado de</strong> um <strong>sofá</strong>.",
+    "<strong>D · Diana</strong> (♀ mulher)<strong>:</strong> Estava na <strong>4.ª linha</strong>.",
+    "<strong>V · Vasco</strong> (♂ homem · chapéu)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Anabela (A).</strong> A vítima, Vasco, estava na sala de jantar.",
+   "stappen": [
+    "Carla está de certeza na linha 5, por isso Anabela não pode estar lá. → Anabela: [1,4]",
+    "Diana está de certeza na linha 4, por isso Vasco não pode estar lá. → Vasco: [3,5]",
+    "Vasco está na [3,5], por isso a linha 3 e a coluna 5 ficam excluídas para Carla. → Carla: [5,1]",
+    "Vasco está na [3,5], por isso a linha 3 e a coluna 5 ficam excluídas para Diana. → Diana: [4,2]",
+    "Diana está na [4,2], por isso a linha 4 e a coluna 2 ficam excluídas para Bento. → Bento: [2,3]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "A mansão: a porta secreta",
+   "niveau": "Nível 2 · Investigador ★★☆☆☆",
+   "intro": "Vítor queria contar algo importante à família esta noite. Não deu tempo.",
+   "aanwijzingen": [
+    "<strong>A · Aparecida</strong> (♀ mulher · óculos)<strong>:</strong> Estava <strong>junto a uma janela</strong>.",
+    "<strong>B · Breno</strong> (♂ homem)<strong>:</strong> Estava <strong>sozinho</strong> na <strong>adega</strong>.",
+    "<strong>C · Carolina</strong> (♀ mulher)<strong>:</strong> Estava <strong>ao lado de</strong> um <strong>sofá</strong>.",
+    "<strong>D · Daiane</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>4ª linha</strong>.",
+    "<strong>V · Vítor</strong> (♂ homem · chapéu)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Aparecida (A).</strong> A vítima, Vítor, estava na sala de jantar.",
+   "stappen": [
+    "Carolina está com certeza na linha 5, então Aparecida não pode estar ali. → Aparecida em [1,4]",
+    "Daiane está com certeza na linha 4, então Vítor não pode estar ali. → Vítor em [3,5]",
+    "Vítor está na [3,5], então a linha 3 e a coluna 5 ficam descartadas para Carolina. → Carolina em [5,1]",
+    "Vítor está na [3,5], então a linha 3 e a coluna 5 ficam descartadas para Daiane. → Daiane em [4,2]",
+    "Daiane está na [4,2], então a linha 4 e a coluna 2 ficam descartadas para Breno. → Breno em [2,3]"
+   ]
+  },
+  "pl": {
+   "titel": "Dwór: tajemne drzwi",
+   "niveau": "Poziom 2 · Tropiciel ★★☆☆☆",
+   "intro": "Viktor chciał dziś ogłosić rodzinie coś ważnego. Nie zdążył.",
+   "aanwijzingen": [
+    "<strong>A · Amelia</strong> (♀ kobieta · okulary)<strong>:</strong> Była <strong>przy oknie</strong>.",
+    "<strong>B · Borys</strong> (♂ mężczyzna)<strong>:</strong> <strong>Był sam</strong> w <strong>piwnicy z winem</strong>.",
+    "<strong>C · Carla</strong> (♀ kobieta)<strong>:</strong> Była <strong>obok</strong> <strong>kanapy</strong>.",
+    "<strong>D · Dorota</strong> (♀ kobieta)<strong>:</strong> Znajdowała się w <strong>4. rzędzie</strong>.",
+    "<strong>V · Viktor</strong> (♂ mężczyzna · kapelusz)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Amelia (A).</strong> Ofiara (Viktor) leżała w jadalni.",
+   "stappen": [
+    "Carla na pewno jest w rzędzie 5, więc Amelia nie może tam być. → Amelia: [1,4]",
+    "Dorota na pewno jest w rzędzie 4, więc Viktor nie może tam być. → Viktor: [3,5]",
+    "Viktor jest w rzędzie 3 i kolumnie 5, więc ten rząd i ta kolumna odpadają dla Carli. → Carla: [5,1]",
+    "Viktor jest w rzędzie 3 i kolumnie 5, więc ten rząd i ta kolumna odpadają dla Doroty. → Dorota: [4,2]",
+    "Dorota jest w rzędzie 4 i kolumnie 2, więc ten rząd i ta kolumna odpadają dla Borysa. → Borys: [2,3]"
+   ]
+  }
+ }
+}

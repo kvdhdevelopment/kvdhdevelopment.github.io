@@ -1,0 +1,233 @@
+{
+ "week": 38,
+ "id": "L3-00hvtgz",
+ "level": 3,
+ "theme": "bazaar",
+ "talen": {
+  "en": {
+   "titel": "The Bazaar: the morning after",
+   "niveau": "Level 3 · Inspector ★★★☆☆",
+   "intro": "You can buy anything in the bazaar. Except the truth: you'll have to find that yourself.",
+   "aanwijzingen": [
+    "<strong>A · Aaron</strong> (♂ man · hat)<strong>:</strong> Was <strong>next to</strong> a <strong>stool</strong>. <strong>Someone else</strong> in <strong>their room</strong> wore <strong>glasses</strong>.",
+    "<strong>B · Ben</strong> (♂ man)<strong>:</strong> Was in the <strong>4th row</strong>. <strong>Someone else</strong> in <strong>their room</strong> was <strong>a man</strong>.",
+    "<strong>C · Catherine</strong> (♀ woman)<strong>:</strong> Was in the <strong>3rd row</strong>.",
+    "<strong>D · Donna</strong> (♀ woman · glasses)<strong>:</strong> Was <strong>somewhere above</strong> <strong>Aaron</strong>. Was in the <strong>rightmost column</strong> <strong>of the room</strong>.",
+    "<strong>E · Eric</strong> (♂ man)<strong>:</strong> Was <strong>not next to</strong> a <strong>plant</strong>.",
+    "<strong>V · Verity</strong> (♀ woman)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Eric (E).</strong> The victim, Verity, lay in the sweet shop.",
+   "stappen": [
+    "\"Someone else in Aaron's room wore glasses.\": in these rooms someone with glasses cannot be with Aaron.",
+    "\"Someone else in Aaron's room wore glasses.\": only Donna can be that person, so Donna is in the same room as Aaron.",
+    "\"Donna was somewhere above Aaron.\": for these squares of Donna there is no fitting place for Aaron. → Donna at [5,6]",
+    "Donna is on [5,6], so row 5 and column 6 are ruled out for Aaron. → Aaron at [6,5]",
+    "Only Verity can still be in column 3. → Verity at [1,3]",
+    "\"Someone else in Ben's room was a man.\": in these rooms a man cannot be with Ben. → Ben at [4,4]",
+    "Ben is on [4,4], so row 4 and column 4 are ruled out for Eric. → Eric at [2,1]",
+    "Eric is on [2,1], so row 2 and column 1 are ruled out for Catherine. → Catherine at [3,2]"
+   ]
+  },
+  "nl": {
+   "titel": "De bazaar: stilte na het feest",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Na het feest valt er een vreemde stilte. Zelfs de confetti durft niet te dwarrelen.",
+   "aanwijzingen": [
+    "<strong>A · Ahmed</strong> (♂ man · hoed)<strong>:</strong> Bevond zich <strong>naast</strong> een <strong>kruk</strong>. <strong>Iemand anders</strong> in de ruimte droeg <strong>een bril</strong>.",
+    "<strong>B · Brian</strong> (♂ man)<strong>:</strong> Was in de <strong>4e rij</strong>. <strong>Iemand anders</strong> in de ruimte was <strong>een man</strong>.",
+    "<strong>C · Chantal</strong> (♀ vrouw)<strong>:</strong> Was in de <strong>3e rij</strong>.",
+    "<strong>D · Dunya</strong> (♀ vrouw · bril)<strong>:</strong> Bevond zich <strong>ergens boven</strong> <strong>Ahmed</strong>. Bevond zich in de <strong>rechterkolom</strong> van de ruimte.",
+    "<strong>E · Evert</strong> (♂ man)<strong>:</strong> Bevond zich <strong>niet naast</strong> een <strong>plant</strong>.",
+    "<strong>V · Veerle</strong> (♀ vrouw)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Evert (E).</strong> Het slachtoffer Veerle lag in de snoepwinkel.",
+   "stappen": [
+    "\"Iemand anders in de ruimte van Ahmed droeg een bril.\": in deze ruimtes kan iemand met een bril niet bij Ahmed staan.",
+    "\"Iemand anders in de ruimte van Ahmed droeg een bril.\": alleen Dunya kan die persoon zijn, dus Dunya staat bij Ahmed in de ruimte.",
+    "\"Dunya bevond zich ergens boven Ahmed.\": voor deze vakjes van Dunya is er geen passende plek voor Ahmed. → Dunya op [5,6]",
+    "Dunya staat op [5,6], dus rij 5 en kolom 6 vallen af voor Ahmed. → Ahmed op [6,5]",
+    "In kolom 3 kan alleen Veerle nog staan. → Veerle op [1,3]",
+    "\"Iemand anders in de ruimte van Brian was een man.\": in deze ruimtes kan een man niet bij Brian staan. → Brian op [4,4]",
+    "Brian staat op [4,4], dus rij 4 en kolom 4 vallen af voor Evert. → Evert op [2,1]",
+    "Evert staat op [2,1], dus rij 2 en kolom 1 vallen af voor Chantal. → Chantal op [3,2]"
+   ]
+  },
+  "de": {
+   "titel": "Der Basar: Stille nach dem Fest",
+   "niveau": "Stufe 3 · Inspektor ★★★☆☆",
+   "intro": "Im Basar wird alles verkauft. Außer der Wahrheit: Die musst du selbst finden.",
+   "aanwijzingen": [
+    "<strong>A · Arne</strong> (♂ Mann · Hut)<strong>:</strong> Befand sich <strong>neben</strong> einem <strong>Hocker</strong>. <strong>Eine andere Person</strong> in seinem Raum trug <strong>eine Brille</strong>.",
+    "<strong>B · Bernd</strong> (♂ Mann)<strong>:</strong> War in der <strong>4. Reihe</strong>. <strong>Eine andere Person</strong> in seinem Raum war <strong>ein Mann</strong>.",
+    "<strong>C · Clara</strong> (♀ Frau)<strong>:</strong> War in der <strong>3. Reihe</strong>.",
+    "<strong>D · Dorothea</strong> (♀ Frau · Brille)<strong>:</strong> Befand sich <strong>irgendwo oberhalb von</strong> <strong>Arne</strong>. Befand sich in der <strong>Spalte ganz rechts</strong> <strong>im Raum</strong>.",
+    "<strong>E · Eckhard</strong> (♂ Mann)<strong>:</strong> Befand sich <strong>neben keiner</strong> <strong>Pflanze</strong>.",
+    "<strong>V · Viktoria</strong> (♀ Frau)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Eckhard (E).</strong> Das Opfer, Viktoria, lag im Süßwarenladen.",
+   "stappen": [
+    "\"Eine andere Person in Arnes Raum trug eine Brille.\": In diesen Räumen kann jemand mit Brille nicht zusammen mit Arne stehen.",
+    "\"Eine andere Person in Arnes Raum trug eine Brille.\": Nur Dorothea kann diese Person sein, also steht Dorothea mit Arne im selben Raum.",
+    "\"Dorothea befand sich irgendwo oberhalb von Arne.\": Für diese Felder von Dorothea gibt es keinen passenden Platz für Arne. → Dorothea in [5,6]",
+    "Dorothea steht in [5,6], also fallen Reihe 5 und Spalte 6 für Arne weg. → Arne in [6,5]",
+    "In Spalte 3 kann nur noch Viktoria stehen. → Viktoria in [1,3]",
+    "\"Eine andere Person in Bernds Raum war ein Mann.\": In diesen Räumen kann ein Mann nicht zusammen mit Bernd stehen. → Bernd in [4,4]",
+    "Bernd steht in [4,4], also fallen Reihe 4 und Spalte 4 für Eckhard weg. → Eckhard in [2,1]",
+    "Eckhard steht in [2,1], also fallen Reihe 2 und Spalte 1 für Clara weg. → Clara in [3,2]"
+   ]
+  },
+  "fr": {
+   "titel": "Le bazar: silence après la fête",
+   "niveau": "Niveau 3 · Inspecteur ★★★☆☆",
+   "intro": "Au bazar, tout se vend. Sauf la vérité : celle-là, il faut la trouver soi-même.",
+   "aanwijzingen": [
+    "<strong>A · Arnaud</strong> (♂ homme · chapeau)<strong>:</strong> Se trouvait <strong>à côté</strong> d'un <strong>tabouret</strong>. <strong>Quelqu'un d'autre</strong> dans <strong>sa pièce</strong> portait <strong>des lunettes</strong>.",
+    "<strong>B · Benoît</strong> (♂ homme)<strong>:</strong> Était dans la <strong>4e rangée</strong>. <strong>Quelqu'un d'autre</strong> dans <strong>sa pièce</strong> était <strong>un homme</strong>.",
+    "<strong>C · Cécile</strong> (♀ femme)<strong>:</strong> Était dans la <strong>3e rangée</strong>.",
+    "<strong>D · Dorothée</strong> (♀ femme · lunettes)<strong>:</strong> Se trouvait <strong>quelque part au-dessus</strong> d'<strong>Arnaud</strong>. Se trouvait dans la <strong>colonne</strong> <strong>la plus à droite</strong> <strong>de sa pièce</strong>.",
+    "<strong>E · Emmanuel</strong> (♂ homme)<strong>:</strong> Ne se trouvait <strong>pas à côté</strong> d'une <strong>plante</strong>.",
+    "<strong>V · Virginie</strong> (♀ femme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Emmanuel (E).</strong> La victime, Virginie, se trouvait dans la confiserie.",
+   "stappen": [
+    "\"Quelqu'un d'autre dans la pièce d'Arnaud portait des lunettes.\" : dans ces pièces, quelqu'un portant des lunettes ne peut pas être avec Arnaud.",
+    "\"Quelqu'un d'autre dans la pièce d'Arnaud portait des lunettes.\" : seule Dorothée peut être cette personne, donc Dorothée est dans la même pièce qu'Arnaud.",
+    "\"Dorothée se trouvait quelque part au-dessus d'Arnaud.\" : pour ces cases de Dorothée, il n'y a aucune place qui convienne pour Arnaud. → Dorothée en [5,6]",
+    "Dorothée se trouve en [5,6], donc la rangée 5 et la colonne 6 sont exclues pour Arnaud. → Arnaud en [6,5]",
+    "Seule Virginie peut encore se trouver dans la colonne 3. → Virginie en [1,3]",
+    "\"Quelqu'un d'autre dans la pièce de Benoît était un homme.\" : dans ces pièces, un homme ne peut pas être avec Benoît. → Benoît en [4,4]",
+    "Benoît se trouve en [4,4], donc la rangée 4 et la colonne 4 sont exclues pour Emmanuel. → Emmanuel en [2,1]",
+    "Emmanuel se trouve en [2,1], donc la rangée 2 et la colonne 1 sont exclues pour Cécile. → Cécile en [3,2]"
+   ]
+  },
+  "it": {
+   "titel": "Il bazar: silenzio dopo la festa",
+   "niveau": "Livello 3 · Ispettore ★★★☆☆",
+   "intro": "Al bazar si vende di tutto. Tranne la verità: quella devi trovarla da te.",
+   "aanwijzingen": [
+    "<strong>A · Arturo</strong> (♂ uomo · cappello)<strong>:</strong> Si trovava <strong>accanto a</strong> uno <strong>sgabello</strong>. <strong>Qualcun altro</strong> nella <strong>sua stanza</strong> portava <strong>gli occhiali</strong>.",
+    "<strong>B · Bruno</strong> (♂ uomo)<strong>:</strong> Era nella <strong>4ª riga</strong>. <strong>Qualcun altro</strong> nella <strong>sua stanza</strong> era <strong>un uomo</strong>.",
+    "<strong>C · Carolina</strong> (♀ donna)<strong>:</strong> Era nella <strong>3ª riga</strong>.",
+    "<strong>D · Dalila</strong> (♀ donna · occhiali)<strong>:</strong> Si trovava <strong>da qualche parte</strong> <strong>più in alto di</strong> <strong>Arturo</strong>. Si trovava nella <strong>colonna più a destra</strong> <strong>della stanza</strong>.",
+    "<strong>E · Ernesto</strong> (♂ uomo)<strong>:</strong> <strong>Non si trovava accanto a</strong> una <strong>pianta</strong>.",
+    "<strong>V · Vanna</strong> (♀ donna)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Ernesto (E).</strong> La vittima, Vanna, giaceva in pasticceria.",
+   "stappen": [
+    "\"Qualcun altro nella stanza di Arturo portava gli occhiali.\": in queste stanze qualcuno con gli occhiali non può essere insieme ad Arturo.",
+    "\"Qualcun altro nella stanza di Arturo portava gli occhiali.\": solo Dalila può essere quella persona, quindi Dalila è nella stessa stanza di Arturo.",
+    "\"Dalila si trovava da qualche parte più in alto di Arturo.\": per queste caselle di Dalila non c'è un posto adatto per Arturo. → Dalila in [5,6]",
+    "Dalila è in [5,6], quindi la riga 5 e la colonna 6 sono escluse per Arturo. → Arturo in [6,5]",
+    "Solo Vanna può ancora essere nella colonna 3. → Vanna in [1,3]",
+    "\"Qualcun altro nella stanza di Bruno era un uomo.\": in queste stanze un uomo non può essere insieme a Bruno. → Bruno in [4,4]",
+    "Bruno è in [4,4], quindi la riga 4 e la colonna 4 sono escluse per Ernesto. → Ernesto in [2,1]",
+    "Ernesto è in [2,1], quindi la riga 2 e la colonna 1 sono escluse per Carolina. → Carolina in [3,2]"
+   ]
+  },
+  "es": {
+   "titel": "El bazar: silencio tras la fiesta",
+   "niveau": "Nivel 3 · Inspector ★★★☆☆",
+   "intro": "En el bazar se vende de todo. Menos la verdad: esa tendrás que encontrarla tú.",
+   "aanwijzingen": [
+    "<strong>A · Álvaro</strong> (♂ hombre · sombrero)<strong>:</strong> Estaba <strong>junto a</strong> un <strong>taburete</strong>. <strong>Alguien más</strong> en <strong>su estancia</strong> llevaba <strong>gafas</strong>.",
+    "<strong>B · Bruno</strong> (♂ hombre)<strong>:</strong> Se encontraba en la <strong>4.ª fila</strong>. <strong>Alguien más</strong> en <strong>su estancia</strong> era <strong>un hombre</strong>.",
+    "<strong>C · Catalina</strong> (♀ mujer)<strong>:</strong> Se encontraba en la <strong>3.ª fila</strong>.",
+    "<strong>D · Dafne</strong> (♀ mujer · gafas)<strong>:</strong> Estaba <strong>en algún lugar</strong> <strong>por encima de</strong> <strong>Álvaro</strong>. Estaba en la <strong>columna más a la derecha</strong> <strong>de su estancia</strong>.",
+    "<strong>E · Elías</strong> (♂ hombre)<strong>:</strong> <strong>No estaba</strong> <strong>junto a</strong> <strong>ninguna</strong> <strong>planta</strong>.",
+    "<strong>V · Valeria</strong> (♀ mujer)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Elías (E).</strong> La víctima, Valeria, yacía en la confitería.",
+   "stappen": [
+    "\"Alguien más en la estancia de Álvaro llevaba gafas.\": en estas estancias no puede haber nadie con gafas con Álvaro.",
+    "\"Alguien más en la estancia de Álvaro llevaba gafas.\": solo Dafne puede ser esa persona, así que Dafne está en la misma estancia que Álvaro.",
+    "\"Dafne estaba en algún lugar por encima de Álvaro.\": para estas casillas de Dafne no hay ningún sitio adecuado para Álvaro. → Dafne en [5,6]",
+    "Dafne está en la fila 5, columna 6, así que la fila 5 y la columna 6 quedan descartadas para Álvaro. → Álvaro en [6,5]",
+    "En la columna 3 ya solo puede estar Valeria. → Valeria en [1,3]",
+    "\"Alguien más en la estancia de Bruno era un hombre.\": en estas estancias no puede haber ningún hombre con Bruno. → Bruno en [4,4]",
+    "Bruno está en la fila 4, columna 4, así que la fila 4 y la columna 4 quedan descartadas para Elías. → Elías en [2,1]",
+    "Elías está en la fila 2, columna 1, así que la fila 2 y la columna 1 quedan descartadas para Catalina. → Catalina en [3,2]"
+   ]
+  },
+  "pt": {
+   "titel": "O bazar: silêncio depois da festa",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "No bazar vende-se de tudo. Menos a verdade: essa tens de ser tu a encontrá-la.",
+   "aanwijzingen": [
+    "<strong>A · Artur</strong> (♂ homem · chapéu)<strong>:</strong> Encontrava-se <strong>ao lado de</strong> um <strong>banco</strong>. <strong>Outra pessoa</strong> na <strong>sua divisão</strong> usava <strong>óculos</strong>.",
+    "<strong>B · Bruno</strong> (♂ homem)<strong>:</strong> Estava na <strong>4.ª linha</strong>. <strong>Outra pessoa</strong> na <strong>sua divisão</strong> era <strong>um homem</strong>.",
+    "<strong>C · Carla</strong> (♀ mulher)<strong>:</strong> Estava na <strong>3.ª linha</strong>.",
+    "<strong>D · Denise</strong> (♀ mulher · óculos)<strong>:</strong> Encontrava-se <strong>algures acima de</strong> <strong>Artur</strong>. Encontrava-se na <strong>coluna mais à direita</strong> <strong>da divisão</strong>.",
+    "<strong>E · Edgar</strong> (♂ homem)<strong>:</strong> <strong>Não se encontrava</strong> <strong>ao lado de</strong> uma <strong>planta</strong>.",
+    "<strong>V · Verónica</strong> (♀ mulher)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Edgar (E).</strong> A vítima, Verónica, estava na confeitaria.",
+   "stappen": [
+    "\"Outra pessoa na divisão de Artur usava óculos.\": nestas divisões não pode estar alguém de óculos com Artur.",
+    "\"Outra pessoa na divisão de Artur usava óculos.\": só Denise pode ser essa pessoa, por isso Denise está na mesma divisão que Artur.",
+    "\"Denise encontrava-se algures acima de Artur.\": para estas casas de Denise não há nenhum sítio adequado para Artur. → Denise: [5,6]",
+    "Denise está na [5,6], por isso a linha 5 e a coluna 6 ficam excluídas para Artur. → Artur: [6,5]",
+    "Só Verónica ainda pode estar na coluna 3. → Verónica: [1,3]",
+    "\"Outra pessoa na divisão de Bruno era um homem.\": nestas divisões não pode estar um homem com Bruno. → Bruno: [4,4]",
+    "Bruno está na [4,4], por isso a linha 4 e a coluna 4 ficam excluídas para Edgar. → Edgar: [2,1]",
+    "Edgar está na [2,1], por isso a linha 2 e a coluna 1 ficam excluídas para Carla. → Carla: [3,2]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O bazar: silêncio depois da festa",
+   "niveau": "Nível 3 · Inspetor ★★★☆☆",
+   "intro": "No bazar se vende de tudo. Menos a verdade: essa você tem que encontrar por conta própria.",
+   "aanwijzingen": [
+    "<strong>A · Augusto</strong> (♂ homem · chapéu)<strong>:</strong> Estava <strong>ao lado de</strong> uma <strong>banqueta</strong>. <strong>Outra pessoa</strong> no <strong>cômodo dele</strong> usava <strong>óculos</strong>.",
+    "<strong>B · Bruno</strong> (♂ homem)<strong>:</strong> Encontrava-se na <strong>4ª linha</strong>. <strong>Outra pessoa</strong> no <strong>cômodo dele</strong> era <strong>um homem</strong>.",
+    "<strong>C · Carolina</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>3ª linha</strong>.",
+    "<strong>D · Dalva</strong> (♀ mulher · óculos)<strong>:</strong> Estava <strong>em algum lugar acima de</strong> <strong>Augusto</strong>. Estava na <strong>coluna mais à direita</strong> <strong>do cômodo</strong>.",
+    "<strong>E · Everton</strong> (♂ homem)<strong>:</strong> <strong>Não estava ao lado de</strong> <strong>nenhuma</strong> <strong>planta</strong>.",
+    "<strong>V · Vanessa</strong> (♀ mulher)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Everton (E).</strong> A vítima, Vanessa, estava na doceria.",
+   "stappen": [
+    "\"Outra pessoa no cômodo de Augusto usava óculos.\": nesses cômodos, alguém de óculos não pode estar com Augusto.",
+    "\"Outra pessoa no cômodo de Augusto usava óculos.\": só Dalva pode ser essa pessoa, então Dalva está no mesmo cômodo que Augusto.",
+    "\"Dalva estava em algum lugar acima de Augusto.\": para esses quadrados de Dalva, não há lugar adequado para Augusto. → Dalva em [5,6]",
+    "Dalva está na [5,6], então a linha 5 e a coluna 6 ficam descartadas para Augusto. → Augusto em [6,5]",
+    "Só Vanessa ainda pode estar na coluna 3. → Vanessa em [1,3]",
+    "\"Outra pessoa no cômodo de Bruno era um homem.\": nesses cômodos, um homem não pode estar com Bruno. → Bruno em [4,4]",
+    "Bruno está na [4,4], então a linha 4 e a coluna 4 ficam descartadas para Everton. → Everton em [2,1]",
+    "Everton está na [2,1], então a linha 2 e a coluna 1 ficam descartadas para Carolina. → Carolina em [3,2]"
+   ]
+  },
+  "pl": {
+   "titel": "Bazar: cisza po przyjęciu",
+   "niveau": "Poziom 3 · Inspektor ★★★☆☆",
+   "intro": "Na bazarze kupisz wszystko. Oprócz prawdy: tę musisz odnaleźć na własną rękę.",
+   "aanwijzingen": [
+    "<strong>A · Andrzej</strong> (♂ mężczyzna · kapelusz)<strong>:</strong> Był <strong>obok</strong> <strong>taboretu</strong>. Dzielił pomieszczenie z <strong>co najmniej</strong> jedną <strong>osobą w okularach</strong>.",
+    "<strong>B · Bartosz</strong> (♂ mężczyzna)<strong>:</strong> Znajdował się w <strong>4. rzędzie</strong>. Dzielił pomieszczenie z <strong>co najmniej</strong> jednym <strong>mężczyzną</strong>.",
+    "<strong>C · Carla</strong> (♀ kobieta)<strong>:</strong> Znajdowała się w <strong>3. rzędzie</strong>.",
+    "<strong>D · Dagmara</strong> (♀ kobieta · okulary)<strong>:</strong> Była <strong>gdzieś wyżej niż</strong> <strong>Andrzej</strong>. Była w <strong>skrajnej prawej kolumnie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>E · Ernest</strong> (♂ mężczyzna)<strong>:</strong> <strong>Nie był</strong> <strong>obok</strong> <strong>żadnej</strong> <strong>rośliny</strong>.",
+    "<strong>V · Valentina</strong> (♀ kobieta)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Ernest (E).</strong> Ofiara (Valentina) leżała w sklepie ze słodyczami.",
+   "stappen": [
+    "\"Andrzej dzielił pomieszczenie z co najmniej jedną osobą w okularach.\": w tych pomieszczeniach nikt w okularach nie może być razem z Andrzejem.",
+    "\"Andrzej dzielił pomieszczenie z co najmniej jedną osobą w okularach.\": tylko Dagmara może być tą osobą, więc Dagmara jest w tym samym pomieszczeniu co Andrzej.",
+    "\"Dagmara była gdzieś wyżej niż Andrzej.\": dla tych pól Dagmary nie ma odpowiedniego miejsca dla Andrzeja. → Dagmara: [5,6]",
+    "Dagmara jest w rzędzie 5 i kolumnie 6, więc ten rząd i ta kolumna odpadają dla Andrzeja. → Andrzej: [6,5]",
+    "W kolumnie 3 może jeszcze być tylko Valentina. → Valentina: [1,3]",
+    "\"Bartosz dzielił pomieszczenie z co najmniej jednym mężczyzną.\": w tych pomieszczeniach żaden mężczyzna nie może być razem z Bartoszem. → Bartosz: [4,4]",
+    "Bartosz jest w rzędzie 4 i kolumnie 4, więc ten rząd i ta kolumna odpadają dla Ernesta. → Ernest: [2,1]",
+    "Ernest jest w rzędzie 2 i kolumnie 1, więc ten rząd i ta kolumna odpadają dla Carli. → Carla: [3,2]"
+   ]
+  }
+ }
+}

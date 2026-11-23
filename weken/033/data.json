@@ -1,0 +1,197 @@
+{
+ "week": 33,
+ "id": "L2-00hvpm3",
+ "level": 2,
+ "theme": "operahuis",
+ "talen": {
+  "en": {
+   "titel": "The Opera House: the interval bell",
+   "niveau": "Level 2 · Sleuth ★★☆☆☆",
+   "intro": "Everyone has a skeleton in the closet. Tonight one of them rattles louder than the rest.",
+   "aanwijzingen": [
+    "<strong>A · Alfie</strong> (♂ man)<strong>:</strong> Was <strong>alone</strong> in the <strong>corridor</strong>.",
+    "<strong>B · Brenda</strong> (♀ woman)<strong>:</strong> Was in the <strong>3rd column</strong>.",
+    "<strong>C · Clara</strong> (♀ woman)<strong>:</strong> Was <strong>not on</strong> a <strong>chair</strong>.",
+    "<strong>D · Dominic</strong> (♂ man)<strong>:</strong> Was in the <strong>2nd column</strong>.",
+    "<strong>V · Vince</strong> (♂ man)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Clara (C).</strong> The victim, Vince, lay on the stage.",
+   "stappen": [
+    "Because of \"Alfie was alone in the corridor.\", Brenda cannot be in the corridor. → Brenda at [1,3]",
+    "Because of \"Alfie was alone in the corridor.\", Dominic cannot be in the corridor. → Dominic at [2,2]",
+    "Only Vince can still be in row 3. → Vince at [3,5]",
+    "Vince is on [3,5], so row 3 and column 5 are ruled out for Clara. → Clara at [5,4]",
+    "Clara is on [5,4], so row 5 and column 4 are ruled out for Alfie. → Alfie at [4,1]"
+   ]
+  },
+  "nl": {
+   "titel": "Het operahuis: de pauzebel",
+   "niveau": "Niveau 2 · Speurder ★★☆☆☆",
+   "intro": "De pauzebel gaat. Twintig minuten om een glas te drinken, of om iets heel anders te doen.",
+   "aanwijzingen": [
+    "<strong>A · Aiden</strong> (♂ man)<strong>:</strong> Was <strong>alleen</strong> in de <strong>gang</strong>.",
+    "<strong>B · Barbara</strong> (♀ vrouw)<strong>:</strong> Bevond zich in de <strong>3e kolom</strong>.",
+    "<strong>C · Cato</strong> (♀ vrouw)<strong>:</strong> Bevond zich <strong>niet op</strong> een <strong>stoel</strong>.",
+    "<strong>D · Dimitri</strong> (♂ man)<strong>:</strong> Was in de <strong>2e kolom</strong>.",
+    "<strong>V · Valentijn</strong> (♂ man)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Cato (C).</strong> Het slachtoffer Valentijn lag op het podium.",
+   "stappen": [
+    "Door \"Aiden was alleen in de gang.\" kan Barbara niet in de gang staan. → Barbara op [1,3]",
+    "Door \"Aiden was alleen in de gang.\" kan Dimitri niet in de gang staan. → Dimitri op [2,2]",
+    "In rij 3 kan alleen Valentijn nog staan. → Valentijn op [3,5]",
+    "Valentijn staat op [3,5], dus rij 3 en kolom 5 vallen af voor Cato. → Cato op [5,4]",
+    "Cato staat op [5,4], dus rij 5 en kolom 4 vallen af voor Aiden. → Aiden op [4,1]"
+   ]
+  },
+  "de": {
+   "titel": "Das Opernhaus: der Pausengong",
+   "niveau": "Stufe 2 · Spürnase ★★☆☆☆",
+   "intro": "Jeder hat sein Päckchen zu tragen. Eines wiegt heute Abend schwerer als die anderen.",
+   "aanwijzingen": [
+    "<strong>A · Axel</strong> (♂ Mann)<strong>:</strong> War <strong>allein</strong> im <strong>Gang</strong>.",
+    "<strong>B · Bianca</strong> (♀ Frau)<strong>:</strong> Befand sich in der <strong>3. Spalte</strong>.",
+    "<strong>C · Carina</strong> (♀ Frau)<strong>:</strong> Befand sich <strong>auf keinem</strong> <strong>Stuhl</strong>.",
+    "<strong>D · Dennis</strong> (♂ Mann)<strong>:</strong> War in der <strong>2. Spalte</strong>.",
+    "<strong>V · Veit</strong> (♂ Mann)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Carina (C).</strong> Das Opfer, Veit, lag auf der Bühne.",
+   "stappen": [
+    "Wegen \"Axel war allein im Gang.\" kann Bianca nicht im Gang stehen. → Bianca in [1,3]",
+    "Wegen \"Axel war allein im Gang.\" kann Dennis nicht im Gang stehen. → Dennis in [2,2]",
+    "In Reihe 3 kann nur noch Veit stehen. → Veit in [3,5]",
+    "Veit steht in [3,5], also fallen Reihe 3 und Spalte 5 für Carina weg. → Carina in [5,4]",
+    "Carina steht in [5,4], also fallen Reihe 5 und Spalte 4 für Axel weg. → Axel in [4,1]"
+   ]
+  },
+  "fr": {
+   "titel": "L'opéra: la sonnerie de l'entracte",
+   "niveau": "Niveau 2 · Limier ★★☆☆☆",
+   "intro": "Tout le monde a un secret. Ce soir, l'un d'eux pèse plus lourd que les autres.",
+   "aanwijzingen": [
+    "<strong>A · Adrien</strong> (♂ homme)<strong>:</strong> Était <strong>seul</strong> dans le <strong>couloir</strong>.",
+    "<strong>B · Bénédicte</strong> (♀ femme)<strong>:</strong> Se trouvait dans la <strong>3e colonne</strong>.",
+    "<strong>C · Clémence</strong> (♀ femme)<strong>:</strong> Ne se trouvait <strong>pas sur</strong> une <strong>chaise</strong>.",
+    "<strong>D · David</strong> (♂ homme)<strong>:</strong> Était dans la <strong>2e colonne</strong>.",
+    "<strong>V · Vianney</strong> (♂ homme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Clémence (C).</strong> La victime, Vianney, se trouvait sur la scène.",
+   "stappen": [
+    "D'après \"Adrien était seul dans le couloir.\", Bénédicte ne peut pas se trouver dans le couloir. → Bénédicte en [1,3]",
+    "D'après \"Adrien était seul dans le couloir.\", David ne peut pas se trouver dans le couloir. → David en [2,2]",
+    "Seul Vianney peut encore se trouver dans la rangée 3. → Vianney en [3,5]",
+    "Vianney se trouve en [3,5], donc la rangée 3 et la colonne 5 sont exclues pour Clémence. → Clémence en [5,4]",
+    "Clémence se trouve en [5,4], donc la rangée 5 et la colonne 4 sont exclues pour Adrien. → Adrien en [4,1]"
+   ]
+  },
+  "it": {
+   "titel": "Il teatro dell'opera: la campanella dell'intervallo",
+   "niveau": "Livello 2 · Segugio ★★☆☆☆",
+   "intro": "Tutti hanno un segreto. Stasera uno pesa più degli altri.",
+   "aanwijzingen": [
+    "<strong>A · Antonio</strong> (♂ uomo)<strong>:</strong> Era <strong>da solo</strong> nel <strong>corridoio</strong>.",
+    "<strong>B · Bettina</strong> (♀ donna)<strong>:</strong> Si trovava nella <strong>3ª colonna</strong>.",
+    "<strong>C · Camilla</strong> (♀ donna)<strong>:</strong> <strong>Non si trovava</strong> su una <strong>sedia</strong>.",
+    "<strong>D · Diego</strong> (♂ uomo)<strong>:</strong> Era nella <strong>2ª colonna</strong>.",
+    "<strong>V · Valentino</strong> (♂ uomo)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Camilla (C).</strong> La vittima, Valentino, giaceva sul palcoscenico.",
+   "stappen": [
+    "In base a \"Antonio era da solo nel corridoio.\", Bettina non può essere nel corridoio. → Bettina in [1,3]",
+    "In base a \"Antonio era da solo nel corridoio.\", Diego non può essere nel corridoio. → Diego in [2,2]",
+    "Solo Valentino può ancora essere nella riga 3. → Valentino in [3,5]",
+    "Valentino è in [3,5], quindi la riga 3 e la colonna 5 sono escluse per Camilla. → Camilla in [5,4]",
+    "Camilla è in [5,4], quindi la riga 5 e la colonna 4 sono escluse per Antonio. → Antonio in [4,1]"
+   ]
+  },
+  "es": {
+   "titel": "El teatro de la ópera: el timbre del entreacto",
+   "niveau": "Nivel 2 · Sabueso ★★☆☆☆",
+   "intro": "Cada uno tiene sus secretos. Esta noche, uno pesa más que los demás.",
+   "aanwijzingen": [
+    "<strong>A · Adrián</strong> (♂ hombre)<strong>:</strong> Estaba <strong>solo</strong> en el <strong>pasillo</strong>.",
+    "<strong>B · Begoña</strong> (♀ mujer)<strong>:</strong> Estaba en la <strong>3.ª columna</strong>.",
+    "<strong>C · Carolina</strong> (♀ mujer)<strong>:</strong> <strong>No estaba</strong> en <strong>ninguna</strong> <strong>silla</strong>.",
+    "<strong>D · Diego</strong> (♂ hombre)<strong>:</strong> Se encontraba en la <strong>2.ª columna</strong>.",
+    "<strong>V · Venancio</strong> (♂ hombre)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Carolina (C).</strong> La víctima, Venancio, yacía en el escenario.",
+   "stappen": [
+    "Por \"Adrián estaba solo en el pasillo.\", Begoña no puede estar en el pasillo. → Begoña en [1,3]",
+    "Por \"Adrián estaba solo en el pasillo.\", Diego no puede estar en el pasillo. → Diego en [2,2]",
+    "En la fila 3 ya solo puede estar Venancio. → Venancio en [3,5]",
+    "Venancio está en la fila 3, columna 5, así que la fila 3 y la columna 5 quedan descartadas para Carolina. → Carolina en [5,4]",
+    "Carolina está en la fila 5, columna 4, así que la fila 5 y la columna 4 quedan descartadas para Adrián. → Adrián en [4,1]"
+   ]
+  },
+  "pt": {
+   "titel": "A ópera: a campainha do intervalo",
+   "niveau": "Nível 2 · Investigador ★★☆☆☆",
+   "intro": "Toda a gente tem um segredo. Esta noite, há um que pesa mais do que os outros.",
+   "aanwijzingen": [
+    "<strong>A · André</strong> (♂ homem)<strong>:</strong> Estava <strong>sozinho</strong> no <strong>corredor</strong>.",
+    "<strong>B · Bianca</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>3.ª coluna</strong>.",
+    "<strong>C · Cátia</strong> (♀ mulher)<strong>:</strong> <strong>Não se encontrava</strong> numa <strong>cadeira</strong>.",
+    "<strong>D · Daniel</strong> (♂ homem)<strong>:</strong> Estava na <strong>2.ª coluna</strong>.",
+    "<strong>V · Valentim</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Cátia (C).</strong> A vítima, Valentim, estava no palco.",
+   "stappen": [
+    "Por causa de \"André estava sozinho no corredor.\", Bianca não pode estar no corredor. → Bianca: [1,3]",
+    "Por causa de \"André estava sozinho no corredor.\", Daniel não pode estar no corredor. → Daniel: [2,2]",
+    "Só Valentim ainda pode estar na linha 3. → Valentim: [3,5]",
+    "Valentim está na [3,5], por isso a linha 3 e a coluna 5 ficam excluídas para Cátia. → Cátia: [5,4]",
+    "Cátia está na [5,4], por isso a linha 5 e a coluna 4 ficam excluídas para André. → André: [4,1]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O teatro de ópera: o sinal do intervalo",
+   "niveau": "Nível 2 · Investigador ★★☆☆☆",
+   "intro": "Todo mundo tem um segredo. Hoje à noite, um deles pesa mais que os outros.",
+   "aanwijzingen": [
+    "<strong>A · Arthur</strong> (♂ homem)<strong>:</strong> Estava <strong>sozinho</strong> no <strong>corredor</strong>.",
+    "<strong>B · Bárbara</strong> (♀ mulher)<strong>:</strong> Estava na <strong>3ª coluna</strong>.",
+    "<strong>C · Cecília</strong> (♀ mulher)<strong>:</strong> <strong>Não estava</strong> em <strong>nenhuma</strong> <strong>cadeira</strong>.",
+    "<strong>D · Davi</strong> (♂ homem)<strong>:</strong> Encontrava-se na <strong>2ª coluna</strong>.",
+    "<strong>V · Valdir</strong> (♂ homem)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Cecília (C).</strong> A vítima, Valdir, estava no palco.",
+   "stappen": [
+    "Por causa de \"Arthur estava sozinho no corredor.\", Bárbara não pode estar no corredor. → Bárbara em [1,3]",
+    "Por causa de \"Arthur estava sozinho no corredor.\", Davi não pode estar no corredor. → Davi em [2,2]",
+    "Só Valdir ainda pode estar na linha 3. → Valdir em [3,5]",
+    "Valdir está na [3,5], então a linha 3 e a coluna 5 ficam descartadas para Cecília. → Cecília em [5,4]",
+    "Cecília está na [5,4], então a linha 5 e a coluna 4 ficam descartadas para Arthur. → Arthur em [4,1]"
+   ]
+  },
+  "pl": {
+   "titel": "Opera: antrakt",
+   "niveau": "Poziom 2 · Tropiciel ★★☆☆☆",
+   "intro": "Każdy ma jakiś sekret. Jeden waży dziś więcej niż wszystkie pozostałe.",
+   "aanwijzingen": [
+    "<strong>A · Antoni</strong> (♂ mężczyzna)<strong>:</strong> <strong>Był sam</strong> na <strong>korytarzu</strong>.",
+    "<strong>B · Blanka</strong> (♀ kobieta)<strong>:</strong> Była w <strong>3. kolumnie</strong>.",
+    "<strong>C · Cyntia</strong> (♀ kobieta)<strong>:</strong> <strong>Nie była</strong> na <strong>żadnym</strong> <strong>krześle</strong>.",
+    "<strong>D · Dominik</strong> (♂ mężczyzna)<strong>:</strong> Znajdował się w <strong>2. kolumnie</strong>.",
+    "<strong>V · Vladimir</strong> (♂ mężczyzna)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Cyntia (C).</strong> Ofiara (Vladimir) leżała na scenie.",
+   "stappen": [
+    "Ze wskazówki \"Antoni był sam na korytarzu.\" wynika, że Blanka nie może być na korytarzu. → Blanka: [1,3]",
+    "Ze wskazówki \"Antoni był sam na korytarzu.\" wynika, że Dominik nie może być na korytarzu. → Dominik: [2,2]",
+    "W rzędzie 3 może jeszcze być tylko Vladimir. → Vladimir: [3,5]",
+    "Vladimir jest w rzędzie 3 i kolumnie 5, więc ten rząd i ta kolumna odpadają dla Cyntii. → Cyntia: [5,4]",
+    "Cyntia jest w rzędzie 5 i kolumnie 4, więc ten rząd i ta kolumna odpadają dla Antoniego. → Antoni: [4,1]"
+   ]
+  }
+ }
+}

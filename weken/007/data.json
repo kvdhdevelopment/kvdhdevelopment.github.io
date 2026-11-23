@@ -1,0 +1,260 @@
+{
+ "week": 7,
+ "id": "L4-00hv5js",
+ "level": 4,
+ "theme": "camping",
+ "talen": {
+  "en": {
+   "titel": "The Campsite: the broken vase",
+   "niveau": "Level 4 · Detective ★★★★☆",
+   "intro": "In the caravan the kettle is still whistling. Valerie won't be whistling again.",
+   "aanwijzingen": [
+    "<strong>A · Aaron</strong> (♂ man)<strong>:</strong> Was <strong>in a column further left than</strong> <strong>Edwin</strong>.",
+    "<strong>B · Barbara</strong> (♀ woman · glasses)<strong>:</strong> Was in the <strong>2nd column</strong>. Was <strong>exactly</strong> four <strong>rows</strong> <strong>below</strong> <strong>Aaron</strong>.",
+    "<strong>C · Caroline</strong> (♀ woman)<strong>:</strong> Was in the <strong>6th row</strong>.",
+    "<strong>D · Dexter</strong> (♂ man)<strong>:</strong> Was <strong>exactly</strong> three <strong>columns</strong> <strong>to the right of</strong> <strong>Aaron</strong>. Was in the <strong>top half</strong>.",
+    "<strong>E · Edwin</strong> (♂ man)<strong>:</strong> There was <strong>also</strong> <strong>a woman</strong> in <strong>their room</strong>. Was in the <strong>leftmost column</strong> <strong>of the room</strong>.",
+    "<strong>F · Fiona</strong> (♀ woman · glasses · hat)<strong>:</strong> Was <strong>the only</strong> person in the room.",
+    "<strong>V · Valerie</strong> (♀ woman)<strong>:</strong> the victim. The murderer is the only suspect in the same room."
+   ],
+   "regels": "one person per row and per column · \"next to\" = directly above/below/left/right, in the same room · nobody can be on blocked objects (⊘) · the victim has no clue · attributes (♂ man, ♀ woman, glasses, hat) follow each name; when counting \"in total\", the person themselves and the victim are included.",
+   "dader": "<strong>The murderer is Aaron (A).</strong> The victim, Valerie, lay at the swimming pool.",
+   "stappen": [
+    "\"Aaron was in a column further left than Edwin.\": for these squares of Aaron there is no fitting place for Edwin.",
+    "\"Aaron was in a column further left than Edwin.\": for these squares of Edwin there is no fitting place for Aaron.",
+    "\"Barbara was exactly four rows below Aaron.\": for these squares of Barbara there is no fitting place for Aaron. → Barbara at [7,2]",
+    "\"Barbara was exactly four rows below Aaron.\": for these squares of Aaron there is no fitting place for Barbara.",
+    "\"Dexter was exactly three columns to the right of Aaron.\": for these squares of Dexter there is no fitting place for Aaron. → Dexter at [2,6]",
+    "\"Dexter was exactly three columns to the right of Aaron.\": for these squares of Aaron there is no fitting place for Dexter. → Aaron at [3,3]",
+    "\"There was also a woman in Edwin's room.\": in these rooms a woman cannot be with Edwin. → Edwin at [5,4]",
+    "\"There was also a woman in Edwin's room.\": only Caroline can be that person, so Caroline is in the same room as Edwin. → Caroline at [6,7]",
+    "Fiona was alone, so cannot be in a room where someone else certainly is. → Fiona at [4,5]",
+    "Fiona is on [4,5], so row 4 and column 5 are ruled out for Valerie. → Valerie at [1,1]"
+   ]
+  },
+  "nl": {
+   "titel": "De camping: de gebroken vaas",
+   "niveau": "Niveau 4 · Rechercheur ★★★★☆",
+   "intro": "Een vaas ligt in scherven. De verhalen van de verdachten volgen vast snel.",
+   "aanwijzingen": [
+    "<strong>A · Ahmed</strong> (♂ man)<strong>:</strong> Bevond zich <strong>links van</strong> <strong>Edwin</strong>.",
+    "<strong>B · Bella</strong> (♀ vrouw · bril)<strong>:</strong> Bevond zich in de <strong>2e kolom</strong>. Was <strong>precies</strong> vier <strong>rijen</strong> <strong>onder</strong> <strong>Ahmed</strong>.",
+    "<strong>C · Carmen</strong> (♀ vrouw)<strong>:</strong> Was in de <strong>6e rij</strong>.",
+    "<strong>D · Dex</strong> (♂ man)<strong>:</strong> Bevond zich <strong>precies</strong> drie <strong>kolommen</strong> <strong>rechts van</strong> <strong>Ahmed</strong>. Bevond zich in de <strong>bovenste helft</strong>.",
+    "<strong>E · Edwin</strong> (♂ man)<strong>:</strong> Er was <strong>nog een</strong> vrouw in de ruimte. Was in de <strong>linkerkolom</strong> van de ruimte.",
+    "<strong>F · Fenna</strong> (♀ vrouw · bril · hoed)<strong>:</strong> Was <strong>de enige</strong> persoon in de ruimte.",
+    "<strong>V · Valerie</strong> (♀ vrouw)<strong>:</strong> het slachtoffer. De dader is de enige verdachte in dezelfde ruimte."
+   ],
+   "regels": "één persoon per rij en per kolom · \"naast\" = direct boven/onder/links/rechts, in dezelfde ruimte · op geblokkeerde objecten (⊘) kan niemand staan · het slachtoffer heeft geen aanwijzing · kenmerken (♂ man, ♀ vrouw, bril, hoed) staan achter elke naam; bij tellingen \"in totaal\" tellen de persoon zelf en het slachtoffer mee.",
+   "dader": "<strong>De dader is Ahmed (A).</strong> Het slachtoffer Valerie lag in het zwembad.",
+   "stappen": [
+    "\"Ahmed bevond zich links van Edwin.\": voor deze vakjes van Ahmed is er geen passende plek voor Edwin.",
+    "\"Ahmed bevond zich links van Edwin.\": voor deze vakjes van Edwin is er geen passende plek voor Ahmed.",
+    "\"Bella was precies vier rijen onder Ahmed.\": voor deze vakjes van Bella is er geen passende plek voor Ahmed. → Bella op [7,2]",
+    "\"Bella was precies vier rijen onder Ahmed.\": voor deze vakjes van Ahmed is er geen passende plek voor Bella.",
+    "\"Dex bevond zich precies drie kolommen rechts van Ahmed.\": voor deze vakjes van Dex is er geen passende plek voor Ahmed. → Dex op [2,6]",
+    "\"Dex bevond zich precies drie kolommen rechts van Ahmed.\": voor deze vakjes van Ahmed is er geen passende plek voor Dex. → Ahmed op [3,3]",
+    "\"Er was nog een vrouw in de ruimte van Edwin.\": in deze ruimtes kan een vrouw niet bij Edwin staan. → Edwin op [5,4]",
+    "\"Er was nog een vrouw in de ruimte van Edwin.\": alleen Carmen kan die persoon zijn, dus Carmen staat bij Edwin in de ruimte. → Carmen op [6,7]",
+    "Fenna was alleen, dus kan niet in een ruimte staan waar al zeker iemand anders is. → Fenna op [4,5]",
+    "Fenna staat op [4,5], dus rij 4 en kolom 5 vallen af voor Valerie. → Valerie op [1,1]"
+   ]
+  },
+  "de": {
+   "titel": "Der Campingplatz: die zerbrochene Vase",
+   "niveau": "Stufe 4 · Kommissar ★★★★☆",
+   "intro": "Im Wohnwagen pfeift noch der Wasserkessel. Veronika pfeift nicht mehr.",
+   "aanwijzingen": [
+    "<strong>A · Arne</strong> (♂ Mann)<strong>:</strong> Befand sich in einer <strong>Spalte</strong> <strong>weiter links als</strong> <strong>Egon</strong>.",
+    "<strong>B · Barbara</strong> (♀ Frau · Brille)<strong>:</strong> Befand sich in der <strong>2. Spalte</strong>. War <strong>genau</strong> vier <strong>Reihen</strong> <strong>unter</strong> <strong>Arne</strong>.",
+    "<strong>C · Charlotte</strong> (♀ Frau)<strong>:</strong> War in der <strong>6. Reihe</strong>.",
+    "<strong>D · Dominik</strong> (♂ Mann)<strong>:</strong> Befand sich <strong>genau</strong> drei <strong>Spalten</strong> <strong>rechts von</strong> <strong>Arne</strong>. Befand sich in der <strong>oberen Hälfte</strong>.",
+    "<strong>E · Egon</strong> (♂ Mann)<strong>:</strong> In seinem Raum war <strong>außerdem</strong> <strong>eine Frau</strong>. War in der <strong>Spalte ganz links</strong> <strong>im Raum</strong>.",
+    "<strong>F · Franziska</strong> (♀ Frau · Brille · Hut)<strong>:</strong> War <strong>die einzige</strong> Person <strong>im Raum</strong>.",
+    "<strong>V · Veronika</strong> (♀ Frau)<strong>:</strong> das Opfer. Der Täter ist die einzige verdächtige Person im selben Raum."
+   ],
+   "regels": "eine Person pro Reihe und pro Spalte · \"neben\" = direkt darüber/darunter/links/rechts, im selben Raum · auf blockierten Objekten (⊘) kann niemand stehen · das Opfer hat keinen Hinweis · Merkmale (♂ Mann, ♀ Frau, Brille, Hut) stehen hinter jedem Namen; bei Zählungen mit \"insgesamt\" zählen die Person selbst und das Opfer mit.",
+   "dader": "<strong>Die Tat beging Arne (A).</strong> Das Opfer, Veronika, lag im Schwimmbad.",
+   "stappen": [
+    "\"Arne befand sich in einer Spalte weiter links als Egon.\": Für diese Felder von Arne gibt es keinen passenden Platz für Egon.",
+    "\"Arne befand sich in einer Spalte weiter links als Egon.\": Für diese Felder von Egon gibt es keinen passenden Platz für Arne.",
+    "\"Barbara war genau vier Reihen unter Arne.\": Für diese Felder von Barbara gibt es keinen passenden Platz für Arne. → Barbara in [7,2]",
+    "\"Barbara war genau vier Reihen unter Arne.\": Für diese Felder von Arne gibt es keinen passenden Platz für Barbara.",
+    "\"Dominik befand sich genau drei Spalten rechts von Arne.\": Für diese Felder von Dominik gibt es keinen passenden Platz für Arne. → Dominik in [2,6]",
+    "\"Dominik befand sich genau drei Spalten rechts von Arne.\": Für diese Felder von Arne gibt es keinen passenden Platz für Dominik. → Arne in [3,3]",
+    "\"In Egons Raum war außerdem eine Frau.\": In diesen Räumen kann eine Frau nicht zusammen mit Egon stehen. → Egon in [5,4]",
+    "\"In Egons Raum war außerdem eine Frau.\": Nur Charlotte kann diese Person sein, also steht Charlotte mit Egon im selben Raum. → Charlotte in [6,7]",
+    "Franziska war allein, kann also nicht in einem Raum stehen, in dem sicher schon jemand anders ist. → Franziska in [4,5]",
+    "Franziska steht in [4,5], also fallen Reihe 4 und Spalte 5 für Veronika weg. → Veronika in [1,1]"
+   ]
+  },
+  "fr": {
+   "titel": "Le camping: le vase brisé",
+   "niveau": "Niveau 4 · Commissaire ★★★★☆",
+   "intro": "Dans la caravane, la bouilloire siffle encore. Valérie ne sifflera plus.",
+   "aanwijzingen": [
+    "<strong>A · Arnaud</strong> (♂ homme)<strong>:</strong> Était dans une <strong>colonne</strong> <strong>plus à gauche que</strong> celle d'<strong>Édouard</strong>.",
+    "<strong>B · Barbara</strong> (♀ femme · lunettes)<strong>:</strong> Se trouvait dans la <strong>2e colonne</strong>. Était <strong>exactement</strong> quatre <strong>rangées</strong> <strong>en dessous</strong> d'<strong>Arnaud</strong>.",
+    "<strong>C · Coralie</strong> (♀ femme)<strong>:</strong> Était dans la <strong>6e rangée</strong>.",
+    "<strong>D · Dorian</strong> (♂ homme)<strong>:</strong> Se trouvait <strong>exactement</strong> trois <strong>colonnes</strong> <strong>à droite</strong> d'<strong>Arnaud</strong>. Se trouvait dans la <strong>moitié supérieure</strong>.",
+    "<strong>E · Édouard</strong> (♂ homme)<strong>:</strong> Il y avait <strong>aussi</strong> <strong>une femme</strong> dans <strong>sa pièce</strong>. Était dans la <strong>colonne</strong> <strong>la plus à gauche</strong> <strong>de sa pièce</strong>.",
+    "<strong>F · Florence</strong> (♀ femme · lunettes · chapeau)<strong>:</strong> Était <strong>la seule personne</strong> dans <strong>sa pièce</strong>.",
+    "<strong>V · Valérie</strong> (♀ femme)<strong>:</strong> la victime. Le coupable est le seul suspect présent dans la même pièce."
+   ],
+   "regels": "une personne par rangée et par colonne · \"à côté de\" = directement au-dessus, en dessous, à gauche ou à droite, dans la même pièce · personne ne peut se trouver sur un objet bloqué (⊘) · la victime n'a pas d'indice · les caractéristiques (♂ homme, ♀ femme, lunettes, chapeau) suivent chaque nom ; dans les décomptes \"au total\", la personne elle-même et la victime comptent aussi.",
+   "dader": "<strong>Coupable : Arnaud (A).</strong> La victime, Valérie, se trouvait à la piscine.",
+   "stappen": [
+    "\"Arnaud était dans une colonne plus à gauche que celle d'Édouard.\" : pour ces cases d'Arnaud, il n'y a aucune place qui convienne pour Édouard.",
+    "\"Arnaud était dans une colonne plus à gauche que celle d'Édouard.\" : pour ces cases d'Édouard, il n'y a aucune place qui convienne pour Arnaud.",
+    "\"Barbara était exactement quatre rangées en dessous d'Arnaud.\" : pour ces cases de Barbara, il n'y a aucune place qui convienne pour Arnaud. → Barbara en [7,2]",
+    "\"Barbara était exactement quatre rangées en dessous d'Arnaud.\" : pour ces cases d'Arnaud, il n'y a aucune place qui convienne pour Barbara.",
+    "\"Dorian se trouvait exactement trois colonnes à droite d'Arnaud.\" : pour ces cases de Dorian, il n'y a aucune place qui convienne pour Arnaud. → Dorian en [2,6]",
+    "\"Dorian se trouvait exactement trois colonnes à droite d'Arnaud.\" : pour ces cases d'Arnaud, il n'y a aucune place qui convienne pour Dorian. → Arnaud en [3,3]",
+    "\"Il y avait aussi une femme dans la pièce d'Édouard.\" : dans ces pièces, une femme ne peut pas être avec Édouard. → Édouard en [5,4]",
+    "\"Il y avait aussi une femme dans la pièce d'Édouard.\" : seule Coralie peut être cette personne, donc Coralie est dans la même pièce qu'Édouard. → Coralie en [6,7]",
+    "Florence était seule, donc elle ne peut pas se trouver dans une pièce où se trouve à coup sûr quelqu'un d'autre. → Florence en [4,5]",
+    "Florence se trouve en [4,5], donc la rangée 4 et la colonne 5 sont exclues pour Valérie. → Valérie en [1,1]"
+   ]
+  },
+  "it": {
+   "titel": "Il campeggio: il vaso rotto",
+   "niveau": "Livello 4 · Commissario ★★★★☆",
+   "intro": "Nella roulotte la moka borbotta ancora. Valeria non borbotta più.",
+   "aanwijzingen": [
+    "<strong>A · Arturo</strong> (♂ uomo)<strong>:</strong> Si trovava <strong>in una colonna più a sinistra di</strong> <strong>Ettore</strong>.",
+    "<strong>B · Brigida</strong> (♀ donna · occhiali)<strong>:</strong> Si trovava nella <strong>2ª colonna</strong>. Era <strong>esattamente</strong> quattro <strong>righe</strong> <strong>più in basso di</strong> <strong>Arturo</strong>.",
+    "<strong>C · Costanza</strong> (♀ donna)<strong>:</strong> Era nella <strong>6ª riga</strong>.",
+    "<strong>D · Donato</strong> (♂ uomo)<strong>:</strong> Si trovava <strong>esattamente</strong> tre <strong>colonne</strong> <strong>più a destra di</strong> <strong>Arturo</strong>. Si trovava nella <strong>metà superiore</strong>.",
+    "<strong>E · Ettore</strong> (♂ uomo)<strong>:</strong> Nella <strong>sua stanza</strong> c'era <strong>anche</strong> <strong>una donna</strong>. Era nella <strong>colonna più a sinistra</strong> <strong>della stanza</strong>.",
+    "<strong>F · Francesca</strong> (♀ donna · occhiali · cappello)<strong>:</strong> Era <strong>l'unica persona</strong> nella <strong>sua stanza</strong>.",
+    "<strong>V · Valeria</strong> (♀ donna)<strong>:</strong> la vittima. Il colpevole è l'unico sospettato nella stessa stanza."
+   ],
+   "regels": "una persona per riga e per colonna · \"accanto a\" = direttamente sopra/sotto/a sinistra/a destra, nella stessa stanza · sugli oggetti bloccati (⊘) non può stare nessuno · la vittima non ha indizi · le caratteristiche (♂ uomo, ♀ donna, occhiali, cappello) sono indicate dopo ogni nome; nei conteggi \"in totale\" contano anche la persona stessa e la vittima.",
+   "dader": "<strong>Il colpevole è Arturo (A).</strong> La vittima, Valeria, giaceva in piscina.",
+   "stappen": [
+    "\"Arturo si trovava in una colonna più a sinistra di Ettore.\": per queste caselle di Arturo non c'è un posto adatto per Ettore.",
+    "\"Arturo si trovava in una colonna più a sinistra di Ettore.\": per queste caselle di Ettore non c'è un posto adatto per Arturo.",
+    "\"Brigida era esattamente quattro righe più in basso di Arturo.\": per queste caselle di Brigida non c'è un posto adatto per Arturo. → Brigida in [7,2]",
+    "\"Brigida era esattamente quattro righe più in basso di Arturo.\": per queste caselle di Arturo non c'è un posto adatto per Brigida.",
+    "\"Donato si trovava esattamente tre colonne più a destra di Arturo.\": per queste caselle di Donato non c'è un posto adatto per Arturo. → Donato in [2,6]",
+    "\"Donato si trovava esattamente tre colonne più a destra di Arturo.\": per queste caselle di Arturo non c'è un posto adatto per Donato. → Arturo in [3,3]",
+    "\"Nella stanza di Ettore c'era anche una donna.\": in queste stanze una donna non può essere insieme a Ettore. → Ettore in [5,4]",
+    "\"Nella stanza di Ettore c'era anche una donna.\": solo Costanza può essere quella persona, quindi Costanza è nella stessa stanza di Ettore. → Costanza in [6,7]",
+    "Francesca era da sola, quindi non può essere in una stanza in cui c'è sicuramente qualcun altro. → Francesca in [4,5]",
+    "Francesca è in [4,5], quindi la riga 4 e la colonna 5 sono escluse per Valeria. → Valeria in [1,1]"
+   ]
+  },
+  "es": {
+   "titel": "El camping: el jarrón roto",
+   "niveau": "Nivel 4 · Detective ★★★★☆",
+   "intro": "En la caravana aún silba el hervidor. Victoria ya no silba.",
+   "aanwijzingen": [
+    "<strong>A · Álvaro</strong> (♂ hombre)<strong>:</strong> Se encontraba <strong>en una columna más a la izquierda que la de</strong> <strong>Emilio</strong>.",
+    "<strong>B · Berta</strong> (♀ mujer · gafas)<strong>:</strong> Estaba en la <strong>2.ª columna</strong>. Se encontraba <strong>exactamente</strong> cuatro <strong>filas</strong> <strong>por debajo de</strong> <strong>Álvaro</strong>.",
+    "<strong>C · Cecilia</strong> (♀ mujer)<strong>:</strong> Se encontraba en la <strong>6.ª fila</strong>.",
+    "<strong>D · Dionisio</strong> (♂ hombre)<strong>:</strong> Estaba <strong>exactamente</strong> tres <strong>columnas</strong> <strong>a la derecha de</strong> <strong>Álvaro</strong>. Estaba en la <strong>mitad superior</strong>.",
+    "<strong>E · Emilio</strong> (♂ hombre)<strong>:</strong> En <strong>su estancia</strong> <strong>también</strong> había <strong>una mujer</strong>. Se encontraba en la <strong>columna más a la izquierda</strong> <strong>de su estancia</strong>.",
+    "<strong>F · Fátima</strong> (♀ mujer · gafas · sombrero)<strong>:</strong> Era <strong>la única persona</strong> en <strong>su estancia</strong>.",
+    "<strong>V · Victoria</strong> (♀ mujer)<strong>:</strong> la víctima. El culpable es el único sospechoso que está en la misma estancia."
+   ],
+   "regels": "una persona por fila y por columna · \"junto a\" = justo encima, debajo, a la izquierda o a la derecha, en la misma estancia · nadie puede estar en un objeto bloqueado (⊘) · la víctima no tiene pista · los rasgos (♂ hombre, ♀ mujer, gafas, sombrero) van detrás de cada nombre; al contar \"en total\", cuentan la propia persona y la víctima.",
+   "dader": "<strong>El culpable es Álvaro (A).</strong> La víctima, Victoria, yacía en la piscina.",
+   "stappen": [
+    "\"Álvaro se encontraba en una columna más a la izquierda que la de Emilio.\": para estas casillas de Álvaro no hay ningún sitio adecuado para Emilio.",
+    "\"Álvaro se encontraba en una columna más a la izquierda que la de Emilio.\": para estas casillas de Emilio no hay ningún sitio adecuado para Álvaro.",
+    "\"Berta se encontraba exactamente cuatro filas por debajo de Álvaro.\": para estas casillas de Berta no hay ningún sitio adecuado para Álvaro. → Berta en [7,2]",
+    "\"Berta se encontraba exactamente cuatro filas por debajo de Álvaro.\": para estas casillas de Álvaro no hay ningún sitio adecuado para Berta.",
+    "\"Dionisio estaba exactamente tres columnas a la derecha de Álvaro.\": para estas casillas de Dionisio no hay ningún sitio adecuado para Álvaro. → Dionisio en [2,6]",
+    "\"Dionisio estaba exactamente tres columnas a la derecha de Álvaro.\": para estas casillas de Álvaro no hay ningún sitio adecuado para Dionisio. → Álvaro en [3,3]",
+    "\"En la estancia de Emilio también había una mujer.\": en estas estancias no puede haber ninguna mujer con Emilio. → Emilio en [5,4]",
+    "\"En la estancia de Emilio también había una mujer.\": solo Cecilia puede ser esa persona, así que Cecilia está en la misma estancia que Emilio. → Cecilia en [6,7]",
+    "Fátima estaba sola, así que no puede estar en una estancia donde seguro que hay otra persona. → Fátima en [4,5]",
+    "Fátima está en la fila 4, columna 5, así que la fila 4 y la columna 5 quedan descartadas para Victoria. → Victoria en [1,1]"
+   ]
+  },
+  "pt": {
+   "titel": "O parque de campismo: a jarra partida",
+   "niveau": "Nível 4 · Detetive ★★★★☆",
+   "intro": "Na caravana, a chaleira ainda apita. Vanessa já não assobia.",
+   "aanwijzingen": [
+    "<strong>A · Artur</strong> (♂ homem)<strong>:</strong> Encontrava-se <strong>numa coluna mais à esquerda do que</strong> <strong>Elias</strong>.",
+    "<strong>B · Berta</strong> (♀ mulher · óculos)<strong>:</strong> Encontrava-se na <strong>2.ª coluna</strong>. Estava <strong>exatamente</strong> quatro <strong>linhas</strong> <strong>abaixo de</strong> <strong>Artur</strong>.",
+    "<strong>C · Cecília</strong> (♀ mulher)<strong>:</strong> Estava na <strong>6.ª linha</strong>.",
+    "<strong>D · Dinis</strong> (♂ homem)<strong>:</strong> Encontrava-se <strong>exatamente</strong> três <strong>colunas</strong> <strong>à direita de</strong> <strong>Artur</strong>. Encontrava-se na <strong>metade superior</strong>.",
+    "<strong>E · Elias</strong> (♂ homem)<strong>:</strong> Na <strong>sua divisão</strong> havia <strong>também</strong> <strong>uma mulher</strong>. Estava na <strong>coluna mais à esquerda</strong> <strong>da divisão</strong>.",
+    "<strong>F · Filipa</strong> (♀ mulher · óculos · chapéu)<strong>:</strong> Era <strong>a única pessoa</strong> na divisão.",
+    "<strong>V · Vanessa</strong> (♀ mulher)<strong>:</strong> a vítima. O culpado é o único suspeito na mesma divisão."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, na mesma divisão · ninguém pode estar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm a seguir a cada nome; nas contagens \"no total\" contam a própria pessoa e a vítima.",
+   "dader": "<strong>Quem cometeu o crime foi Artur (A).</strong> A vítima, Vanessa, estava na piscina.",
+   "stappen": [
+    "\"Artur encontrava-se numa coluna mais à esquerda do que Elias.\": para estas casas de Artur não há nenhum sítio adequado para Elias.",
+    "\"Artur encontrava-se numa coluna mais à esquerda do que Elias.\": para estas casas de Elias não há nenhum sítio adequado para Artur.",
+    "\"Berta estava exatamente quatro linhas abaixo de Artur.\": para estas casas de Berta não há nenhum sítio adequado para Artur. → Berta: [7,2]",
+    "\"Berta estava exatamente quatro linhas abaixo de Artur.\": para estas casas de Artur não há nenhum sítio adequado para Berta.",
+    "\"Dinis encontrava-se exatamente três colunas à direita de Artur.\": para estas casas de Dinis não há nenhum sítio adequado para Artur. → Dinis: [2,6]",
+    "\"Dinis encontrava-se exatamente três colunas à direita de Artur.\": para estas casas de Artur não há nenhum sítio adequado para Dinis. → Artur: [3,3]",
+    "\"Na divisão de Elias havia também uma mulher.\": nestas divisões não pode estar uma mulher com Elias. → Elias: [5,4]",
+    "\"Na divisão de Elias havia também uma mulher.\": só Cecília pode ser essa pessoa, por isso Cecília está na mesma divisão que Elias. → Cecília: [6,7]",
+    "Filipa estava sozinha, por isso não pode estar numa divisão onde já está de certeza outra pessoa. → Filipa: [4,5]",
+    "Filipa está na [4,5], por isso a linha 4 e a coluna 5 ficam excluídas para Vanessa. → Vanessa: [1,1]"
+   ]
+  },
+  "pt-BR": {
+   "titel": "O camping: o vaso quebrado",
+   "niveau": "Nível 4 · Detetive ★★★★☆",
+   "intro": "No trailer, a chaleira ainda apita. Valéria já não assobia mais.",
+   "aanwijzingen": [
+    "<strong>A · Augusto</strong> (♂ homem)<strong>:</strong> Estava <strong>numa coluna mais à esquerda que</strong> a de <strong>Edson</strong>.",
+    "<strong>B · Brenda</strong> (♀ mulher · óculos)<strong>:</strong> Estava na <strong>2ª coluna</strong>. Encontrava-se <strong>exatamente</strong> quatro <strong>linhas</strong> <strong>abaixo de</strong> <strong>Augusto</strong>.",
+    "<strong>C · Cíntia</strong> (♀ mulher)<strong>:</strong> Encontrava-se na <strong>6ª linha</strong>.",
+    "<strong>D · Danilo</strong> (♂ homem)<strong>:</strong> Estava <strong>exatamente</strong> três <strong>colunas</strong> <strong>à direita de</strong> <strong>Augusto</strong>. Estava na <strong>metade superior</strong>.",
+    "<strong>E · Edson</strong> (♂ homem)<strong>:</strong> <strong>Além dele</strong>, havia <strong>uma mulher</strong> <strong>no mesmo cômodo</strong>. Encontrava-se na <strong>coluna mais à esquerda</strong> <strong>do cômodo</strong>.",
+    "<strong>F · Fernanda</strong> (♀ mulher · óculos · chapéu)<strong>:</strong> Era <strong>a única pessoa</strong> no cômodo.",
+    "<strong>V · Valéria</strong> (♀ mulher)<strong>:</strong> a vítima. O culpado é o único suspeito no mesmo cômodo."
+   ],
+   "regels": "uma pessoa por linha e por coluna · \"ao lado de\" = imediatamente acima/abaixo/à esquerda/à direita, no mesmo cômodo · ninguém pode ficar em objetos bloqueados (⊘) · a vítima não tem pista · as características (♂ homem, ♀ mulher, óculos, chapéu) vêm depois de cada nome; nas contagens \"ao todo\", a própria pessoa e a vítima também contam.",
+   "dader": "<strong>Quem cometeu o crime foi Augusto (A).</strong> A vítima, Valéria, estava na piscina.",
+   "stappen": [
+    "\"Augusto estava numa coluna mais à esquerda que a de Edson.\": para esses quadrados de Augusto, não há lugar adequado para Edson.",
+    "\"Augusto estava numa coluna mais à esquerda que a de Edson.\": para esses quadrados de Edson, não há lugar adequado para Augusto.",
+    "\"Brenda se encontrava exatamente quatro linhas abaixo de Augusto.\": para esses quadrados de Brenda, não há lugar adequado para Augusto. → Brenda em [7,2]",
+    "\"Brenda se encontrava exatamente quatro linhas abaixo de Augusto.\": para esses quadrados de Augusto, não há lugar adequado para Brenda.",
+    "\"Danilo estava exatamente três colunas à direita de Augusto.\": para esses quadrados de Danilo, não há lugar adequado para Augusto. → Danilo em [2,6]",
+    "\"Danilo estava exatamente três colunas à direita de Augusto.\": para esses quadrados de Augusto, não há lugar adequado para Danilo. → Augusto em [3,3]",
+    "\"Além de Edson, havia uma mulher no mesmo cômodo.\": nesses cômodos, uma mulher não pode estar com Edson. → Edson em [5,4]",
+    "\"Além de Edson, havia uma mulher no mesmo cômodo.\": só Cíntia pode ser essa pessoa, então Cíntia está no mesmo cômodo que Edson. → Cíntia em [6,7]",
+    "Fernanda estava sozinha, então não pode estar num cômodo onde com certeza já há outra pessoa. → Fernanda em [4,5]",
+    "Fernanda está na [4,5], então a linha 4 e a coluna 5 ficam descartadas para Valéria. → Valéria em [1,1]"
+   ]
+  },
+  "pl": {
+   "titel": "Kemping: stłuczony wazon",
+   "niveau": "Poziom 4 · Detektyw ★★★★☆",
+   "intro": "W przyczepie wciąż gwiżdże czajnik. Valeria już sobie nie pogwiżdże.",
+   "aanwijzingen": [
+    "<strong>A · Andrzej</strong> (♂ mężczyzna)<strong>:</strong> Był w <strong>kolumnie</strong> <strong>bardziej na lewo niż</strong> <strong>Eugeniusz</strong>.",
+    "<strong>B · Berenika</strong> (♀ kobieta · okulary)<strong>:</strong> Była w <strong>2. kolumnie</strong>. Znajdowała się <strong>dokładnie</strong> cztery <strong>rzędy</strong> <strong>niżej niż</strong> <strong>Andrzej</strong>.",
+    "<strong>C · Celia</strong> (♀ kobieta)<strong>:</strong> Znajdowała się w <strong>6. rzędzie</strong>.",
+    "<strong>D · Dorian</strong> (♂ mężczyzna)<strong>:</strong> Był <strong>dokładnie</strong> trzy <strong>kolumny</strong> <strong>na prawo od</strong> <strong>Andrzeja</strong>. Był w <strong>górnej połowie</strong> planszy.",
+    "<strong>E · Eugeniusz</strong> (♂ mężczyzna)<strong>:</strong> W pomieszczeniu, w którym był, przebywała <strong>też</strong> <strong>jakaś kobieta</strong>. Znajdował się w <strong>skrajnej lewej kolumnie</strong> <strong>swojego pomieszczenia</strong>.",
+    "<strong>F · Felicja</strong> (♀ kobieta · okulary · kapelusz)<strong>:</strong> Była <strong>jedyną osobą</strong> w swoim pomieszczeniu.",
+    "<strong>V · Valeria</strong> (♀ kobieta)<strong>:</strong> ofiara. Sprawca to jedyny podejrzany w tym samym pomieszczeniu."
+   ],
+   "regels": "jedna osoba na rząd i na kolumnę · \"obok\" = bezpośrednio wyżej/niżej/na lewo/na prawo, w tym samym pomieszczeniu · na zablokowanych obiektach (⊘) nikt nie może być · ofiara nie ma wskazówki · cechy (♂ mężczyzna, ♀ kobieta, okulary, kapelusz) są podane przy każdym imieniu; przy liczeniu \"łącznie\" liczy się także sama osoba i ofiara.",
+   "dader": "<strong>Sprawca: Andrzej (A).</strong> Ofiara (Valeria) leżała przy basenie.",
+   "stappen": [
+    "\"Andrzej był w kolumnie bardziej na lewo niż Eugeniusz.\": dla tych pól Andrzeja nie ma odpowiedniego miejsca dla Eugeniusza.",
+    "\"Andrzej był w kolumnie bardziej na lewo niż Eugeniusz.\": dla tych pól Eugeniusza nie ma odpowiedniego miejsca dla Andrzeja.",
+    "\"Berenika znajdowała się dokładnie cztery rzędy niżej niż Andrzej.\": dla tych pól Bereniki nie ma odpowiedniego miejsca dla Andrzeja. → Berenika: [7,2]",
+    "\"Berenika znajdowała się dokładnie cztery rzędy niżej niż Andrzej.\": dla tych pól Andrzeja nie ma odpowiedniego miejsca dla Bereniki.",
+    "\"Dorian był dokładnie trzy kolumny na prawo od Andrzeja.\": dla tych pól Doriana nie ma odpowiedniego miejsca dla Andrzeja. → Dorian: [2,6]",
+    "\"Dorian był dokładnie trzy kolumny na prawo od Andrzeja.\": dla tych pól Andrzeja nie ma odpowiedniego miejsca dla Doriana. → Andrzej: [3,3]",
+    "\"W pomieszczeniu Eugeniusza przebywała też jakaś kobieta.\": w tych pomieszczeniach żadna kobieta nie może być razem z Eugeniuszem. → Eugeniusz: [5,4]",
+    "\"W pomieszczeniu Eugeniusza przebywała też jakaś kobieta.\": tylko Celia może być tą osobą, więc Celia jest w tym samym pomieszczeniu co Eugeniusz. → Celia: [6,7]",
+    "Felicja była sama, więc nie może być w pomieszczeniu, w którym na pewno jest już ktoś inny. → Felicja: [4,5]",
+    "Felicja jest w rzędzie 4 i kolumnie 5, więc ten rząd i ta kolumna odpadają dla Valerii. → Valeria: [1,1]"
+   ]
+  }
+ }
+}
