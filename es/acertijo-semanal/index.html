@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acertijo semanal gratis para imprimir: asesinato con lógica de sudoku – Cluedoku</title>
+<meta name="description" content="Cada lunes un nuevo acertijo lógico gratis para imprimir: un caso de asesinato con la lógica del sudoku. ¿Quién estaba dónde y quién es el culpable? Con la solución una semana después.">
+<link rel="canonical" href="https://kvdhdevelopment.github.io/es/acertijo-semanal/">
+<link rel="alternate" hreflang="en" href="https://kvdhdevelopment.github.io/weekly-puzzle/">
+<link rel="alternate" hreflang="nl" href="https://kvdhdevelopment.github.io/nl/weekpuzzel/">
+<link rel="alternate" hreflang="de" href="https://kvdhdevelopment.github.io/de/wochenraetsel/">
+<link rel="alternate" hreflang="fr" href="https://kvdhdevelopment.github.io/fr/enigme-de-la-semaine/">
+<link rel="alternate" hreflang="it" href="https://kvdhdevelopment.github.io/it/enigma-della-settimana/">
+<link rel="alternate" hreflang="es" href="https://kvdhdevelopment.github.io/es/acertijo-semanal/">
+<link rel="alternate" hreflang="pt-PT" href="https://kvdhdevelopment.github.io/pt/enigma-da-semana/">
+<link rel="alternate" hreflang="pt-BR" href="https://kvdhdevelopment.github.io/pt-br/enigma-da-semana/">
+<link rel="alternate" hreflang="pl" href="https://kvdhdevelopment.github.io/pl/zagadka-tygodnia/">
+<link rel="alternate" hreflang="x-default" href="https://kvdhdevelopment.github.io/weekly-puzzle/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Acertijo semanal gratis para imprimir: asesinato con lógica de sudoku – Cluedoku">
+<meta property="og:description" content="Cada lunes un nuevo acertijo lógico gratis para imprimir: un caso de asesinato con la lógica del sudoku. ¿Quién estaba dónde y quién es el culpable? Con la solución una semana después.">
+<meta property="og:url" content="https://kvdhdevelopment.github.io/es/acertijo-semanal/">
+<meta property="og:image" content="https://kvdhdevelopment.github.io/es/acertijo-semanal/1/zaak.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#2b2140">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preload" href="/fonts/fredoka-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>@font-face{font-family:Fredoka;font-weight:700;font-display:swap;src:url(/fonts/fredoka-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Fredoka;font-weight:700;font-display:swap;src:url(/fonts/fredoka-latin-ext-700-normal.woff2) format('woff2');unicode-range:U+0100-02AF,U+1E00-1EFF}
+@font-face{font-family:Nunito;font-weight:600;font-display:swap;src:url(/fonts/nunito-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Nunito;font-weight:600;font-display:swap;src:url(/fonts/nunito-latin-ext-600-normal.woff2) format('woff2');unicode-range:U+0100-02AF,U+1E00-1EFF}
+@font-face{font-family:Nunito;font-weight:800;font-display:swap;src:url(/fonts/nunito-latin-800-normal.woff2) format('woff2')}
+:root{--inkt:#2b2140;--paars:#3d2f5c;--rood:#ff6f61;--geel:#ffd84d;--papier:#fbf8f3;--zacht:#5d5478}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Nunito,system-ui,sans-serif;font-weight:600;color:var(--inkt);background:var(--papier);line-height:1.5}
+a{color:inherit}
+img{max-width:100%;height:auto}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.held{background:linear-gradient(160deg,var(--paars),#2b2140);color:#fff;position:relative;overflow:hidden}
+.held::before{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff10 1px,transparent 1px),linear-gradient(90deg,#ffffff10 1px,transparent 1px);background-size:32px 32px}
+.held .wrap{position:relative}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:18px}
+.merk{display:flex;align-items:center;gap:12px;text-decoration:none;font-family:Fredoka;font-weight:700;font-size:26px;letter-spacing:1px}
+.merk img{width:40px;height:40px;border-radius:10px}
+.talen select{font:inherit;font-weight:700;background:#ffffff18;color:#fff;border:2px solid #ffffff40;border-radius:999px;padding:6px 12px;max-width:44vw}
+.talen option{color:var(--inkt)}
+.kruim{display:inline-block;margin-top:22px;color:#e9e4f5;font-size:15px}
+h1{font-family:Fredoka;font-weight:700;font-size:clamp(28px,4.4vw,46px);line-height:1.1;margin:8px 0 10px}
+.meta{color:#e9e4f5;margin:0 0 22px}
+.lead{font-size:18px;color:#e9e4f5;margin:0 0 22px;max-width:40em}
+.held-in{padding-bottom:40px}
+.knoppen{display:flex;flex-wrap:wrap;gap:12px}
+.knop{display:inline-flex;align-items:center;gap:10px;font-family:Fredoka;font-weight:700;font-size:18px;text-decoration:none;border:3px solid var(--inkt);border-radius:14px;padding:10px 18px;box-shadow:4px 4px 0 #00000066;background:#fff;color:var(--inkt)}
+.knop--rood{background:var(--rood);color:#fff}
+.knop svg{width:20px;height:20px;flex:none}
+section{padding:40px 0}
+h2{font-family:Fredoka;font-weight:700;font-size:28px;margin:0 0 16px}
+.intro{font-size:18px;font-style:italic;max-width:42em;margin:0 0 24px}
+.zaak{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:32px;align-items:start}
+.bord{background:#fff;border:3px solid var(--inkt);border-radius:16px;padding:10px;box-shadow:5px 5px 0 #2b214033}
+.bord img{display:block;width:100%}
+.aanw p{margin:0 0 10px;background:#fff;border:2px solid #2b214033;border-radius:12px;padding:10px 14px}
+.regels{background:#fff4d6;border:3px solid var(--inkt);border-radius:16px;padding:14px 18px;margin-top:18px}
+.regels h3{font-family:Fredoka;margin:0 0 6px;font-size:19px}
+.regels p{margin:0}
+.oplossing{background:#fff;border-top:3px solid var(--inkt);border-bottom:3px solid var(--inkt)}
+details summary{cursor:pointer;font-family:Fredoka;font-weight:700;font-size:20px;display:inline-flex;border:3px solid var(--inkt);border-radius:14px;padding:10px 18px;background:var(--geel);box-shadow:4px 4px 0 #2b214055;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details[open] summary{margin-bottom:20px}
+.stappen{padding-left:22px}
+.stappen li{margin-bottom:6px}
+.app{background:#fff4d6}
+.app p{font-size:18px;max-width:42em}
+.nav{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;padding:24px 0 0}
+.nav a{font-weight:800}
+.lijst{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px;margin:0;padding:0;list-style:none}
+.lijst a{display:block;text-decoration:none;background:#fff;border:3px solid var(--inkt);border-radius:16px;padding:10px;box-shadow:4px 4px 0 #2b214033;height:100%}
+.lijst img{display:block;width:100%;border-radius:8px}
+.lijst strong{display:block;font-family:Fredoka;font-size:18px;line-height:1.2;margin-top:8px}
+.lijst span{display:block;color:var(--zacht);font-size:14px}
+.uitgelicht{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:center;text-decoration:none;background:#fff;border:3px solid var(--inkt);border-radius:18px;padding:16px;box-shadow:6px 6px 0 #2b214044}
+.uitgelicht img{display:block;width:100%}
+.uitgelicht h3{font-family:Fredoka;font-size:28px;line-height:1.15;margin:4px 0 8px}
+footer{padding:28px 0 40px;color:var(--zacht);font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between}
+footer nav{display:flex;flex-wrap:wrap;gap:6px 14px}
+@media (max-width:760px){.zaak,.uitgelicht{grid-template-columns:1fr}.knop{font-size:17px}section{padding:30px 0}}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Acertijo semanal","description":"Cada lunes un nuevo acertijo lógico gratis para imprimir: un caso de asesinato con la lógica del sudoku. ¿Quién estaba dónde y quién es el culpable? Con la solución una semana después.","url":"https://kvdhdevelopment.github.io/es/acertijo-semanal/","inLanguage":"es"}</script>
+</head>
+<body>
+<header class="held">
+<div class="wrap top">
+<a class="merk" href="/es/"><img src="/img/icoon-192.png" alt="" width="40" height="40">CLUEDOKU</a>
+<label class="talen"><select aria-label="Language" onchange="location.href=this.value"><option value="/weekly-puzzle/">English</option><option value="/nl/weekpuzzel/">Nederlands</option><option value="/de/wochenraetsel/">Deutsch</option><option value="/fr/enigme-de-la-semaine/">Français</option><option value="/it/enigma-della-settimana/">Italiano</option><option value="/es/acertijo-semanal/" selected>Español</option><option value="/pt/enigma-da-semana/">Português (Portugal)</option><option value="/pt-br/enigma-da-semana/">Português (Brasil)</option><option value="/pl/zagadka-tygodnia/">Polski</option></select></label>
+</div>
+<div class="wrap held-in">
+<h1>Acertijo semanal</h1>
+<p class="lead">Cada lunes un nuevo caso de asesinato para resolver, gratis para imprimir o para resolver en pantalla. ¿Quién estaba dónde y quién es el culpable? La solución llega una semana después.</p>
+</div>
+</header>
+<main>
+<section><div class="wrap">
+<h2>El acertijo de esta semana</h2>
+<a class="uitgelicht" href="/es/acertijo-semanal/1/"><img src="/es/acertijo-semanal/1/zaak.webp" alt="" width="1000"><div><span>Acertijo semanal n.º 1 · 23 de noviembre de 2026</span><h3>La mansión: el heredero desaparecido</h3><p>Nivel 2 · Sabueso ★★☆☆☆</p><p>El tocador huele a perfume y a secretos.</p><span class="knop knop--rood"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10v5H7zM5 9h14a2 2 0 0 1 2 2v6h-4v4H7v-4H3v-6a2 2 0 0 1 2-2zm4 7v3h6v-3z" fill="currentColor"/></svg>Imprimir el acertijo (PDF)</span></div></a>
+</div></section>
+
+<section class="app"><div class="wrap">
+<h2>¿Te sabe a poco?</h2>
+<p>La app gratuita Cluedoku tiene más de 600 casos, desde un sencillo 4×4 hasta un difícil 10×10, con pistas que te ayudan a pensar en lugar de darte la respuesta. Sin conexión y sin cuenta.</p>
+<div class="knoppen"><a class="knop knop--rood" href="https://play.google.com/store/apps/details?id=com.vdhd.cluedoku&amp;hl=es&amp;referrer=utm_source%3Dweekpuzzel%26utm_medium%3Des" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17l15-8.5z" fill="currentColor"/></svg>Gratis en Google Play</a><a class="knop" href="/demo/">Juega la demo en tu navegador</a></div>
+</div></section>
+</main>
+<footer><div class="wrap">
+<span>© Cluedoku · <a href="/es/">Cluedoku</a> · <a href="/privacy.html">Privacidad</a> · <a href="mailto:kvdhdevelopment@gmail.com">Contacto</a></span>
+<nav aria-label="Language"><a href="/weekly-puzzle/" hreflang="en">English</a><a href="/nl/weekpuzzel/" hreflang="nl">Nederlands</a><a href="/de/wochenraetsel/" hreflang="de">Deutsch</a><a href="/fr/enigme-de-la-semaine/" hreflang="fr">Français</a><a href="/it/enigma-della-settimana/" hreflang="it">Italiano</a><a href="/es/acertijo-semanal/" hreflang="es">Español</a><a href="/pt/enigma-da-semana/" hreflang="pt-PT">Português (Portugal)</a><a href="/pt-br/enigma-da-semana/" hreflang="pt-BR">Português (Brasil)</a><a href="/pl/zagadka-tygodnia/" hreflang="pl">Polski</a></nav>
+</div></footer>
+</body>
+</html>
